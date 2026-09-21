@@ -1,0 +1,21 @@
+{
+  "unit_id": "791a60fa6fbb492a8e22fc3eebf2ff31",
+  "checked_at": "2026-09-13T07:28:13+00:00",
+  "result": "PASS",
+  "recovery": "Same lesson 003 completed directly following explicit user continuation; prior failed CLI log preserved",
+  "checks": [
+    "22 required sections",
+    "5 complete debug cases",
+    "unit conversions and Q/t checked",
+    "paper ring crossings checked for one/two steps",
+    "only lesson 003 added",
+    "prior lesson hashes unchanged",
+    "receipt and state transition validated"
+  ],
+  "completed_lessons": 3,
+  "next_lesson": 4,
+  "automation_state": "PAUSED",
+  "pause_reason": "SINGLE_UNIT_COMPLETE",
+  "cli_wrapper_issue": "UNRESOLVED; no retry performed",
+  "hardware_tested": false
+}

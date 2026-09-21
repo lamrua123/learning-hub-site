@@ -1,0 +1,94 @@
+Bắt đầu lesson 2 — Lessons/Part_01/Bai 002 - Dien ap va cuc tinh.md
+test_codex_no_state_update_blocks_without_retry (test_controller.ControllerTests.test_codex_no_state_update_blocks_without_retry) ... ok
+test_complete_waits_for_final_checkpoint_and_major (test_controller.ControllerTests.test_complete_waits_for_final_checkpoint_and_major) ... ok
+Bắt đầu lesson 2 — Lessons/Part_01/Bai 002 - Dien ap va cuc tinh.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu lesson 3 — Lessons/Part_01/Bai 003 - Dong dien va duong di cua dien.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu lesson 4 — Lessons/Part_01/Bai 004 - Dien tro va dinh luat Ohm.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu lesson 5 — Lessons/Part_01/Bai 005 - Cong suat va nang luong.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu checkpoint 1 — Checkpoints/Checkpoint 001 - Review Bai 001 den 005.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu lesson 6 — Lessons/Part_01/Bai 006 - GND va moc dien ap chung.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu lesson 7 — Lessons/Part_01/Bai 007 - Mach noi tiep va song song.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu lesson 8 — Lessons/Part_01/Bai 008 - DC AC va muc 3.3V 5V.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu lesson 9 — Lessons/Part_01/Bai 009 - Dien tro LED va diode.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu lesson 10 — Lessons/Part_01/Bai 010 - Tu dien transistor va MOSFET.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu checkpoint 2 — Checkpoints/Checkpoint 002 - Review Bai 006 den 010.md
+PASS unit; state và receipt đã xác thực.
+test_completed_major_with_repairs_must_be_reviewed_again (test_controller.ControllerTests.test_completed_major_with_repairs_must_be_reviewed_again) ... ok
+test_current_project_is_authored_not_learner_completion (test_controller.ControllerTests.test_current_project_is_authored_not_learner_completion) ... ok
+test_dry_run_is_read_only (test_controller.ControllerTests.test_dry_run_is_read_only) ... ok
+test_guard_reached_without_percentages (test_controller.ControllerTests.test_guard_reached_without_percentages) ... ok
+test_hash_tamper_is_rejected (test_controller.ControllerTests.test_hash_tamper_is_rejected) ... ok
+test_incomplete_usage_with_low_known_window_stops (test_controller.ControllerTests.test_incomplete_usage_with_low_known_window_stops) ... ok
+test_lock_prevents_second_controller (test_controller.ControllerTests.test_lock_prevents_second_controller) ... STOP: [Errno 17] File exists: 'C:\\Users\\truon\\AppData\\Local\\Temp\\robotics-controller-test-sd0e2wtj\\course\\Automation\\controller.lock'
+ok
+{
+  "read_only": true,
+  "state": "PAUSED",
+  "pause_reason": "INITIALIZATION_COMPLETE",
+  "resume_requested": true,
+  "next_unit": {
+    "kind": "lesson",
+    "target": 2,
+    "path": "Lessons/Part_01/Bai 002 - Dien ap va cuc tinh.md"
+  },
+  "usage_action": "Probe trực tiếp trước mỗi unit thật; dry-run không gọi Codex."
+}
+
+PAUSED / USAGE_GUARD; không bắt đầu unit. Checkpoint pending được giữ.
+Bắt đầu lesson 2 — Lessons/Part_01/Bai 002 - Dien ap va cuc tinh.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu lesson 3 — Lessons/Part_01/Bai 003 - Dong dien va duong di cua dien.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu lesson 4 — Lessons/Part_01/Bai 004 - Dien tro va dinh luat Ohm.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu lesson 5 — Lessons/Part_01/Bai 005 - Cong suat va nang luong.md
+PASS unit; state và receipt đã xác thực.
+PAUSED / USAGE_GUARD; không bắt đầu unit. Checkpoint pending được giữ.
+Bắt đầu checkpoint 1 — Checkpoints/Checkpoint 001 - Review Bai 001 den 005.md
+PASS unit; state và receipt đã xác thực.
+test_max_units_resume_does_not_reset_checkpoint_counter (test_controller.ControllerTests.test_max_units_resume_does_not_reset_checkpoint_counter) ... ok
+test_missing_null_nan_and_expired_are_unavailable (test_controller.ControllerTests.test_missing_null_nan_and_expired_are_unavailable) ... ok
+Checkpoint hoàn tất. PAUSED vì không có dữ liệu usage đầy đủ trong batch.
+Bắt đầu lesson 2 — Lessons/Part_01/Bai 002 - Dien ap va cuc tinh.md
+test_more_than_one_lesson_is_rejected (test_controller.ControllerTests.test_more_than_one_lesson_is_rejected) ... ok
+test_next_checkpoint_then_major (test_controller.ControllerTests.test_next_checkpoint_then_major) ... ok
+test_normalize_prefers_map_and_checks_duration (test_controller.ControllerTests.test_normalize_prefers_map_and_checks_duration) ... ok
+test_paused_without_resume_does_not_dispatch (test_controller.ControllerTests.test_paused_without_resume_does_not_dispatch) ... ok
+test_process_error_event_is_killed_promptly (test_controller.ControllerTests.test_process_error_event_is_killed_promptly) ... ok
+PAUSED — INITIALIZATION_COMPLETE. Chỉ --resume hoặc yêu cầu tiếp tục mới cho chạy.
+Bắt đầu lesson 2 — Lessons/Part_01/Bai 002 - Dien ap va cuc tinh.md
+test_rate_limit_stops_without_retry (test_controller.ControllerTests.test_rate_limit_stops_without_retry) ... ok
+test_real_course_structural (test_controller.ControllerTests.test_real_course_structural) ... ok
+test_repairs_take_priority (test_controller.ControllerTests.test_repairs_take_priority) ... ok
+test_ten_percent_each_window_stops (test_controller.ControllerTests.test_ten_percent_each_window_stops) ... ok
+test_two_repairs_maximum (test_controller.ControllerTests.test_two_repairs_maximum) ... ok
+PAUSED / USAGE_GUARD; không bắt đầu unit. Checkpoint pending được giữ.
+PAUSED / USAGE_GUARD; không bắt đầu unit. Checkpoint pending được giữ.
+PAUSED / USAGE_GUARD; không bắt đầu unit. Checkpoint pending được giữ.
+Bắt đầu lesson 2 — Lessons/Part_01/Bai 002 - Dien ap va cuc tinh.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu lesson 3 — Lessons/Part_01/Bai 003 - Dong dien va duong di cua dien.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu lesson 4 — Lessons/Part_01/Bai 004 - Dien tro va dinh luat Ohm.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu lesson 5 — Lessons/Part_01/Bai 005 - Cong suat va nang luong.md
+PASS unit; state và receipt đã xác thực.
+Bắt đầu checkpoint 1 — Checkpoints/Checkpoint 001 - Review Bai 001 den 005.md
+PASS unit; state và receipt đã xác thực.
+test_unavailable_four_lessons_then_checkpoint_and_pause (test_controller.ControllerTests.test_unavailable_four_lessons_then_checkpoint_and_pause) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 5.715s
+
+OK
+Checkpoint hoàn tất. PAUSED vì không có dữ liệu usage đầy đủ trong batch.

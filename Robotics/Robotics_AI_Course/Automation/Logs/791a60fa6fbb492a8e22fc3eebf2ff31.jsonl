@@ -1,0 +1,5 @@
+{"at": "2026-09-13T07:13:22+00:00", "stream": "stderr", "data": "C:\\Users\\truon\\AppData\\Roaming\\npm\\codex.ps1 : Cannot process argument because the value of argument \"name\" is not"}
+{"at": "2026-09-13T07:13:22+00:00", "stream": "stderr", "data": "valid. Change the value of the \"name\" argument and run the operation again."}
+{"at": "2026-09-13T07:13:22+00:00", "stream": "stderr", "data": "    + CategoryInfo          : InvalidArgument: (:) [codex.ps1], PSArgumentException"}
+{"at": "2026-09-13T07:13:22+00:00", "stream": "stderr", "data": "    + FullyQualifiedErrorId : Argument,codex.ps1"}
+{"at": "2026-09-13T07:13:22+00:00", "stream": "stderr", "data": ""}

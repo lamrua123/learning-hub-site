@@ -1,0 +1,67 @@
+{
+  "repair_attempts": 0,
+  "test_level": "DOCUMENT_REVIEW_ONLY; six result-table rows and additional numeric cases checked; hardware NOT_TESTED; U/I/R NOT_MEASURED; code NOT_APPLICABLE",
+  "checks": {
+    "prerequisites": {
+      "passed": true,
+      "evidence": "Đã đọc state, AGENTS, Part 01 roadmap, template và protocol; dùng nền U giữa hai điểm, I qua đường dẫn, A/mA và bảo toàn điện tích của Bài 002–003. Bài 004 định nghĩa R, resistor, Ω/kΩ và phép biến đổi Ohm trước các STEP. Chưa yêu cầu đọc mã màu, GND, phép chia điện áp nhiều tải hoặc dùng đồng hồ."
+    },
+    "why": {
+      "passed": true,
+      "evidence": "Bốn nhóm kiến thức mới có là gì, tại sao, hậu quả không hiểu, vị trí trong robot, ví dụ và tự kiểm. Giải thích riêng hai đường nối trong mô hình, vì sao U nguồn bằng U trên R chỉ trong sơ đồ một tải, và vì sao phải giữ U hoặc R cố định khi so sánh. Hai đầu/không phân cực được giải thích bằng chức năng và phép đổi đầu trên giấy."
+    },
+    "terminology": {
+      "passed": true,
+      "evidence": "Bảng Việt/English và glossary phân biệt electrical resistance với resistor, ohm với ký hiệu R, kΩ với Ω, terminal và non-polarized. Công thức định nghĩa U/I thuộc cùng điện trở; model có giả định và khác dữ liệu đo thật. Không gán đặc tính điện trở cố định cho toàn robot hoặc động cơ."
+    },
+    "wiring": {
+      "passed": true,
+      "evidence": "Chỉ có sơ đồ giấy với nguồn giả lập, một R và đường trở về; A/B là tên điểm tự đặt, không GPIO. Bảng đường + đến A và B đến − nêu giả định đường nối lý tưởng. Có giải thích không tạo đường vòng bỏ qua R và không coi sơ đồ giấy là hướng dẫn lắp linh kiện thật."
+    },
+    "voltage": {
+      "passed": true,
+      "evidence": "Các mức 1.5/3.0/4.5 V, R 1/2/3 kΩ và mọi dữ kiện bổ sung đều là mô hình số học. Nguồn giả sử giữ đúng U khi cấp tải; điện trở không đổi. Debug 4 dùng đúng 2 V trên R thay cho nhãn nguồn 5 V. Mini Challenge 2 kΩ đạt 1.5 mA chỉ trong mô hình giá trị chính xác, chưa xác nhận sai khác thực tế hay công suất linh kiện."
+    },
+    "code": {
+      "passed": true,
+      "evidence": "Hai mục Code ghi không áp dụng vì chỉ tính giấy và máy tính số học tùy chọn. Không thêm chương trình, framework hoặc firmware chưa học; script kiểm số của tác giả không được mô tả là code chạy trên board hay thử điện thật."
+    },
+    "safety": {
+      "passed": true,
+      "evidence": "Safety Box cấm cấp nguồn linh kiện rời trong bài, short pin, thay R bằng dây và đặt đường A/mA ngang nguồn. Debug 5 xác định phép chia cho 0 không xác định, không dự báo dòng ngắn mạch thật bằng mô hình lý tưởng. Chưa phê duyệt mua/lắp điện trở khi thiếu mức chịu công suất và kiểm tra mạch."
+    },
+    "debug": {
+      "passed": true,
+      "evidence": "Năm lỗi có đủ Triệu chứng/Nguyên nhân có thể/Cách đo/Cách sửa: bỏ kΩ, quên đổi mA khi tìm R, đảo R/U hoặc đổi nhầm U, dùng điện áp sai cặp điểm, và suy diễn ngắn mạch từ R=0. Cách đo được giới hạn rõ là rà giấy/đơn vị/phép tính, chưa hướng dẫn thao tác đồng hồ."
+    },
+    "exercises": {
+      "passed": true,
+      "evidence": "Có đủ 22 heading, 6 STEP, hai bảng để người học tự điền, 5 bài tập, 5 câu kiểm tra, Mini Challenge và 9 dòng ghi nhớ. Đã kiểm trực tiếp sáu hàng bảng kết quả bằng U/R và I×R, bài tập tính U/R, thử nghiệm tăng cả U/R và toàn bộ ba lựa chọn challenge; kết quả chọn 2000 Ω cho 1.5 mA tại 3 V. Các đáp án nằm trong callout thu gọn."
+    },
+    "sources": {
+      "passed": true,
+      "evidence": "Đã mở NIST SP 330 mục 2.3.4 bảng 4 tại https://www.nist.gov/pml/special-publication-330/sp-330-section-2 để xác nhận ohm Ω = V/A, dẫn nguồn gần nội dung và trong SOURCES. Không dùng bảng đơn vị làm datasheet sản phẩm. Thẻ, sơ đồ và bài tập do tác giả xây; HARDWARE_PROFILES ghi chưa có điện trở/nguồn thật được xác minh cho Bài 004."
+    }
+  },
+  "hardware_already_introduced": [],
+  "concepts_already_taught": [
+    "Bài 004: điện trở R (electrical resistance) khác linh kiện resistor; tải không tiêu hủy điện tích",
+    "Bài 004: ohm Ω = V/A, kiloohm kΩ = 1000 Ω; đổi V/A/Ω trước tính và A sang mA sau tính",
+    "Bài 004: U=I×R, I=U/R với R>0, R=U/I với I khác 0; U giữa hai đầu và I qua chính R",
+    "Bài 004: định luật Ohm cho phần tử có R không đổi trong điều kiện xét; nguồn giữ U, một tải và đường nối lý tưởng trong mô hình giấy",
+    "Bài 004: giữ R thì I thay đổi cùng tỷ lệ U; giữ U thì tăng R làm giảm I; kiểm đơn vị, xu hướng và phép tính ngược",
+    "Bài 004: điện trở cố định hai đầu thông dụng không phân cực; A/B là điểm tự đặt, chưa đọc mã/màu hay đo linh kiện thật",
+    "Bài 004: không áp dụng tùy ý R không đổi cho robot/động cơ; kết quả U/I một trạng thái không chứng minh R hằng ở mọi trạng thái",
+    "Bài 004: phép chia cho 0 không xác định; không suy ra dòng ngắn mạch thật và không thử short từ mô hình giấy"
+  ],
+  "concepts_not_yet_taught": [
+    "Công suất, năng lượng W/Wh và chọn mức chịu công suất điện trở (005)",
+    "GND (006); nối tiếp/song song và chia dòng; DC/AC; 3.3V/5V; mã màu điện trở, LED, diode và linh kiện điện tử khác",
+    "Dụng cụ, multimeter, thao tác đo U/I/R thật, breadboard, hàn, schematic, pinout và datasheet đầy đủ",
+    "ESP32 C/C++ GPIO ADC PWM timer interrupt memory và protocols",
+    "Cảm biến, đánh giá dòng đỉnh và power budget thật, nguồn lithium và bảo vệ, cơ khí CAD, actuator và robot hai bánh",
+    "Display HRI, mạng, audio, Pi Linux Python, computer vision",
+    "Voice/speaker recognition, AI tools MCP realtime, control PID sensor fusion",
+    "ROS 2 TF, localization SLAM navigation, PCB reliability và capstone"
+  ]
+}

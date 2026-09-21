@@ -1,0 +1,20 @@
+{
+  "unit_id": "manual-002-7e1a16964d3d41958d8c82cd4fcf4511",
+  "checked_at": "2026-09-13T07:03:32+00:00",
+  "result": "PASS",
+  "checks": [
+    "22 required sections",
+    "5 complete debug cases",
+    "lesson links resolve or are planned",
+    "numeric exercises checked",
+    "only lesson 002 added",
+    "prior lesson hash unchanged",
+    "receipt hash and state consistent"
+  ],
+  "hardware_tested": false,
+  "code_applicable": false,
+  "completed_lessons": 2,
+  "next_lesson": 3,
+  "automation_state": "PAUSED",
+  "pause_reason": "SINGLE_UNIT_COMPLETE"
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "derived_from": "02_COURSE_STATE.md",
+  "source_revision": 21,
+  "automation_state": "PAUSED",
+  "pause_reason": "USAGE_DATA_UNAVAILABLE_SAFE_PAUSE",
+  "usage": {
+    "mode": "AVAILABLE",
+    "source": "Codex app get_usage_limits",
+    "checked_at": "2026-09-13T14:27:03+00:00",
+    "five_hour_remaining": 39,
+    "weekly_remaining": 31,
+    "five_hour_resets_at": "2026-09-13T18:33:16+00:00",
+    "weekly_resets_at": "2026-09-19T08:28:43+00:00",
+    "reason": null,
+    "reached": false
+  },
+  "next_unit": {
+    "kind": "lesson",
+    "target": 6,
+    "path": "Lessons/Part_01/Bai 006 - GND va moc dien ap chung.md"
+  },
+  "updated_at": "2026-09-13T14:36:07+00:00"
+}

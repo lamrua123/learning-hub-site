@@ -1,0 +1,115 @@
+{
+  "at": "2026-09-13T07:17:50+00:00",
+  "authorization": "tiep tuc",
+  "recovery_mode": "DIRECT_APP_SAME_UNIT",
+  "before_state": {
+    "schema_version": 1,
+    "revision": 9,
+    "course_status": "BLOCKED",
+    "automation_state": "PAUSED",
+    "current_lesson": 2,
+    "last_completed_lesson": 2,
+    "next_lesson": 3,
+    "current_module": 1,
+    "completed_lessons": 2,
+    "total_planned_lessons": 160,
+    "current_project": null,
+    "completed_projects": [],
+    "learner_progress": "NOT_ASSESSED — chưa có minh chứng thực hành từ người học",
+    "current_checkpoint": null,
+    "last_checkpoint": null,
+    "last_checkpoint_number": 0,
+    "last_checkpoint_lesson": 0,
+    "checkpoint_pending": false,
+    "major_checkpoints_completed": [],
+    "last_major_checkpoint": null,
+    "pending_repairs": [],
+    "known_problems": [
+      "Chưa xác định board ESP32-S3 thực tế: không có GPIO được phê duyệt.",
+      "Chưa thử bài trên phần cứng người học; mọi kết quả thao tác cần tự ghi.",
+      "Các project mới là brief; chưa có minh chứng người học hoàn thành project.",
+      "CODEX_FAILED_OR_NO_COMPLETION_EVENT"
+    ],
+    "hardware_already_introduced": [
+      "Đèn pin hoàn chỉnh yêu cầu 2 × alkaline AA 1.5 V",
+      "Giấy/bút và bảng quan sát"
+    ],
+    "concepts_already_taught": [
+      "Điện/điện tích/dòng điện: nhận diện, chưa định lượng",
+      "Nguồn điện, cực pin, cực tính và đọc nhãn điện áp sơ lược",
+      "Tải, vật dẫn, cách điện và đường trở về nguồn",
+      "Mạch kín, mạch hở, công tắc và trạng thái cơ bản",
+      "Ngắn mạch: nhận diện nguy cơ trên giấy; điện trở sơ lược",
+      "Debug bằng dự đoán, quan sát, giả thuyết và thử một thay đổi",
+      "Bài 002: điện áp/hiệu điện thế giữa hai điểm; điện thế và mốc so sánh ở mức định tính",
+      "Bài 002: volt và millivolt, đổi 1 V = 1000 mV, giữ đơn vị khi so sánh",
+      "Bài 002: điện áp danh định, định mức, dải hoạt động và số đo thực tế khác nhau",
+      "Bài 002: chiều so sánh và dấu điện áp; nhận diện đảo cực mà không thử đảo nguồn thật",
+      "Bài 002: OUTPUT nguồn đối chiếu INPUT tải; phiếu đọc nhãn và kết luận thiếu dữ liệu",
+      "Bài 002: mạch ngoài hở vẫn có thể có điện áp giữa hai cực nguồn; chưa kiểm chứng bằng đồng hồ"
+    ],
+    "concepts_not_yet_taught": [
+      "Dòng điện định lượng và A (003); điện trở và Ohm (004); công suất W Wh (005)",
+      "GND (006); nối tiếp/song song; DC/AC; 3.3V/5V; linh kiện điện tử",
+      "Dụng cụ, multimeter và đo điện áp thật, breadboard, hàn, schematic, pinout và datasheet đầy đủ",
+      "ESP32 C/C++ GPIO ADC PWM timer interrupt memory và protocols",
+      "Cảm biến, nguồn lithium và bảo vệ, cơ khí CAD, actuator và robot hai bánh",
+      "Display HRI, mạng, audio, Pi Linux Python, computer vision",
+      "Voice/speaker recognition, AI tools MCP realtime, control PID sensor fusion",
+      "ROS 2 TF, localization SLAM navigation, PCB reliability và capstone"
+    ],
+    "last_run_date": "2026-09-13T07:02:45+00:00",
+    "last_state_update": "2026-09-13T07:13:22+00:00",
+    "pause_reason": "UNIT_FAILED",
+    "last_unit": {
+      "id": "manual-002-7e1a16964d3d41958d8c82cd4fcf4511",
+      "kind": "lesson",
+      "target": 2,
+      "path": "Lessons/Part_01/Bai 002 - Dien ap va cuc tinh.md",
+      "receipt": "Automation/Receipts/manual-002-7e1a16964d3d41958d8c82cd4fcf4511.json"
+    },
+    "usage": {
+      "mode": "UNAVAILABLE",
+      "source": null,
+      "checked_at": "2026-09-13T07:13:21+00:00",
+      "five_hour_remaining": null,
+      "weekly_remaining": null,
+      "five_hour_resets_at": null,
+      "weekly_resets_at": null,
+      "reason": "APP_SERVER_TIMEOUT",
+      "reached": false
+    },
+    "usage_unavailable_since_checkpoint": true,
+    "validation_status": "PASS_STRUCTURAL_AND_AUTHOR_REVIEW",
+    "automation_cli_version": "codex-cli 0.149.1",
+    "next_unit": {
+      "kind": "lesson",
+      "target": 3,
+      "path": "Lessons/Part_01/Bai 003 - Dong dien va duong di cua dien.md"
+    }
+  },
+  "before_active_unit": {
+    "kind": "lesson",
+    "target": 3,
+    "path": "Lessons/Part_01/Bai 003 - Dong dien va duong di cua dien.md",
+    "id": "791a60fa6fbb492a8e22fc3eebf2ff31",
+    "start_revision": 8,
+    "usage": {
+      "mode": "UNAVAILABLE",
+      "source": null,
+      "checked_at": "2026-09-13T07:13:21+00:00",
+      "five_hour_remaining": null,
+      "weekly_remaining": null,
+      "five_hour_resets_at": null,
+      "weekly_resets_at": null,
+      "reason": "APP_SERVER_TIMEOUT",
+      "reached": false
+    },
+    "created_at": "2026-09-13T07:13:21+00:00",
+    "lesson_hashes": {
+      "Lessons/Part_01/Bai 001 - Dien la gi va mach kin dau tien.md": "59dc277d1389435f10454a898cbdb6abe31a9a99b10475c889f55484a4ab5d00",
+      "Lessons/Part_01/Bai 002 - Dien ap va cuc tinh.md": "ba25368cc1aeb6aa1842975f42c1a789117ea824f17f1cc814e4401d2d1d5367"
+    }
+  },
+  "cli_issue_status": "UNRESOLVED; previous codex.ps1 invocation failed before lesson creation; no automatic CLI retry"
+}

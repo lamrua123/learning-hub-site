@@ -1,0 +1,20 @@
+[
+  {
+    "case_id": "remote_days",
+    "query": "Mỗi tuần nhân viên được làm từ xa nhiều nhất mấy ngày?",
+    "expected_sources": ["chinh_sach_nhan_su.md"],
+    "should_answer": true
+  },
+  {
+    "case_id": "invoice_deadline",
+    "query": "Sau chuyến công tác, hạn nộp hóa đơn là bao lâu?",
+    "expected_sources": ["quy_dinh_cong_tac.md"],
+    "should_answer": true
+  },
+  {
+    "case_id": "motorbike_allowance",
+    "query": "Công ty trợ cấp mua xe máy bao nhiêu tiền?",
+    "expected_sources": [],
+    "should_answer": false
+  }
+]

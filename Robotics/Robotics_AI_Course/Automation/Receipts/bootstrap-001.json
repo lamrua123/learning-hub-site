@@ -1,0 +1,66 @@
+{
+  "id": "bootstrap-001",
+  "kind": "lesson",
+  "target": 1,
+  "path": "Lessons/Part_01/Bai 001 - Dien la gi va mach kin dau tien.md",
+  "sha256": "59dc277d1389435f10454a898cbdb6abe31a9a99b10475c889f55484a4ab5d00",
+  "completed_at": "2026-09-13T06:39:05+00:00",
+  "review": {
+    "repair_attempts": 0,
+    "test_level": "DOCUMENT_REVIEW_ONLY; hardware NOT_TESTED; code NOT_APPLICABLE",
+    "checks": {
+      "prerequisites": {
+        "passed": true,
+        "evidence": "Bài 001 không prerequisite; 6 nhóm khái niệm được giải thích bằng sáu câu hỏi. V/A/GND chỉ dẫn tới bài sau với độ sâu ghi rõ."
+      },
+      "why": {
+        "passed": true,
+        "evidence": "Mục nguồn, tải, mạch kín và công tắc đều giải thích nhu cầu, hậu quả thiếu, vị trí trên robot và cách kiểm chứng."
+      },
+      "terminology": {
+        "passed": true,
+        "evidence": "Bảng thuật ngữ có Việt English; glossary chỉ ghi phần đã giới thiệu và đánh dấu voltage/current/resistance sơ lược."
+      },
+      "wiring": {
+        "passed": true,
+        "evidence": "Không GPIO hoặc dây rời. Bảng pin chỉ theo dấu trong khoang đèn nguyên vẹn; sơ đồ có nhãn mô hình chức năng."
+      },
+      "voltage": {
+        "passed": true,
+        "evidence": "Chọn đèn yêu cầu 2 AA 1.5 V và pin alkaline cùng loại đúng nhãn; không suy pin giống hình dạng là tương thích."
+      },
+      "code": {
+        "passed": true,
+        "evidence": "Không có MCU/code nên hai mục code ghi không áp dụng có lý do. Không tuyên bố compile hay chạy firmware."
+      },
+      "safety": {
+        "passed": true,
+        "evidence": "Safety Box cấm nối tắt pin, lithium 14500 thay AA, pin lỗi và mở mạch; thực hành chỉ thao tác thiết bị nguyên vẹn."
+      },
+      "debug": {
+        "passed": true,
+        "evidence": "Có bốn lỗi cụ thể đủ triệu chứng/nguyên nhân/cách đo/cách sửa; phép đo chỉ là quan sát hoặc thay thế phù hợp, không dùng multimeter sớm."
+      },
+      "exercises": {
+        "passed": true,
+        "evidence": "Năm bài tập, năm câu kiểm tra, đáp án thu gọn, challenge giải thích lại và tám dòng ghi nhớ; bảng thực hành để trống kết quả thật."
+      },
+      "sources": {
+        "passed": true,
+        "evidence": "Điện học nhập môn là kiến thức nền ổn định; thao tác pin phụ thuộc nhãn/hướng dẫn đèn, không giả hãng. Nguồn chính thức CLI/ESP lưu ở SOURCES."
+      }
+    },
+    "hardware_already_introduced": [
+      "Đèn pin hoàn chỉnh yêu cầu 2 × alkaline AA 1.5 V",
+      "Giấy/bút và bảng quan sát"
+    ],
+    "concepts_already_taught": [
+      "Điện/điện tích/dòng điện: nhận diện, chưa định lượng",
+      "Nguồn điện, cực pin, cực tính và đọc nhãn điện áp sơ lược",
+      "Tải, vật dẫn, cách điện và đường trở về nguồn",
+      "Mạch kín, mạch hở, công tắc và trạng thái cơ bản",
+      "Ngắn mạch: nhận diện nguy cơ trên giấy; điện trở sơ lược",
+      "Debug bằng dự đoán, quan sát, giả thuyết và thử một thay đổi"
+    ]
+  }
+}

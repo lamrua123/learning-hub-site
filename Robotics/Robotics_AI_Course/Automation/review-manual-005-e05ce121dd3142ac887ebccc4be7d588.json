@@ -1,0 +1,68 @@
+{
+  "repair_attempts": 1,
+  "repair_note": "Một lượt tinh chỉnh diễn đạt định nghĩa năng lượng sau review tác giả; không có lần gọi model/controller mới hoặc lỗi kiểm số cần retry.",
+  "test_level": "DOCUMENT_REVIEW_ONLY; numeric table, energy schedule and rating comparisons checked; hardware NOT_TESTED; electrical power and temperature NOT_MEASURED; code NOT_APPLICABLE",
+  "checks": {
+    "prerequisites": {
+      "passed": true,
+      "evidence": "Đã đọc state, AGENTS, template, protocol, Part 01 roadmap và prerequisite Bài 004. Bài 005 dùng U/I cùng tải, I=U/R và A/mA đã học để giải thích P, J/W/Wh và thời gian; định nghĩa bình phương trước U²/R. Chưa yêu cầu GND, đo điện, đọc datasheet đầy đủ hoặc thiết kế hệ pin thật."
+    },
+    "why": {
+      "passed": true,
+      "evidence": "Bốn nhóm kiến thức đều có là gì/tại sao/hậu quả không hiểu/vị trí robot/ví dụ/tự kiểm. Giải thích vì sao tính dòng chưa đủ chọn điện trở, vì sao cần cộng năng lượng theo thời gian và vì sao P trung bình không thay thế mức tải lớn nhất. Hai đường nối giấy có lý do để U và I cùng thuộc R."
+    },
+    "terminology": {
+      "passed": true,
+      "evidence": "Bảng Việt/English và glossary thêm energy, joule, power, watt/milliwatt, watt-hour, square, average power, power dissipation, power rating, derating. Phân biệt J với C, W với Wh và P thực tế với mức cho phép. Wh được ghi rõ là W×h, không phải W/h."
+    },
+    "wiring": {
+      "passed": true,
+      "evidence": "Không có GPIO hoặc đầu đo thật. A/B và hai đường +→A/B→− kế thừa mô hình một điện trở, dây lý tưởng. Thẻ 3 V/6 V là hai lần tính, không hai nguồn nối chung. Thiết bị T của lịch hoạt động được tách rõ khỏi điện trở 1 kΩ."
+    },
+    "voltage": {
+      "passed": true,
+      "evidence": "P=UI giới hạn U/I không đổi theo từng khoảng; U/I phải cùng tải. P=U²/R và I²R chỉ với điện trở thuần phù hợp mô hình. Thẻ 3/6 V, mức cho phép 0.025/0.125/0.25 W và mức giảm còn 0.060 W đều giả lập. Mức dự phòng 2×P chỉ là yêu cầu bài tập, không gán thành quy tắc chung hoặc dữ liệu nhà sản xuất."
+    },
+    "code": {
+      "passed": true,
+      "evidence": "Các mục Code ghi không áp dụng; không tạo firmware, thư viện hoặc chương trình người học chưa có prerequisite. Script kiểm số của tác giả chỉ xác minh phép tính, không được dùng làm bằng chứng công suất đo hoặc mạch chạy thật."
+    },
+    "safety": {
+      "passed": true,
+      "evidence": "Safety Box cấm thử làm nóng/chạm đo nhiệt bằng tay, quá tải, short, đường A/mA ngang nguồn, hàn cell và điện lưới. Bài không cấp nguồn linh kiện rời. Không suy nhiệt độ chỉ từ W; kết luận chọn thẻ chỉ áp dụng mô hình, còn điều kiện nhiệt, điện áp làm việc và sai khác thực tế chưa xác minh."
+    },
+    "debug": {
+      "passed": true,
+      "evidence": "Năm Debug Lab đủ bốn nhãn bắt buộc: sai mA, sai phút/Wh, nhầm power rating với P thực tế, nhầm bình phương khi tăng U, bỏ dòng chờ/nhầm công suất trung bình. Cách đo được giới hạn là kiểm giấy, đơn vị và phép tính, không giả thao tác đồng hồ chưa học."
+    },
+    "exercises": {
+      "passed": true,
+      "evidence": "Có 22 heading, 6 STEP, 5 bài tập, 5 câu kiểm tra, Mini Challenge, đáp án thu gọn và 9 dòng ghi nhớ. Đã đọc hai hàng kết quả để kiểm I/P/Wh/J bằng công thức độc lập; lịch 20/40 phút dùng 0.5 Wh, lịch đảo 40/20 phút dùng 0.75 Wh. Kiểm bài tập và challenge 6 V/2 kΩ: 3 mA, 18 mW, 0.036 Wh/2 h, chọn thẻ 0.125 W theo yêu cầu riêng."
+    },
+    "sources": {
+      "passed": true,
+      "evidence": "Đã mở NIST SP 330 bảng 4 cho J và W=J/s, NIST SP 811 B.9 dòng Wh→J cho 3600 J, Vishay Resistors FAQ mục Basic Parameters câu 5 về mức cho phép/derating theo nhiệt. Dẫn link gần nội dung và SOURCES. Không lấy nhiệt độ hoặc rating của một series thành quy tắc mọi điện trở, không gán dữ liệu thẻ hoặc hệ số 2 cho NIST/Vishay."
+    }
+  },
+  "hardware_already_introduced": [],
+  "concepts_already_taught": [
+    "Bài 005: năng lượng E và joule J khác điện tích C; công suất P là tốc độ truyền/chuyển năng lượng",
+    "Bài 005: watt W=J/s, milliwatt mW; 1 W=1000 mW",
+    "Bài 005: P=U×I với U/I không đổi thuộc cùng tải; P=U²/R=I²×R cho điện trở thuần phù hợp mô hình; bình phương nghĩa là nhân chính nó",
+    "Bài 005: với R không đổi, U tăng gấp 2 làm I tăng gấp 2 và P tăng gấp 4; không suy ra mức tăng nhiệt độ từ tỷ số P",
+    "Bài 005: E=P×t với P không đổi; t bằng s cho J, t bằng h cho Wh; 1 Wh=3600 J; đổi phút trước tính",
+    "Bài 005: cộng E từng khoảng hoạt động/chờ, P trung bình=tổng E/tổng t; P trung bình khác mức lớn nhất và chưa mô tả chuyển chế độ thật",
+    "Bài 005: power dissipation của điện trở thuần, power rating kèm điều kiện và derating sơ lược; so thẻ trên giấy với P và khoảng dự phòng do đề đặt",
+    "Bài 005: ước lượng số chu kỳ bằng năng lượng khả dụng tại tải chia E mỗi chu kỳ theo giả định; chưa xác nhận thời lượng pin thật"
+  ],
+  "concepts_not_yet_taught": [
+    "GND (006); nối tiếp/song song và chia dòng; DC/AC; 3.3V/5V; mã màu điện trở, LED, diode và linh kiện điện tử khác",
+    "Dụng cụ, multimeter, thao tác đo U/I/R/P thật, breadboard, hàn, schematic, pinout và datasheet đầy đủ",
+    "Đọc đường derating của mã linh kiện thật, tính sai số/nhiệt, tải xung và chọn điện trở có kiểm chứng thực tế",
+    "ESP32 C/C++ GPIO ADC PWM timer interrupt memory và protocols",
+    "Cảm biến, đánh giá dòng đỉnh và power budget thật, hiệu suất/chuyển đổi nguồn, nguồn lithium và bảo vệ, cơ khí CAD, actuator và robot hai bánh",
+    "Display HRI, mạng, audio, Pi Linux Python, computer vision",
+    "Voice/speaker recognition, AI tools MCP realtime, control PID sensor fusion",
+    "ROS 2 TF, localization SLAM navigation, PCB reliability và capstone"
+  ]
+}

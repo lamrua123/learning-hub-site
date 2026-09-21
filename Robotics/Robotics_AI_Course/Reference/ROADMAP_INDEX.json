@@ -1,0 +1,1933 @@
+{
+  "schema_version": 1,
+  "modules": [
+    {
+      "number": 1,
+      "name": "Điện tử từ số 0",
+      "original": "A",
+      "start": 1,
+      "end": 10
+    },
+    {
+      "number": 2,
+      "name": "Dụng cụ và phép đo đầu tiên",
+      "original": "B",
+      "start": 11,
+      "end": 15
+    },
+    {
+      "number": 3,
+      "name": "Hàn mạch từ đầu",
+      "original": "C",
+      "start": 16,
+      "end": 20
+    },
+    {
+      "number": 4,
+      "name": "Đọc bảng mạch và tài liệu",
+      "original": "D",
+      "start": 21,
+      "end": 25
+    },
+    {
+      "number": 5,
+      "name": "ESP32 và embedded C C++",
+      "original": "E",
+      "start": 26,
+      "end": 37
+    },
+    {
+      "number": 6,
+      "name": "Giao thức có thực hành phần cứng",
+      "original": "F",
+      "start": 38,
+      "end": 42
+    },
+    {
+      "number": 7,
+      "name": "Cảm biến và độ tin cậy phép đo",
+      "original": "G",
+      "start": 43,
+      "end": 49
+    },
+    {
+      "number": 8,
+      "name": "Nguồn điện trước khi chạy động cơ",
+      "original": "J",
+      "start": 50,
+      "end": 56
+    },
+    {
+      "number": 9,
+      "name": "Cơ khí và prototype",
+      "original": "K",
+      "start": 57,
+      "end": 62
+    },
+    {
+      "number": 10,
+      "name": "Bộ truyền động và điều khiển công suất",
+      "original": "H",
+      "start": 63,
+      "end": 69
+    },
+    {
+      "number": 11,
+      "name": "Robot hai bánh",
+      "original": "I",
+      "start": 70,
+      "end": 77
+    },
+    {
+      "number": 12,
+      "name": "Màn hình và tương tác",
+      "original": "L",
+      "start": 78,
+      "end": 81
+    },
+    {
+      "number": 13,
+      "name": "Mạng cho robot",
+      "original": "N",
+      "start": 82,
+      "end": 87
+    },
+    {
+      "number": 14,
+      "name": "Âm thanh robot",
+      "original": "M",
+      "start": 88,
+      "end": 94
+    },
+    {
+      "number": 15,
+      "name": "Raspberry Pi Linux và Python",
+      "original": "O",
+      "start": 95,
+      "end": 100
+    },
+    {
+      "number": 16,
+      "name": "Computer vision",
+      "original": "P",
+      "start": 101,
+      "end": 108
+    },
+    {
+      "number": 17,
+      "name": "Voice AI và người đang nói",
+      "original": "Q",
+      "start": 109,
+      "end": 113
+    },
+    {
+      "number": 18,
+      "name": "AI architecture và tools",
+      "original": "R",
+      "start": 114,
+      "end": 121
+    },
+    {
+      "number": 19,
+      "name": "Điều khiển phản hồi",
+      "original": "S",
+      "start": 122,
+      "end": 127
+    },
+    {
+      "number": 20,
+      "name": "ROS 2",
+      "original": "T",
+      "start": 128,
+      "end": 135
+    },
+    {
+      "number": 21,
+      "name": "Robot tự hành trong nhà",
+      "original": "U",
+      "start": 136,
+      "end": 144
+    },
+    {
+      "number": 22,
+      "name": "PCB thực dụng với KiCad",
+      "original": "W",
+      "start": 145,
+      "end": 149
+    },
+    {
+      "number": 23,
+      "name": "Reliability safety và production thinking",
+      "original": "X",
+      "start": 150,
+      "end": 154
+    },
+    {
+      "number": 24,
+      "name": "Final Home AI Companion Robot",
+      "original": "V",
+      "start": 155,
+      "end": 160
+    }
+  ],
+  "lessons": [
+    {
+      "number": 1,
+      "module": 1,
+      "title": "Điện là gì và mạch kín đầu tiên",
+      "outcome": "Quan sát đèn pin dùng AA và lập bảng bật tắt",
+      "stem": "Bai 001 - Dien la gi va mach kin dau tien",
+      "path": "Lessons/Part_01/Bai 001 - Dien la gi va mach kin dau tien.md",
+      "prerequisites": []
+    },
+    {
+      "number": 2,
+      "module": 1,
+      "title": "Điện áp và cực tính",
+      "outcome": "Đọc nhãn nguồn và so sánh điện áp định mức của thiết bị",
+      "stem": "Bai 002 - Dien ap va cuc tinh",
+      "path": "Lessons/Part_01/Bai 002 - Dien ap va cuc tinh.md",
+      "prerequisites": [
+        1
+      ]
+    },
+    {
+      "number": 3,
+      "module": 1,
+      "title": "Dòng điện và đường đi của điện",
+      "outcome": "Vẽ đường dòng điện quy ước trong mạch kín",
+      "stem": "Bai 003 - Dong dien va duong di cua dien",
+      "path": "Lessons/Part_01/Bai 003 - Dong dien va duong di cua dien.md",
+      "prerequisites": [
+        2
+      ]
+    },
+    {
+      "number": 4,
+      "module": 1,
+      "title": "Điện trở và định luật Ohm",
+      "outcome": "Tính dòng qua tải điện trở ở ba mức điện áp",
+      "stem": "Bai 004 - Dien tro va dinh luat Ohm",
+      "path": "Lessons/Part_01/Bai 004 - Dien tro va dinh luat Ohm.md",
+      "prerequisites": [
+        3
+      ]
+    },
+    {
+      "number": 5,
+      "module": 1,
+      "title": "Công suất và năng lượng",
+      "outcome": "Tính công suất tải và phân biệt W với Wh",
+      "stem": "Bai 005 - Cong suat va nang luong",
+      "path": "Lessons/Part_01/Bai 005 - Cong suat va nang luong.md",
+      "prerequisites": [
+        4
+      ]
+    },
+    {
+      "number": 6,
+      "module": 1,
+      "title": "GND và mốc điện áp chung",
+      "outcome": "Dùng mô hình hai thước đo để giải thích common ground",
+      "stem": "Bai 006 - GND va moc dien ap chung",
+      "path": "Lessons/Part_01/Bai 006 - GND va moc dien ap chung.md",
+      "prerequisites": [
+        5
+      ]
+    },
+    {
+      "number": 7,
+      "module": 1,
+      "title": "Mạch nối tiếp và song song",
+      "outcome": "So sánh dòng và điện áp qua hai cách mắc trên giấy",
+      "stem": "Bai 007 - Mach noi tiep va song song",
+      "path": "Lessons/Part_01/Bai 007 - Mach noi tiep va song song.md",
+      "prerequisites": [
+        6
+      ]
+    },
+    {
+      "number": 8,
+      "module": 1,
+      "title": "DC AC và mức 3.3V 5V",
+      "outcome": "Phân loại nguồn và nhận ra tín hiệu 5V không mặc nhiên hợp GPIO 3.3V",
+      "stem": "Bai 008 - DC AC va muc 3.3V 5V",
+      "path": "Lessons/Part_01/Bai 008 - DC AC va muc 3.3V 5V.md",
+      "prerequisites": [
+        7
+      ]
+    },
+    {
+      "number": 9,
+      "module": 1,
+      "title": "Điện trở LED và diode",
+      "outcome": "Xác định chiều LED và tính điện trở hạn dòng trước khi đấu",
+      "stem": "Bai 009 - Dien tro LED va diode",
+      "path": "Lessons/Part_01/Bai 009 - Dien tro LED va diode.md",
+      "prerequisites": [
+        8
+      ]
+    },
+    {
+      "number": 10,
+      "module": 1,
+      "title": "Tụ điện transistor và MOSFET",
+      "outcome": "Giải thích tích trữ điện và công tắc điện tử bằng sơ đồ khối",
+      "stem": "Bai 010 - Tu dien transistor va MOSFET",
+      "path": "Lessons/Part_01/Bai 010 - Tu dien transistor va MOSFET.md",
+      "prerequisites": [
+        9
+      ]
+    },
+    {
+      "number": 11,
+      "module": 2,
+      "title": "Breadboard và jumper wire",
+      "outcome": "Lập bản đồ các hàng nối bên trong breadboard chưa cấp nguồn",
+      "stem": "Bai 011 - Breadboard va jumper wire",
+      "path": "Lessons/Part_02/Bai 011 - Breadboard va jumper wire.md",
+      "prerequisites": [
+        10
+      ]
+    },
+    {
+      "number": 12,
+      "module": 2,
+      "title": "Multimeter continuity và điện trở",
+      "outcome": "Đo điện trở rời và kiểm chứng các hàng breadboard không cấp điện",
+      "stem": "Bai 012 - Multimeter continuity va dien tro",
+      "path": "Lessons/Part_02/Bai 012 - Multimeter continuity va dien tro.md",
+      "prerequisites": [
+        11
+      ]
+    },
+    {
+      "number": 13,
+      "module": 2,
+      "title": "Đo điện áp DC an toàn",
+      "outcome": "Đo pin AA bằng cổng COM và V rồi ghi cực tính",
+      "stem": "Bai 013 - Do dien ap DC an toan",
+      "path": "Lessons/Part_02/Bai 013 - Do dien ap DC an toan.md",
+      "prerequisites": [
+        12
+      ]
+    },
+    {
+      "number": 14,
+      "module": 2,
+      "title": "Nguồn giới hạn dòng và mạch LED đầu tiên",
+      "outcome": "Đấu LED với điện trở đã tính và đo điện áp trên từng phần",
+      "stem": "Bai 014 - Nguon gioi han dong va mach LED dau tien",
+      "path": "Lessons/Part_02/Bai 014 - Nguon gioi han dong va mach LED dau tien.md",
+      "prerequisites": [
+        13
+      ]
+    },
+    {
+      "number": 15,
+      "module": 2,
+      "title": "Dây điện đầu nối và bàn thao tác",
+      "outcome": "Tuốt dây bấm cos nhận dạng JST và làm mối nối có co nhiệt",
+      "stem": "Bai 015 - Day dien dau noi va ban thao tac",
+      "path": "Lessons/Part_02/Bai 015 - Day dien dau noi va ban thao tac.md",
+      "prerequisites": [
+        14
+      ]
+    },
+    {
+      "number": 16,
+      "module": 3,
+      "title": "An toàn mỏ hàn flux và tinning",
+      "outcome": "Tráng thiếc dây luyện tập trên bàn hàn có thông gió",
+      "stem": "Bai 016 - An toan mo han flux va tinning",
+      "path": "Lessons/Part_03/Bai 016 - An toan mo han flux va tinning.md",
+      "prerequisites": [
+        15
+      ]
+    },
+    {
+      "number": 17,
+      "module": 3,
+      "title": "Hàn pin header resistor và LED",
+      "outcome": "Hàn một mạch mẫu rồi kiểm tra khi chưa cấp nguồn",
+      "stem": "Bai 017 - Han pin header resistor va LED",
+      "path": "Lessons/Part_03/Bai 017 - Han pin header resistor va LED.md",
+      "prerequisites": [
+        16
+      ]
+    },
+    {
+      "number": 18,
+      "module": 3,
+      "title": "Hàn dây và connector",
+      "outcome": "Tạo mối nối có giữ dây và thử kéo nhẹ khi đã nguội",
+      "stem": "Bai 018 - Han day va connector",
+      "path": "Lessons/Part_03/Bai 018 - Han day va connector.md",
+      "prerequisites": [
+        17
+      ]
+    },
+    {
+      "number": 19,
+      "module": 3,
+      "title": "Cold joint solder bridge và tháo hàn",
+      "outcome": "Sửa mối hàn mẫu bằng flux dây hút và bơm hút thiếc",
+      "stem": "Bai 019 - Cold joint solder bridge va thao han",
+      "path": "Lessons/Part_03/Bai 019 - Cold joint solder bridge va thao han.md",
+      "prerequisites": [
+        18
+      ]
+    },
+    {
+      "number": 20,
+      "module": 3,
+      "title": "Board perfboard hoàn chỉnh",
+      "outcome": "Hoàn thiện đèn báo nguồn và hồ sơ continuity trước cấp điện",
+      "stem": "Bai 020 - Board perfboard hoan chinh",
+      "path": "Lessons/Part_03/Bai 020 - Board perfboard hoan chinh.md",
+      "prerequisites": [
+        19
+      ]
+    },
+    {
+      "number": 21,
+      "module": 4,
+      "title": "Symbol schematic và wiring diagram",
+      "outcome": "Đổi một mạch LED giữa sơ đồ nguyên lý và bảng đấu dây",
+      "stem": "Bai 021 - Symbol schematic va wiring diagram",
+      "path": "Lessons/Part_04/Bai 021 - Symbol schematic va wiring diagram.md",
+      "prerequisites": [
+        20
+      ]
+    },
+    {
+      "number": 22,
+      "module": 4,
+      "title": "PCB trace pad via và connector",
+      "outcome": "Lần đường dẫn trên board đã tháo nguồn bằng kính và continuity",
+      "stem": "Bai 022 - PCB trace pad via va connector",
+      "path": "Lessons/Part_04/Bai 022 - PCB trace pad via va connector.md",
+      "prerequisites": [
+        21
+      ]
+    },
+    {
+      "number": 23,
+      "module": 4,
+      "title": "Pinout và datasheet",
+      "outcome": "Tách absolute maximum khỏi điều kiện vận hành của linh kiện",
+      "stem": "Bai 023 - Pinout va datasheet",
+      "path": "Lessons/Part_04/Bai 023 - Pinout va datasheet.md",
+      "prerequisites": [
+        22
+      ]
+    },
+    {
+      "number": 24,
+      "module": 4,
+      "title": "Block diagram và reference design",
+      "outcome": "Lần nguồn từ đầu vào đến bộ ổn áp trên schematic thật",
+      "stem": "Bai 024 - Block diagram va reference design",
+      "path": "Lessons/Part_04/Bai 024 - Block diagram va reference design.md",
+      "prerequisites": [
+        23
+      ]
+    },
+    {
+      "number": 25,
+      "module": 4,
+      "title": "Chọn và lập hồ sơ board ESP32-S3",
+      "outcome": "Ghi đúng hãng revision module bộ nhớ pinout và chân bị dành riêng",
+      "stem": "Bai 025 - Chon va lap ho so board ESP32-S3",
+      "path": "Lessons/Part_04/Bai 025 - Chon va lap ho so board ESP32-S3.md",
+      "prerequisites": [
+        24
+      ]
+    },
+    {
+      "number": 26,
+      "module": 5,
+      "title": "ESP32 CPU RAM Flash và PSRAM",
+      "outcome": "So sánh tài nguyên ESP32-S3 với Arduino STM32 và Pico",
+      "stem": "Bai 026 - ESP32 CPU RAM Flash va PSRAM",
+      "path": "Lessons/Part_05/Bai 026 - ESP32 CPU RAM Flash va PSRAM.md",
+      "prerequisites": [
+        25
+      ]
+    },
+    {
+      "number": 27,
+      "module": 5,
+      "title": "Firmware Arduino framework và nạp chương trình",
+      "outcome": "Cài môi trường được chốt phiên bản và đọc Serial đầu tiên",
+      "stem": "Bai 027 - Firmware Arduino framework va nap chuong trinh",
+      "path": "Lessons/Part_05/Bai 027 - Firmware Arduino framework va nap chuong trinh.md",
+      "prerequisites": [
+        26
+      ]
+    },
+    {
+      "number": 28,
+      "module": 5,
+      "title": "C C++ biến kiểu dữ liệu và toán tử",
+      "outcome": "In giá trị đo giả lập và quan sát tràn số có kiểm soát",
+      "stem": "Bai 028 - C C++ bien kieu du lieu va toan tu",
+      "path": "Lessons/Part_05/Bai 028 - C C++ bien kieu du lieu va toan tu.md",
+      "prerequisites": [
+        27
+      ]
+    },
+    {
+      "number": 29,
+      "module": 5,
+      "title": "Điều kiện vòng lặp và hàm",
+      "outcome": "Tách một chương trình đọc trạng thái thành hàm nhỏ",
+      "stem": "Bai 029 - Dieu kien vong lap va ham",
+      "path": "Lessons/Part_05/Bai 029 - Dieu kien vong lap va ham.md",
+      "prerequisites": [
+        28
+      ]
+    },
+    {
+      "number": 30,
+      "module": 5,
+      "title": "GPIO HIGH LOW và đầu ra LED",
+      "outcome": "Điều khiển LED ngoài theo pin map đã xác minh",
+      "stem": "Bai 030 - GPIO HIGH LOW va dau ra LED",
+      "path": "Lessons/Part_05/Bai 030 - GPIO HIGH LOW va dau ra LED.md",
+      "prerequisites": [
+        29
+      ]
+    },
+    {
+      "number": 31,
+      "module": 5,
+      "title": "Button pull-up pull-down và debounce",
+      "outcome": "PROJECT 01 LED và button với trạng thái nhấn ổn định",
+      "stem": "Bai 031 - Button pull-up pull-down va debounce",
+      "path": "Lessons/Part_05/Bai 031 - Button pull-up pull-down va debounce.md",
+      "prerequisites": [
+        30
+      ]
+    },
+    {
+      "number": 32,
+      "module": 5,
+      "title": "ADC potentiometer và sai số đo",
+      "outcome": "So điện áp đồng hồ với ADC trên cùng điểm đo",
+      "stem": "Bai 032 - ADC potentiometer va sai so do",
+      "path": "Lessons/Part_05/Bai 032 - ADC potentiometer va sai so do.md",
+      "prerequisites": [
+        31
+      ]
+    },
+    {
+      "number": 33,
+      "module": 5,
+      "title": "PWM và độ sáng LED",
+      "outcome": "Quan sát duty cycle và phân biệt PWM với điện áp analog thật",
+      "stem": "Bai 033 - PWM va do sang LED",
+      "path": "Lessons/Part_05/Bai 033 - PWM va do sang LED.md",
+      "prerequisites": [
+        32
+      ]
+    },
+    {
+      "number": 34,
+      "module": 5,
+      "title": "Timer millis và lập lịch không chặn",
+      "outcome": "Cho hai tác vụ chạy cùng lúc mà không dùng delay dài",
+      "stem": "Bai 034 - Timer millis va lap lich khong chan",
+      "path": "Lessons/Part_05/Bai 034 - Timer millis va lap lich khong chan.md",
+      "prerequisites": [
+        33
+      ]
+    },
+    {
+      "number": 35,
+      "module": 5,
+      "title": "Interrupt và dữ liệu chia sẻ",
+      "outcome": "Đếm sự kiện chậm và chuyển xử lý ra khỏi ISR",
+      "stem": "Bai 035 - Interrupt va du lieu chia se",
+      "path": "Lessons/Part_05/Bai 035 - Interrupt va du lieu chia se.md",
+      "prerequisites": [
+        34
+      ]
+    },
+    {
+      "number": 36,
+      "module": 5,
+      "title": "Mảng chuỗi struct và quản lý bộ nhớ",
+      "outcome": "Đóng gói mẫu đo tránh vượt mảng và tránh cấp phát tùy tiện",
+      "stem": "Bai 036 - Mang chuoi struct va quan ly bo nho",
+      "path": "Lessons/Part_05/Bai 036 - Mang chuoi struct va quan ly bo nho.md",
+      "prerequisites": [
+        35
+      ]
+    },
+    {
+      "number": 37,
+      "module": 5,
+      "title": "State machine và mini control panel",
+      "outcome": "PROJECT 02 bảng điều khiển với nút chiết áp LED và log lỗi",
+      "stem": "Bai 037 - State machine va mini control panel",
+      "path": "Lessons/Part_05/Bai 037 - State machine va mini control panel.md",
+      "prerequisites": [
+        36
+      ]
+    },
+    {
+      "number": 38,
+      "module": 6,
+      "title": "UART baud rate và khung dữ liệu",
+      "outcome": "Dùng USB UART logic 3.3V nhận gửi gói có ký tự kết thúc",
+      "stem": "Bai 038 - UART baud rate va khung du lieu",
+      "path": "Lessons/Part_06/Bai 038 - UART baud rate va khung du lieu.md",
+      "prerequisites": [
+        37
+      ]
+    },
+    {
+      "number": 39,
+      "module": 6,
+      "title": "I2C địa chỉ pull-up và bus scan",
+      "outcome": "Đọc thanh ghi từ cảm biến I2C breakout có mức điện áp rõ",
+      "stem": "Bai 039 - I2C dia chi pull-up va bus scan",
+      "path": "Lessons/Part_06/Bai 039 - I2C dia chi pull-up va bus scan.md",
+      "prerequisites": [
+        38
+      ]
+    },
+    {
+      "number": 40,
+      "module": 6,
+      "title": "SPI clock chip select và mode",
+      "outcome": "Giao tiếp một màn hình SPI 3.3V và kiểm tra thứ tự dây",
+      "stem": "Bai 040 - SPI clock chip select va mode",
+      "path": "Lessons/Part_06/Bai 040 - SPI clock chip select va mode.md",
+      "prerequisites": [
+        39
+      ]
+    },
+    {
+      "number": 41,
+      "module": 6,
+      "title": "I2S clock slot và mẫu số",
+      "outcome": "Nhận mẫu thô từ INMP441 và quan sát im lặng so với tiếng vỗ",
+      "stem": "Bai 041 - I2S clock slot va mau so",
+      "path": "Lessons/Part_06/Bai 041 - I2S clock slot va mau so.md",
+      "prerequisites": [
+        40
+      ]
+    },
+    {
+      "number": 42,
+      "module": 6,
+      "title": "CAN transceiver termination và lỗi bus",
+      "outcome": "Truyền một frame giữa hai node thật trên bus có hai đầu kết thúc",
+      "stem": "Bai 042 - CAN transceiver termination va loi bus",
+      "path": "Lessons/Part_06/Bai 042 - CAN transceiver termination va loi bus.md",
+      "prerequisites": [
+        41
+      ]
+    },
+    {
+      "number": 43,
+      "module": 7,
+      "title": "Touch TTP223 và cảm biến ánh sáng",
+      "outcome": "So ngưỡng nhận sự kiện với ảnh hưởng ánh sáng môi trường",
+      "stem": "Bai 043 - Touch TTP223 va cam bien anh sang",
+      "path": "Lessons/Part_07/Bai 043 - Touch TTP223 va cam bien anh sang.md",
+      "prerequisites": [
+        42
+      ]
+    },
+    {
+      "number": 44,
+      "module": 7,
+      "title": "Ultrasonic và chuyển mức tín hiệu",
+      "outcome": "Đo khoảng cách và giải thích vì sao Echo 5V cần bảo vệ đầu vào",
+      "stem": "Bai 044 - Ultrasonic va chuyen muc tin hieu",
+      "path": "Lessons/Part_07/Bai 044 - Ultrasonic va chuyen muc tin hieu.md",
+      "prerequisites": [
+        43
+      ]
+    },
+    {
+      "number": 45,
+      "module": 7,
+      "title": "ToF VL53L0X và trạng thái phép đo",
+      "outcome": "So khoảng cách với thước và loại mẫu báo lỗi",
+      "stem": "Bai 045 - ToF VL53L0X va trang thai phep do",
+      "path": "Lessons/Part_07/Bai 045 - ToF VL53L0X va trang thai phep do.md",
+      "prerequisites": [
+        44
+      ]
+    },
+    {
+      "number": 46,
+      "module": 7,
+      "title": "IMU accelerometer và gyroscope",
+      "outcome": "Ghi dữ liệu đứng yên quay nghiêng để tách gia tốc và tốc độ góc",
+      "stem": "Bai 046 - IMU accelerometer va gyroscope",
+      "path": "Lessons/Part_07/Bai 046 - IMU accelerometer va gyroscope.md",
+      "prerequisites": [
+        45
+      ]
+    },
+    {
+      "number": 47,
+      "module": 7,
+      "title": "Magnetometer nhiệt độ và hiệu chuẩn",
+      "outcome": "So nhiễu từ gần motor tắt nguồn với một vùng thoáng",
+      "stem": "Bai 047 - Magnetometer nhiet do va hieu chuan",
+      "path": "Lessons/Part_07/Bai 047 - Magnetometer nhiet do va hieu chuan.md",
+      "prerequisites": [
+        46
+      ]
+    },
+    {
+      "number": 48,
+      "module": 7,
+      "title": "Encoder xung hướng và chống mất đếm",
+      "outcome": "Quay encoder bằng tay để kiểm tra quadrature và interrupt",
+      "stem": "Bai 048 - Encoder xung huong va chong mat dem",
+      "path": "Lessons/Part_07/Bai 048 - Encoder xung huong va chong mat dem.md",
+      "prerequisites": [
+        47
+      ]
+    },
+    {
+      "number": 49,
+      "module": 7,
+      "title": "Distance alarm có lọc nhiễu",
+      "outcome": "PROJECT 05 cảnh báo bằng LED khi có vật gần và phát hiện sensor lỗi",
+      "stem": "Bai 049 - Distance alarm co loc nhieu",
+      "path": "Lessons/Part_07/Bai 049 - Distance alarm co loc nhieu.md",
+      "prerequisites": [
+        48
+      ]
+    },
+    {
+      "number": 50,
+      "module": 8,
+      "title": "Power budget và dòng đỉnh",
+      "outcome": "Lập bảng tải liên tục khởi động và biên dự phòng của robot",
+      "stem": "Bai 050 - Power budget va dong dinh",
+      "path": "Lessons/Part_08/Bai 050 - Power budget va dong dinh.md",
+      "prerequisites": [
+        49
+      ]
+    },
+    {
+      "number": 51,
+      "module": 8,
+      "title": "USB regulator buck boost và buck-boost",
+      "outcome": "Chọn kiểu biến đổi nguồn từ khoảng điện áp đầu vào đầu ra",
+      "stem": "Bai 051 - USB regulator buck boost va buck-boost",
+      "path": "Lessons/Part_08/Bai 051 - USB regulator buck boost va buck-boost.md",
+      "prerequisites": [
+        50
+      ]
+    },
+    {
+      "number": 52,
+      "module": 8,
+      "title": "Đo buck và phân phối nguồn",
+      "outcome": "Chỉnh bộ nguồn khi tách tải rồi đo lại với tải điện trở",
+      "stem": "Bai 052 - Do buck va phan phoi nguon",
+      "path": "Lessons/Part_08/Bai 052 - Do buck va phan phoi nguon.md",
+      "prerequisites": [
+        51
+      ]
+    },
+    {
+      "number": 53,
+      "module": 8,
+      "title": "Li-ion LiPo pack bảo vệ và BMS",
+      "outcome": "Đọc nhãn pack thương mại và phân biệt BMS với bộ sạc",
+      "stem": "Bai 053 - Li-ion LiPo pack bao ve va BMS",
+      "path": "Lessons/Part_08/Bai 053 - Li-ion LiPo pack bao ve va BMS.md",
+      "prerequisites": [
+        52
+      ]
+    },
+    {
+      "number": 54,
+      "module": 8,
+      "title": "Charging fuse công tắc và bảo vệ cực tính",
+      "outcome": "Vẽ đường nguồn có cầu chì và bộ sạc đúng loại pack",
+      "stem": "Bai 054 - Charging fuse cong tac va bao ve cuc tinh",
+      "path": "Lessons/Part_08/Bai 054 - Charging fuse cong tac va bao ve cuc tinh.md",
+      "prerequisites": [
+        53
+      ]
+    },
+    {
+      "number": 55,
+      "module": 8,
+      "title": "Decoupling grounding và motor noise",
+      "outcome": "Đo dấu hiệu sụt nguồn tải biến thiên trên bộ nguồn giới hạn dòng",
+      "stem": "Bai 055 - Decoupling grounding va motor noise",
+      "path": "Lessons/Part_08/Bai 055 - Decoupling grounding va motor noise.md",
+      "prerequisites": [
+        54
+      ]
+    },
+    {
+      "number": 56,
+      "module": 8,
+      "title": "Brownout và ngân sách năng lượng thực tế",
+      "outcome": "Hoàn thành power harness và quy trình cắt nguồn an toàn",
+      "stem": "Bai 056 - Brownout va ngan sach nang luong thuc te",
+      "path": "Lessons/Part_08/Bai 056 - Brownout va ngan sach nang luong thuc te.md",
+      "prerequisites": [
+        55
+      ]
+    },
+    {
+      "number": 57,
+      "module": 9,
+      "title": "Torque RPM và hộp số",
+      "outcome": "Tính yêu cầu mô-men sơ bộ từ tải và bán kính bánh",
+      "stem": "Bai 057 - Torque RPM va hop so",
+      "path": "Lessons/Part_09/Bai 057 - Torque RPM va hop so.md",
+      "prerequisites": [
+        56
+      ]
+    },
+    {
+      "number": 58,
+      "module": 9,
+      "title": "Bánh xe trọng tâm và differential drive hình học",
+      "outcome": "Lắp mô hình giấy để dự đoán hướng quay của robot hai bánh",
+      "stem": "Bai 058 - Banh xe trong tam va differential drive hinh hoc",
+      "path": "Lessons/Part_09/Bai 058 - Banh xe trong tam va differential drive hinh hoc.md",
+      "prerequisites": [
+        57
+      ]
+    },
+    {
+      "number": 59,
+      "module": 9,
+      "title": "Ốc M2 M3 standoff bearing và shaft",
+      "outcome": "Lắp cụm cơ khí không rơ và không cọ dây",
+      "stem": "Bai 059 - Oc M2 M3 standoff bearing va shaft",
+      "path": "Lessons/Part_09/Bai 059 - Oc M2 M3 standoff bearing va shaft.md",
+      "prerequisites": [
+        58
+      ]
+    },
+    {
+      "number": 60,
+      "module": 9,
+      "title": "CAD cơ bản với Onshape hoặc Fusion",
+      "outcome": "Vẽ một giá đỡ có kích thước và lỗ bắt vít",
+      "stem": "Bai 060 - CAD co ban voi Onshape hoac Fusion",
+      "path": "Lessons/Part_09/Bai 060 - CAD co ban voi Onshape hoac Fusion.md",
+      "prerequisites": [
+        59
+      ]
+    },
+    {
+      "number": 61,
+      "module": 9,
+      "title": "3D printing dung sai và hướng in",
+      "outcome": "In hoặc đặt in mẫu thử lỗ trước khi in toàn bộ vỏ",
+      "stem": "Bai 061 - 3D printing dung sai va huong in",
+      "path": "Lessons/Part_09/Bai 061 - 3D printing dung sai va huong in.md",
+      "prerequisites": [
+        60
+      ]
+    },
+    {
+      "number": 62,
+      "module": 9,
+      "title": "Thiết kế vỏ và bảo trì",
+      "outcome": "Tạo bố trí có thông gió tiếp cận công tắc và tháo pin thuận tiện",
+      "stem": "Bai 062 - Thiet ke vo va bao tri",
+      "path": "Lessons/Part_09/Bai 062 - Thiet ke vo va bao tri.md",
+      "prerequisites": [
+        61
+      ]
+    },
+    {
+      "number": 63,
+      "module": 10,
+      "title": "RGB WS2812 và buzzer",
+      "outcome": "Tạo phản hồi có giới hạn độ sáng và mức logic phù hợp",
+      "stem": "Bai 063 - RGB WS2812 va buzzer",
+      "path": "Lessons/Part_10/Bai 063 - RGB WS2812 va buzzer.md",
+      "prerequisites": [
+        62
+      ]
+    },
+    {
+      "number": 64,
+      "module": 10,
+      "title": "Servo nguồn riêng và servo horn",
+      "outcome": "Điều khiển SG90 trong dải cơ khí đã kiểm tra không kẹt",
+      "stem": "Bai 064 - Servo nguon rieng va servo horn",
+      "path": "Lessons/Part_10/Bai 064 - Servo nguon rieng va servo horn.md",
+      "prerequisites": [
+        63
+      ]
+    },
+    {
+      "number": 65,
+      "module": 10,
+      "title": "Servo creature và tay máy một khớp",
+      "outcome": "PROJECT 03 sinh vật servo có giới hạn chuyển động",
+      "stem": "Bai 065 - Servo creature va tay may mot khop",
+      "path": "Lessons/Part_10/Bai 065 - Servo creature va tay may mot khop.md",
+      "prerequisites": [
+        64
+      ]
+    },
+    {
+      "number": 66,
+      "module": 10,
+      "title": "Motor DC gear motor H-bridge và driver",
+      "outcome": "Chọn driver theo dòng stall và giải thích không nối motor vào GPIO",
+      "stem": "Bai 066 - Motor DC gear motor H-bridge va driver",
+      "path": "Lessons/Part_10/Bai 066 - Motor DC gear motor H-bridge va driver.md",
+      "prerequisites": [
+        65
+      ]
+    },
+    {
+      "number": 67,
+      "module": 10,
+      "title": "TB6612FNG chiều quay phanh và dừng",
+      "outcome": "Chạy motor trên giá với STBY và nguồn được bảo vệ",
+      "stem": "Bai 067 - TB6612FNG chieu quay phanh va dung",
+      "path": "Lessons/Part_10/Bai 067 - TB6612FNG chieu quay phanh va dung.md",
+      "prerequisites": [
+        66
+      ]
+    },
+    {
+      "number": 68,
+      "module": 10,
+      "title": "Stepper driver và giới hạn dòng",
+      "outcome": "Chạy stepper nhỏ không tháo dây khi đang cấp điện",
+      "stem": "Bai 068 - Stepper driver va gioi han dong",
+      "path": "Lessons/Part_10/Bai 068 - Stepper driver va gioi han dong.md",
+      "prerequisites": [
+        67
+      ]
+    },
+    {
+      "number": 69,
+      "module": 10,
+      "title": "Encoder motor và lớp driver",
+      "outcome": "Ghép lệnh tốc độ với số xung đo được chưa đóng vòng PID",
+      "stem": "Bai 069 - Encoder motor va lop driver",
+      "path": "Lessons/Part_10/Bai 069 - Encoder motor va lop driver.md",
+      "prerequisites": [
+        68
+      ]
+    },
+    {
+      "number": 70,
+      "module": 11,
+      "title": "Lắp chassis bánh caster và dây nguồn",
+      "outcome": "Hoàn thiện base có nút ngắt công suất dễ tiếp cận",
+      "stem": "Bai 070 - Lap chassis banh caster va day nguon",
+      "path": "Lessons/Part_11/Bai 070 - Lap chassis banh caster va day nguon.md",
+      "prerequisites": [
+        69
+      ]
+    },
+    {
+      "number": 71,
+      "module": 11,
+      "title": "Robot hai bánh chạy trên giá",
+      "outcome": "PROJECT 06 chạy từng bánh đúng chiều trước khi hạ xuống sàn",
+      "stem": "Bai 071 - Robot hai banh chay tren gia",
+      "path": "Lessons/Part_11/Bai 071 - Robot hai banh chay tren gia.md",
+      "prerequisites": [
+        70
+      ]
+    },
+    {
+      "number": 72,
+      "module": 11,
+      "title": "Tốc độ rẽ và vùng thử an toàn",
+      "outcome": "Đo quãng đường đi chậm và dừng theo lệnh",
+      "stem": "Bai 072 - Toc do re va vung thu an toan",
+      "path": "Lessons/Part_11/Bai 072 - Toc do re va vung thu an toan.md",
+      "prerequisites": [
+        71
+      ]
+    },
+    {
+      "number": 73,
+      "module": 11,
+      "title": "Robot tránh vật cản",
+      "outcome": "PROJECT 07 máy trạng thái tiến dừng quay có timeout cảm biến",
+      "stem": "Bai 073 - Robot tranh vat can",
+      "path": "Lessons/Part_11/Bai 073 - Robot tranh vat can.md",
+      "prerequisites": [
+        72
+      ]
+    },
+    {
+      "number": 74,
+      "module": 11,
+      "title": "Line follower và ngưỡng cảm biến",
+      "outcome": "Theo vạch ở tốc độ thấp với xử lý mất vạch",
+      "stem": "Bai 074 - Line follower va nguong cam bien",
+      "path": "Lessons/Part_11/Bai 074 - Line follower va nguong cam bien.md",
+      "prerequisites": [
+        73
+      ]
+    },
+    {
+      "number": 75,
+      "module": 11,
+      "title": "Robot encoder và đo quãng đường",
+      "outcome": "PROJECT 08 hiệu chuẩn số xung trên một vòng bánh",
+      "stem": "Bai 075 - Robot encoder va do quang duong",
+      "path": "Lessons/Part_11/Bai 075 - Robot encoder va do quang duong.md",
+      "prerequisites": [
+        74
+      ]
+    },
+    {
+      "number": 76,
+      "module": 11,
+      "title": "Pose odometry và sai số trượt bánh",
+      "outcome": "Tính x y góc từ hai encoder trong đơn vị SI",
+      "stem": "Bai 076 - Pose odometry va sai so truot banh",
+      "path": "Lessons/Part_11/Bai 076 - Pose odometry va sai so truot banh.md",
+      "prerequisites": [
+        75
+      ]
+    },
+    {
+      "number": 77,
+      "module": 11,
+      "title": "Heartbeat watchdog và lỗi mất lệnh",
+      "outcome": "Robot tự dừng khi ngắt liên lạc hoặc reset bộ điều khiển",
+      "stem": "Bai 077 - Heartbeat watchdog va loi mat lenh",
+      "path": "Lessons/Part_11/Bai 077 - Heartbeat watchdog va loi mat lenh.md",
+      "prerequisites": [
+        76
+      ]
+    },
+    {
+      "number": 78,
+      "module": 12,
+      "title": "OLED SSD1306 LCD và bố cục trạng thái",
+      "outcome": "Hiển thị chữ số đo và phân biệt giao tiếp với nội dung màn hình",
+      "stem": "Bai 078 - OLED SSD1306 LCD va bo cuc trang thai",
+      "path": "Lessons/Part_12/Bai 078 - OLED SSD1306 LCD va bo cuc trang thai.md",
+      "prerequisites": [
+        77
+      ]
+    },
+    {
+      "number": 79,
+      "module": 12,
+      "title": "Robot eyes animation và thời gian",
+      "outcome": "Tạo chớp mắt không chặn vòng điều khiển",
+      "stem": "Bai 079 - Robot eyes animation va thoi gian",
+      "path": "Lessons/Part_12/Bai 079 - Robot eyes animation va thoi gian.md",
+      "prerequisites": [
+        78
+      ]
+    },
+    {
+      "number": 80,
+      "module": 12,
+      "title": "OLED robot face",
+      "outcome": "PROJECT 04 khuôn mặt biểu thị trạng thái thực của robot",
+      "stem": "Bai 080 - OLED robot face",
+      "path": "Lessons/Part_12/Bai 080 - OLED robot face.md",
+      "prerequisites": [
+        79
+      ]
+    },
+    {
+      "number": 81,
+      "module": 12,
+      "title": "HRI personality và phản hồi dễ hiểu",
+      "outcome": "Thiết kế nút dừng đèn mic camera và âm báo không gây hiểu lầm",
+      "stem": "Bai 081 - HRI personality va phan hoi de hieu",
+      "path": "Lessons/Part_12/Bai 081 - HRI personality va phan hoi de hieu.md",
+      "prerequisites": [
+        80
+      ]
+    },
+    {
+      "number": 82,
+      "module": 13,
+      "title": "Wi-Fi STA AP IP TCP và UDP",
+      "outcome": "Kết nối mạng thử nghiệm và ghi độ trễ mất gói",
+      "stem": "Bai 082 - Wi-Fi STA AP IP TCP va UDP",
+      "path": "Lessons/Part_13/Bai 082 - Wi-Fi STA AP IP TCP va UDP.md",
+      "prerequisites": [
+        81
+      ]
+    },
+    {
+      "number": 83,
+      "module": 13,
+      "title": "HTTP REST JSON và kiểm tra dữ liệu",
+      "outcome": "Gửi telemetry và từ chối lệnh thiếu trường hay ngoài giới hạn",
+      "stem": "Bai 083 - HTTP REST JSON va kiem tra du lieu",
+      "path": "Lessons/Part_13/Bai 083 - HTTP REST JSON va kiem tra du lieu.md",
+      "prerequisites": [
+        82
+      ]
+    },
+    {
+      "number": 84,
+      "module": 13,
+      "title": "WebSocket và điều khiển điện thoại",
+      "outcome": "PROJECT 09 giao diện web với deadman timeout",
+      "stem": "Bai 084 - WebSocket va dieu khien dien thoai",
+      "path": "Lessons/Part_13/Bai 084 - WebSocket va dieu khien dien thoai.md",
+      "prerequisites": [
+        83
+      ]
+    },
+    {
+      "number": 85,
+      "module": 13,
+      "title": "MQTT topic QoS và retained message",
+      "outcome": "Đo hành vi mất mạng và tránh lệnh motor retained nguy hiểm",
+      "stem": "Bai 085 - MQTT topic QoS va retained message",
+      "path": "Lessons/Part_13/Bai 085 - MQTT topic QoS va retained message.md",
+      "prerequisites": [
+        84
+      ]
+    },
+    {
+      "number": 86,
+      "module": 13,
+      "title": "Wi-Fi provisioning TLS và API key",
+      "outcome": "Cấu hình mạng không để bí mật trong kho mã hay Serial công khai",
+      "stem": "Bai 086 - Wi-Fi provisioning TLS va API key",
+      "path": "Lessons/Part_13/Bai 086 - Wi-Fi provisioning TLS va API key.md",
+      "prerequisites": [
+        85
+      ]
+    },
+    {
+      "number": 87,
+      "module": 13,
+      "title": "OTA và phục hồi firmware",
+      "outcome": "Thử cập nhật rollback trên board đứng yên đã ngắt nguồn motor",
+      "stem": "Bai 087 - OTA va phuc hoi firmware",
+      "path": "Lessons/Part_13/Bai 087 - OTA va phuc hoi firmware.md",
+      "prerequisites": [
+        86
+      ]
+    },
+    {
+      "number": 88,
+      "module": 14,
+      "title": "Âm thanh PCM sample rate và bit depth",
+      "outcome": "Tính dung lượng và thời gian của bản thu mono",
+      "stem": "Bai 088 - Am thanh PCM sample rate va bit depth",
+      "path": "Lessons/Part_14/Bai 088 - Am thanh PCM sample rate va bit depth.md",
+      "prerequisites": [
+        87
+      ]
+    },
+    {
+      "number": 89,
+      "module": 14,
+      "title": "INMP441 thu âm I2S hoàn chỉnh",
+      "outcome": "Lưu mẫu đúng slot định dạng và phát hiện clipping",
+      "stem": "Bai 089 - INMP441 thu am I2S hoan chinh",
+      "path": "Lessons/Part_14/Bai 089 - INMP441 thu am I2S hoan chinh.md",
+      "prerequisites": [
+        88
+      ]
+    },
+    {
+      "number": 90,
+      "module": 14,
+      "title": "MAX98357A amplifier và speaker",
+      "outcome": "Phát âm mẫu với loa phù hợp không nối đầu loa về GND",
+      "stem": "Bai 090 - MAX98357A amplifier va speaker",
+      "path": "Lessons/Part_14/Bai 090 - MAX98357A amplifier va speaker.md",
+      "prerequisites": [
+        89
+      ]
+    },
+    {
+      "number": 91,
+      "module": 14,
+      "title": "Record playback và bộ đệm",
+      "outcome": "Phát lại tiếng nói ngắn không tràn buffer",
+      "stem": "Bai 091 - Record playback va bo dem",
+      "path": "Lessons/Part_14/Bai 091 - Record playback va bo dem.md",
+      "prerequisites": [
+        90
+      ]
+    },
+    {
+      "number": 92,
+      "module": 14,
+      "title": "Noise echo và bố trí microphone",
+      "outcome": "So bản ghi trước sau thay bố trí mic loa và nguồn",
+      "stem": "Bai 092 - Noise echo va bo tri microphone",
+      "path": "Lessons/Part_14/Bai 092 - Noise echo va bo tri microphone.md",
+      "prerequisites": [
+        91
+      ]
+    },
+    {
+      "number": 93,
+      "module": 14,
+      "title": "VAD và trạng thái đang nói",
+      "outcome": "Đo false trigger từ tiếng quạt và tiếng gõ bàn",
+      "stem": "Bai 093 - VAD va trang thai dang noi",
+      "path": "Lessons/Part_14/Bai 093 - VAD va trang thai dang noi.md",
+      "prerequisites": [
+        92
+      ]
+    },
+    {
+      "number": 94,
+      "module": 14,
+      "title": "Wake word và quyền riêng tư",
+      "outcome": "Bật nghe chủ động bằng từ khóa với nút mute vật lý phù hợp",
+      "stem": "Bai 094 - Wake word va quyen rieng tu",
+      "path": "Lessons/Part_14/Bai 094 - Wake word va quyen rieng tu.md",
+      "prerequisites": [
+        93
+      ]
+    },
+    {
+      "number": 95,
+      "module": 15,
+      "title": "Chọn Pi edge computer và cài Linux",
+      "outcome": "Chốt OS nguồn lưu trữ tản nhiệt có tương thích phần mềm",
+      "stem": "Bai 095 - Chon Pi edge computer va cai Linux",
+      "path": "Lessons/Part_15/Bai 095 - Chon Pi edge computer va cai Linux.md",
+      "prerequisites": [
+        94
+      ]
+    },
+    {
+      "number": 96,
+      "module": 15,
+      "title": "Terminal filesystem SSH và cập nhật",
+      "outcome": "Quản lý tập tin và đăng nhập SSH bằng khóa trên mạng riêng",
+      "stem": "Bai 096 - Terminal filesystem SSH va cap nhat",
+      "path": "Lessons/Part_15/Bai 096 - Terminal filesystem SSH va cap nhat.md",
+      "prerequisites": [
+        95
+      ]
+    },
+    {
+      "number": 97,
+      "module": 15,
+      "title": "Python hàm module venv và lỗi",
+      "outcome": "Đọc file mẫu đo xử lý ngoại lệ và viết một module nhỏ",
+      "stem": "Bai 097 - Python ham module venv va loi",
+      "path": "Lessons/Part_15/Bai 097 - Python ham module venv va loi.md",
+      "prerequisites": [
+        96
+      ]
+    },
+    {
+      "number": 98,
+      "module": 15,
+      "title": "Pi và ESP32 qua serial",
+      "outcome": "Truyền gói có sequence checksum và timeout cho controller",
+      "stem": "Bai 098 - Pi va ESP32 qua serial",
+      "path": "Lessons/Part_15/Bai 098 - Pi va ESP32 qua serial.md",
+      "prerequisites": [
+        97
+      ]
+    },
+    {
+      "number": 99,
+      "module": 15,
+      "title": "Process service và network bridge",
+      "outcome": "Chạy chương trình tự khởi động có restart giới hạn và log",
+      "stem": "Bai 099 - Process service va network bridge",
+      "path": "Lessons/Part_15/Bai 099 - Process service va network bridge.md",
+      "prerequisites": [
+        98
+      ]
+    },
+    {
+      "number": 100,
+      "module": 15,
+      "title": "Camera audio và kiểm tra tài nguyên Pi",
+      "outcome": "Đo CPU RAM nhiệt độ độ trễ khi camera và audio cùng chạy",
+      "stem": "Bai 100 - Camera audio va kiem tra tai nguyen Pi",
+      "path": "Lessons/Part_15/Bai 100 - Camera audio va kiem tra tai nguyen Pi.md",
+      "prerequisites": [
+        99
+      ]
+    },
+    {
+      "number": 101,
+      "module": 16,
+      "title": "Pixel RGB resolution và tốc độ khung hình",
+      "outcome": "Đọc ảnh và giải thích chi phí tăng độ phân giải",
+      "stem": "Bai 101 - Pixel RGB resolution va toc do khung hinh",
+      "path": "Lessons/Part_16/Bai 101 - Pixel RGB resolution va toc do khung hinh.md",
+      "prerequisites": [
+        100
+      ]
+    },
+    {
+      "number": 102,
+      "module": 16,
+      "title": "Camera robot và OpenCV",
+      "outcome": "PROJECT 13 hiển thị khung hình có chỉ báo camera",
+      "stem": "Bai 102 - Camera robot va OpenCV",
+      "path": "Lessons/Part_16/Bai 102 - Camera robot va OpenCV.md",
+      "prerequisites": [
+        101
+      ]
+    },
+    {
+      "number": 103,
+      "module": 16,
+      "title": "Threshold contour và feature",
+      "outcome": "Tìm vật màu có thước kiểm chứng dưới hai nguồn sáng",
+      "stem": "Bai 103 - Threshold contour va feature",
+      "path": "Lessons/Part_16/Bai 103 - Threshold contour va feature.md",
+      "prerequisites": [
+        102
+      ]
+    },
+    {
+      "number": 104,
+      "module": 16,
+      "title": "Camera calibration và méo ảnh",
+      "outcome": "Chụp bảng chuẩn lưu ma trận camera và đánh giá sai số",
+      "stem": "Bai 104 - Camera calibration va meo anh",
+      "path": "Lessons/Part_16/Bai 104 - Camera calibration va meo anh.md",
+      "prerequisites": [
+        103
+      ]
+    },
+    {
+      "number": 105,
+      "module": 16,
+      "title": "Neural network inference và edge AI",
+      "outcome": "Chạy model có phiên bản rõ đo latency RAM và điều kiện ánh sáng",
+      "stem": "Bai 105 - Neural network inference va edge AI",
+      "path": "Lessons/Part_16/Bai 105 - Neural network inference va edge AI.md",
+      "prerequisites": [
+        104
+      ]
+    },
+    {
+      "number": 106,
+      "module": 16,
+      "title": "Object detection robot",
+      "outcome": "PROJECT 14 phản ứng với nhãn đủ tin cậy trong vùng cho phép",
+      "stem": "Bai 106 - Object detection robot",
+      "path": "Lessons/Part_16/Bai 106 - Object detection robot.md",
+      "prerequisites": [
+        105
+      ]
+    },
+    {
+      "number": 107,
+      "module": 16,
+      "title": "Object tracking và mất dấu",
+      "outcome": "Theo object ID và xử lý che khuất không nhầm với nhận danh tính",
+      "stem": "Bai 107 - Object tracking va mat dau",
+      "path": "Lessons/Part_16/Bai 107 - Object tracking va mat dau.md",
+      "prerequisites": [
+        106
+      ]
+    },
+    {
+      "number": 108,
+      "module": 16,
+      "title": "Depth sensor và đổi tọa độ",
+      "outcome": "So depth với khoảng cách thật và chuyển điểm sang khung robot",
+      "stem": "Bai 108 - Depth sensor va doi toa do",
+      "path": "Lessons/Part_16/Bai 108 - Depth sensor va doi toa do.md",
+      "prerequisites": [
+        107
+      ]
+    },
+    {
+      "number": 109,
+      "module": 17,
+      "title": "ASR STT và lệnh tiếng Việt",
+      "outcome": "PROJECT 10 nhận câu lệnh vào tập ý định giới hạn có xác nhận phù hợp",
+      "stem": "Bai 109 - ASR STT va lenh tieng Viet",
+      "path": "Lessons/Part_17/Bai 109 - ASR STT va lenh tieng Viet.md",
+      "prerequisites": [
+        108
+      ]
+    },
+    {
+      "number": 110,
+      "module": 17,
+      "title": "TTS và Talking Robot",
+      "outcome": "PROJECT 11 robot đọc câu trả lời và cho phép ngắt lời",
+      "stem": "Bai 110 - TTS va Talking Robot",
+      "path": "Lessons/Part_17/Bai 110 - TTS va Talking Robot.md",
+      "prerequisites": [
+        109
+      ]
+    },
+    {
+      "number": 111,
+      "module": 17,
+      "title": "Speaker verification và speaker identification",
+      "outcome": "Tách ai nói khỏi nói gì và đo tỷ lệ chấp nhận sai từ mẫu có consent",
+      "stem": "Bai 111 - Speaker verification va speaker identification",
+      "path": "Lessons/Part_17/Bai 111 - Speaker verification va speaker identification.md",
+      "prerequisites": [
+        110
+      ]
+    },
+    {
+      "number": 112,
+      "module": 17,
+      "title": "Speaker-aware robot",
+      "outcome": "PROJECT 15 hồ sơ người nói có unknown từ chối và xóa dữ liệu",
+      "stem": "Bai 112 - Speaker-aware robot",
+      "path": "Lessons/Part_17/Bai 112 - Speaker-aware robot.md",
+      "prerequisites": [
+        111
+      ]
+    },
+    {
+      "number": 113,
+      "module": 17,
+      "title": "Diarization chồng tiếng và giới hạn nhận biết",
+      "outcome": "Phân đoạn lượt nói và phân biệt nhãn speaker với định danh thật",
+      "stem": "Bai 113 - Diarization chong tieng va gioi han nhan biet",
+      "path": "Lessons/Part_17/Bai 113 - Diarization chong tieng va gioi han nhan biet.md",
+      "prerequisites": [
+        112
+      ]
+    },
+    {
+      "number": 114,
+      "module": 18,
+      "title": "LLM AI API và system prompt",
+      "outcome": "Tạo hội thoại có thông báo giới hạn và giữ khóa ở backend",
+      "stem": "Bai 114 - LLM AI API va system prompt",
+      "path": "Lessons/Part_18/Bai 114 - LLM AI API va system prompt.md",
+      "prerequisites": [
+        113
+      ]
+    },
+    {
+      "number": 115,
+      "module": 18,
+      "title": "Structured output function calling và safety layer",
+      "outcome": "Kiểm tra schema allowlist biên tốc độ trước khi thực thi lệnh",
+      "stem": "Bai 115 - Structured output function calling va safety layer",
+      "path": "Lessons/Part_18/Bai 115 - Structured output function calling va safety layer.md",
+      "prerequisites": [
+        114
+      ]
+    },
+    {
+      "number": 116,
+      "module": 18,
+      "title": "ESP32 AI Voice Robot",
+      "outcome": "PROJECT 12 tích hợp voice backend và đánh giá Xiaozhi ESP32 theo board thật",
+      "stem": "Bai 116 - ESP32 AI Voice Robot",
+      "path": "Lessons/Part_18/Bai 116 - ESP32 AI Voice Robot.md",
+      "prerequisites": [
+        115
+      ]
+    },
+    {
+      "number": 117,
+      "module": 18,
+      "title": "Realtime streaming audio và latency",
+      "outcome": "Đo thời gian nghe phản hồi ngắt lời và hồi phục mất mạng",
+      "stem": "Bai 117 - Realtime streaming audio va latency",
+      "path": "Lessons/Part_18/Bai 117 - Realtime streaming audio va latency.md",
+      "prerequisites": [
+        116
+      ]
+    },
+    {
+      "number": 118,
+      "module": 18,
+      "title": "Context memory và personality có kiểm soát",
+      "outcome": "Lưu điều được phép nhớ có thời hạn nút xem và xóa",
+      "stem": "Bai 118 - Context memory va personality co kiem soat",
+      "path": "Lessons/Part_18/Bai 118 - Context memory va personality co kiem soat.md",
+      "prerequisites": [
+        117
+      ]
+    },
+    {
+      "number": 119,
+      "module": 18,
+      "title": "MCP và công cụ có quyền hạn",
+      "outcome": "Dùng một tool đọc trạng thái rồi tool được phép có kiểm tra đầu vào",
+      "stem": "Bai 119 - MCP va cong cu co quyen han",
+      "path": "Lessons/Part_18/Bai 119 - MCP va cong cu co quyen han.md",
+      "prerequisites": [
+        118
+      ]
+    },
+    {
+      "number": 120,
+      "module": 18,
+      "title": "High-level planning và tách realtime control",
+      "outcome": "Mô phỏng AI ra lệnh sai và chứng minh firmware từ chối",
+      "stem": "Bai 120 - High-level planning va tach realtime control",
+      "path": "Lessons/Part_18/Bai 120 - High-level planning va tach realtime control.md",
+      "prerequisites": [
+        119
+      ]
+    },
+    {
+      "number": 121,
+      "module": 18,
+      "title": "AI education robot",
+      "outcome": "PROJECT 19 kịch bản STEM có người lớn giám sát và quyền riêng tư trẻ em",
+      "stem": "Bai 121 - AI education robot",
+      "path": "Lessons/Part_18/Bai 121 - AI education robot.md",
+      "prerequisites": [
+        120
+      ]
+    },
+    {
+      "number": 122,
+      "module": 19,
+      "title": "Feedback closed loop và sai số",
+      "outcome": "So điều khiển hở với phản hồi dưới tải thay đổi",
+      "stem": "Bai 122 - Feedback closed loop va sai so",
+      "path": "Lessons/Part_19/Bai 122 - Feedback closed loop va sai so.md",
+      "prerequisites": [
+        121
+      ]
+    },
+    {
+      "number": 123,
+      "module": 19,
+      "title": "PID rời rạc và chu kỳ lấy mẫu",
+      "outcome": "Tính P I D từ dữ liệu mẫu và quan sát ảnh hưởng dt",
+      "stem": "Bai 123 - PID roi rac va chu ky lay mau",
+      "path": "Lessons/Part_19/Bai 123 - PID roi rac va chu ky lay mau.md",
+      "prerequisites": [
+        122
+      ]
+    },
+    {
+      "number": 124,
+      "module": 19,
+      "title": "PID tốc độ motor với encoder",
+      "outcome": "Tune từ P thấp trên giá có giới hạn dòng và tốc độ",
+      "stem": "Bai 124 - PID toc do motor voi encoder",
+      "path": "Lessons/Part_19/Bai 124 - PID toc do motor voi encoder.md",
+      "prerequisites": [
+        123
+      ]
+    },
+    {
+      "number": 125,
+      "module": 19,
+      "title": "Anti-windup lọc đạo hàm và saturation",
+      "outcome": "Gây giới hạn có kiểm soát rồi đo hồi phục không tích lũy quá mức",
+      "stem": "Bai 125 - Anti-windup loc dao ham va saturation",
+      "path": "Lessons/Part_19/Bai 125 - Anti-windup loc dao ham va saturation.md",
+      "prerequisites": [
+        124
+      ]
+    },
+    {
+      "number": 126,
+      "module": 19,
+      "title": "Heading IMU và sensor fusion",
+      "outcome": "Kết hợp gyro với tham chiếu phù hợp và so drift",
+      "stem": "Bai 126 - Heading IMU va sensor fusion",
+      "path": "Lessons/Part_19/Bai 126 - Heading IMU va sensor fusion.md",
+      "prerequisites": [
+        125
+      ]
+    },
+    {
+      "number": 127,
+      "module": 19,
+      "title": "Odometry hợp nhất và kiểm thử quỹ đạo",
+      "outcome": "Chạy đường vuông chậm báo sai số thay vì tuyên bố vị trí tuyệt đối",
+      "stem": "Bai 127 - Odometry hop nhat va kiem thu quy dao",
+      "path": "Lessons/Part_19/Bai 127 - Odometry hop nhat va kiem thu quy dao.md",
+      "prerequisites": [
+        126
+      ]
+    },
+    {
+      "number": 128,
+      "module": 20,
+      "title": "ROS 2 kiến trúc và chọn distribution",
+      "outcome": "Chốt ROS OS driver đã xác minh bằng ma trận tương thích",
+      "stem": "Bai 128 - ROS 2 kien truc va chon distribution",
+      "path": "Lessons/Part_20/Bai 128 - ROS 2 kien truc va chon distribution.md",
+      "prerequisites": [
+        127
+      ]
+    },
+    {
+      "number": 129,
+      "module": 20,
+      "title": "Node topic message và QoS",
+      "outcome": "Tạo hai node Python trao đổi sensor có timestamp",
+      "stem": "Bai 129 - Node topic message va QoS",
+      "path": "Lessons/Part_20/Bai 129 - Node topic message va QoS.md",
+      "prerequisites": [
+        128
+      ]
+    },
+    {
+      "number": 130,
+      "module": 20,
+      "title": "Service action và hủy tác vụ",
+      "outcome": "So truy vấn ngắn với mục tiêu dài có cancel",
+      "stem": "Bai 130 - Service action va huy tac vu",
+      "path": "Lessons/Part_20/Bai 130 - Service action va huy tac vu.md",
+      "prerequisites": [
+        129
+      ]
+    },
+    {
+      "number": 131,
+      "module": 20,
+      "title": "Coordinate frame TF và thời gian",
+      "outcome": "Kiểm tra cây map odom base_link sensor không có vòng",
+      "stem": "Bai 131 - Coordinate frame TF va thoi gian",
+      "path": "Lessons/Part_20/Bai 131 - Coordinate frame TF va thoi gian.md",
+      "prerequisites": [
+        130
+      ]
+    },
+    {
+      "number": 132,
+      "module": 20,
+      "title": "URDF joint và RViz",
+      "outcome": "Hiển thị mô hình base và cảm biến ở đúng vị trí",
+      "stem": "Bai 132 - URDF joint va RViz",
+      "path": "Lessons/Part_20/Bai 132 - URDF joint va RViz.md",
+      "prerequisites": [
+        131
+      ]
+    },
+    {
+      "number": 133,
+      "module": 20,
+      "title": "rosbag và chẩn đoán dữ liệu",
+      "outcome": "Ghi phát lại phiên chạy thử không phát lệnh motor ngoài ý muốn",
+      "stem": "Bai 133 - rosbag va chan doan du lieu",
+      "path": "Lessons/Part_20/Bai 133 - rosbag va chan doan du lieu.md",
+      "prerequisites": [
+        132
+      ]
+    },
+    {
+      "number": 134,
+      "module": 20,
+      "title": "Sensor và motor controller integration",
+      "outcome": "Bridge ESP32 tới ROS với watchdog độc lập",
+      "stem": "Bai 134 - Sensor va motor controller integration",
+      "path": "Lessons/Part_20/Bai 134 - Sensor va motor controller integration.md",
+      "prerequisites": [
+        133
+      ]
+    },
+    {
+      "number": 135,
+      "module": 20,
+      "title": "ROS 2 Mobile Robot",
+      "outcome": "PROJECT 17 điều khiển base có telemetry TF và hủy lệnh an toàn",
+      "stem": "Bai 135 - ROS 2 Mobile Robot",
+      "path": "Lessons/Part_20/Bai 135 - ROS 2 Mobile Robot.md",
+      "prerequisites": [
+        134
+      ]
+    },
+    {
+      "number": 136,
+      "module": 21,
+      "title": "LiDAR depth và phát hiện vật cản",
+      "outcome": "So góc chết kính vật thấp và vùng mù của từng sensor",
+      "stem": "Bai 136 - LiDAR depth va phat hien vat can",
+      "path": "Lessons/Part_21/Bai 136 - LiDAR depth va phat hien vat can.md",
+      "prerequisites": [
+        135
+      ]
+    },
+    {
+      "number": 137,
+      "module": 21,
+      "title": "Occupancy grid mapping và costmap",
+      "outcome": "Đọc ô chưa biết trống có vật và lớp khoảng cách an toàn",
+      "stem": "Bai 137 - Occupancy grid mapping va costmap",
+      "path": "Lessons/Part_21/Bai 137 - Occupancy grid mapping va costmap.md",
+      "prerequisites": [
+        136
+      ]
+    },
+    {
+      "number": 138,
+      "module": 21,
+      "title": "SLAM và mapping robot",
+      "outcome": "PROJECT 16 tạo bản đồ phòng bằng sensor phù hợp có đánh giá loop closure",
+      "stem": "Bai 138 - SLAM va mapping robot",
+      "path": "Lessons/Part_21/Bai 138 - SLAM va mapping robot.md",
+      "prerequisites": [
+        137
+      ]
+    },
+    {
+      "number": 139,
+      "module": 21,
+      "title": "Localization pose và độ bất định",
+      "outcome": "Định vị lại trên bản đồ và phát hiện mất localization",
+      "stem": "Bai 139 - Localization pose va do bat dinh",
+      "path": "Lessons/Part_21/Bai 139 - Localization pose va do bat dinh.md",
+      "prerequisites": [
+        138
+      ]
+    },
+    {
+      "number": 140,
+      "module": 21,
+      "title": "Global path planning",
+      "outcome": "Tìm đường trên grid và giải thích đường hợp lệ với footprint",
+      "stem": "Bai 140 - Global path planning",
+      "path": "Lessons/Part_21/Bai 140 - Global path planning.md",
+      "prerequisites": [
+        139
+      ]
+    },
+    {
+      "number": 141,
+      "module": 21,
+      "title": "Local planning và vật cản động",
+      "outcome": "Giảm tốc dừng và replanning khi người đi qua vùng thử",
+      "stem": "Bai 141 - Local planning va vat can dong",
+      "path": "Lessons/Part_21/Bai 141 - Local planning va vat can dong.md",
+      "prerequisites": [
+        140
+      ]
+    },
+    {
+      "number": 142,
+      "module": 21,
+      "title": "Nav2 lifecycle behavior tree và recovery",
+      "outcome": "Cấu hình stack phù hợp phiên bản và thử hủy goal",
+      "stem": "Bai 142 - Nav2 lifecycle behavior tree va recovery",
+      "path": "Lessons/Part_21/Bai 142 - Nav2 lifecycle behavior tree va recovery.md",
+      "prerequisites": [
+        141
+      ]
+    },
+    {
+      "number": 143,
+      "module": 21,
+      "title": "Indoor autonomous robot",
+      "outcome": "PROJECT 18 đi A đến B trong vùng kiểm soát có log thất bại",
+      "stem": "Bai 143 - Indoor autonomous robot",
+      "path": "Lessons/Part_21/Bai 143 - Indoor autonomous robot.md",
+      "prerequisites": [
+        142
+      ]
+    },
+    {
+      "number": 144,
+      "module": 21,
+      "title": "Nhiều phòng điểm nghỉ và giới hạn tự chủ",
+      "outcome": "Lập route phòng với geofence và quay về điểm nghỉ không mặc định tự sạc",
+      "stem": "Bai 144 - Nhieu phong diem nghi va gioi han tu chu",
+      "path": "Lessons/Part_21/Bai 144 - Nhieu phong diem nghi va gioi han tu chu.md",
+      "prerequisites": [
+        143
+      ]
+    },
+    {
+      "number": 145,
+      "module": 22,
+      "title": "KiCad schematic capture và ERC",
+      "outcome": "Vẽ board giao tiếp nguồn logic connector theo thiết kế đã chạy",
+      "stem": "Bai 145 - KiCad schematic capture va ERC",
+      "path": "Lessons/Part_22/Bai 145 - KiCad schematic capture va ERC.md",
+      "prerequisites": [
+        144
+      ]
+    },
+    {
+      "number": 146,
+      "module": 22,
+      "title": "Footprint connector và mounting hole",
+      "outcome": "In tỷ lệ 1-1 kiểm tra chân linh kiện và lỗ gá",
+      "stem": "Bai 146 - Footprint connector va mounting hole",
+      "path": "Lessons/Part_22/Bai 146 - Footprint connector va mounting hole.md",
+      "prerequisites": [
+        145
+      ]
+    },
+    {
+      "number": 147,
+      "module": 22,
+      "title": "PCB layout power trace signal và ground",
+      "outcome": "Tách đường dòng motor khỏi tín hiệu nhỏ theo đường hồi dòng",
+      "stem": "Bai 147 - PCB layout power trace signal va ground",
+      "path": "Lessons/Part_22/Bai 147 - PCB layout power trace signal va ground.md",
+      "prerequisites": [
+        146
+      ]
+    },
+    {
+      "number": 148,
+      "module": 22,
+      "title": "DRC Gerber và rà soát sản xuất",
+      "outcome": "Xuất bộ hồ sơ đối chiếu footprint và quy tắc nhà gia công",
+      "stem": "Bai 148 - DRC Gerber va ra soat san xuat",
+      "path": "Lessons/Part_22/Bai 148 - DRC Gerber va ra soat san xuat.md",
+      "prerequisites": [
+        147
+      ]
+    },
+    {
+      "number": 149,
+      "module": 22,
+      "title": "Bring-up PCB prototype",
+      "outcome": "Kiểm tra không nguồn rồi cấp nguồn giới hạn dòng từng khối",
+      "stem": "Bai 149 - Bring-up PCB prototype",
+      "path": "Lessons/Part_22/Bai 149 - Bring-up PCB prototype.md",
+      "prerequisites": [
+        148
+      ]
+    },
+    {
+      "number": 150,
+      "module": 23,
+      "title": "Fail-safe emergency stop và watchdog độc lập",
+      "outcome": "Lập ma trận lỗi và đo thời gian cắt chuyển động",
+      "stem": "Bai 150 - Fail-safe emergency stop va watchdog doc lap",
+      "path": "Lessons/Part_23/Bai 150 - Fail-safe emergency stop va watchdog doc lap.md",
+      "prerequisites": [
+        149
+      ]
+    },
+    {
+      "number": 151,
+      "module": 23,
+      "title": "Overcurrent thermal battery và child safety",
+      "outcome": "Kiểm tra nhiệt dòng giữ dây cạnh sắc theo điều kiện thử đã giới hạn",
+      "stem": "Bai 151 - Overcurrent thermal battery va child safety",
+      "path": "Lessons/Part_23/Bai 151 - Overcurrent thermal battery va child safety.md",
+      "prerequisites": [
+        150
+      ]
+    },
+    {
+      "number": 152,
+      "module": 23,
+      "title": "Privacy camera mic và local cloud",
+      "outcome": "Kiểm tra mute chỉ báo consent retention và xóa dữ liệu thực",
+      "stem": "Bai 152 - Privacy camera mic va local cloud",
+      "path": "Lessons/Part_23/Bai 152 - Privacy camera mic va local cloud.md",
+      "prerequisites": [
+        151
+      ]
+    },
+    {
+      "number": 153,
+      "module": 23,
+      "title": "Network security API keys và cập nhật",
+      "outcome": "Kiểm tra quyền tối thiểu bí mật log và hồi phục update lỗi",
+      "stem": "Bai 153 - Network security API keys va cap nhat",
+      "path": "Lessons/Part_23/Bai 153 - Network security API keys va cap nhat.md",
+      "prerequisites": [
+        152
+      ]
+    },
+    {
+      "number": 154,
+      "module": 23,
+      "title": "Test plan BOM phiên bản và production thinking",
+      "outcome": "Lập hồ sơ nghiệm thu hồi quy và thay linh kiện có truy vết",
+      "stem": "Bai 154 - Test plan BOM phien ban va production thinking",
+      "path": "Lessons/Part_23/Bai 154 - Test plan BOM phien ban va production thinking.md",
+      "prerequisites": [
+        153
+      ]
+    },
+    {
+      "number": 155,
+      "module": 24,
+      "title": "Capstone yêu cầu kiến trúc và ngân sách",
+      "outcome": "PROJECT 20 chọn cấu hình tối thiểu đáp ứng toàn bộ tiêu chí cốt lõi",
+      "stem": "Bai 155 - Capstone yeu cau kien truc va ngan sach",
+      "path": "Lessons/Part_24/Bai 155 - Capstone yeu cau kien truc va ngan sach.md",
+      "prerequisites": [
+        154
+      ]
+    },
+    {
+      "number": 156,
+      "module": 24,
+      "title": "Tích hợp base ESP32 và compute",
+      "outcome": "Kiểm thử đường lệnh telemetry E-stop và watchdog từ đầu đến cuối",
+      "stem": "Bai 156 - Tich hop base ESP32 va compute",
+      "path": "Lessons/Part_24/Bai 156 - Tich hop base ESP32 va compute.md",
+      "prerequisites": [
+        155
+      ]
+    },
+    {
+      "number": 157,
+      "module": 24,
+      "title": "Tích hợp camera voice và speaker consent",
+      "outcome": "Đo tài nguyên độ trễ nhận lệnh object detection và chế độ unknown",
+      "stem": "Bai 157 - Tich hop camera voice va speaker consent",
+      "path": "Lessons/Part_24/Bai 157 - Tich hop camera voice va speaker consent.md",
+      "prerequisites": [
+        156
+      ]
+    },
+    {
+      "number": 158,
+      "module": 24,
+      "title": "Tích hợp navigation và AI tools",
+      "outcome": "Đi tới vị trí hợp lệ qua tool có kiểm tra safety và quyền hạn",
+      "stem": "Bai 158 - Tich hop navigation va AI tools",
+      "path": "Lessons/Part_24/Bai 158 - Tich hop navigation va AI tools.md",
+      "prerequisites": [
+        157
+      ]
+    },
+    {
+      "number": 159,
+      "module": 24,
+      "title": "Fault injection và nghiệm thu trong nhà",
+      "outcome": "Thử mất Wi-Fi sensor lỗi AI sai localization mất và pin yếu trong vùng thử",
+      "stem": "Bai 159 - Fault injection va nghiem thu trong nha",
+      "path": "Lessons/Part_24/Bai 159 - Fault injection va nghiem thu trong nha.md",
+      "prerequisites": [
+        158
+      ]
+    },
+    {
+      "number": 160,
+      "module": 24,
+      "title": "Bàn giao demo và hướng phát triển robot mới",
+      "outcome": "Hoàn tất hồ sơ capstone giới hạn đã đo và chọn kiến trúc cho robot tiếp theo",
+      "stem": "Bai 160 - Ban giao demo va huong phat trien robot moi",
+      "path": "Lessons/Part_24/Bai 160 - Ban giao demo va huong phat trien robot moi.md",
+      "prerequisites": [
+        159
+      ]
+    }
+  ]
+}

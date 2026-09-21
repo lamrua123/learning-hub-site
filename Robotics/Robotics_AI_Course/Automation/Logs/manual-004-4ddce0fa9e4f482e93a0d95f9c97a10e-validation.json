@@ -1,0 +1,24 @@
+{
+  "id": "manual-004-4ddce0fa9e4f482e93a0d95f9c97a10e",
+  "checked_at": "2026-09-13T13:47:15+00:00",
+  "status": "PASS_STRUCTURAL_AND_AUTHOR_REVIEW",
+  "final_revision": 15,
+  "completed_lessons": 4,
+  "next_unit": {
+    "kind": "lesson",
+    "target": 5,
+    "path": "Lessons/Part_01/Bai 005 - Cong suat va nang luong.md"
+  },
+  "automation_state": "PAUSED",
+  "pause_reason": "SINGLE_UNIT_COMPLETE",
+  "receipt": "Automation/Receipts/manual-004-4ddce0fa9e4f482e93a0d95f9c97a10e.json",
+  "artifact_sha256": "137556962cefa02897abac12d2beb795f032ee84ad6f9ade202f9d9bbe35061e",
+  "one_lesson_only": true,
+  "prior_lesson_hashes_unchanged": true,
+  "learner_progress_unchanged": true,
+  "known_problems_preserved": true,
+  "active_unit_cleared": true,
+  "hardware_tested": false,
+  "code_applicable": false,
+  "numeric_checks_log": "Automation/Logs/manual-004-4ddce0fa9e4f482e93a0d95f9c97a10e-draft-validation.json"
+}

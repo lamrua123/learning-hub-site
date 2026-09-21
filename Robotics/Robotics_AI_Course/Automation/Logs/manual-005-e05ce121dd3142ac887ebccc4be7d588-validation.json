@@ -1,0 +1,27 @@
+{
+  "id": "manual-005-e05ce121dd3142ac887ebccc4be7d588",
+  "checked_at": "2026-09-13T14:04:04+00:00",
+  "status": "PASS_STRUCTURAL_AND_AUTHOR_REVIEW",
+  "final_revision": 18,
+  "completed_lessons": 5,
+  "checkpoint_pending": true,
+  "next_unit": {
+    "kind": "checkpoint",
+    "target": 1,
+    "start": 1,
+    "end": 5,
+    "path": "Checkpoints/Checkpoint 001 - Review Bai 001 den 005.md"
+  },
+  "automation_state": "PAUSED",
+  "pause_reason": "SINGLE_UNIT_COMPLETE",
+  "receipt": "Automation/Receipts/manual-005-e05ce121dd3142ac887ebccc4be7d588.json",
+  "artifact_sha256": "8c6972db9d1a250576608023d22d2eb8f37bb2de2ec9bd1c21414688a8bc4534",
+  "one_lesson_only": true,
+  "prior_lesson_hashes_unchanged": true,
+  "learner_progress_unchanged": true,
+  "known_problems_preserved": true,
+  "active_unit_cleared": true,
+  "hardware_tested": false,
+  "code_applicable": false,
+  "numeric_checks_log": "Automation/Logs/manual-005-e05ce121dd3142ac887ebccc4be7d588-draft-validation.json"
+}

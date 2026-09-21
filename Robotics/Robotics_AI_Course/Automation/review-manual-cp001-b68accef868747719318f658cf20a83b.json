@@ -1,0 +1,64 @@
+{
+  "repair_attempts": 0,
+  "test_level": "DOCUMENT_REVIEW_ONLY; five lesson structures, links and receipt hashes checked; numeric cases and paper-token algorithm checked; hardware NOT_TESTED; learner NOT_ASSESSED; code NOT_APPLICABLE",
+  "gate": "PASS",
+  "pending_repairs": [],
+  "urgent_safety_fixes": [],
+  "hardware_already_introduced": [],
+  "concepts_already_taught": [],
+  "checks": {
+    "prerequisites": {
+      "passed": true,
+      "evidence": "Checkpoint có bảng 16 tiêu chí với bằng chứng riêng. Đã rà Bài 001–005 và chuỗi roadmap 001 mạch→002 U→003 I→004 R/Ohm→005 P/E; các phép đổi và bình phương được giới thiệu trước sử dụng. Bài 006 GND cùng phần đo/lắp 011–014 vẫn là tương lai, không cần chèn bài tại mốc này."
+    },
+    "why": {
+      "passed": true,
+      "evidence": "Tiêu chí 9 dẫn lý do đường trở về ở 001, đối chiếu nguồn/cực ở 002, bảo toàn điện tích ở 003, U cùng hai đầu R ở 004 và thời gian/mức cho phép ở 005. Tiêu chí 4 phân biệt mục tiêu từng lần dùng lại đèn, không coi toàn bộ sự lặp lại là nội dung thừa."
+    },
+    "terminology": {
+      "passed": true,
+      "evidence": "Tiêu chí 8 kiểm bảng Việt/English và phân biệt current/voltage, resistance/resistor, power/energy/rating. Đã chuyển 48 tham chiếu số bài trong 47 dòng cột nguồn glossary thành wikilink đúng Bài 001–005; không thêm khái niệm mới hoặc nâng mức người học đã làm được."
+    },
+    "wiring": {
+      "passed": true,
+      "evidence": "Tiêu chí 11 xác nhận 001–003 chỉ dùng đèn nguyên vẹn theo khoang pin, X/Y là mốc giấy. 004–005 dùng sơ đồ một tải lý tưởng, không là bảng lắp thật; A/B không phải GPIO. Không sửa hoặc thêm bất kỳ lesson/hướng dẫn dây nào trong checkpoint."
+    },
+    "voltage": {
+      "passed": true,
+      "evidence": "Tiêu chí 12 giữ cấu hình đèn 2×AA alkaline 1.5 V theo nhãn, không suy rằng mọi bộ hai pin có cùng U. Ví dụ E91 chỉ danh định; thẻ 3/5/6 V và dòng/công suất đều giả lập. P=UI, Ohm và bảo toàn dòng có điều kiện cùng tải/ổn định/phạm vi mô hình rõ."
+    },
+    "code": {
+      "passed": true,
+      "evidence": "Tiêu chí 13 ghi đủ năm bài không cần code/vi điều khiển, không có compile hoặc bench test. Script kiểm số/thẻ chỉ là công cụ review. Vấn đề codex.ps1 từ lượt trước được giữ trong known_problems; không chạy lại batch hoặc tuyên bố CLI đã sửa."
+    },
+    "safety": {
+      "passed": true,
+      "evidence": "Tiêu chí 14 dẫn Safety Box và debug cụ thể chặn short, đảo pin, thêm nguồn, đo A ngang pin, thử R=0 và thử nóng điện trở. Không phát hiện chỉ dẫn nguy hiểm cần vá ngay; urgent_safety_fixes rỗng. Mức dự phòng 2 trong 005 là yêu cầu đề, không được coi là bảo đảm phần cứng."
+    },
+    "debug": {
+      "passed": true,
+      "evidence": "Đã kiểm 4 debug ở 001 và 5 ở mỗi bài 002–005, mỗi lỗi có đủ bốn nhãn. Tiêu chí 15 phân biệt kiểm quan sát/thay bộ pin đúng loại, kiểm giấy/đơn vị và phép đo thật chưa học; mọi tình huống đều có bước sửa cụ thể không cố gây lỗi nguy hiểm."
+    },
+    "exercises": {
+      "passed": true,
+      "evidence": "Cả năm bài đều 22 heading, 5 bài tập, 5 câu kiểm tra và 8–9 dòng ghi nhớ. Đã đối chiếu số trực tiếp từ sáu hàng kết quả 004, hai hàng I/P/Wh/J của 005, lịch 0.5/0.75 Wh, giới hạn/dự phòng và mô hình tám thẻ dịch 1/2 ô trong bốn nhịp. Bảng minh chứng người học trong checkpoint vẫn chưa đánh giá."
+    },
+    "sources": {
+      "passed": true,
+      "evidence": "Mở lại datasheet Energizer E91 trang 1 xác nhận AA alkaline và nominal 1.5 V; giữ ranh giới đây không phải pin người học. Đối chiếu SOURCES và review đã có cho BIPM/NIST/Vishay ở Bài 003–005. Kiểm toàn bộ wikilink năm bài với ghi chú/roadmap và hash từng bài với receipt gốc; không tuyên bố đã thử phần cứng."
+    }
+  },
+  "checkpoint_audit": {
+    "criteria_count": 16,
+    "criteria_pass": 16,
+    "criteria_needs_repair": 0,
+    "learner_assessment": "NOT_ASSESSED",
+    "lesson_content_changed": false,
+    "glossary_rows_linked": 47,
+    "glossary_links_added": 48,
+    "roadmap_action": "Giữ nguyên số/thứ tự/prerequisite; thêm ghi nhận Checkpoint 001 tại Part 01",
+    "evidence_log": "Automation/Logs/manual-cp001-b68accef868747719318f658cf20a83b-audit-evidence.json",
+    "historical_usage_unavailable_flag": true,
+    "final_pause_policy": "Sau commit/validate checkpoint: xóa cờ thiếu dữ liệu của khoảng cũ, PAUSED / USAGE_DATA_UNAVAILABLE_SAFE_PAUSE; snapshot unit hiện tại vẫn AVAILABLE"
+  }
+}

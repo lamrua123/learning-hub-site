@@ -1,0 +1,48 @@
+{
+  "id": "manual-004-4ddce0fa9e4f482e93a0d95f9c97a10e",
+  "checked_at": "2026-09-13T13:45:18+00:00",
+  "stage": "PRE_COMMIT",
+  "structural_errors": [],
+  "result_table_rows_checked": 6,
+  "additional_numeric_checks": [
+    "worked_U",
+    "worked_R",
+    "debug_wrong_U",
+    "debug_wrong_R_check",
+    "debug_component_voltage",
+    "extra_same_current",
+    "exercise_1_kohm",
+    "exercise_1_ohm",
+    "exercise_3",
+    "exercise_4"
+  ],
+  "exercise_2_currents_mA": [
+    1,
+    2,
+    3
+  ],
+  "challenge_candidates_ohm_mA": [
+    [
+      1000,
+      3.0
+    ],
+    [
+      2000,
+      1.5
+    ],
+    [
+      3000,
+      1.0
+    ]
+  ],
+  "challenge_selection_ohm": 2000,
+  "prerequisite_links": [
+    "Bai 003 - Dong dien va duong di cua dien",
+    "Bai 005 - Cong suat va nang luong"
+  ],
+  "prior_lessons_unchanged": true,
+  "lesson_count_before_commit": 3,
+  "draft_path": "Lessons/Part_01/Bai 004 - Dien tro va dinh luat Ohm.md",
+  "hardware_tested": false,
+  "code_applicable": false
+}

@@ -1,0 +1,128 @@
+{
+  "before_state": {
+    "schema_version": 1,
+    "revision": 15,
+    "course_status": "IN_PROGRESS",
+    "automation_state": "PAUSED",
+    "current_lesson": 4,
+    "last_completed_lesson": 4,
+    "next_lesson": 5,
+    "current_module": 1,
+    "completed_lessons": 4,
+    "total_planned_lessons": 160,
+    "current_project": null,
+    "completed_projects": [],
+    "learner_progress": "NOT_ASSESSED — chưa có minh chứng thực hành từ người học",
+    "current_checkpoint": null,
+    "last_checkpoint": null,
+    "last_checkpoint_number": 0,
+    "last_checkpoint_lesson": 0,
+    "checkpoint_pending": false,
+    "major_checkpoints_completed": [],
+    "last_major_checkpoint": null,
+    "pending_repairs": [],
+    "known_problems": [
+      "Chưa xác định board ESP32-S3 thực tế: không có GPIO được phê duyệt.",
+      "Chưa thử bài trên phần cứng người học; mọi kết quả thao tác cần tự ghi.",
+      "Các project mới là brief; chưa có minh chứng người học hoàn thành project.",
+      "Automation CLI chưa khắc phục lỗi tham số qua codex.ps1; Bài 003 đã hoàn thành trực tiếp trong app. Chưa kiểm thử lại chế độ batch sau lỗi này."
+    ],
+    "hardware_already_introduced": [
+      "Đèn pin hoàn chỉnh yêu cầu 2 × alkaline AA 1.5 V",
+      "Giấy/bút và bảng quan sát",
+      "Bài 003: tám thẻ giấy/bìa để mô hình hóa lượng qua mốc; không phải dụng cụ đo điện"
+    ],
+    "concepts_already_taught": [
+      "Điện/điện tích/dòng điện: nhận diện, chưa định lượng",
+      "Nguồn điện, cực pin, cực tính và đọc nhãn điện áp sơ lược",
+      "Tải, vật dẫn, cách điện và đường trở về nguồn",
+      "Mạch kín, mạch hở, công tắc và trạng thái cơ bản",
+      "Ngắn mạch: nhận diện nguy cơ trên giấy; điện trở sơ lược",
+      "Debug bằng dự đoán, quan sát, giả thuyết và thử một thay đổi",
+      "Bài 002: điện áp/hiệu điện thế giữa hai điểm; điện thế và mốc so sánh ở mức định tính",
+      "Bài 002: volt và millivolt, đổi 1 V = 1000 mV, giữ đơn vị khi so sánh",
+      "Bài 002: điện áp danh định, định mức, dải hoạt động và số đo thực tế khác nhau",
+      "Bài 002: chiều so sánh và dấu điện áp; nhận diện đảo cực mà không thử đảo nguồn thật",
+      "Bài 002: OUTPUT nguồn đối chiếu INPUT tải; phiếu đọc nhãn và kết luận thiếu dữ liệu",
+      "Bài 002: mạch ngoài hở vẫn có thể có điện áp giữa hai cực nguồn; chưa kiểm chứng bằng đồng hồ",
+      "Bài 003: lượng điện tích qua một vị trí trên đơn vị thời gian; dòng trung bình I=Q/t với cùng khoảng xét",
+      "Bài 003: coulomb C, ampere A, milliampere mA; 1 A=1 C/s và 1 A=1000 mA",
+      "Bài 003: chiều dòng quy ước trong mạch ngoài pin cấp tải thụ động và chiều electron trong dây kim loại ngược nhau",
+      "Bài 003: bảo toàn điện tích; dòng vào/ra bằng nhau trên đường không rẽ ở trạng thái ổn định; tải chuyển đổi năng lượng",
+      "Bài 003: dòng tải thực tế khác khả năng cấp dòng của nguồn điện áp; quá dòng so với giới hạn từng bộ phận",
+      "Bài 003: mô hình thẻ/nhịp khác phép đo A; dòng trung bình không chứng minh dòng đỉnh; cấm đo A/mA ngang nguồn",
+      "Bài 004: điện trở R (electrical resistance) khác linh kiện resistor; tải không tiêu hủy điện tích",
+      "Bài 004: ohm Ω = V/A, kiloohm kΩ = 1000 Ω; đổi V/A/Ω trước tính và A sang mA sau tính",
+      "Bài 004: U=I×R, I=U/R với R>0, R=U/I với I khác 0; U giữa hai đầu và I qua chính R",
+      "Bài 004: định luật Ohm cho phần tử có R không đổi trong điều kiện xét; nguồn giữ U, một tải và đường nối lý tưởng trong mô hình giấy",
+      "Bài 004: giữ R thì I thay đổi cùng tỷ lệ U; giữ U thì tăng R làm giảm I; kiểm đơn vị, xu hướng và phép tính ngược",
+      "Bài 004: điện trở cố định hai đầu thông dụng không phân cực; A/B là điểm tự đặt, chưa đọc mã/màu hay đo linh kiện thật",
+      "Bài 004: không áp dụng tùy ý R không đổi cho robot/động cơ; kết quả U/I một trạng thái không chứng minh R hằng ở mọi trạng thái",
+      "Bài 004: phép chia cho 0 không xác định; không suy ra dòng ngắn mạch thật và không thử short từ mô hình giấy"
+    ],
+    "concepts_not_yet_taught": [
+      "Công suất, năng lượng W/Wh và chọn mức chịu công suất điện trở (005)",
+      "GND (006); nối tiếp/song song và chia dòng; DC/AC; 3.3V/5V; mã màu điện trở, LED, diode và linh kiện điện tử khác",
+      "Dụng cụ, multimeter, thao tác đo U/I/R thật, breadboard, hàn, schematic, pinout và datasheet đầy đủ",
+      "ESP32 C/C++ GPIO ADC PWM timer interrupt memory và protocols",
+      "Cảm biến, đánh giá dòng đỉnh và power budget thật, nguồn lithium và bảo vệ, cơ khí CAD, actuator và robot hai bánh",
+      "Display HRI, mạng, audio, Pi Linux Python, computer vision",
+      "Voice/speaker recognition, AI tools MCP realtime, control PID sensor fusion",
+      "ROS 2 TF, localization SLAM navigation, PCB reliability và capstone"
+    ],
+    "last_run_date": "2026-09-13T13:46:56+00:00",
+    "last_state_update": "2026-09-13T13:47:15+00:00",
+    "pause_reason": "SINGLE_UNIT_COMPLETE",
+    "last_unit": {
+      "id": "manual-004-4ddce0fa9e4f482e93a0d95f9c97a10e",
+      "kind": "lesson",
+      "target": 4,
+      "path": "Lessons/Part_01/Bai 004 - Dien tro va dinh luat Ohm.md",
+      "receipt": "Automation/Receipts/manual-004-4ddce0fa9e4f482e93a0d95f9c97a10e.json"
+    },
+    "usage": {
+      "mode": "AVAILABLE",
+      "source": "Codex app get_usage_limits",
+      "checked_at": "2026-09-13T13:38:58+00:00",
+      "five_hour_remaining": 100.0,
+      "weekly_remaining": 40,
+      "five_hour_resets_at": "2026-09-13T18:33:16+00:00",
+      "weekly_resets_at": "2026-09-19T08:28:43+00:00",
+      "reason": null,
+      "reached": false
+    },
+    "usage_unavailable_since_checkpoint": true,
+    "validation_status": "PASS_STRUCTURAL_AND_AUTHOR_REVIEW",
+    "automation_cli_version": "codex-cli 0.149.1",
+    "next_unit": {
+      "kind": "lesson",
+      "target": 5,
+      "path": "Lessons/Part_01/Bai 005 - Cong suat va nang luong.md"
+    }
+  },
+  "active": {
+    "kind": "lesson",
+    "target": 5,
+    "path": "Lessons/Part_01/Bai 005 - Cong suat va nang luong.md",
+    "id": "manual-005-e05ce121dd3142ac887ebccc4be7d588",
+    "start_revision": 16,
+    "usage": {
+      "mode": "AVAILABLE",
+      "source": "Codex app get_usage_limits",
+      "checked_at": "2026-09-13T13:53:43+00:00",
+      "five_hour_remaining": 70,
+      "weekly_remaining": 36,
+      "five_hour_resets_at": "2026-09-13T18:33:16+00:00",
+      "weekly_resets_at": "2026-09-19T08:28:43+00:00",
+      "reason": null,
+      "reached": false
+    },
+    "created_at": "2026-09-13T13:53:43+00:00",
+    "lesson_hashes": {
+      "Lessons/Part_01/Bai 001 - Dien la gi va mach kin dau tien.md": "59dc277d1389435f10454a898cbdb6abe31a9a99b10475c889f55484a4ab5d00",
+      "Lessons/Part_01/Bai 002 - Dien ap va cuc tinh.md": "ba25368cc1aeb6aa1842975f42c1a789117ea824f17f1cc814e4401d2d1d5367",
+      "Lessons/Part_01/Bai 003 - Dong dien va duong di cua dien.md": "de0ab65ac01f713bd5a5200a5ee4c25082c0799b82955a091564021aa98f97da",
+      "Lessons/Part_01/Bai 004 - Dien tro va dinh luat Ohm.md": "137556962cefa02897abac12d2beb795f032ee84ad6f9ade202f9d9bbe35061e"
+    }
+  }
+}

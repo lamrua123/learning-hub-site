@@ -1,0 +1,113 @@
+{
+  "id": "manual-cp001-b68accef868747719318f658cf20a83b",
+  "checked_at": "2026-09-13T14:29:46+00:00",
+  "scope": "Bai 001-005",
+  "lesson_checks": [
+    {
+      "path": "Lessons/Part_01/Bai 001 - Dien la gi va mach kin dau tien.md",
+      "sha256": "59dc277d1389435f10454a898cbdb6abe31a9a99b10475c889f55484a4ab5d00",
+      "receipt": "Automation/Receipts/bootstrap-001.json",
+      "lines": 343,
+      "space_separated_tokens": 5479,
+      "heading_count": 22,
+      "exercise_count": 5,
+      "quiz_count": 5,
+      "debug_count": 4,
+      "remember_count": 8,
+      "structure": "PASS",
+      "links": "PASS",
+      "receipt_hash": "PASS"
+    },
+    {
+      "path": "Lessons/Part_01/Bai 002 - Dien ap va cuc tinh.md",
+      "sha256": "ba25368cc1aeb6aa1842975f42c1a789117ea824f17f1cc814e4401d2d1d5367",
+      "receipt": "Automation/Receipts/manual-002-7e1a16964d3d41958d8c82cd4fcf4511.json",
+      "lines": 370,
+      "space_separated_tokens": 5797,
+      "heading_count": 22,
+      "exercise_count": 5,
+      "quiz_count": 5,
+      "debug_count": 5,
+      "remember_count": 8,
+      "structure": "PASS",
+      "links": "PASS",
+      "receipt_hash": "PASS"
+    },
+    {
+      "path": "Lessons/Part_01/Bai 003 - Dong dien va duong di cua dien.md",
+      "sha256": "de0ab65ac01f713bd5a5200a5ee4c25082c0799b82955a091564021aa98f97da",
+      "receipt": "Automation/Receipts/791a60fa6fbb492a8e22fc3eebf2ff31.json",
+      "lines": 387,
+      "space_separated_tokens": 6424,
+      "heading_count": 22,
+      "exercise_count": 5,
+      "quiz_count": 5,
+      "debug_count": 5,
+      "remember_count": 9,
+      "structure": "PASS",
+      "links": "PASS",
+      "receipt_hash": "PASS"
+    },
+    {
+      "path": "Lessons/Part_01/Bai 004 - Dien tro va dinh luat Ohm.md",
+      "sha256": "137556962cefa02897abac12d2beb795f032ee84ad6f9ade202f9d9bbe35061e",
+      "receipt": "Automation/Receipts/manual-004-4ddce0fa9e4f482e93a0d95f9c97a10e.json",
+      "lines": 377,
+      "space_separated_tokens": 6124,
+      "heading_count": 22,
+      "exercise_count": 5,
+      "quiz_count": 5,
+      "debug_count": 5,
+      "remember_count": 9,
+      "structure": "PASS",
+      "links": "PASS",
+      "receipt_hash": "PASS"
+    },
+    {
+      "path": "Lessons/Part_01/Bai 005 - Cong suat va nang luong.md",
+      "sha256": "8c6972db9d1a250576608023d22d2eb8f37bb2de2ec9bd1c21414688a8bc4534",
+      "receipt": "Automation/Receipts/manual-005-e05ce121dd3142ac887ebccc4be7d588.json",
+      "lines": 386,
+      "space_separated_tokens": 6359,
+      "heading_count": 22,
+      "exercise_count": 5,
+      "quiz_count": 5,
+      "debug_count": 5,
+      "remember_count": 9,
+      "structure": "PASS",
+      "links": "PASS",
+      "receipt_hash": "PASS"
+    }
+  ],
+  "numeric_validation": {
+    "lesson_002_unit_and_range_cases": "PASS",
+    "lesson_003_current_units": "PASS",
+    "lesson_003_token_model": [
+      {
+        "cells_per_beat": 1,
+        "beats": 4,
+        "X_crossings": 4,
+        "Y_crossings": 4,
+        "cards_remaining": 8
+      },
+      {
+        "cells_per_beat": 2,
+        "beats": 4,
+        "X_crossings": 8,
+        "Y_crossings": 8,
+        "cards_remaining": 8
+      }
+    ],
+    "lesson_004_parsed_rows": 6,
+    "lesson_005_parsed_rows": 2,
+    "energy_schedules_Wh": [
+      "1/2",
+      "3/4"
+    ],
+    "power_rating_and_margin_cases": "PASS"
+  },
+  "hardware_tested": false,
+  "learner_assessed": false,
+  "code_compiled": false,
+  "source_check": "Energizer E91 opened; NIST/BIPM/Vishay evidence retained from lesson reviews"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "manual-005-e05ce121dd3142ac887ebccc4be7d588",
+  "checked_at": "2026-09-13T14:01:54+00:00",
+  "stage": "PRE_COMMIT",
+  "structural_errors": [],
+  "result_rows_checked": 2,
+  "baseline_energy_Wh": "1/2",
+  "extra_energy_Wh": "3/4",
+  "ratings_W": [
+    0.025,
+    0.125,
+    0.25
+  ],
+  "baseline_power_W": 0.036,
+  "required_baseline_rating_W": 0.072,
+  "changed_condition_rating_W": 0.06,
+  "changed_condition_meets_power_but_not_margin": true,
+  "challenge_power_W": 0.018,
+  "challenge_required_rating_W": 0.036,
+  "numeric_cases": [
+    "step_6_W",
+    "step_6_Wh",
+    "exercise_1_W",
+    "exercise_1_Wh",
+    "exercise_2_A",
+    "exercise_2_W",
+    "exercise_2_Wh",
+    "exercise_2_J",
+    "exercise_3_A_Wh",
+    "exercise_3_B_Wh",
+    "exercise_4_W",
+    "exercise_5_cycles",
+    "challenge_Wh",
+    "challenge_J"
+  ],
+  "prior_lesson_hashes_unchanged": true,
+  "planned_lesson_links": [
+    "Bai 004 - Dien tro va dinh luat Ohm",
+    "Bai 006 - GND va moc dien ap chung"
+  ],
+  "hardware_tested": false,
+  "code_applicable": false
+}

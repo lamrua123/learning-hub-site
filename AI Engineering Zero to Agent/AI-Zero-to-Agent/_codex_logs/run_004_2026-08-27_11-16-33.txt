@@ -1,0 +1,3868 @@
+﻿Reading additional input from stdin...
+At C:\Users\truon\AppData\Roaming\npm\codex.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/@openai/codex/bin/codex.js"  ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Reading additional input from stdin...:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+OpenAI Codex v0.149.1
+--------
+workdir: C:\Users\truon\OneDrive\Ta╠Çi li├¬╠úu\Obsidian Vault\AI Engineering Zero to Agent\AI-Zero-to-Agent
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR]
+reasoning effort: high
+reasoning summaries: none
+session id: 01a0416f-1618-78c3-ac60-24e45ab51108
+--------
+user
+ti├í┬║┬┐p t├í┬╗┬Ñc
+codex
+M├¼nh sß║╜ tiß║┐p tß╗Ñc ─æ├║ng mß╗Öt learning cycle: ─æß╗ìc trß║íng th├íi, x├íc ─æß╗ïnh b├ái kß║┐ tiß║┐p, viß║┐t mß╗Öt 
+b├ái, kiß╗âm tra nhanh, cß║¡p nhß║¡t state v├á chß║íy checkpoint nß║┐u ─æß║┐n mß╗æc.
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -LiteralPath 'AGENTS.md' -Raw; 
+Get-Content -LiteralPath 'COURSE_STATE.md' -Raw" in C:\Users\truon\OneDrive\Ta╠Çi li├¬╠úu\Obsidian Vault\AI 
+Engineering Zero to Agent\AI-Zero-to-Agent
+ succeeded in 107ms:
+# AGENTS.md ├óΓé¼ΓÇ¥ Quy t├í┬║┬»c v├í┬║┬¡n h├â┬ánh kh├â┬│a h├í┬╗┬ìc
+
+File n├â┬áy l├â┬á ch├í┬╗ΓÇ░ d├í┬║┬½n l├â┬ám vi├í┬╗ΓÇíc cho m├í┬╗┬ìi l├í┬║┬ºn ti├í┬║┬┐p t├í┬╗┬Ñc kh├â┬│a h├í┬╗┬ìc.
+
+## M├í┬╗┬Ñc ti├â┬¬u
+
+X├â┬óy kh├â┬│a h├í┬╗┬ìc ti├í┬║┬┐ng Vi├í┬╗ΓÇít ├äΓÇÿ├å┬░a ng├å┬░├í┬╗┬¥i m├í┬╗ΓÇ║i t├í┬╗┬½ s├í┬╗ΓÇÿ 0 t├í┬╗ΓÇ║i kh├í┬║┬ú 
+n├ä╞Æng hi├í┬╗╞Æu v├â┬á t├í┬╗┬▒ x├â┬óy ├í┬╗┬⌐ng d├í┬╗┬Ñng AI g├í┬╗ΓÇ£m LLM, RAG, tools, agent, API v├â┬á production.
+
+├å┬»u ti├â┬¬n xuy├â┬¬n su├í┬╗ΓÇÿt:
+
+> Hi├í┬╗╞Æu ├óΓÇáΓÇÖ Th├í┬╗┬▒c h├â┬ánh ├óΓÇáΓÇÖ T├í┬╗┬▒ gi├í┬║┬úi th├â┬¡ch ├óΓÇáΓÇÖ T├í┬╗┬▒ x├â┬óy
+
+## Th├í┬╗┬⌐ t├í┬╗┬▒ ├äΓÇÿ├í┬╗┬ìc b├í┬║┬»t bu├í┬╗Γäóc m├í┬╗ΓÇöi l├å┬░├í┬╗┬út
+
+Ch├í┬╗ΓÇ░ ├äΓÇÿ├í┬╗┬ìc nh├í┬╗┬»ng g├â┬¼ c├í┬║┬ºn thi├í┬║┬┐t theo th├í┬╗┬⌐ t├í┬╗┬▒:
+
+1. `AGENTS.md`.
+2. `COURSE_STATE.md`.
+3. Module v├â┬á d├â┬▓ng b├â┬ái t├å┬░├å┬íng ├í┬╗┬⌐ng trong `COURSE_MAP.md`.
+4. B├â┬ái ngay tr├å┬░├í┬╗ΓÇ║c ├äΓÇÿ├â┬│, ch├í┬╗ΓÇ░ khi dependency th├í┬╗┬▒c s├í┬╗┬▒ c├í┬║┬ºn.
+
+Kh├â┬┤ng ├äΓÇÿ├í┬╗┬ìc l├í┬║┬íi to├â┬án b├í┬╗Γäó Vault, to├â┬án b├í┬╗Γäó course map ho├í┬║┬╖c nhi├í┬╗┬üu b├â┬ái c├à┬⌐ 
+n├í┬║┬┐u kh├â┬┤ng c├í┬║┬ºn.
+
+## Khi ng├å┬░├í┬╗┬¥i d├â┬╣ng n├â┬│i ├óΓé¼┼ôti├í┬║┬┐p t├í┬╗┬Ñc├óΓé¼┬¥
+
+1. L├í┬║┬Ñy `Next Lesson` t├í┬╗┬½ `COURSE_STATE.md`.
+2. X├â┬íc ├äΓÇÿ├í┬╗ΓÇ╣nh module, t├â┬¬n b├â┬ái v├â┬á m├í┬╗┬Ñc ti├â┬¬u trong `COURSE_MAP.md`.
+3. Vi├í┬║┬┐t ├äΓÇÿ├â┬║ng **m├í┬╗Γäót** b├â┬ái v├â┬áo ├äΓÇÿ├â┬║ng th├å┬░ m├í┬╗┬Ñc.
+4. T├í┬╗┬▒ ki├í┬╗╞Æm tra ch├í┬║┬Ñt l├å┬░├í┬╗┬úng ng├í┬║┬»n tr├å┬░├í┬╗ΓÇ║c khi l├å┬░u.
+5. C├í┬║┬¡p nh├í┬║┬¡t `COURSE_STATE.md` th├í┬║┬¡t ng├í┬║┬»n.
+6. N├í┬║┬┐u s├í┬╗ΓÇÿ b├â┬ái chia h├í┬║┬┐t cho 5, ch├í┬║┬íy checkpoint theo `CHECKPOINT.md`, t├í┬║┬ío file 
+`Checkpoints/Checkpoint_XXX.md`, ch├í┬╗ΓÇ░ s├í┬╗┬¡a c├â┬íc b├â┬ái t├å┬░├å┬íng lai trong `COURSE_MAP.md` khi c├í┬║┬ºn, 
+r├í┬╗ΓÇ£i c├í┬║┬¡p nh├í┬║┬¡t state.
+7. D├í┬╗┬½ng. Kh├â┬┤ng t├í┬╗┬▒ vi├í┬║┬┐t b├â┬ái k├í┬║┬┐ ti├í┬║┬┐p.
+
+## Quy t├í┬║┬»c dependency
+
+- Concept first, framework later.
+- Python h├í┬╗┬ìc ├äΓÇÿ├í┬║┬┐n ├äΓÇÿ├â┬óu d├â┬╣ng ├äΓÇÿ├í┬║┬┐n ├äΓÇÿ├â┬│.
+- Tr├í┬╗┬▒c gi├â┬íc tr├å┬░├í┬╗ΓÇ║c, thu├í┬║┬¡t ng├í┬╗┬» v├â┬á c├â┬┤ng th├í┬╗┬⌐c sau.
+- V├í┬╗ΓÇ║i to├â┬ín: h├â┬¼nh dung ├óΓÇáΓÇÖ v├â┬¡ d├í┬╗┬Ñ s├í┬╗ΓÇÿ nh├í┬╗┬Å ├óΓÇáΓÇÖ c├â┬┤ng th├í┬╗┬⌐c ├óΓÇáΓÇÖ code 
+├óΓÇáΓÇÖ ├í┬╗┬⌐ng d├í┬╗┬Ñng AI.
+- Ch├í┬╗ΓÇ░ nh├í┬║┬»c l├í┬║┬íi ├äΓÇÿ├â┬║ng ph├í┬║┬ºn ki├í┬║┬┐n th├í┬╗┬⌐c c├à┬⌐ c├í┬║┬ºn d├â┬╣ng; kh├â┬┤ng gi├í┬║┬úng 
+l├í┬║┬íi c├í┬║┬ú b├â┬ái.
+- C├â┬┤ng ngh├í┬╗ΓÇí c├à┬⌐ nh├å┬░ Bag of Words, RNN, LSTM, Seq2Seq ├äΓÇÿ├å┬░├í┬╗┬úc d├í┬║┬íy v├â┬¼ gi├â┬í tr├í┬╗ΓÇ╣ 
+n├í┬╗┬ün t├í┬║┬úng/l├í┬╗ΓÇ╣ch s├í┬╗┬¡ v├â┬á ph├í┬║┬úi ├äΓÇÿ├å┬░├í┬╗┬úc ph├â┬ón bi├í┬╗ΓÇít v├í┬╗ΓÇ║i l├í┬╗┬▒a ch├í┬╗┬ìn 
+production hi├í┬╗ΓÇín ├äΓÇÿ├í┬║┬íi.
+- Framework nh├å┬░ LangChain/LangGraph/AutoGen ch├í┬╗ΓÇ░ xu├í┬║┬Ñt hi├í┬╗ΓÇín sau khi nguy├â┬¬n l├â┬╜ b├â┬¬n 
+d├å┬░├í┬╗ΓÇ║i ├äΓÇÿ├â┬ú r├â┬╡.
+
+## Chu├í┬║┬⌐n ng├â┬┤n ng├í┬╗┬»
+
+- Vi├í┬║┬┐t b├í┬║┬▒ng ti├í┬║┬┐ng Vi├í┬╗ΓÇít ├äΓÇÿ├å┬ín gi├í┬║┬ún, ch├â┬¡nh x├â┬íc.
+- Thu├í┬║┬¡t ng├í┬╗┬» chuy├â┬¬n ng├â┬ánh gi├í┬╗┬» ti├í┬║┬┐ng Anh trong ngo├í┬║┬╖c khi xu├í┬║┬Ñt hi├í┬╗ΓÇín l├í┬║┬ºn 
+├äΓÇÿ├í┬║┬ºu ho├í┬║┬╖c khi c├í┬║┬ºn tr├â┬ính m├å┬í h├í┬╗ΓÇ£.
+- Kh├â┬┤ng gi├í┬║┬ú ├äΓÇÿ├í┬╗ΓÇ╣nh ng├å┬░├í┬╗┬¥i h├í┬╗┬ìc bi├í┬║┬┐t AI, to├â┬ín hay Python.
+- Kh├â┬┤ng ├äΓÇÿ├å┬ín gi├í┬║┬ún h├â┬│a t├í┬╗ΓÇ║i m├í┬╗┬⌐c sai k├í┬╗┬╣ thu├í┬║┬¡t.
+- M├í┬╗ΓÇöi kh├â┬íi ni├í┬╗ΓÇím m├í┬╗ΓÇ║i ph├í┬║┬úi gi├â┬║p ng├å┬░├í┬╗┬¥i h├í┬╗┬ìc tr├í┬║┬ú l├í┬╗┬¥i: n├â┬│ l├â┬á 
+g├â┬¼, t├í┬║┬íi sao c├í┬║┬ºn, ho├í┬║┬ít ├äΓÇÿ├í┬╗Γäóng th├í┬║┬┐ n├â┬áo, d├â┬╣ng ├í┬╗┼╕ ├äΓÇÿ├â┬óu.
+
+## C├í┬║┬Ñu tr├â┬║c b├í┬║┬»t bu├í┬╗Γäóc c├í┬╗┬ºa m├í┬╗Γäót b├â┬ái
+
+```md
+# B├â┬ái XX ├óΓé¼ΓÇ¥ T├â┬¬n b├â┬ái
+
+## ├░┼╕┼╜┬» Sau b├â┬ái n├â┬áy b├í┬║┬ín l├â┬ám ├äΓÇÿ├å┬░├í┬╗┬úc g├â┬¼?
+## ├░┼╕┬º┬á ├â┬¥ t├å┬░├í┬╗┼╕ng l├í┬╗ΓÇ║n
+## ├░┼╕┼Æ┬ì V├â┬¡ d├í┬╗┬Ñ ├äΓÇÿ├í┬╗┬¥i th├å┬░├í┬╗┬¥ng
+## ├░┼╕┼╜┬« V├â┬¡ d├í┬╗┬Ñ th├í┬╗┬▒c t├í┬║┬┐
+## ├░┼╕ΓÇ¥┬¼ B├â┬¬n trong n├â┬│ ho├í┬║┬ít ├äΓÇÿ├í┬╗Γäóng th├í┬║┬┐ n├â┬áo?
+## ├░┼╕ΓÇÖ┬╗ Th├í┬╗┬▒c h├â┬ánh
+## ├░┼╕┬º┬¬ Th├â┬¡ nghi├í┬╗ΓÇím nh├í┬╗┬Å
+## ├░┼╕┼╜┬» Challenge
+## ├░┼╕┬º┬⌐ Ki├í┬╗╞Æm tra hi├í┬╗╞Æu b├â┬ái
+## ├░┼╕ΓÇ¥ΓÇÿ Ghi nh├í┬╗ΓÇ║
+## ├░┼╕ΓÇ¥ΓÇö Li├â┬¬n k├í┬║┬┐t ki├í┬║┬┐n th├í┬╗┬⌐c
+### Ki├í┬║┬┐n th├í┬╗┬⌐c ├äΓÇÿ├â┬ú d├â┬╣ng
+### B├â┬ái ti├í┬║┬┐p theo
+```
+
+Y├â┬¬u c├í┬║┬ºu th├â┬¬m:
+
+- M├í┬╗┬Ñc ti├â┬¬u g├í┬╗ΓÇ£m 3├óΓé¼ΓÇ£5 ├â┬╜ ng├í┬║┬»n.
+- C├â┬│ ├â┬¡t nh├í┬║┬Ñt m├í┬╗Γäót v├â┬¡ d├í┬╗┬Ñ ├äΓÇÿ├í┬╗┬¥i th├å┬░├í┬╗┬¥ng.
+- Code ch├í┬╗ΓÇ░ d├â┬╣ng khi ph├â┬╣ h├í┬╗┬úp, ph├í┬║┬úi ng├í┬║┬»n, ch├í┬║┬íy ├äΓÇÿ├å┬░├í┬╗┬úc v├â┬á gi├í┬║┬úi th├â┬¡ch 
+ph├í┬║┬ºn quan tr├í┬╗┬ìng.
+- Challenge kh├â┬┤ng k├â┬¿m l├í┬╗┬¥i gi├í┬║┬úi ngay.
+- Ki├í┬╗╞Æm tra hi├í┬╗╞Æu b├â┬ái g├í┬╗ΓÇ£m 3├óΓé¼ΓÇ£5 c├â┬óu, ├å┬░u ti├â┬¬n ├óΓé¼┼ôt├í┬║┬íi sao├óΓé¼┬¥, 
+├óΓé¼┼ô├äΓÇÿi├í┬╗┬üu g├â┬¼ x├í┬║┬úy ra n├í┬║┬┐u├óΓé¼┬¥, ├óΓé¼┼ôA kh├â┬íc B ├í┬╗┼╕ ├äΓÇÿ├â┬óu├óΓé¼┬¥.
+- Ghi nh├í┬╗ΓÇ║ t├í┬╗ΓÇÿi ├äΓÇÿa kho├í┬║┬úng 5 ├â┬╜.
+- D├â┬╣ng li├â┬¬n k├í┬║┬┐t Obsidian t├í┬╗ΓÇ║i ├äΓÇÿ├â┬║ng b├â┬ái li├â┬¬n quan.
+
+## Ch├í┬╗ΓÇÿng h├í┬╗┬ìc v├í┬║┬╣t
+
+Lu├â┬ón phi├â┬¬n d├â┬╣ng c├â┬íc d├í┬║┬íng ho├í┬║┬ít ├äΓÇÿ├í┬╗Γäóng: d├í┬╗┬▒ ├äΓÇÿo├â┬ín output, thay tham s├í┬╗ΓÇÿ, 
+t├â┬¼m/s├í┬╗┬¡a bug, so s├â┬ính hai c├â┬ích, c├í┬╗ΓÇÿ t├â┬¼nh ph├â┬í ch├å┬░├å┬íng tr├â┬¼nh, gi├í┬║┬úi th├â┬¡ch 
+b├í┬║┬▒ng l├í┬╗┬¥i c├í┬╗┬ºa m├â┬¼nh, reverse engineering v├â┬á build l├í┬║┬íi t├í┬╗┬½ ├äΓÇÿ├í┬║┬ºu. Kh├â┬┤ng bi├í┬║┬┐n 
+th├í┬╗┬▒c h├â┬ánh th├â┬ánh ch├â┬⌐p code.
+
+## Quy t├í┬║┬»c code
+
+- ├å┬»u ti├â┬¬n Python thu├í┬║┬ºn tr├å┬░├í┬╗ΓÇ║c framework l├í┬╗ΓÇ║n.
+- Kh├â┬┤ng d├â┬╣ng c├â┬║ ph├â┬íp ho├í┬║┬╖c th├å┬░ vi├í┬╗ΓÇín ch├å┬░a h├í┬╗┬ìc n├í┬║┬┐u kh├â┬┤ng gi├í┬║┬úi th├â┬¡ch 
+├äΓÇÿ├í┬╗┬º ngay t├í┬║┬íi ch├í┬╗ΓÇö.
+- V├â┬¡ d├í┬╗┬Ñ ph├í┬║┬úi c├â┬│ th├í┬╗╞Æ ch├í┬║┬íy v├í┬╗ΓÇ║i dependency ├äΓÇÿ├å┬░├í┬╗┬úc n├â┬¬u r├â┬╡.
+- Kh├â┬┤ng ├äΓÇÿ├í┬╗╞Æ API key trong code; d├â┬╣ng environment variable khi ki├í┬║┬┐n th├í┬╗┬⌐c n├â┬áy ├äΓÇÿ├â┬ú 
+├äΓÇÿ├å┬░├í┬╗┬úc gi├í┬╗ΓÇ║i thi├í┬╗ΓÇíu.
+- N├í┬║┬┐u API/model/framework c├â┬│ t├â┬¡nh th├í┬╗┬¥i ├äΓÇÿi├í┬╗╞Æm, ki├í┬╗╞Æm tra t├â┬ái li├í┬╗ΓÇíu hi├í┬╗ΓÇín 
+h├â┬ánh tr├å┬░├í┬╗ΓÇ║c khi vi├í┬║┬┐t chi ti├í┬║┬┐t ph├í┬╗┬Ñ thu├í┬╗Γäóc phi├â┬¬n b├í┬║┬ún.
+
+## Quy t├í┬║┬»c checkpoint
+
+- Th├í┬╗┬▒c hi├í┬╗ΓÇín ngay sau c├â┬íc b├â┬ái 005, 010, 015, ...
+- ├ä┬É├â┬ính gi├â┬í ├äΓÇÿ├í┬╗┬º A├óΓé¼ΓÇ£H trong `CHECKPOINT.md`.
+- Ch├í┬╗ΓÇ░ ├äΓÇÿi├í┬╗┬üu ch├í┬╗ΓÇ░nh b├â┬ái t├å┬░├å┬íng lai trong `COURSE_MAP.md`.
+- Kh├â┬┤ng rewrite 5 b├â┬ái v├í┬╗┬½a h├í┬╗┬ìc tr├í┬╗┬½ l├í┬╗ΓÇöi ki├í┬║┬┐n th├í┬╗┬⌐c nghi├â┬¬m tr├í┬╗┬ìng.
+- B├â┬ío c├â┬ío checkpoint ng├í┬║┬»n, thi├â┬¬n v├í┬╗┬ü quy├í┬║┬┐t ├äΓÇÿ├í┬╗ΓÇ╣nh c├â┬│ th├í┬╗╞Æ h├â┬ánh ├äΓÇÿ├í┬╗Γäóng.
+
+## Qu├í┬║┬ún l├â┬╜ tr├í┬║┬íng th├â┬íi v├â┬á file
+
+- T├â┬¬n b├â┬ái: `Bai_XXX_Ten_Bai_Khong_Dau.md`.
+- Ch├í┬╗ΓÇ░ c├í┬║┬¡p nh├í┬║┬¡t c├â┬íc tr├å┬░├í┬╗┬¥ng c├í┬║┬ºn thi├í┬║┬┐t trong `COURSE_STATE.md`; kh├â┬┤ng bi├í┬║┬┐n 
+n├â┬│ th├â┬ánh nh├í┬║┬¡t k├â┬╜.
+- Kh├â┬┤ng t├í┬║┬ío nhi├í┬╗┬üu phi├â┬¬n b├í┬║┬ún c├í┬╗┬ºa m├í┬╗Γäót b├â┬ái.
+- Kh├â┬┤ng rewrite file kh├â┬┤ng thay ├äΓÇÿ├í┬╗ΓÇói.
+- Mini-project ├äΓÇÿ├í┬║┬╖t ├í┬╗┼╕ b├â┬ái theo course map; t├â┬ái s├í┬║┬ún/code l├í┬╗ΓÇ║n h├å┬ín c├â┬│ th├í┬╗╞Æ 
+├äΓÇÿ├í┬║┬╖t trong `Projects/` v├â┬á ├äΓÇÿ├å┬░├í┬╗┬úc link t├í┬╗┬½ b├â┬ái.
+
+## Ki├í┬╗╞Æm tra tr├å┬░├í┬╗ΓÇ║c khi l├å┬░u
+
+- C├â┬│ d├â┬╣ng ki├í┬║┬┐n th├í┬╗┬⌐c ch├å┬░a gi├í┬╗ΓÇ║i thi├í┬╗ΓÇíu m├â┬á kh├â┬┤ng gi├í┬║┬úi th├â┬¡ch kh├â┬┤ng?
+- Ti├í┬║┬┐ng Vi├í┬╗ΓÇít c├â┬│ d├í┬╗ΓÇª hi├í┬╗╞Æu v├â┬á thu├í┬║┬¡t ng├í┬╗┬» English c├â┬│ ├äΓÇÿ├â┬║ng kh├â┬┤ng?
+- Ng├å┬░├í┬╗┬¥i h├í┬╗┬ìc c├â┬│ hi├í┬╗╞Æu ├óΓé¼┼ôt├í┬║┬íi sao├óΓé¼┬¥ kh├â┬┤ng?
+- Th├í┬╗┬▒c h├â┬ánh c├â┬│ t├í┬║┬ío quan s├â┬ít/suy ngh├ä┬⌐ th├í┬║┬¡t kh├â┬┤ng?
+- Code c├â┬│ ng├í┬║┬»n, h├í┬╗┬úp l├â┬╜ v├â┬á ch├í┬║┬íy ├äΓÇÿ├å┬░├í┬╗┬úc kh├â┬┤ng?
+- C├â┬│ l├í┬║┬╖p v├â┬┤ ├â┬¡ch v├í┬╗ΓÇ║i b├â┬ái tr├å┬░├í┬╗ΓÇ║c kh├â┬┤ng?
+
+
+## AUTOMATION CONTRACT
+
+Kh├â┬│a h├í┬╗┬ìc c├â┬│ th├í┬╗╞Æ ├äΓÇÿ├å┬░├í┬╗┬úc ├äΓÇÿi├í┬╗┬üu khi├í┬╗╞Æn b├í┬╗┼╕i m├í┬╗Γäót external automation 
+script.
+
+M├í┬╗ΓÇöi invocation v├í┬╗ΓÇ║i instruction:
+
+"ti├í┬║┬┐p t├í┬╗┬Ñc"
+
+ph├í┬║┬úi ho├â┬án th├â┬ánh ├äΓÇÿ├â┬║ng M├í┬╗╦£T learning cycle.
+
+Learning cycle:
+
+1. ├ä┬É├í┬╗┬ìc COURSE_STATE.md.
+2. X├â┬íc ├äΓÇÿ├í┬╗ΓÇ╣nh Next Lesson.
+3. ├ä┬É├í┬╗┬ìc ├äΓÇÿ├â┬║ng ph├í┬║┬ºn c├í┬║┬ºn thi├í┬║┬┐t c├í┬╗┬ºa COURSE_MAP.md.
+4. Vi├í┬║┬┐t ├äΓÇÿ├â┬║ng 1 b├â┬ái h├í┬╗┬ìc.
+5. Ki├í┬╗╞Æm tra nhanh ch├í┬║┬Ñt l├å┬░├í┬╗┬úng.
+6. C├í┬║┬¡p nh├í┬║┬¡t COURSE_STATE.md.
+7. N├í┬║┬┐u b├â┬ái v├í┬╗┬½a ho├â┬án th├â┬ánh l├â┬á 5, 10, 15, 20...:
+   - ch├í┬║┬íy checkpoint,
+   - t├í┬║┬ío checkpoint file,
+   - ch├í┬╗ΓÇ░nh COURSE_MAP n├í┬║┬┐u c├í┬║┬ºn,
+   - c├í┬║┬¡p nh├í┬║┬¡t COURSE_STATE.
+8. Sau ├äΓÇÿ├â┬│ D├í┬╗┬¬NG ho├â┬án to├â┬án.
+
+Kh├â┬┤ng t├í┬╗┬▒ g├í┬╗┬ìi b├â┬ái k├í┬║┬┐ ti├í┬║┬┐p trong c├â┬╣ng invocation.
+
+QUAN TR├í┬╗┼ÆNG:
+
+COURSE_STATE.md b├í┬║┬»t bu├í┬╗Γäóc ph├í┬║┬úi ├äΓÇÿ├å┬░├í┬╗┬úc c├í┬║┬¡p nh├í┬║┬¡t sau m├í┬╗ΓÇöi learning cycle.
+
+N├í┬║┬┐u kh├â┬┤ng th├í┬╗╞Æ ho├â┬án th├â┬ánh b├â┬ái:
+- kh├â┬┤ng gi├í┬║┬ú v├í┬╗┬¥ c├í┬║┬¡p nh├í┬║┬¡t state,
+- b├â┬ío l├í┬╗ΓÇöi,
+- d├í┬╗┬½ng.
+
+Next Lesson ph├í┬║┬úi lu├â┬┤n ph├í┬║┬ún ├â┬ính ch├â┬¡nh x├â┬íc b├â┬ái s├í┬║┬╜ ├äΓÇÿ├å┬░├í┬╗┬úc t├í┬║┬ío ├í┬╗┼╕ 
+invocation ti├í┬║┬┐p theo.
+
+Khi kh├â┬│a h├í┬╗┬ìc ho├â┬án th├â┬ánh, ├äΓÇÿ├í┬║┬╖t:
+
+Next Lesson: COMPLETE
+# COURSE STATE
+
+Current Lesson: 8
+Current Module: 0
+Last Completed: 8
+Next Lesson: 9
+Next Checkpoint: 10
+
+## Concepts Already Taught
+- AI, Machine Learning, Deep Learning, Generative AI, LLM ├í┬╗┼╕ m├í┬╗┬⌐c ph├â┬ón bi├í┬╗ΓÇít t├í┬╗ΓÇóng quan.
+- Hai c├â┬ích t├í┬║┬ío h├â┬ánh vi th├â┬┤ng minh: lu├í┬║┬¡t do ng├å┬░├í┬╗┬¥i vi├í┬║┬┐t v├â┬á quy lu├í┬║┬¡t h├í┬╗┬ìc 
+t├í┬╗┬½ d├í┬╗┬» li├í┬╗ΓÇíu.
+- Dataset, example, feature, label, model, parameter, training, inference v├â┬á generalization.
+- Terminal, Python interpreter, file `.py`, virtual environment v├â┬á `pip`.
+- Variable, assignment; `int`, `float`, `str`, `bool`; string, list, dictionary v├â┬á index/key.
+- Comparison, boolean logic, `if`/`elif`/`else`, `for`, `while`, boundary test v├â┬á rule-based baseline.
+- Function, parameter, argument, `return`, local variable; exception, `raise`, `try`/`except`; ph├â┬ón bi├í┬╗ΓÇít 
+class, module v├â┬á package ├í┬╗┼╕ m├í┬╗┬⌐c c├å┬í b├í┬║┬ún.
+- File text, UTF-8, context manager; JSON serialize/deserialize; HTTP request/response, status, body v├â┬á l├í┬╗ΓÇöi 
+file/JSON/network c├å┬í b├í┬║┬ún.
+- Scalar, vector; NumPy `ndarray` m├í┬╗Γäót chi├í┬╗┬üu, `dtype`, ph├â┬⌐p to├â┬ín theo t├í┬╗┬½ng ph├í┬║┬ºn t├í┬╗┬¡ 
+v├â┬á vectorization ├í┬╗┼╕ m├í┬╗┬⌐c nh├í┬║┬¡p m├â┬┤n.
+
+## Important Decisions
+- Course map g├í┬╗ΓÇ£m 84 b├â┬ái; concept first, framework later.
+- RNN/LSTM/Seq2Seq ch├í┬╗ΓÇ░ h├í┬╗┬ìc ├äΓÇÿ├í┬╗┬º l├â┬ám c├í┬║┬ºu n├í┬╗ΓÇÿi t├í┬╗ΓÇ║i Transformer.
+- Checkpoint 005: B├â┬ái 6 ├å┬░u ti├â┬¬n function/exception; class/module/package ch├í┬╗ΓÇ░ ├í┬╗┼╕ m├í┬╗┬⌐c c├í┬║┬ºn 
+thi├í┬║┬┐t.
+
+## Problems To Avoid
+- Kh├â┬┤ng g├í┬╗┬ìi m├í┬╗┬ìi automation l├â┬á AI.
+- Kh├â┬┤ng d├â┬╣ng thu├í┬║┬¡t ng├í┬╗┬»/to├â┬ín/code ch├å┬░a h├í┬╗┬ìc m├â┬á thi├í┬║┬┐u gi├í┬║┬úi th├â┬¡ch.
+- Kh├â┬┤ng nh├í┬║┬ºm `=` v├í┬╗ΓÇ║i `==`; lu├â┬┤n test ng├å┬░├í┬╗┬íng v├â┬á b├í┬║┬úo ├äΓÇÿ├í┬║┬úm `while` c├â┬│ 
+├äΓÇÿ├å┬░├í┬╗┬¥ng d├í┬╗┬½ng.
+
+## Current Learning Dependency
+- B├â┬ái 9 m├í┬╗┼╕ r├í┬╗Γäóng vector m├í┬╗Γäót chi├í┬╗┬üu sang matrix v├â┬á d├â┬╣ng `shape` ├äΓÇÿ├í┬╗╞Æ ├äΓÇÿ├í┬╗┬ìc, 
+ki├í┬╗╞Æm tra chi├í┬╗┬üu d├í┬╗┬» li├í┬╗ΓÇíu.
+
+
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$OutputEncoding = [Console]::OutputEncoding 
+= [System.Text.UTF8Encoding]::new(); rg -n -C 8 "B├ái 009|B├ái 9|009" COURSE_MAP.md' in C:\Users\truon\OneDrive\Ta╠Çi 
+li├¬╠úu\Obsidian Vault\AI Engineering Zero to Agent\AI-Zero-to-Agent
+ succeeded in 0ms:
+9-- [x] B├ái 001 ΓÇö AI l├á g├¼? | Ph├ón biß╗çt AI, Machine Learning, Deep Learning, Generative AI v├á LLM.
+10-- [x] B├ái 002 ΓÇö M├íy hß╗ìc tß╗½ dß╗» liß╗çu nh╞░ thß║┐ n├áo? | Hiß╗âu dß╗» liß╗çu, v├¡ dß╗Ñ, ─æß║╖c tr╞░ng, 
+nh├ún, huß║Ñn luyß╗çn v├á dß╗▒ ─æo├ín.
+11-- [x] B├ái 003 ΓÇö Python ─æß║ºu ti├¬n cho AI | C├ái m├┤i tr╞░ß╗¥ng, virtual environment, pip v├á chß║íy ch╞░╞íng 
+tr├¼nh ─æß║ºu ti├¬n.
+12-- [x] B├ái 004 ΓÇö Biß║┐n v├á c├íc hß╗Öp dß╗» liß╗çu Python | D├╣ng variable, data type, string, list v├á 
+dictionary.
+13-- [x] B├ái 005 ΓÇö Ra quyß║┐t ─æß╗ïnh v├á lß║╖p trong Python | D├╣ng condition, loop v├á dß╗▒ ─æo├ín luß╗ông chß║íy.
+14-- [x] B├ái 006 ΓÇö Function, class, lß╗ùi v├á c├ích chia code | ╞»u ti├¬n function, exception; nhß║¡n biß║┐t class, 
+module v├á package ß╗ƒ mß╗⌐c cß║ºn thiß║┐t.
+15-- [x] B├ái 007 ΓÇö ─Éß╗ìc file, JSON v├á HTTP API | ─É╞░a dß╗» liß╗çu v├áo/ra ch╞░╞íng tr├¼nh v├á hiß╗âu 
+request/response.
+16-- [x] B├ái 008 ΓÇö Scalar, vector v├á NumPy | Biß╗âu diß╗àn sß╗æ v├á danh s├ích sß╗æ ─æß╗â m├íy t├¡nh xß╗¡ l├╜.
+17:- [ ] B├ái 009 ΓÇö Matrix v├á shape | Hiß╗âu bß║úng sß╗æ, chiß╗üu dß╗» liß╗çu v├á ph├⌐p to├ín mß║úng c╞í bß║ún.
+18-- [ ] B├ái 010 ΓÇö Dot product: ─æo mß╗⌐c ΓÇ£c├╣ng h╞░ß╗¢ngΓÇ¥ | T├¡nh dot product v├á thß║Ñy vai tr├▓ cß╗ºa n├│ 
+trong AI.
+19-- [ ] B├ái 011 ΓÇö X├íc suß║Ñt, mean v├á variance bß║▒ng trß╗▒c gi├íc | M├┤ tß║ú sß╗▒ kh├┤ng chß║»c chß║»n v├á 
+ph├ón bß╗æ dß╗» liß╗çu.
+20-- [ ] B├ái 012 ΓÇö Mini-project: m├íy chß║Ñm ─æiß╗âm dß╗» liß╗çu | Gh├⌐p Python, file, NumPy v├á ph├⌐p t├¡nh th├ánh 
+pipeline nhß╗Å.
+21-
+22-## Module 1 ΓÇö NLP Fundamentals
+23-
+24-Th╞░ mß╗Ñc: `01_NLP/`
+25-
+
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$OutputEncoding = [Console]::OutputEncoding 
+= [System.Text.UTF8Encoding]::new(); Get-Content -LiteralPath '"'COURSE_MAP.md' -Encoding utf8 -TotalCount 22; rg 
+--files | rg \"Bai_008|00_\"" in C:\Users\truon\OneDrive\Ta╠Çi li├¬╠úu\Obsidian Vault\AI Engineering Zero to 
+Agent\AI-Zero-to-Agent
+ succeeded in 189ms:
+# COURSE MAP ΓÇö Zero to AI Agent
+
+Tß╗òng sß╗æ: **84 b├ái**. Mß╗ùi d├▓ng chß╗ë ghi mß╗Ñc ti├¬u ch├¡nh; nß╗Öi dung chi tiß║┐t nß║▒m trong file b├ái hß╗ìc.
+
+## Module 0 ΓÇö AI & Python Foundations
+
+Th╞░ mß╗Ñc: `00_AI_Python_Foundations/`
+
+- [x] B├ái 001 ΓÇö AI l├á g├¼? | Ph├ón biß╗çt AI, Machine Learning, Deep Learning, Generative AI v├á LLM.
+- [x] B├ái 002 ΓÇö M├íy hß╗ìc tß╗½ dß╗» liß╗çu nh╞░ thß║┐ n├áo? | Hiß╗âu dß╗» liß╗çu, v├¡ dß╗Ñ, ─æß║╖c tr╞░ng, nh├ún, 
+huß║Ñn luyß╗çn v├á dß╗▒ ─æo├ín.
+- [x] B├ái 003 ΓÇö Python ─æß║ºu ti├¬n cho AI | C├ái m├┤i tr╞░ß╗¥ng, virtual environment, pip v├á chß║íy ch╞░╞íng 
+tr├¼nh ─æß║ºu ti├¬n.
+- [x] B├ái 004 ΓÇö Biß║┐n v├á c├íc hß╗Öp dß╗» liß╗çu Python | D├╣ng variable, data type, string, list v├á dictionary.
+- [x] B├ái 005 ΓÇö Ra quyß║┐t ─æß╗ïnh v├á lß║╖p trong Python | D├╣ng condition, loop v├á dß╗▒ ─æo├ín luß╗ông chß║íy.
+- [x] B├ái 006 ΓÇö Function, class, lß╗ùi v├á c├ích chia code | ╞»u ti├¬n function, exception; nhß║¡n biß║┐t class, 
+module v├á package ß╗ƒ mß╗⌐c cß║ºn thiß║┐t.
+- [x] B├ái 007 ΓÇö ─Éß╗ìc file, JSON v├á HTTP API | ─É╞░a dß╗» liß╗çu v├áo/ra ch╞░╞íng tr├¼nh v├á hiß╗âu 
+request/response.
+- [x] B├ái 008 ΓÇö Scalar, vector v├á NumPy | Biß╗âu diß╗àn sß╗æ v├á danh s├ích sß╗æ ─æß╗â m├íy t├¡nh xß╗¡ l├╜.
+- [ ] B├ái 009 ΓÇö Matrix v├á shape | Hiß╗âu bß║úng sß╗æ, chiß╗üu dß╗» liß╗çu v├á ph├⌐p to├ín mß║úng c╞í bß║ún.
+- [ ] B├ái 010 ΓÇö Dot product: ─æo mß╗⌐c ΓÇ£c├╣ng h╞░ß╗¢ngΓÇ¥ | T├¡nh dot product v├á thß║Ñy vai tr├▓ cß╗ºa n├│ trong 
+AI.
+- [ ] B├ái 011 ΓÇö X├íc suß║Ñt, mean v├á variance bß║▒ng trß╗▒c gi├íc | M├┤ tß║ú sß╗▒ kh├┤ng chß║»c chß║»n v├á ph├ón 
+bß╗æ dß╗» liß╗çu.
+- [ ] B├ái 012 ΓÇö Mini-project: m├íy chß║Ñm ─æiß╗âm dß╗» liß╗çu | Gh├⌐p Python, file, NumPy v├á ph├⌐p t├¡nh th├ánh 
+pipeline nhß╗Å.
+
+## Module 1 ΓÇö NLP Fundamentals
+00_AI_Python_Foundations\Bai_008_Scalar_Vector_Va_NumPy.md
+00_AI_Python_Foundations\Bai_007_Doc_File_JSON_Va_HTTP_API.md
+00_AI_Python_Foundations\Bai_006_Function_Class_Loi_Va_Cach_Chia_Code.md
+00_AI_Python_Foundations\Bai_005_Ra_Quyet_Dinh_Va_Lap_Trong_Python.md
+00_AI_Python_Foundations\Bai_004_Bien_Va_Cac_Hop_Du_Lieu_Python.md
+00_AI_Python_Foundations\Bai_003_Python_Dau_Tien_Cho_AI.md
+00_AI_Python_Foundations\Bai_002_May_Hoc_Tu_Du_Lieu.md
+00_AI_Python_Foundations\Bai_001_AI_La_Gi.md
+
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$OutputEncoding = [Console]::OutputEncoding 
+= [System.Text.UTF8Encoding]::new(); Get-Content -LiteralPath 
+'"'00_AI_Python_Foundations\\Bai_008_Scalar_Vector_Va_NumPy.md' -Encoding utf8 -Raw" in C:\Users\truon\OneDrive\Ta╠Çi 
+li├¬╠úu\Obsidian Vault\AI Engineering Zero to Agent\AI-Zero-to-Agent
+ succeeded in 106ms:
+# B├ái 008 ΓÇö Scalar, vector v├á NumPy
+
+## ≡ƒÄ» Sau b├ái n├áy bß║ín l├ám ─æ╞░ß╗úc g├¼?
+
+- Ph├ón biß╗çt scalar v├á vector bß║▒ng ├╜ ngh─⌐a cß╗ºa dß╗» liß╗çu.
+- Biß╗âu diß╗àn mß╗Öt vector bß║▒ng mß║úng mß╗Öt chiß╗üu cß╗ºa NumPy.
+- Thß╗▒c hiß╗çn ph├⌐p t├¡nh tr├¬n cß║ú vector m├á kh├┤ng tß╗▒ viß║┐t v├▓ng lß║╖p.
+- Giß║úi th├¡ch v├¼ sao Python list v├á NumPy array cho kß║┐t quß║ú kh├íc nhau khi nh├ón vß╗¢i mß╗Öt sß╗æ.
+
+---
+
+## ≡ƒºá ├¥ t╞░ß╗ƒng lß╗¢n
+
+ß╗¿ng dß╗Ñng AI cuß╗æi c├╣ng vß║½n phß║úi biß║┐n th├┤ng tin th├ánh sß╗æ ─æß╗â m├íy t├¡nh xß╗¡ l├╜.
+
+- Mß╗Öt sß╗æ ─æß╗⌐ng ri├¬ng, nh╞░ nhiß╗çt ─æß╗Ö `28.5`, c├│ thß╗â l├á mß╗Öt **scalar**.
+- Mß╗Öt nh├│m sß╗æ c├│ thß╗⌐ tß╗▒, nh╞░ `[28.5, 70, 12]`, c├│ thß╗â l├á mß╗Öt **vector** m├┤ tß║ú nhiß╗çt ─æß╗Ö, ─æß╗Ö 
+ß║⌐m v├á tß╗æc ─æß╗Ö gi├│ tß║íi c├╣ng mß╗Öt thß╗¥i ─æiß╗âm.
+
+Kh├┤ng phß║úi cß╗⌐ thß║Ñy mß╗Öt sß╗æ th├¼ n├│ lu├┤n l├á scalar, hay cß╗⌐ thß║Ñy list th├¼ n├│ lu├┤n l├á vector. 
+─Éiß╗üu quan trß╗ìng l├á **├╜ ngh─⌐a**:
+
+- scalar biß╗âu diß╗àn mß╗Öt ─æß║íi l╞░ß╗úng;
+- vector gom nhiß╗üu th├ánh phß║ºn c├│ li├¬n quan th├ánh mß╗Öt ─æß╗æi t╞░ß╗úng c├│ thß╗⌐ tß╗▒.
+
+Trong Python, list c├│ thß╗â chß╗⌐a c├íc sß╗æ. Nh╞░ng **NumPy** (Numerical Python) cung cß║Ñp kiß╗âu mß║úng `ndarray` 
+─æ╞░ß╗úc thiß║┐t kß║┐ ─æß╗â l╞░u v├á t├¡nh to├ín tr├¬n nhiß╗üu sß╗æ. Mß╗Öt mß║úng NumPy mß╗Öt chiß╗üu l├á c├ích phß╗ò 
+biß║┐n ─æß╗â biß╗âu diß╗àn vector trong code AI.
+
+---
+
+## ≡ƒîì V├¡ dß╗Ñ ─æß╗¥i th╞░ß╗¥ng
+
+H├úy t╞░ß╗ƒng t╞░ß╗úng hß╗ô s╞í cß╗ºa mß╗Öt kiß╗çn h├áng:
+
+- Khß╗æi l╞░ß╗úng: `2.5` kg ΓÇö mß╗Öt scalar.
+- K├¡ch th╞░ß╗¢c: `[30, 20, 15]` cm ΓÇö mß╗Öt vector gß╗ôm chiß╗üu d├ái, rß╗Öng v├á cao.
+
+Thß╗⌐ tß╗▒ trong vector k├¡ch th╞░ß╗¢c rß║Ñt quan trß╗ìng. Nß║┐u quy ╞░ß╗¢c l├á `[d├ái, rß╗Öng, cao]`, bß║ín kh├┤ng 
+thß╗â tß╗▒ ├╜ ─æß╗ìc `[30, 20, 15]` th├ánh `[cao, d├ái, rß╗Öng]`.
+
+Mß╗Öt vector giß╗æng mß╗Öt h├áng tß╗º c├│ c├íc ng─ân ─æ├ú d├ín nh├ún. C├íc con sß╗æ chß╗ë c├│ ngh─⌐a ─æ├║ng khi ta 
+biß║┐t mß╗ùi vß╗ï tr├¡ ─æß║íi diß╗çn cho ─æiß╗üu g├¼.
+
+---
+
+## ≡ƒÄ« V├¡ dß╗Ñ thß╗▒c tß║┐
+
+Mß╗Öt hß╗ç thß╗æng gß╗úi ├╜ phim c├│ thß╗â m├┤ tß║ú sß╗ƒ th├¡ch cß╗ºa mß╗Öt ng╞░ß╗¥i bß║▒ng vector:
+
+```text
+[0.9, 0.2, 0.7]
+  |    |    |
+ h├ánh  h├ái  khoa hß╗ìc
+ ─æß╗Öng       viß╗àn t╞░ß╗ƒng
+```
+
+Mß╗ùi sß╗æ cho biß║┐t mß╗⌐c y├¬u th├¡ch mß╗Öt thß╗â loß║íi theo quy ╞░ß╗¢c cß╗ºa hß╗ç thß╗æng. Cß║ú ba sß╗æ c├╣ng nhau 
+tß║ío th├ánh mß╗Öt biß╗âu diß╗àn cß╗ºa ng╞░ß╗¥i d├╣ng.
+
+Mß╗Öt bß╗Ö phim c┼⌐ng c├│ thß╗â ─æ╞░ß╗úc biß╗âu diß╗àn bß║▒ng vector theo ─æ├║ng thß╗⌐ tß╗▒ thß╗â loß║íi ─æ├│. Vß╗ü 
+sau, hß╗ç thß╗æng c├│ thß╗â so s├ính hai vector ─æß╗â ╞░ß╗¢c l╞░ß╗úng bß╗Ö phim c├│ hß╗úp sß╗ƒ th├¡ch ng╞░ß╗¥i d├╣ng 
+kh├┤ng.
+
+─É├óy mß╗¢i l├á m├┤ h├¼nh minh hß╗ìa. Hß╗ç thß╗æng production hiß╗çn ─æß║íi th╞░ß╗¥ng d├╣ng vector d├ái h╞ín nhiß╗üu 
+v├á c├íc th├ánh phß║ºn c├│ thß╗â do model hß╗ìc ra thay v├¼ do con ng╞░ß╗¥i tß╗▒ ─æß║╖t.
+
+---
+
+## ≡ƒö¼ B├¬n trong n├│ hoß║ít ─æß╗Öng thß║┐ n├áo?
+
+### 1. Scalar l├á mß╗Öt gi├í trß╗ï ─æ╞ín
+
+Trong to├ín hß╗ìc, scalar l├á mß╗Öt ─æß║íi l╞░ß╗úng ─æ╞ín. Trong code, ta th╞░ß╗¥ng biß╗âu diß╗àn n├│ bß║▒ng `int` 
+hoß║╖c `float`:
+
+```python
+temperature = 28.5
+number_of_users = 120
+```
+
+`temperature` v├á `number_of_users` ─æß╗üu chß╗ë giß╗» mß╗Öt gi├í trß╗ï, d├╣ kiß╗âu dß╗» liß╗çu cß╗ºa ch├║ng kh├íc 
+nhau.
+
+### 2. Vector l├á mß╗Öt d├úy th├ánh phß║ºn c├│ thß╗⌐ tß╗▒
+
+Ta c├│ thß╗â viß║┐t mß╗Öt vector nh╞░ sau:
+
+```text
+v = [vΓéü, vΓéé, vΓéâ]
+```
+
+V├¡ dß╗Ñ, vector `v = [2, 4, 6]` c├│ ba th├ánh phß║ºn. Ta c├│ thß╗â truy cß║¡p th├ánh phß║ºn theo vß╗ï tr├¡, giß╗æng 
+c├ích ─æ├ú l├ám vß╗¢i list:
+
+```python
+values = [2, 4, 6]
+print(values[0])  # 2
+```
+
+Vector kh├┤ng chß╗ë l├á ΓÇ£mß╗Öt t├║i sß╗æΓÇ¥. Hai ─æiß╗üu phß║úi r├╡ r├áng:
+
+1. Mß╗ùi vß╗ï tr├¡ mang ├╜ ngh─⌐a g├¼?
+2. C├íc vector ─æ╞░ß╗úc so s├ính hoß║╖c t├¡nh to├ín c├│ d├╣ng c├╣ng quy ╞░ß╗¢c vß╗ï tr├¡ kh├┤ng?
+
+Nß║┐u vector A d├╣ng thß╗⌐ tß╗▒ `[nhiß╗çt ─æß╗Ö, ─æß╗Ö ß║⌐m]` c├▓n vector B d├╣ng `[─æß╗Ö ß║⌐m, nhiß╗çt ─æß╗Ö]`, ph├⌐p 
+t├¡nh giß╗»a ch├║ng c├│ thß╗â chß║íy nh╞░ng kß║┐t quß║ú kh├┤ng c├▓n ─æ├║ng ngh─⌐a.
+
+### 3. NumPy array l╞░u c├íc phß║ºn tß╗¡ theo mß╗Öt cß║Ñu tr├║c thß╗æng nhß║Ñt
+
+Sau khi c├ái NumPy, quy ╞░ß╗¢c phß╗ò biß║┐n l├á import th╞░ viß╗çn vß╗¢i t├¬n ngß║»n `np`:
+
+```python
+import numpy as np
+
+vector = np.array([2, 4, 6])
+```
+
+`np.array(...)` nhß║¡n dß╗» liß╗çu ban ─æß║ºu v├á tß║ío mß╗Öt ─æß╗æi t╞░ß╗úng `ndarray`. Kh├íc vß╗¢i list c├│ thß╗â 
+trß╗Ön nhiß╗üu loß║íi dß╗» liß╗çu t├╣y ├╜, mß║úng NumPy th╞░ß╗¥ng l╞░u c├íc phß║ºn tß╗¡ theo c├╣ng mß╗Öt kiß╗âu dß╗» 
+liß╗çu, gß╗ìi l├á `dtype`.
+
+```python
+print(vector.dtype)
+```
+
+T├¬n `dtype` cß╗Ñ thß╗â c├│ thß╗â kh├íc theo dß╗» liß╗çu v├á m├┤i tr╞░ß╗¥ng. ─Éiß╗üu cß║ºn nhß╗¢ l├║c n├áy l├á NumPy 
+phß║úi biß║┐t c├íc phß║ºn tß╗¡ ─æang ─æ╞░ß╗úc l╞░u nh╞░ sß╗æ nguy├¬n, sß╗æ thß╗▒c hay mß╗Öt kiß╗âu kh├íc ─æß╗â chß╗ìn 
+c├ích l╞░u v├á t├¡nh ph├╣ hß╗úp.
+
+### 4. Ph├⌐p to├ín vß╗¢i scalar ─æ╞░ß╗úc ├íp dß╗Ñng l├¬n tß╗½ng th├ánh phß║ºn
+
+Vß╗¢i vector NumPy:
+
+```python
+import numpy as np
+
+vector = np.array([2, 4, 6])
+result = vector * 2
+
+print(result)  # [ 4  8 12]
+```
+
+Scalar `2` ─æ╞░ß╗úc nh├ón vß╗¢i tß╗½ng th├ánh phß║ºn:
+
+```text
+[2, 4, 6] ├ù 2  ΓåÆ  [2├ù2, 4├ù2, 6├ù2]  ΓåÆ  [4, 8, 12]
+```
+
+C├ích viß║┐t mß╗Öt ph├⌐p to├ín cho cß║ú mß║úng ─æ╞░ß╗úc gß╗ìi l├á **vectorization**. Ta m├┤ tß║ú ph├⌐p t├¡nh cß║ºn 
+l├ám, c├▓n NumPy thß╗▒c hiß╗çn n├│ tr├¬n c├íc phß║ºn tß╗¡ m├á kh├┤ng cß║ºn ta tß╗▒ viß║┐t `for`.
+
+Vectorization gi├║p code t├¡nh to├ín th╞░ß╗¥ng ngß║»n v├á r├╡ ├╜ h╞ín. Vß╗¢i dß╗» liß╗çu lß╗¢n, c├íc ph├⌐p to├ín NumPy 
+ph├╣ hß╗úp c┼⌐ng th╞░ß╗¥ng hiß╗çu quß║ú h╞ín v├▓ng lß║╖p Python thuß║ºn v├¼ phß║ºn viß╗çc nß║╖ng ─æ╞░ß╗úc thß╗▒c 
+hiß╗çn bß╗ƒi code ─æ├ú tß╗æi ╞░u b├¬n d╞░ß╗¢i.
+
+### 5. Python list v├á NumPy array kh├┤ng c├│ c├╣ng ├╜ ngh─⌐a ph├⌐p to├ín
+
+─É├óy l├á mß╗Öt kh├íc biß╗çt rß║Ñt dß╗à g├óy bug:
+
+```python
+import numpy as np
+
+python_values = [2, 4, 6]
+numpy_values = np.array([2, 4, 6])
+
+print(python_values * 2)
+print(numpy_values * 2)
+```
+
+Kß║┐t quß║ú:
+
+```text
+[2, 4, 6, 2, 4, 6]
+[ 4  8 12]
+```
+
+Vß╗¢i list, `* 2` ngh─⌐a l├á lß║╖p lß║íi list hai lß║ºn. Vß╗¢i NumPy array, `* 2` ngh─⌐a l├á nh├ón tß╗½ng phß║ºn tß╗¡ 
+vß╗¢i scalar `2`.
+
+M├íy t├¡nh kh├┤ng tß╗▒ biß║┐t ├╜ ─æß╗ïnh cß╗ºa ta. Kiß╗âu dß╗» liß╗çu quyß║┐t ─æß╗ïnh ph├⌐p to├ín c├│ ngh─⌐a g├¼.
+
+### 6. Hai vector c├│ thß╗â t├¡nh theo tß╗½ng vß╗ï tr├¡ t╞░╞íng ß╗⌐ng
+
+```python
+import numpy as np
+
+measurements = np.array([10.0, 9.5, 10.5])
+corrections = np.array([0.2, -0.1, 0.0])
+
+adjusted = measurements + corrections
+print(adjusted)  # [10.2  9.4 10.5]
+```
+
+NumPy gh├⌐p phß║ºn tß╗¡ thß╗⌐ nhß║Ñt vß╗¢i phß║ºn tß╗¡ thß╗⌐ nhß║Ñt, phß║ºn tß╗¡ thß╗⌐ hai vß╗¢i phß║ºn tß╗¡ thß╗⌐ 
+hai, rß╗ôi tiß║┐p tß╗Ñc nh╞░ vß║¡y. V├¼ thß║┐, hai vector phß║úi d├╣ng c├╣ng quy ╞░ß╗¢c v├á c├│ k├¡ch th╞░ß╗¢c t╞░╞íng 
+th├¡ch.
+
+Quy tß║»c ch├¡nh x├íc vß╗ü k├¡ch th╞░ß╗¢c sß║╜ ─æ╞░ß╗úc hß╗ìc trong B├ái 9. L├║c n├áy, h├úy d├╣ng c├íc vector c├│ 
+c├╣ng sß╗æ phß║ºn tß╗¡.
+
+---
+
+## ≡ƒÆ╗ Thß╗▒c h├ánh
+
+### B╞░ß╗¢c 1: c├ái NumPy trong virtual environment
+
+Mß╗ƒ terminal tß║íi th╞░ mß╗Ñc hß╗ìc, k├¡ch hoß║ít virtual environment ─æ├ú tß║ío ß╗ƒ B├ái 3, rß╗ôi chß║íy:
+
+```powershell
+python -m pip install numpy
+```
+
+Kiß╗âm tra c├ái ─æß║╖t:
+
+```powershell
+python -c "import numpy as np; print(np.__version__)"
+```
+
+Nß║┐u lß╗çnh in ra sß╗æ phi├¬n bß║ún m├á kh├┤ng b├ío lß╗ùi, Python ─æang d├╣ng ─æ╞░ß╗úc NumPy. D├╣ng `python -m pip` 
+gi├║p package ─æ╞░ß╗úc c├ái cho ─æ├║ng Python m├á lß╗çnh `python` ─æang trß╗Å tß╗¢i.
+
+### B╞░ß╗¢c 2: ─æß╗òi ─æß╗ông thß╗¥i nhiß╗üu nhiß╗çt ─æß╗Ö
+
+Tß║ío file `bai_008.py`:
+
+```python
+import numpy as np
+
+temperatures_c = np.array([20.0, 25.0, 30.0])
+temperatures_f = temperatures_c * 9 / 5 + 32
+
+print("─Éß╗Ö C:", temperatures_c)
+print("─Éß╗Ö F:", temperatures_f)
+print("Gi├í trß╗ï thß╗⌐ hai:", temperatures_f[1])
+```
+
+Chß║íy file:
+
+```powershell
+python bai_008.py
+```
+
+Kß║┐t quß║ú mong ─æß╗úi:
+
+```text
+─Éß╗Ö C: [20. 25. 30.]
+─Éß╗Ö F: [68. 77. 86.]
+Gi├í trß╗ï thß╗⌐ hai: 77.0
+```
+
+Biß╗âu thß╗⌐c `temperatures_c * 9 / 5 + 32` ─æ╞░ß╗úc ├íp dß╗Ñng theo tß╗½ng phß║ºn tß╗¡. C├íc ph├⌐p nh├ón, chia v├á 
+cß╗Öng tß║ío ra mß║úng kß║┐t quß║ú mß╗¢i; `temperatures_c` vß║½n giß╗» dß╗» liß╗çu ban ─æß║ºu.
+
+### B╞░ß╗¢c 3: giß║úi th├¡ch thay v├¼ chß╗ë nh├¼n kß║┐t quß║ú
+
+Kh├┤ng chß║íy ngay. H├úy viß║┐t dß╗▒ ─æo├ín cho tß╗½ng c├óu hß╗Åi:
+
+1. Nß║┐u thay `temperatures_c` bß║▒ng `[0.0, 10.0]`, output l├á g├¼?
+2. Nß║┐u d├╣ng Python list thay cho NumPy array, ph├⌐p `temperatures_c * 9` sß║╜ l├ám g├¼?
+3. V├¼ sao `temperatures_f[1]` l├á `77.0` chß╗⌐ kh├┤ng phß║úi `68.0`?
+
+Sau ─æ├│ mß╗¢i sß╗¡a code v├á chß║íy ─æß╗â kiß╗âm tra dß╗▒ ─æo├ín.
+
+---
+
+## ≡ƒº¬ Th├¡ nghiß╗çm nhß╗Å
+
+### Th├¡ nghiß╗çm 1: scalar c├│ thß╗â l├ám thay ─æß╗òi kiß╗âu kß║┐t quß║ú
+
+```python
+import numpy as np
+
+values = np.array([1, 2, 3])
+result = values + 0.5
+
+print("Gß╗æc:", values)
+print("Mß╗¢i:", result)
+print("Kiß╗âu phß║ºn tß╗¡ gß╗æc:", values.dtype)
+print("Kiß╗âu phß║ºn tß╗¡ mß╗¢i:", result.dtype)
+```
+
+Tr╞░ß╗¢c khi chß║íy, h├úy dß╗▒ ─æo├ín:
+
+- `values` c├│ bß╗ï ─æß╗òi th├ánh `[1.5, 2.5, 3.5]` kh├┤ng?
+- Mß║úng n├áo l╞░u sß╗æ nguy├¬n, mß║úng n├áo l╞░u sß╗æ thß╗▒c?
+
+Chß║íy thß╗¡ rß╗ôi giß║úi th├¡ch bß║▒ng lß╗¥i cß╗ºa bß║ín v├¼ sao NumPy cß║ºn tß║ío kß║┐t quß║ú c├│ kiß╗âu ph├╣ hß╗úp 
+vß╗¢i sß╗æ `0.5`.
+
+### Th├¡ nghiß╗çm 2: cß╗æ t├¼nh ph├í ph├⌐p cß╗Öng
+
+```python
+import numpy as np
+
+a = np.array([1, 2, 3])
+b = np.array([10, 20])
+
+print(a + b)
+```
+
+H├úy chß║íy v├á ─æß╗ìc d├▓ng cuß╗æi cß╗ºa th├┤ng b├ío lß╗ùi. NumPy kh├┤ng thß╗â gh├⌐p ba vß╗ï tr├¡ cß╗ºa `a` vß╗¢i hai 
+vß╗ï tr├¡ cß╗ºa `b` theo ph├⌐p t├¡nh n├áy.
+
+─Éß╗½ng cß╗æ ghi nhß╗¢ to├án bß╗Ö th├┤ng b├ío. H├úy r├║t ra c├óu hß╗Åi chß║⌐n ─æo├ín: **c├íc mß║úng c├│ k├¡ch th╞░ß╗¢c 
+t╞░╞íng th├¡ch kh├┤ng?** B├ái tiß║┐p theo sß║╜ cung cß║Ñp c├┤ng cß╗Ñ ─æß╗â trß║ú lß╗¥i c├óu hß╗Åi ─æ├│ ch├¡nh x├íc 
+h╞ín.
+
+---
+
+## ≡ƒÄ» Challenge
+
+Mß╗Öt cß╗¡a h├áng c├│:
+
+```python
+prices = np.array([120.0, 80.0, 150.0])
+discount = 0.9
+shipping_fees = np.array([0.0, 10.0, 0.0])
+```
+
+H├úy tß╗▒ viß║┐t ch╞░╞íng tr├¼nh t├¡nh vector `final_prices` theo quy tß║»c:
+
+```text
+gi├í cuß╗æi = gi├í gß╗æc ├ù hß╗ç sß╗æ giß║úm gi├í + ph├¡ giao h├áng
+```
+
+Y├¬u cß║ºu:
+
+- Kh├┤ng d├╣ng `for`.
+- In gi├í gß╗æc v├á gi├í cuß╗æi.
+- Giß║úi th├¡ch scalar n├áo t├íc ─æß╗Öng l├¬n mß╗ìi sß║ún phß║⌐m v├á vector n├áo t├íc ─æß╗Öng theo tß╗½ng vß╗ï tr├¡.
+- Thay `discount` bß║▒ng `0.8`, dß╗▒ ─æo├ín kß║┐t quß║ú tr╞░ß╗¢c khi chß║íy lß║íi.
+
+Kh├┤ng ch├⌐p lß║íi code phß║ºn thß╗▒c h├ánh. H├úy bß║»t ─æß║ºu tß╗½ ├╜ ngh─⌐a cß╗ºa tß╗½ng biß║┐n rß╗ôi tß╗▒ tß║ío 
+ph├⌐p t├¡nh.
+
+---
+
+## ≡ƒº⌐ Kiß╗âm tra hiß╗âu b├ái
+
+1. Scalar kh├íc vector ß╗ƒ ─æ├óu, v├á v├¼ sao mß╗Öt list bß║Ñt kß╗│ ch╞░a chß║»c ─æ├ú l├á vector c├│ ├╜ ngh─⌐a?
+2. Tß║íi sao `[2, 4, 6] * 2` v├á `np.array([2, 4, 6]) * 2` cho hai kß║┐t quß║ú kh├íc nhau?
+3. ─Éiß╗üu g├¼ c├│ thß╗â sai nß║┐u hai vector d├╣ng thß╗⌐ tß╗▒ th├ánh phß║ºn kh├íc nhau d├╣ code vß║½n chß║íy?
+4. Vectorization kh├íc viß╗çc tß╗▒ viß║┐t v├▓ng lß║╖p `for` ß╗ƒ c├ích ta m├┤ tß║ú ph├⌐p t├¡nh nh╞░ thß║┐ n├áo?
+5. ─Éiß╗üu g├¼ xß║úy ra khi cß╗Öng hai mß║úng c├│ sß╗æ phß║ºn tß╗¡ kh├┤ng t╞░╞íng th├¡ch, v├á c├óu hß╗Åi ─æß║ºu ti├¬n 
+n├¬n ─æß║╖t ra khi chß║⌐n ─æo├ín l├á g├¼?
+
+---
+
+## ≡ƒöæ Ghi nhß╗¢
+
+- Scalar biß╗âu diß╗àn mß╗Öt ─æß║íi l╞░ß╗úng; vector l├á d├úy th├ánh phß║ºn c├│ thß╗⌐ tß╗▒ v├á c├│ quy ╞░ß╗¢c ├╜ 
+ngh─⌐a.
+- Mß║úng NumPy mß╗Öt chiß╗üu l├á c├ích phß╗ò biß║┐n ─æß╗â biß╗âu diß╗àn vector sß╗æ trong Python.
+- Ph├⌐p to├ín giß╗»a NumPy array v├á scalar th╞░ß╗¥ng ─æ╞░ß╗úc ├íp dß╗Ñng l├¬n tß╗½ng phß║ºn tß╗¡.
+- Python list v├á NumPy array c├│ thß╗â d├╣ng k├╜ hiß╗çu giß╗æng nhau nh╞░ng mang ├╜ ngh─⌐a ph├⌐p to├ín kh├íc nhau.
+- Hai vector chß╗ë t├¡nh vß╗¢i nhau ─æ├║ng ngh─⌐a khi vß╗ï tr├¡ c├íc th├ánh phß║ºn v├á k├¡ch th╞░ß╗¢c t╞░╞íng th├¡ch.
+
+---
+
+## ≡ƒöù Li├¬n kß║┐t kiß║┐n thß╗⌐c
+
+### Kiß║┐n thß╗⌐c ─æ├ú d├╣ng
+
+- [[Bai_003_Python_Dau_Tien_Cho_AI|B├ái 3]]: virtual environment, `pip`, chß║íy file Python v├á import package.
+- [[Bai_004_Bien_Va_Cac_Hop_Du_Lieu_Python|B├ái 4]]: sß╗æ, variable, list v├á truy cß║¡p phß║ºn tß╗¡ bß║▒ng index.
+- T├ái liß╗çu tham khß║úo hiß╗çn h├ánh: [Installing NumPy](https://numpy.org/install/), [NumPy: the absolute basics 
+for beginners](https://numpy.org/doc/stable/user/absolute_beginners.html) v├á [NumPy 
+quickstart](https://numpy.org/doc/stable/user/quickstart.html).
+
+### B├ái tiß║┐p theo
+
+[[Bai_009_Matrix_Va_Shape|B├ái 9]] sß║╜ mß╗ƒ rß╗Öng tß╗½ vector mß╗Öt chiß╗üu sang matrix, ─æß╗ông thß╗¥i d├╣ng 
+`shape` ─æß╗â ─æß╗ìc v├á kiß╗âm tra chiß╗üu dß╗» liß╗çu.
+
+
+codex
+B├ái kß║┐ tiß║┐p l├á B├ái 009 ΓÇö ΓÇ£Matrix v├á shapeΓÇ¥ trong Module 0. M├¼nh ─æ├ú ─æß╗æi chiß║┐u B├ái 008 ─æß╗â 
+giß╗» ─æ├║ng dependency: mß╗ƒ rß╗Öng tß╗½ vector mß╗Öt chiß╗üu sang bß║úng sß╗æ hai chiß╗üu, tß║¡p trung v├áo `shape`, 
+truy cß║¡p h├áng/cß╗Öt v├á kiß╗âm tra mß║úng tr╞░ß╗¢c khi t├¡nh.
+apply patch
+patch: completed
+C:\Users\truon\OneDrive\Ta╠Çi li├¬╠úu\Obsidian Vault\AI Engineering Zero to 
+Agent\AI-Zero-to-Agent\00_AI_Python_Foundations\Bai_009_Matrix_Va_Shape.md
+C:\Users\truon\OneDrive\Ta╠Çi li├¬╠úu\Obsidian Vault\AI Engineering Zero to Agent\AI-Zero-to-Agent\COURSE_MAP.md
+C:\Users\truon\OneDrive\Ta╠Çi li├¬╠úu\Obsidian Vault\AI Engineering Zero to Agent\AI-Zero-to-Agent\COURSE_STATE.md
+diff --git a/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md b/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..4ef89437070b4f1a3531e374b0897a931670d038
+--- /dev/null
++++ b/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md
+@@ -0,0 +1,396 @@
++# B├ái 009 ΓÇö Matrix v├á shape
++
++## ≡ƒÄ» Sau b├ái n├áy bß║ín l├ám ─æ╞░ß╗úc g├¼?
++
++- Ph├ón biß╗çt vector mß╗Öt chiß╗üu v├á matrix hai chiß╗üu bß║▒ng ├╜ ngh─⌐a dß╗» liß╗çu.
++- Tß║ío matrix bß║▒ng NumPy v├á ─æß╗ìc ─æ├║ng `shape` theo thß╗⌐ tß╗▒ h├áng, cß╗Öt.
++- Truy cß║¡p mß╗Öt phß║ºn tß╗¡, mß╗Öt h├áng hoß║╖c mß╗Öt cß╗Öt trong matrix.
++- Kiß╗âm tra shape tr╞░ß╗¢c khi thß╗▒c hiß╗çn ph├⌐p to├ín tr├¬n nhiß╗üu mß║úng.
++
++---
++
++## ≡ƒºá ├¥ t╞░ß╗ƒng lß╗¢n
++
++Mß╗Öt vector ph├╣ hß╗úp ─æß╗â m├┤ tß║ú mß╗Öt ─æß╗æi t╞░ß╗úng bß║▒ng mß╗Öt d├úy sß╗æ. Khi c├│ nhiß╗üu ─æß╗æi t╞░ß╗úng 
+d├╣ng c├╣ng mß╗Öt bß╗Ö ─æß║╖c tr╞░ng, ta th╞░ß╗¥ng xß║┐p c├íc vector th├ánh mß╗Öt bß║úng sß╗æ gß╗ìi l├á **matrix** (ma 
+trß║¡n).
++
++V├¡ dß╗Ñ, ba c─ân nh├á ─æ╞░ß╗úc m├┤ tß║ú bß║▒ng diß╗çn t├¡ch v├á sß╗æ ph├▓ng:
++
++```text
++[
++  [50, 2],
++  [75, 3],
++  [90, 4]
++]
++```
++
++Ta quy ╞░ß╗¢c:
++
++- mß╗ùi h├áng l├á mß╗Öt c─ân nh├á;
++- cß╗Öt thß╗⌐ nhß║Ñt l├á diß╗çn t├¡ch;
++- cß╗Öt thß╗⌐ hai l├á sß╗æ ph├▓ng.
++
++C├íc con sß╗æ ch╞░a ─æß╗º ─æß╗â hiß╗âu dß╗» liß╗çu. Ta c├▓n phß║úi biß║┐t **cß║Ñu tr├║c** cß╗ºa ch├║ng. NumPy cho 
+biß║┐t cß║Ñu tr├║c ─æ├│ qua thuß╗Öc t├¡nh `shape`:
++
++```text
++3 h├áng ├ù 2 cß╗Öt  ΓåÆ  shape (3, 2)
++```
++
++Trong ß╗⌐ng dß╗Ñng AI, sai shape l├á mß╗Öt nguy├¬n nh├ón rß║Ñt phß╗ò biß║┐n khiß║┐n ph├⌐p t├¡nh b├ío lß╗ùi hoß║╖c ΓÇö 
+nguy hiß╗âm h╞ín ΓÇö vß║½n chß║íy nh╞░ng mang sai ├╜ ngh─⌐a.
++
++---
++
++## ≡ƒîì V├¡ dß╗Ñ ─æß╗¥i th╞░ß╗¥ng
++
++H├úy h├¼nh dung bß║úng ─æiß╗âm cß╗ºa mß╗Öt lß╗¢p:
++
++| Hß╗ìc sinh | To├ín | V─ân | Anh |
++|---|---:|---:|---:|
++| An | 8 | 7 | 9 |
++| B├¼nh | 6 | 8 | 7 |
++
++Nß║┐u chß╗ë giß╗» phß║ºn sß╗æ, ta c├│ matrix:
++
++```text
++[
++  [8, 7, 9],
++  [6, 8, 7]
++]
++```
++
++Matrix n├áy c├│ shape `(2, 3)` v├¼ c├│ 2 h├áng v├á 3 cß╗Öt. ─Éß╗òi n├│ th├ánh shape `(3, 2)` kh├┤ng chß╗ë l├á ─æß╗òi 
+c├ích tr├¼nh b├áy: khi ─æ├│ ├╜ ngh─⌐a ΓÇ£mß╗ùi h├áng l├á mß╗Öt hß╗ìc sinhΓÇ¥ kh├┤ng c├▓n ─æ├║ng.
++
++Shape giß╗æng s╞í ─æß╗ô chß╗ù ngß╗ôi trong rß║íp. Biß║┐t c├│ s├íu ng╞░ß╗¥i l├á ch╞░a ─æß╗º; c├ích hß╗ì ─æ╞░ß╗úc xß║┐p 
+th├ánh hai h├áng, mß╗ùi h├áng ba ng╞░ß╗¥i c┼⌐ng quan trß╗ìng.
++
++---
++
++## ≡ƒÄ« V├¡ dß╗Ñ thß╗▒c tß║┐
++
++Mß╗Öt model ph├ón loß║íi tin nhß║»n c├│ thß╗â nhß║¡n nhiß╗üu tin nhß║»n trong mß╗Öt lß║ºn xß╗¡ l├╜. Giß║ú sß╗¡ mß╗ùi 
+tin nhß║»n ─æ├ú ─æ╞░ß╗úc biß╗âu diß╗àn bß║▒ng bß╗æn ─æß║╖c tr╞░ng sß╗æ:
++
++```text
++[
++  [0.2, 0.9, 0.1, 0.0],  ΓåÉ tin nhß║»n 1
++  [0.8, 0.1, 0.4, 0.3],  ΓåÉ tin nhß║»n 2
++  [0.5, 0.2, 0.7, 0.6]   ΓåÉ tin nhß║»n 3
++]
++```
++
++Shape l├á `(3, 4)`:
++
++- `3` l├á sß╗æ example;
++- `4` l├á sß╗æ feature cß╗ºa mß╗ùi example.
++
++Trong machine learning, kiß╗âu bß╗æ tr├¡ ΓÇ£mß╗ùi h├áng l├á mß╗Öt example, mß╗ùi cß╗Öt l├á mß╗Öt featureΓÇ¥ rß║Ñt 
+phß╗ò biß║┐n. Tuy nhi├¬n, ─æ├│ l├á quy ╞░ß╗¢c chß╗⌐ kh├┤ng phß║úi luß║¡t tß╗▒ nhi├¬n. Tr╞░ß╗¢c khi d├╣ng mß╗Öt dataset 
+hay model, ta vß║½n phß║úi kiß╗âm tra t├ái liß╗çu ─æß╗â biß║┐t tß╗½ng trß╗Ñc mang ├╜ ngh─⌐a g├¼.
++
++---
++
++## ≡ƒö¼ B├¬n trong n├│ hoß║ít ─æß╗Öng thß║┐ n├áo?
++
++### 1. Tß╗½ vector ─æß║┐n matrix
++
++ß╗₧ B├ái 8, mß╗Öt mß║úng mß╗Öt chiß╗üu biß╗âu diß╗àn vector:
++
++```python
++import numpy as np
++
++one_house = np.array([50, 2])
++print(one_house)
++print(one_house.shape)  # (2,)
++```
++
++Shape `(2,)` ngh─⌐a l├á mß║úng c├│ mß╗Öt trß╗Ñc gß╗ôm hai phß║ºn tß╗¡. Dß║Ñu phß║⌐y gi├║p Python biß╗âu diß╗àn ─æ├óy 
+l├á mß╗Öt tuple c├│ mß╗Öt phß║ºn tß╗¡; n├│ kh├┤ng c├│ ngh─⌐a l├á ΓÇ£thiß║┐u mß╗Öt sß╗æΓÇ¥.
++
++Khi ─æß║╖t nhiß╗üu vector c├╣ng ─æß╗Ö d├ái th├ánh c├íc h├áng, ta c├│ mß║úng hai chiß╗üu:
++
++```python
++houses = np.array([
++    [50, 2],
++    [75, 3],
++    [90, 4]
++])
++
++print(houses.shape)  # (3, 2)
++```
++
++Matrix c├│ hai trß╗Ñc:
++
++- trß╗Ñc 0 ─æi qua c├íc h├áng;
++- trß╗Ñc 1 ─æi qua c├íc cß╗Öt.
++
++Vß╗¢i matrix hai chiß╗üu, `shape` trß║ú vß╗ü tuple `(sß╗æ_h├áng, sß╗æ_cß╗Öt)`. V├¼ vß║¡y `(3, 2)` v├á `(2, 3)` l├á 
+hai shape kh├íc nhau.
++
++### 2. `ndim`, `shape` v├á `size` trß║ú lß╗¥i ba c├óu hß╗Åi kh├íc nhau
++
++```python
++print(houses.ndim)   # 2
++print(houses.shape)  # (3, 2)
++print(houses.size)   # 6
++```
++
++- `ndim`: mß║úng c├│ bao nhi├¬u trß╗Ñc?
++- `shape`: ─æß╗Ö d├ái cß╗ºa tß╗½ng trß╗Ñc l├á bao nhi├¬u?
++- `size`: tß╗òng cß╗Öng c├│ bao nhi├¬u phß║ºn tß╗¡?
++
++Mß╗Öt vector c├│ shape `(6,)` v├á matrix c├│ shape `(3, 2)` ─æß╗üu c├│ `size` bß║▒ng `6`, nh╞░ng cß║Ñu tr├║c v├á ├╜ 
+ngh─⌐a cß╗ºa ch├║ng kh├íc nhau.
++
++### 3. Truy cß║¡p phß║ºn tß╗¡ bß║▒ng h├áng v├á cß╗Öt
++
++NumPy ─æ├ính sß╗æ tß╗½ `0`, giß╗æng index cß╗ºa list:
++
++```python
++print(houses[0, 0])  # 50: h├áng ─æß║ºu, cß╗Öt ─æß║ºu
++print(houses[1, 1])  # 3: h├áng thß╗⌐ hai, cß╗Öt thß╗⌐ hai
++```
++
++Mß║½u chung l├á:
++
++```text
++matrix[chß╗ë_sß╗æ_h├áng, chß╗ë_sß╗æ_cß╗Öt]
++```
++
++─Éß╗â lß║Ñy cß║ú mß╗Öt h├áng hoß║╖c cß╗Öt, d├╣ng dß║Ñu `:` vß╗¢i ngh─⌐a ΓÇ£lß║Ñy tß║Ñt cß║ú ß╗ƒ trß╗Ñc n├áyΓÇ¥:
++
++```python
++print(houses[1, :])  # [75  3]: to├án bß╗Ö h├áng thß╗⌐ hai
++print(houses[:, 0])  # [50 75 90]: to├án bß╗Ö cß╗Öt ─æß║ºu
++```
++
++Hai kß║┐t quß║ú tr├¬n ─æß╗üu l├á mß║úng mß╗Öt chiß╗üu. H├úy lu├┤n ─æß╗ìc ph├⌐p truy cß║¡p bß║▒ng ├╜ ngh─⌐a dß╗» 
+liß╗çu: `houses[:, 0]` l├á diß╗çn t├¡ch cß╗ºa tß║Ñt cß║ú c─ân nh├á.
++
++### 4. Ph├⌐p to├ín c╞í bß║ún vß║½n c├│ thß╗â ├íp dß╗Ñng theo tß╗½ng phß║ºn tß╗¡
++
++Matrix nh├ón vß╗¢i scalar:
++
++```python
++matrix = np.array([
++    [1, 2],
++    [3, 4]
++])
++
++print(matrix * 10)
++```
++
++Kß║┐t quß║ú:
++
++```text
++[[10 20]
++ [30 40]]
++```
++
++Matrix cß╗Öng vß╗¢i matrix c├╣ng shape:
++
++```python
++a = np.array([[1, 2], [3, 4]])
++b = np.array([[10, 20], [30, 40]])
++
++print(a + b)
++```
++
++NumPy cß╗Öng c├íc phß║ºn tß╗¡ ß╗ƒ vß╗ï tr├¡ t╞░╞íng ß╗⌐ng, tß║ío kß║┐t quß║ú:
++
++```text
++[[11 22]
++ [33 44]]
++```
++
++K├╜ hiß╗çu `*` ß╗ƒ ─æ├óy c┼⌐ng l├á nh├ón theo tß╗½ng phß║ºn tß╗¡, ch╞░a phß║úi ph├⌐p nh├ón matrix trong to├ín hß╗ìc. 
+C├íc ph├⌐p kß║┐t hß╗úp vector v├á matrix c├│ mß╗Ñc ─æ├¡ch kh├íc sß║╜ ─æ╞░ß╗úc giß╗¢i thiß╗çu khi cß║ºn.
++
++### 5. Kiß╗âm tra shape tr╞░ß╗¢c khi t├¡nh
++
++H├úy xem hai mß║úng:
++
++```python
++actual = np.array([
++    [8, 7, 9],
++    [6, 8, 7]
++])
++
++bonus = np.array([
++    [1, 1],
++    [1, 1]
++])
++```
++
++`actual.shape` l├á `(2, 3)`, c├▓n `bonus.shape` l├á `(2, 2)`. Ta kh├┤ng thß╗â gh├⌐p tß╗½ng vß╗ï tr├¡ cß╗ºa bß║úng 2 
+h├áng, 3 cß╗Öt vß╗¢i bß║úng 2 h├áng, 2 cß╗Öt.
++
++Quy tr├¼nh chß║⌐n ─æo├ín ngß║»n:
++
++1. In `shape` cß╗ºa tß╗½ng mß║úng.
++2. N├│i r├╡ mß╗ùi trß╗Ñc ─æß║íi diß╗çn cho ─æiß╗üu g├¼.
++3. Kiß╗âm tra ph├⌐p to├ín c├│ ─æang gh├⌐p ─æ├║ng c├íc vß╗ï tr├¡ t╞░╞íng ß╗⌐ng kh├┤ng.
++4. Chß╗ë sß╗¡a dß╗» liß╗çu hoß║╖c ph├⌐p to├ín sau khi hiß╗âu nguy├¬n nh├ón.
++
++NumPy c├│ th├¬m quy tß║»c **broadcasting** cho mß╗Öt sß╗æ shape kh├íc nhau nh╞░ng t╞░╞íng th├¡ch. Ta ch╞░a cß║ºn 
+d├╣ng quy tß║»c ─æ├│ ß╗ƒ b├ái n├áy. ─Éß╗½ng ─æo├ín rß║▒ng mß╗ìi shape kh├íc nhau ─æß╗üu cß╗Öng ─æ╞░ß╗úc; h├úy d├╣ng 
+c├╣ng shape cho ph├⌐p to├ín giß╗»a hai matrix trong c├íc v├¡ dß╗Ñ hiß╗çn tß║íi.
++
++---
++
++## ≡ƒÆ╗ Thß╗▒c h├ánh
++
++Tß║ío file `bai_009.py`:
++
++```python
++import numpy as np
++
++sensor_data = np.array([
++    [24.0, 60.0],
++    [25.5, 58.0],
++    [23.5, 65.0]
++])
++
++print("Dß╗» liß╗çu:\n", sensor_data)
++print("Sß╗æ trß╗Ñc:", sensor_data.ndim)
++print("Shape:", sensor_data.shape)
++print("Tß╗òng phß║ºn tß╗¡:", sensor_data.size)
++
++print("Lß║ºn ─æo thß╗⌐ hai:", sensor_data[1, :])
++print("Mß╗ìi nhiß╗çt ─æß╗Ö:", sensor_data[:, 0])
++print("─Éß╗Ö ß║⌐m lß║ºn cuß╗æi:", sensor_data[2, 1])
++```
++
++Chß║íy:
++
++```powershell
++python bai_009.py
++```
++
++Kß║┐t quß║ú ch├¡nh:
++
++```text
++Sß╗æ trß╗Ñc: 2
++Shape: (3, 2)
++Tß╗òng phß║ºn tß╗¡: 6
++Lß║ºn ─æo thß╗⌐ hai: [25.5 58. ]
++Mß╗ìi nhiß╗çt ─æß╗Ö: [24.  25.5 23.5]
++─Éß╗Ö ß║⌐m lß║ºn cuß╗æi: 65.0
++```
++
++─Éß╗½ng chß╗ë nh├¼n output. H├úy tß╗▒ giß║úi th├¡ch:
++
++- V├¼ sao `3` ─æß╗⌐ng tr╞░ß╗¢c `2` trong shape?
++- V├¼ sao `sensor_data[1, :]` lß║Ñy lß║ºn ─æo thß╗⌐ hai?
++- Trong `sensor_data[:, 0]`, dß║Ñu `:` v├á sß╗æ `0` ─æang t├íc ─æß╗Öng l├¬n hai trß╗Ñc n├áo?
++
++Sau ─æ├│ th├¬m ─æoß║ín sau ─æß╗â chuyß╗ân mß╗ìi sß╗æ ─æo sang ─æ╞ín vß╗ï nhß╗Å h╞ín 10 lß║ºn:
++
++```python
++scaled_data = sensor_data / 10
++print("Sau khi chia 10:\n", scaled_data)
++print("Shape mß╗¢i:", scaled_data.shape)
++```
++
++Ph├⌐p chia l├ám thay ─æß╗òi gi├í trß╗ï nh╞░ng kh├┤ng thay ─æß╗òi c├ích c├íc phß║ºn tß╗¡ ─æ╞░ß╗úc sß║»p xß║┐p, n├¬n 
+shape vß║½n l├á `(3, 2)`.
++
++---
++
++## ≡ƒº¬ Th├¡ nghiß╗çm nhß╗Å
++
++### Th├¡ nghiß╗çm 1: dß╗▒ ─æo├ín c├ích truy cß║¡p
++
++Vß╗¢i matrix sau, ch╞░a chß║íy code vß╗Öi:
++
++```python
++import numpy as np
++
++scores = np.array([
++    [8, 7, 9],
++    [6, 8, 7],
++    [9, 9, 10]
++])
++```
++
++H├úy dß╗▒ ─æo├ín kß║┐t quß║ú v├á shape cß╗ºa tß╗½ng biß╗âu thß╗⌐c:
++
++```python
++scores[0, 2]
++scores[1, :]
++scores[:, 1]
++```
++
++Sau ─æ├│ d├╣ng `print(...)` ─æß╗â kiß╗âm tra. Nß║┐u dß╗▒ ─æo├ín sai, h├úy vß║╜ lß║íi bß║úng v├á ─æ├ính sß╗æ h├áng, 
+cß╗Öt bß║»t ─æß║ºu tß╗½ `0`.
++
++### Th├¡ nghiß╗çm 2: t├¼m v├á sß╗¡a bug vß╗ü shape
++
++```python
++import numpy as np
++
++morning = np.array([
++    [20, 21, 22],
++    [23, 24, 25]
++])
++
++adjustment = np.array([
++    [1, 1],
++    [1, 1]
++])
++
++print("Morning:", morning.shape)
++print("Adjustment:", adjustment.shape)
++print(morning + adjustment)
++```
++
++Chß║íy ─æß╗â quan s├ít lß╗ùi, rß╗ôi l├ám theo ba b╞░ß╗¢c:
++
++1. Viß║┐t ra giß║Ñy hai shape.
++2. X├íc ─æß╗ïnh h├áng hoß║╖c cß╗Öt n├áo ─æang thiß║┐u trong `adjustment`.
++3. Sß╗¡a `adjustment` th├ánh matrix c├╣ng shape vß╗¢i `morning`, chß║íy lß║íi v├á giß║úi th├¡ch v├¼ sao lß╗ùi biß║┐n 
+mß║Ñt.
++
++Mß╗Ñc ti├¬u kh├┤ng phß║úi hß╗ìc thuß╗Öc th├┤ng b├ío lß╗ùi, m├á l├á h├¼nh th├ánh phß║ún xß║í kiß╗âm tra `shape`.
++
++---
++
++## ≡ƒÄ» Challenge
++
++Mß╗Öt cß╗¡a h├áng l╞░u sß╗æ sß║ún phß║⌐m b├ín ─æ╞░ß╗úc trong ba ng├áy. Mß╗ùi h├áng l├á mß╗Öt ng├áy; ba cß╗Öt lß║ºn 
+l╞░ß╗út l├á sß╗æ l╞░ß╗úng t├ío, cam v├á chuß╗æi:
++
++```python
++sales = np.array([
++    [12, 8, 15],
++    [10, 11, 9],
++    [14, 7, 13]
++])
++```
++
++H├úy viß║┐t ch╞░╞íng tr├¼nh:
++
++- in `ndim`, `shape` v├á `size`;
++- lß║Ñy to├án bß╗Ö dß╗» liß╗çu cß╗ºa ng├áy thß╗⌐ hai;
++- lß║Ñy sß╗æ cam cß╗ºa cß║ú ba ng├áy;
++- lß║Ñy sß╗æ chuß╗æi cß╗ºa ng├áy thß╗⌐ ba;
++- tß║ío matrix `extra_sales` c├╣ng shape, tß╗▒ chß╗ìn c├íc gi├í trß╗ï, rß╗ôi cß╗Öng n├│ vß╗¢i `sales`;
++- giß║úi th├¡ch bß║▒ng lß╗¥i ├╜ ngh─⌐a cß╗ºa tß╗½ng trß╗Ñc v├á v├¼ sao hai matrix cß╗Öng ─æ╞░ß╗úc.
++
++Kh├┤ng k├¿m lß╗¥i giß║úi ngay. Tr╞░ß╗¢c mß╗ùi lß║ºn chß║íy, h├úy dß╗▒ ─æo├ín cß║ú gi├í trß╗ï lß║½n shape cß╗ºa kß║┐t 
+quß║ú.
++
++---
++
++## ≡ƒº⌐ Kiß╗âm tra hiß╗âu b├ái
++
++1. Vector shape `(6,)` kh├íc matrix shape `(3, 2)` ß╗ƒ ─æ├óu d├╣ cß║ú hai ─æß╗üu c├│ s├íu phß║ºn tß╗¡?
++2. Tß║íi sao phß║úi biß║┐t ├╜ ngh─⌐a cß╗ºa h├áng v├á cß╗Öt, thay v├¼ chß╗ë kiß╗âm tra tß╗òng sß╗æ phß║ºn tß╗¡?
++3. `matrix[1, :]` kh├íc `matrix[:, 1]` nh╞░ thß║┐ n├áo?
++4. ─Éiß╗üu g├¼ xß║úy ra khi cß╗Öng hai matrix c├│ shape `(2, 3)` v├á `(2, 2)` trong phß║ím vi quy tß║»c ─æ├ú hß╗ìc?
++5. Tß║íi sao `matrix * matrix` trong NumPy kh├┤ng n├¬n ─æ╞░ß╗úc gß╗ìi ngay l├á ΓÇ£ph├⌐p nh├ón ma trß║¡nΓÇ¥?
++
++---
++
++## ≡ƒöæ Ghi nhß╗¢
++
++- Matrix l├á bß║úng sß╗æ hai chiß╗üu; mß╗ùi h├áng v├á cß╗Öt phß║úi c├│ ├╜ ngh─⌐a r├╡ r├áng.
++- Vß╗¢i matrix, `shape` ─æ╞░ß╗úc ─æß╗ìc theo thß╗⌐ tß╗▒ `(sß╗æ_h├áng, sß╗æ_cß╗Öt)`.
++- `ndim`, `shape` v├á `size` lß║ºn l╞░ß╗út cho biß║┐t sß╗æ trß╗Ñc, ─æß╗Ö d├ái tß╗½ng trß╗Ñc v├á tß╗òng sß╗æ phß║ºn 
+tß╗¡.
++- D├╣ng `matrix[h├áng, cß╗Öt]`; dß║Ñu `:` ngh─⌐a l├á lß║Ñy tß║Ñt cß║ú phß║ºn tß╗¡ tr├¬n trß╗Ñc ─æ├│.
++- Tr╞░ß╗¢c khi t├¡nh giß╗»a nhiß╗üu mß║úng, h├úy in shape v├á kiß╗âm tra ├╜ ngh─⌐a cß╗ºa tß╗½ng trß╗Ñc.
++
++---
++
++## ≡ƒöù Li├¬n kß║┐t kiß║┐n thß╗⌐c
++
++### Kiß║┐n thß╗⌐c ─æ├ú d├╣ng
++
++- [[Bai_004_Bien_Va_Cac_Hop_Du_Lieu_Python|B├ái 4]]: list, index v├á dß╗» liß╗çu dß║íng bß║úng lß╗ông nhau.
++- [[Bai_008_Scalar_Vector_Va_NumPy|B├ái 8]]: scalar, vector, NumPy array v├á ph├⌐p to├ín theo tß╗½ng phß║ºn tß╗¡.
++- T├ái liß╗çu tham khß║úo: [NumPy ΓÇö Array 
+basics](https://numpy.org/doc/stable/user/absolute_beginners.html#array-fundamentals) v├á [NumPy ΓÇö Indexing on 
+ndarrays](https://numpy.org/doc/stable/user/basics.indexing.html).
++
++### B├ái tiß║┐p theo
++
++[[Bai_010_Dot_Product_Do_Muc_Cung_Huong|B├ái 10]] sß║╜ d├╣ng c├íc vector c├│ shape ph├╣ hß╗úp ─æß╗â t├¡nh dot product 
+v├á giß║úi th├¡ch v├¼ sao ph├⌐p t├¡nh n├áy ─æo ─æ╞░ß╗úc mß╗⌐c ─æß╗Ö ΓÇ£c├╣ng h╞░ß╗¢ngΓÇ¥.
+diff --git a/COURSE_MAP.md b/COURSE_MAP.md
+index 5b16dbbe4e405e487fe87fb4c8fc66935b553a79..87f542717bd4adc5112181f05b66472740e48553
+--- a/COURSE_MAP.md
++++ b/COURSE_MAP.md
+@@ -14,7 +14,7 @@
+ - [x] B├ái 006 ΓÇö Function, class, lß╗ùi v├á c├ích chia code | ╞»u ti├¬n function, exception; nhß║¡n biß║┐t class, 
+module v├á package ß╗ƒ mß╗⌐c cß║ºn thiß║┐t.
+ - [x] B├ái 007 ΓÇö ─Éß╗ìc file, JSON v├á HTTP API | ─É╞░a dß╗» liß╗çu v├áo/ra ch╞░╞íng tr├¼nh v├á hiß╗âu 
+request/response.
+ - [x] B├ái 008 ΓÇö Scalar, vector v├á NumPy | Biß╗âu diß╗àn sß╗æ v├á danh s├ích sß╗æ ─æß╗â m├íy t├¡nh xß╗¡ l├╜.
+-- [ ] B├ái 009 ΓÇö Matrix v├á shape | Hiß╗âu bß║úng sß╗æ, chiß╗üu dß╗» liß╗çu v├á ph├⌐p to├ín mß║úng c╞í bß║ún.
++- [x] B├ái 009 ΓÇö Matrix v├á shape | Hiß╗âu bß║úng sß╗æ, chiß╗üu dß╗» liß╗çu v├á ph├⌐p to├ín mß║úng c╞í bß║ún.
+ - [ ] B├ái 010 ΓÇö Dot product: ─æo mß╗⌐c ΓÇ£c├╣ng h╞░ß╗¢ngΓÇ¥ | T├¡nh dot product v├á thß║Ñy vai tr├▓ cß╗ºa n├│ 
+trong AI.
+ - [ ] B├ái 011 ΓÇö X├íc suß║Ñt, mean v├á variance bß║▒ng trß╗▒c gi├íc | M├┤ tß║ú sß╗▒ kh├┤ng chß║»c chß║»n v├á ph├ón 
+bß╗æ dß╗» liß╗çu.
+ - [ ] B├ái 012 ΓÇö Mini-project: m├íy chß║Ñm ─æiß╗âm dß╗» liß╗çu | Gh├⌐p Python, file, NumPy v├á ph├⌐p t├¡nh th├ánh 
+pipeline nhß╗Å.
+diff --git a/COURSE_STATE.md b/COURSE_STATE.md
+index 4a7ab4c579a4dd981d808147af8fadcbb34ca84b..3c323c29a6ac689d27e648af835eed93fd48f11d
+--- a/COURSE_STATE.md
++++ b/COURSE_STATE.md
+@@ -1,9 +1,9 @@
+ # COURSE STATE
+ 
+-Current Lesson: 8
++Current Lesson: 9
+ Current Module: 0
+-Last Completed: 8
+-Next Lesson: 9
++Last Completed: 9
++Next Lesson: 10
+ Next Checkpoint: 10
+ 
+ ## Concepts Already Taught
+@@ -16,6 +16,7 @@
+ - Function, parameter, argument, `return`, local variable; exception, `raise`, `try`/`except`; ph├ón biß╗çt class, 
+module v├á package ß╗ƒ mß╗⌐c c╞í bß║ún.
+ - File text, UTF-8, context manager; JSON serialize/deserialize; HTTP request/response, status, body v├á lß╗ùi 
+file/JSON/network c╞í bß║ún.
+ - Scalar, vector; NumPy `ndarray` mß╗Öt chiß╗üu, `dtype`, ph├⌐p to├ín theo tß╗½ng phß║ºn tß╗¡ v├á vectorization ß╗ƒ 
+mß╗⌐c nhß║¡p m├┤n.
++- Matrix NumPy hai chiß╗üu; ph├ón biß╗çt `ndim`, `shape`, `size`; truy cß║¡p phß║ºn tß╗¡, h├áng, cß╗Öt v├á kiß╗âm tra 
+shape tr╞░ß╗¢c ph├⌐p to├ín mß║úng c╞í bß║ún.
+ 
+ ## Important Decisions
+ - Course map gß╗ôm 84 b├ái; concept first, framework later.
+@@ -28,4 +29,4 @@
+ - Kh├┤ng nhß║ºm `=` vß╗¢i `==`; lu├┤n test ng╞░ß╗íng v├á bß║úo ─æß║úm `while` c├│ ─æ╞░ß╗¥ng dß╗½ng.
+ 
+ ## Current Learning Dependency
+-- B├ái 9 mß╗ƒ rß╗Öng vector mß╗Öt chiß╗üu sang matrix v├á d├╣ng `shape` ─æß╗â ─æß╗ìc, kiß╗âm tra chiß╗üu dß╗» liß╗çu.
++- B├ái 10 d├╣ng vector c├│ shape ph├╣ hß╗úp ─æß╗â x├óy trß╗▒c gi├íc dot product tr╞░ß╗¢c khi li├¬n hß╗ç vß╗¢i AI.
+
+diff --git a/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md b/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..4ef89437070b4f1a3531e374b0897a931670d038
+--- /dev/null
++++ b/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md
+@@ -0,0 +1,396 @@
++# B├ái 009 ΓÇö Matrix v├á shape
++
++## ≡ƒÄ» Sau b├ái n├áy bß║ín l├ám ─æ╞░ß╗úc g├¼?
++
++- Ph├ón biß╗çt vector mß╗Öt chiß╗üu v├á matrix hai chiß╗üu bß║▒ng ├╜ ngh─⌐a dß╗» liß╗çu.
++- Tß║ío matrix bß║▒ng NumPy v├á ─æß╗ìc ─æ├║ng `shape` theo thß╗⌐ tß╗▒ h├áng, cß╗Öt.
++- Truy cß║¡p mß╗Öt phß║ºn tß╗¡, mß╗Öt h├áng hoß║╖c mß╗Öt cß╗Öt trong matrix.
++- Kiß╗âm tra shape tr╞░ß╗¢c khi thß╗▒c hiß╗çn ph├⌐p to├ín tr├¬n nhiß╗üu mß║úng.
++
++---
++
++## ≡ƒºá ├¥ t╞░ß╗ƒng lß╗¢n
++
++Mß╗Öt vector ph├╣ hß╗úp ─æß╗â m├┤ tß║ú mß╗Öt ─æß╗æi t╞░ß╗úng bß║▒ng mß╗Öt d├úy sß╗æ. Khi c├│ nhiß╗üu ─æß╗æi t╞░ß╗úng 
+d├╣ng c├╣ng mß╗Öt bß╗Ö ─æß║╖c tr╞░ng, ta th╞░ß╗¥ng xß║┐p c├íc vector th├ánh mß╗Öt bß║úng sß╗æ gß╗ìi l├á **matrix** (ma 
+trß║¡n).
++
++V├¡ dß╗Ñ, ba c─ân nh├á ─æ╞░ß╗úc m├┤ tß║ú bß║▒ng diß╗çn t├¡ch v├á sß╗æ ph├▓ng:
++
++```text
++[
++  [50, 2],
++  [75, 3],
++  [90, 4]
++]
++```
++
++Ta quy ╞░ß╗¢c:
++
++- mß╗ùi h├áng l├á mß╗Öt c─ân nh├á;
++- cß╗Öt thß╗⌐ nhß║Ñt l├á diß╗çn t├¡ch;
++- cß╗Öt thß╗⌐ hai l├á sß╗æ ph├▓ng.
++
++C├íc con sß╗æ ch╞░a ─æß╗º ─æß╗â hiß╗âu dß╗» liß╗çu. Ta c├▓n phß║úi biß║┐t **cß║Ñu tr├║c** cß╗ºa ch├║ng. NumPy cho 
+biß║┐t cß║Ñu tr├║c ─æ├│ qua thuß╗Öc t├¡nh `shape`:
++
++```text
++3 h├áng ├ù 2 cß╗Öt  ΓåÆ  shape (3, 2)
++```
++
++Trong ß╗⌐ng dß╗Ñng AI, sai shape l├á mß╗Öt nguy├¬n nh├ón rß║Ñt phß╗ò biß║┐n khiß║┐n ph├⌐p t├¡nh b├ío lß╗ùi hoß║╖c ΓÇö 
+nguy hiß╗âm h╞ín ΓÇö vß║½n chß║íy nh╞░ng mang sai ├╜ ngh─⌐a.
++
++---
++
++## ≡ƒîì V├¡ dß╗Ñ ─æß╗¥i th╞░ß╗¥ng
++
++H├úy h├¼nh dung bß║úng ─æiß╗âm cß╗ºa mß╗Öt lß╗¢p:
++
++| Hß╗ìc sinh | To├ín | V─ân | Anh |
++|---|---:|---:|---:|
++| An | 8 | 7 | 9 |
++| B├¼nh | 6 | 8 | 7 |
++
++Nß║┐u chß╗ë giß╗» phß║ºn sß╗æ, ta c├│ matrix:
++
++```text
++[
++  [8, 7, 9],
++  [6, 8, 7]
++]
++```
++
++Matrix n├áy c├│ shape `(2, 3)` v├¼ c├│ 2 h├áng v├á 3 cß╗Öt. ─Éß╗òi n├│ th├ánh shape `(3, 2)` kh├┤ng chß╗ë l├á ─æß╗òi 
+c├ích tr├¼nh b├áy: khi ─æ├│ ├╜ ngh─⌐a ΓÇ£mß╗ùi h├áng l├á mß╗Öt hß╗ìc sinhΓÇ¥ kh├┤ng c├▓n ─æ├║ng.
++
++Shape giß╗æng s╞í ─æß╗ô chß╗ù ngß╗ôi trong rß║íp. Biß║┐t c├│ s├íu ng╞░ß╗¥i l├á ch╞░a ─æß╗º; c├ích hß╗ì ─æ╞░ß╗úc xß║┐p 
+th├ánh hai h├áng, mß╗ùi h├áng ba ng╞░ß╗¥i c┼⌐ng quan trß╗ìng.
++
++---
++
++## ≡ƒÄ« V├¡ dß╗Ñ thß╗▒c tß║┐
++
++Mß╗Öt model ph├ón loß║íi tin nhß║»n c├│ thß╗â nhß║¡n nhiß╗üu tin nhß║»n trong mß╗Öt lß║ºn xß╗¡ l├╜. Giß║ú sß╗¡ mß╗ùi 
+tin nhß║»n ─æ├ú ─æ╞░ß╗úc biß╗âu diß╗àn bß║▒ng bß╗æn ─æß║╖c tr╞░ng sß╗æ:
++
++```text
++[
++  [0.2, 0.9, 0.1, 0.0],  ΓåÉ tin nhß║»n 1
++  [0.8, 0.1, 0.4, 0.3],  ΓåÉ tin nhß║»n 2
++  [0.5, 0.2, 0.7, 0.6]   ΓåÉ tin nhß║»n 3
++]
++```
++
++Shape l├á `(3, 4)`:
++
++- `3` l├á sß╗æ example;
++- `4` l├á sß╗æ feature cß╗ºa mß╗ùi example.
++
++Trong machine learning, kiß╗âu bß╗æ tr├¡ ΓÇ£mß╗ùi h├áng l├á mß╗Öt example, mß╗ùi cß╗Öt l├á mß╗Öt featureΓÇ¥ rß║Ñt 
+phß╗ò biß║┐n. Tuy nhi├¬n, ─æ├│ l├á quy ╞░ß╗¢c chß╗⌐ kh├┤ng phß║úi luß║¡t tß╗▒ nhi├¬n. Tr╞░ß╗¢c khi d├╣ng mß╗Öt dataset 
+hay model, ta vß║½n phß║úi kiß╗âm tra t├ái liß╗çu ─æß╗â biß║┐t tß╗½ng trß╗Ñc mang ├╜ ngh─⌐a g├¼.
++
++---
++
++## ≡ƒö¼ B├¬n trong n├│ hoß║ít ─æß╗Öng thß║┐ n├áo?
++
++### 1. Tß╗½ vector ─æß║┐n matrix
++
++ß╗₧ B├ái 8, mß╗Öt mß║úng mß╗Öt chiß╗üu biß╗âu diß╗àn vector:
++
++```python
++import numpy as np
++
++one_house = np.array([50, 2])
++print(one_house)
++print(one_house.shape)  # (2,)
++```
++
++Shape `(2,)` ngh─⌐a l├á mß║úng c├│ mß╗Öt trß╗Ñc gß╗ôm hai phß║ºn tß╗¡. Dß║Ñu phß║⌐y gi├║p Python biß╗âu diß╗àn ─æ├óy 
+l├á mß╗Öt tuple c├│ mß╗Öt phß║ºn tß╗¡; n├│ kh├┤ng c├│ ngh─⌐a l├á ΓÇ£thiß║┐u mß╗Öt sß╗æΓÇ¥.
++
++Khi ─æß║╖t nhiß╗üu vector c├╣ng ─æß╗Ö d├ái th├ánh c├íc h├áng, ta c├│ mß║úng hai chiß╗üu:
++
++```python
++houses = np.array([
++    [50, 2],
++    [75, 3],
++    [90, 4]
++])
++
++print(houses.shape)  # (3, 2)
++```
++
++Matrix c├│ hai trß╗Ñc:
++
++- trß╗Ñc 0 ─æi qua c├íc h├áng;
++- trß╗Ñc 1 ─æi qua c├íc cß╗Öt.
++
++Vß╗¢i matrix hai chiß╗üu, `shape` trß║ú vß╗ü tuple `(sß╗æ_h├áng, sß╗æ_cß╗Öt)`. V├¼ vß║¡y `(3, 2)` v├á `(2, 3)` l├á 
+hai shape kh├íc nhau.
++
++### 2. `ndim`, `shape` v├á `size` trß║ú lß╗¥i ba c├óu hß╗Åi kh├íc nhau
++
++```python
++print(houses.ndim)   # 2
++print(houses.shape)  # (3, 2)
++print(houses.size)   # 6
++```
++
++- `ndim`: mß║úng c├│ bao nhi├¬u trß╗Ñc?
++- `shape`: ─æß╗Ö d├ái cß╗ºa tß╗½ng trß╗Ñc l├á bao nhi├¬u?
++- `size`: tß╗òng cß╗Öng c├│ bao nhi├¬u phß║ºn tß╗¡?
++
++Mß╗Öt vector c├│ shape `(6,)` v├á matrix c├│ shape `(3, 2)` ─æß╗üu c├│ `size` bß║▒ng `6`, nh╞░ng cß║Ñu tr├║c v├á ├╜ 
+ngh─⌐a cß╗ºa ch├║ng kh├íc nhau.
++
++### 3. Truy cß║¡p phß║ºn tß╗¡ bß║▒ng h├áng v├á cß╗Öt
++
++NumPy ─æ├ính sß╗æ tß╗½ `0`, giß╗æng index cß╗ºa list:
++
++```python
++print(houses[0, 0])  # 50: h├áng ─æß║ºu, cß╗Öt ─æß║ºu
++print(houses[1, 1])  # 3: h├áng thß╗⌐ hai, cß╗Öt thß╗⌐ hai
++```
++
++Mß║½u chung l├á:
++
++```text
++matrix[chß╗ë_sß╗æ_h├áng, chß╗ë_sß╗æ_cß╗Öt]
++```
++
++─Éß╗â lß║Ñy cß║ú mß╗Öt h├áng hoß║╖c cß╗Öt, d├╣ng dß║Ñu `:` vß╗¢i ngh─⌐a ΓÇ£lß║Ñy tß║Ñt cß║ú ß╗ƒ trß╗Ñc n├áyΓÇ¥:
++
++```python
++print(houses[1, :])  # [75  3]: to├án bß╗Ö h├áng thß╗⌐ hai
++print(houses[:, 0])  # [50 75 90]: to├án bß╗Ö cß╗Öt ─æß║ºu
++```
++
++Hai kß║┐t quß║ú tr├¬n ─æß╗üu l├á mß║úng mß╗Öt chiß╗üu. H├úy lu├┤n ─æß╗ìc ph├⌐p truy cß║¡p bß║▒ng ├╜ ngh─⌐a dß╗» 
+liß╗çu: `houses[:, 0]` l├á diß╗çn t├¡ch cß╗ºa tß║Ñt cß║ú c─ân nh├á.
++
++### 4. Ph├⌐p to├ín c╞í bß║ún vß║½n c├│ thß╗â ├íp dß╗Ñng theo tß╗½ng phß║ºn tß╗¡
++
++Matrix nh├ón vß╗¢i scalar:
++
++```python
++matrix = np.array([
++    [1, 2],
++    [3, 4]
++])
++
++print(matrix * 10)
++```
++
++Kß║┐t quß║ú:
++
++```text
++[[10 20]
++ [30 40]]
++```
++
++Matrix cß╗Öng vß╗¢i matrix c├╣ng shape:
++
++```python
++a = np.array([[1, 2], [3, 4]])
++b = np.array([[10, 20], [30, 40]])
++
++print(a + b)
++```
++
++NumPy cß╗Öng c├íc phß║ºn tß╗¡ ß╗ƒ vß╗ï tr├¡ t╞░╞íng ß╗⌐ng, tß║ío kß║┐t quß║ú:
++
++```text
++[[11 22]
++ [33 44]]
++```
++
++K├╜ hiß╗çu `*` ß╗ƒ ─æ├óy c┼⌐ng l├á nh├ón theo tß╗½ng phß║ºn tß╗¡, ch╞░a phß║úi ph├⌐p nh├ón matrix trong to├ín hß╗ìc. 
+C├íc ph├⌐p kß║┐t hß╗úp vector v├á matrix c├│ mß╗Ñc ─æ├¡ch kh├íc sß║╜ ─æ╞░ß╗úc giß╗¢i thiß╗çu khi cß║ºn.
++
++### 5. Kiß╗âm tra shape tr╞░ß╗¢c khi t├¡nh
++
++H├úy xem hai mß║úng:
++
++```python
++actual = np.array([
++    [8, 7, 9],
++    [6, 8, 7]
++])
++
++bonus = np.array([
++    [1, 1],
++    [1, 1]
++])
++```
++
++`actual.shape` l├á `(2, 3)`, c├▓n `bonus.shape` l├á `(2, 2)`. Ta kh├┤ng thß╗â gh├⌐p tß╗½ng vß╗ï tr├¡ cß╗ºa bß║úng 2 
+h├áng, 3 cß╗Öt vß╗¢i bß║úng 2 h├áng, 2 cß╗Öt.
++
++Quy tr├¼nh chß║⌐n ─æo├ín ngß║»n:
++
++1. In `shape` cß╗ºa tß╗½ng mß║úng.
++2. N├│i r├╡ mß╗ùi trß╗Ñc ─æß║íi diß╗çn cho ─æiß╗üu g├¼.
++3. Kiß╗âm tra ph├⌐p to├ín c├│ ─æang gh├⌐p ─æ├║ng c├íc vß╗ï tr├¡ t╞░╞íng ß╗⌐ng kh├┤ng.
++4. Chß╗ë sß╗¡a dß╗» liß╗çu hoß║╖c ph├⌐p to├ín sau khi hiß╗âu nguy├¬n nh├ón.
++
++NumPy c├│ th├¬m quy tß║»c **broadcasting** cho mß╗Öt sß╗æ shape kh├íc nhau nh╞░ng t╞░╞íng th├¡ch. Ta ch╞░a cß║ºn 
+d├╣ng quy tß║»c ─æ├│ ß╗ƒ b├ái n├áy. ─Éß╗½ng ─æo├ín rß║▒ng mß╗ìi shape kh├íc nhau ─æß╗üu cß╗Öng ─æ╞░ß╗úc; h├úy d├╣ng 
+c├╣ng shape cho ph├⌐p to├ín giß╗»a hai matrix trong c├íc v├¡ dß╗Ñ hiß╗çn tß║íi.
++
++---
++
++## ≡ƒÆ╗ Thß╗▒c h├ánh
++
++Tß║ío file `bai_009.py`:
++
++```python
++import numpy as np
++
++sensor_data = np.array([
++    [24.0, 60.0],
++    [25.5, 58.0],
++    [23.5, 65.0]
++])
++
++print("Dß╗» liß╗çu:\n", sensor_data)
++print("Sß╗æ trß╗Ñc:", sensor_data.ndim)
++print("Shape:", sensor_data.shape)
++print("Tß╗òng phß║ºn tß╗¡:", sensor_data.size)
++
++print("Lß║ºn ─æo thß╗⌐ hai:", sensor_data[1, :])
++print("Mß╗ìi nhiß╗çt ─æß╗Ö:", sensor_data[:, 0])
++print("─Éß╗Ö ß║⌐m lß║ºn cuß╗æi:", sensor_data[2, 1])
++```
++
++Chß║íy:
++
++```powershell
++python bai_009.py
++```
++
++Kß║┐t quß║ú ch├¡nh:
++
++```text
++Sß╗æ trß╗Ñc: 2
++Shape: (3, 2)
++Tß╗òng phß║ºn tß╗¡: 6
++Lß║ºn ─æo thß╗⌐ hai: [25.5 58. ]
++Mß╗ìi nhiß╗çt ─æß╗Ö: [24.  25.5 23.5]
++─Éß╗Ö ß║⌐m lß║ºn cuß╗æi: 65.0
++```
++
++─Éß╗½ng chß╗ë nh├¼n output. H├úy tß╗▒ giß║úi th├¡ch:
++
++- V├¼ sao `3` ─æß╗⌐ng tr╞░ß╗¢c `2` trong shape?
++- V├¼ sao `sensor_data[1, :]` lß║Ñy lß║ºn ─æo thß╗⌐ hai?
++- Trong `sensor_data[:, 0]`, dß║Ñu `:` v├á sß╗æ `0` ─æang t├íc ─æß╗Öng l├¬n hai trß╗Ñc n├áo?
++
++Sau ─æ├│ th├¬m ─æoß║ín sau ─æß╗â chuyß╗ân mß╗ìi sß╗æ ─æo sang ─æ╞ín vß╗ï nhß╗Å h╞ín 10 lß║ºn:
++
++```python
++scaled_data = sensor_data / 10
++print("Sau khi chia 10:\n", scaled_data)
++print("Shape mß╗¢i:", scaled_data.shape)
++```
++
++Ph├⌐p chia l├ám thay ─æß╗òi gi├í trß╗ï nh╞░ng kh├┤ng thay ─æß╗òi c├ích c├íc phß║ºn tß╗¡ ─æ╞░ß╗úc sß║»p xß║┐p, n├¬n 
+shape vß║½n l├á `(3, 2)`.
++
++---
++
++## ≡ƒº¬ Th├¡ nghiß╗çm nhß╗Å
++
++### Th├¡ nghiß╗çm 1: dß╗▒ ─æo├ín c├ích truy cß║¡p
++
++Vß╗¢i matrix sau, ch╞░a chß║íy code vß╗Öi:
++
++```python
++import numpy as np
++
++scores = np.array([
++    [8, 7, 9],
++    [6, 8, 7],
++    [9, 9, 10]
++])
++```
++
++H├úy dß╗▒ ─æo├ín kß║┐t quß║ú v├á shape cß╗ºa tß╗½ng biß╗âu thß╗⌐c:
++
++```python
++scores[0, 2]
++scores[1, :]
++scores[:, 1]
++```
++
++Sau ─æ├│ d├╣ng `print(...)` ─æß╗â kiß╗âm tra. Nß║┐u dß╗▒ ─æo├ín sai, h├úy vß║╜ lß║íi bß║úng v├á ─æ├ính sß╗æ h├áng, 
+cß╗Öt bß║»t ─æß║ºu tß╗½ `0`.
++
++### Th├¡ nghiß╗çm 2: t├¼m v├á sß╗¡a bug vß╗ü shape
++
++```python
++import numpy as np
++
++morning = np.array([
++    [20, 21, 22],
++    [23, 24, 25]
++])
++
++adjustment = np.array([
++    [1, 1],
++    [1, 1]
++])
++
++print("Morning:", morning.shape)
++print("Adjustment:", adjustment.shape)
++print(morning + adjustment)
++```
++
++Chß║íy ─æß╗â quan s├ít lß╗ùi, rß╗ôi l├ám theo ba b╞░ß╗¢c:
++
++1. Viß║┐t ra giß║Ñy hai shape.
++2. X├íc ─æß╗ïnh h├áng hoß║╖c cß╗Öt n├áo ─æang thiß║┐u trong `adjustment`.
++3. Sß╗¡a `adjustment` th├ánh matrix c├╣ng shape vß╗¢i `morning`, chß║íy lß║íi v├á giß║úi th├¡ch v├¼ sao lß╗ùi biß║┐n 
+mß║Ñt.
++
++Mß╗Ñc ti├¬u kh├┤ng phß║úi hß╗ìc thuß╗Öc th├┤ng b├ío lß╗ùi, m├á l├á h├¼nh th├ánh phß║ún xß║í kiß╗âm tra `shape`.
++
++---
++
++## ≡ƒÄ» Challenge
++
++Mß╗Öt cß╗¡a h├áng l╞░u sß╗æ sß║ún phß║⌐m b├ín ─æ╞░ß╗úc trong ba ng├áy. Mß╗ùi h├áng l├á mß╗Öt ng├áy; ba cß╗Öt lß║ºn 
+l╞░ß╗út l├á sß╗æ l╞░ß╗úng t├ío, cam v├á chuß╗æi:
++
++```python
++sales = np.array([
++    [12, 8, 15],
++    [10, 11, 9],
++    [14, 7, 13]
++])
++```
++
++H├úy viß║┐t ch╞░╞íng tr├¼nh:
++
++- in `ndim`, `shape` v├á `size`;
++- lß║Ñy to├án bß╗Ö dß╗» liß╗çu cß╗ºa ng├áy thß╗⌐ hai;
++- lß║Ñy sß╗æ cam cß╗ºa cß║ú ba ng├áy;
++- lß║Ñy sß╗æ chuß╗æi cß╗ºa ng├áy thß╗⌐ ba;
++- tß║ío matrix `extra_sales` c├╣ng shape, tß╗▒ chß╗ìn c├íc gi├í trß╗ï, rß╗ôi cß╗Öng n├│ vß╗¢i `sales`;
++- giß║úi th├¡ch bß║▒ng lß╗¥i ├╜ ngh─⌐a cß╗ºa tß╗½ng trß╗Ñc v├á v├¼ sao hai matrix cß╗Öng ─æ╞░ß╗úc.
++
++Kh├┤ng k├¿m lß╗¥i giß║úi ngay. Tr╞░ß╗¢c mß╗ùi lß║ºn chß║íy, h├úy dß╗▒ ─æo├ín cß║ú gi├í trß╗ï lß║½n shape cß╗ºa kß║┐t 
+quß║ú.
++
++---
++
++## ≡ƒº⌐ Kiß╗âm tra hiß╗âu b├ái
++
++1. Vector shape `(6,)` kh├íc matrix shape `(3, 2)` ß╗ƒ ─æ├óu d├╣ cß║ú hai ─æß╗üu c├│ s├íu phß║ºn tß╗¡?
++2. Tß║íi sao phß║úi biß║┐t ├╜ ngh─⌐a cß╗ºa h├áng v├á cß╗Öt, thay v├¼ chß╗ë kiß╗âm tra tß╗òng sß╗æ phß║ºn tß╗¡?
++3. `matrix[1, :]` kh├íc `matrix[:, 1]` nh╞░ thß║┐ n├áo?
++4. ─Éiß╗üu g├¼ xß║úy ra khi cß╗Öng hai matrix c├│ shape `(2, 3)` v├á `(2, 2)` trong phß║ím vi quy tß║»c ─æ├ú hß╗ìc?
++5. Tß║íi sao `matrix * matrix` trong NumPy kh├┤ng n├¬n ─æ╞░ß╗úc gß╗ìi ngay l├á ΓÇ£ph├⌐p nh├ón ma trß║¡nΓÇ¥?
++
++---
++
++## ≡ƒöæ Ghi nhß╗¢
++
++- Matrix l├á bß║úng sß╗æ hai chiß╗üu; mß╗ùi h├áng v├á cß╗Öt phß║úi c├│ ├╜ ngh─⌐a r├╡ r├áng.
++- Vß╗¢i matrix, `shape` ─æ╞░ß╗úc ─æß╗ìc theo thß╗⌐ tß╗▒ `(sß╗æ_h├áng, sß╗æ_cß╗Öt)`.
++- `ndim`, `shape` v├á `size` lß║ºn l╞░ß╗út cho biß║┐t sß╗æ trß╗Ñc, ─æß╗Ö d├ái tß╗½ng trß╗Ñc v├á tß╗òng sß╗æ phß║ºn 
+tß╗¡.
++- D├╣ng `matrix[h├áng, cß╗Öt]`; dß║Ñu `:` ngh─⌐a l├á lß║Ñy tß║Ñt cß║ú phß║ºn tß╗¡ tr├¬n trß╗Ñc ─æ├│.
++- Tr╞░ß╗¢c khi t├¡nh giß╗»a nhiß╗üu mß║úng, h├úy in shape v├á kiß╗âm tra ├╜ ngh─⌐a cß╗ºa tß╗½ng trß╗Ñc.
++
++---
++
++## ≡ƒöù Li├¬n kß║┐t kiß║┐n thß╗⌐c
++
++### Kiß║┐n thß╗⌐c ─æ├ú d├╣ng
++
++- [[Bai_004_Bien_Va_Cac_Hop_Du_Lieu_Python|B├ái 4]]: list, index v├á dß╗» liß╗çu dß║íng bß║úng lß╗ông nhau.
++- [[Bai_008_Scalar_Vector_Va_NumPy|B├ái 8]]: scalar, vector, NumPy array v├á ph├⌐p to├ín theo tß╗½ng phß║ºn tß╗¡.
++- T├ái liß╗çu tham khß║úo: [NumPy ΓÇö Array 
+basics](https://numpy.org/doc/stable/user/absolute_beginners.html#array-fundamentals) v├á [NumPy ΓÇö Indexing on 
+ndarrays](https://numpy.org/doc/stable/user/basics.indexing.html).
++
++### B├ái tiß║┐p theo
++
++[[Bai_010_Dot_Product_Do_Muc_Cung_Huong|B├ái 10]] sß║╜ d├╣ng c├íc vector c├│ shape ph├╣ hß╗úp ─æß╗â t├¡nh dot product 
+v├á giß║úi th├¡ch v├¼ sao ph├⌐p t├¡nh n├áy ─æo ─æ╞░ß╗úc mß╗⌐c ─æß╗Ö ΓÇ£c├╣ng h╞░ß╗¢ngΓÇ¥.
+diff --git a/COURSE_MAP.md b/COURSE_MAP.md
+index 5b16dbbe4e405e487fe87fb4c8fc66935b553a79..87f542717bd4adc5112181f05b66472740e48553
+--- a/COURSE_MAP.md
++++ b/COURSE_MAP.md
+@@ -14,7 +14,7 @@
+ - [x] B├ái 006 ΓÇö Function, class, lß╗ùi v├á c├ích chia code | ╞»u ti├¬n function, exception; nhß║¡n biß║┐t class, 
+module v├á package ß╗ƒ mß╗⌐c cß║ºn thiß║┐t.
+ - [x] B├ái 007 ΓÇö ─Éß╗ìc file, JSON v├á HTTP API | ─É╞░a dß╗» liß╗çu v├áo/ra ch╞░╞íng tr├¼nh v├á hiß╗âu 
+request/response.
+ - [x] B├ái 008 ΓÇö Scalar, vector v├á NumPy | Biß╗âu diß╗àn sß╗æ v├á danh s├ích sß╗æ ─æß╗â m├íy t├¡nh xß╗¡ l├╜.
+-- [ ] B├ái 009 ΓÇö Matrix v├á shape | Hiß╗âu bß║úng sß╗æ, chiß╗üu dß╗» liß╗çu v├á ph├⌐p to├ín mß║úng c╞í bß║ún.
++- [x] B├ái 009 ΓÇö Matrix v├á shape | Hiß╗âu bß║úng sß╗æ, chiß╗üu dß╗» liß╗çu v├á ph├⌐p to├ín mß║úng c╞í bß║ún.
+ - [ ] B├ái 010 ΓÇö Dot product: ─æo mß╗⌐c ΓÇ£c├╣ng h╞░ß╗¢ngΓÇ¥ | T├¡nh dot product v├á thß║Ñy vai tr├▓ cß╗ºa n├│ 
+trong AI.
+ - [ ] B├ái 011 ΓÇö X├íc suß║Ñt, mean v├á variance bß║▒ng trß╗▒c gi├íc | M├┤ tß║ú sß╗▒ kh├┤ng chß║»c chß║»n v├á ph├ón 
+bß╗æ dß╗» liß╗çu.
+ - [ ] B├ái 012 ΓÇö Mini-project: m├íy chß║Ñm ─æiß╗âm dß╗» liß╗çu | Gh├⌐p Python, file, NumPy v├á ph├⌐p t├¡nh th├ánh 
+pipeline nhß╗Å.
+diff --git a/COURSE_STATE.md b/COURSE_STATE.md
+index 4a7ab4c579a4dd981d808147af8fadcbb34ca84b..3c323c29a6ac689d27e648af835eed93fd48f11d
+--- a/COURSE_STATE.md
++++ b/COURSE_STATE.md
+@@ -1,9 +1,9 @@
+ # COURSE STATE
+ 
+-Current Lesson: 8
++Current Lesson: 9
+ Current Module: 0
+-Last Completed: 8
+-Next Lesson: 9
++Last Completed: 9
++Next Lesson: 10
+ Next Checkpoint: 10
+ 
+ ## Concepts Already Taught
+@@ -16,6 +16,7 @@
+ - Function, parameter, argument, `return`, local variable; exception, `raise`, `try`/`except`; ph├ón biß╗çt class, 
+module v├á package ß╗ƒ mß╗⌐c c╞í bß║ún.
+ - File text, UTF-8, context manager; JSON serialize/deserialize; HTTP request/response, status, body v├á lß╗ùi 
+file/JSON/network c╞í bß║ún.
+ - Scalar, vector; NumPy `ndarray` mß╗Öt chiß╗üu, `dtype`, ph├⌐p to├ín theo tß╗½ng phß║ºn tß╗¡ v├á vectorization ß╗ƒ 
+mß╗⌐c nhß║¡p m├┤n.
++- Matrix NumPy hai chiß╗üu; ph├ón biß╗çt `ndim`, `shape`, `size`; truy cß║¡p phß║ºn tß╗¡, h├áng, cß╗Öt v├á kiß╗âm tra 
+shape tr╞░ß╗¢c ph├⌐p to├ín mß║úng c╞í bß║ún.
+ 
+ ## Important Decisions
+ - Course map gß╗ôm 84 b├ái; concept first, framework later.
+@@ -28,4 +29,4 @@
+ - Kh├┤ng nhß║ºm `=` vß╗¢i `==`; lu├┤n test ng╞░ß╗íng v├á bß║úo ─æß║úm `while` c├│ ─æ╞░ß╗¥ng dß╗½ng.
+ 
+ ## Current Learning Dependency
+-- B├ái 9 mß╗ƒ rß╗Öng vector mß╗Öt chiß╗üu sang matrix v├á d├╣ng `shape` ─æß╗â ─æß╗ìc, kiß╗âm tra chiß╗üu dß╗» liß╗çu.
++- B├ái 10 d├╣ng vector c├│ shape ph├╣ hß╗úp ─æß╗â x├óy trß╗▒c gi├íc dot product tr╞░ß╗¢c khi li├¬n hß╗ç vß╗¢i AI.
+
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$OutputEncoding = [Console]::OutputEncoding 
+= [System.Text.UTF8Encoding]::new(); rg -n "''^# |''^## |''^### " 
+'"'00_AI_Python_Foundations\\Bai_009_Matrix_Va_Shape.md'; rg -n \"B├ái 009|B├ái 010\" COURSE_MAP.md; Get-Content 
+-LiteralPath 'COURSE_STATE.md' -Encoding utf8 -Raw; python -c \"import numpy as np; 
+sensor_data=np.array([[24.0,60.0],[25.5,58.0],[23.5,65.0]]); assert sensor_data.shape==(3,2); assert 
+sensor_data.ndim==2; assert sensor_data.size==6; assert sensor_data[2,1]==65.0; assert (sensor_data/10).shape==(3,2); 
+print('NumPy practice checks: OK')\"; git diff --check; git status --short" in C:\Users\truon\OneDrive\Ta╠Çi 
+li├¬╠úu\Obsidian Vault\AI Engineering Zero to Agent\AI-Zero-to-Agent
+ exited 1 in 1101ms:
+# COURSE STATE
+
+Current Lesson: 9
+Current Module: 0
+Last Completed: 9
+Next Lesson: 10
+Next Checkpoint: 10
+
+## Concepts Already Taught
+- AI, Machine Learning, Deep Learning, Generative AI, LLM ß╗ƒ mß╗⌐c ph├ón biß╗çt tß╗òng quan.
+- Hai c├ích tß║ío h├ánh vi th├┤ng minh: luß║¡t do ng╞░ß╗¥i viß║┐t v├á quy luß║¡t hß╗ìc tß╗½ dß╗» liß╗çu.
+- Dataset, example, feature, label, model, parameter, training, inference v├á generalization.
+- Terminal, Python interpreter, file `.py`, virtual environment v├á `pip`.
+- Variable, assignment; `int`, `float`, `str`, `bool`; string, list, dictionary v├á index/key.
+- Comparison, boolean logic, `if`/`elif`/`else`, `for`, `while`, boundary test v├á rule-based baseline.
+- Function, parameter, argument, `return`, local variable; exception, `raise`, `try`/`except`; ph├ón biß╗çt class, 
+module v├á package ß╗ƒ mß╗⌐c c╞í bß║ún.
+- File text, UTF-8, context manager; JSON serialize/deserialize; HTTP request/response, status, body v├á lß╗ùi 
+file/JSON/network c╞í bß║ún.
+- Scalar, vector; NumPy `ndarray` mß╗Öt chiß╗üu, `dtype`, ph├⌐p to├ín theo tß╗½ng phß║ºn tß╗¡ v├á vectorization ß╗ƒ 
+mß╗⌐c nhß║¡p m├┤n.
+- Matrix NumPy hai chiß╗üu; ph├ón biß╗çt `ndim`, `shape`, `size`; truy cß║¡p phß║ºn tß╗¡, h├áng, cß╗Öt v├á kiß╗âm tra 
+shape tr╞░ß╗¢c ph├⌐p to├ín mß║úng c╞í bß║ún.
+
+## Important Decisions
+- Course map gß╗ôm 84 b├ái; concept first, framework later.
+- RNN/LSTM/Seq2Seq chß╗ë hß╗ìc ─æß╗º l├ám cß║ºu nß╗æi tß╗¢i Transformer.
+- Checkpoint 005: B├ái 6 ╞░u ti├¬n function/exception; class/module/package chß╗ë ß╗ƒ mß╗⌐c cß║ºn thiß║┐t.
+
+## Problems To Avoid
+- Kh├┤ng gß╗ìi mß╗ìi automation l├á AI.
+- Kh├┤ng d├╣ng thuß║¡t ngß╗»/to├ín/code ch╞░a hß╗ìc m├á thiß║┐u giß║úi th├¡ch.
+- Kh├┤ng nhß║ºm `=` vß╗¢i `==`; lu├┤n test ng╞░ß╗íng v├á bß║úo ─æß║úm `while` c├│ ─æ╞░ß╗¥ng dß╗½ng.
+
+## Current Learning Dependency
+- B├ái 10 d├╣ng vector c├│ shape ph├╣ hß╗úp ─æß╗â x├óy trß╗▒c gi├íc dot product tr╞░ß╗¢c khi li├¬n hß╗ç vß╗¢i AI.
+
+python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:2 char:263
++ ... nt -LiteralPath 'COURSE_STATE.md' -Encoding utf8 -Raw; python -c "imp ...
++                                                            ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+warning: Not a git repository. Use --no-index to compare two paths outside a working tree
+usage: git diff --no-index [<options>] <path> <path> [<pathspec>...]
+
+Diff output format options
+    -p, --patch           generate patch
+    -s, --no-patch        suppress diff output
+    -u                    generate patch
+    -U, --unified[=<n>]   generate diffs with <n> lines context
+    -W, --[no-]function-context
+                          generate diffs with <n> lines context
+    --raw                 generate the diff in raw format
+    --patch-with-raw      synonym for '-p --raw'
+    --patch-with-stat     synonym for '-p --stat'
+    --numstat             machine friendly --stat
+    --shortstat           output only the last line of --stat
+    -X, --dirstat[=<param1>,<param2>...]
+                          output the distribution of relative amount of changes for each sub-directory
+    --cumulative          synonym for --dirstat=cumulative
+    --dirstat-by-file[=<param1>,<param2>...]
+                          synonym for --dirstat=files,<param1>,<param2>...
+    --check               warn if changes introduce conflict markers or whitespace errors
+    --summary             condensed summary such as creations, renames and mode changes
+    --name-only           show only names of changed files
+    --name-status         show only names and status of changed files
+    --stat[=<width>[,<name-width>[,<count>]]]
+                          generate diffstat
+    --stat-width <width>  generate diffstat with a given width
+    --stat-name-width <width>
+                          generate diffstat with a given name width
+    --stat-graph-width <width>
+                          generate diffstat with a given graph width
+    --stat-count <count>  generate diffstat with limited lines
+    --[no-]compact-summary
+                          generate compact summary in diffstat
+    --binary              output a binary diff that can be applied
+    --[no-]full-index     show full pre- and post-image object names on the "index" lines
+    --[no-]color[=<when>] show colored diff
+    --ws-error-highlight <kind>
+                          highlight whitespace errors in the 'context', 'old' or 'new' lines in the diff
+    -z                    do not munge pathnames and use NULs as output field terminators in --raw or --numstat
+    --[no-]abbrev[=<n>]   use <n> digits to display object names
+    --src-prefix <prefix> show the given source prefix instead of "a/"
+    --dst-prefix <prefix> show the given destination prefix instead of "b/"
+    --line-prefix <prefix>
+                          prepend an additional prefix to every line of output
+    --no-prefix           do not show any source or destination prefix
+    --default-prefix      use default prefixes a/ and b/
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    --output-indicator-new <char>
+                          specify the character to indicate a new line instead of '+'
+    --output-indicator-old <char>
+                          specify the character to indicate an old line instead of '-'
+    --output-indicator-context <char>
+                          specify the character to indicate a context instead of ' '
+
+Diff rename options
+    -B, --break-rewrites[=<n>[/<m>]]
+                          break complete rewrite changes into pairs of delete and create
+    -M, --find-renames[=<n>]
+                          detect renames
+    -D, --irreversible-delete
+                          omit the preimage for deletes
+    -C, --find-copies[=<n>]
+                          detect copies
+    --[no-]find-copies-harder
+                          use unmodified files as source to find copies
+    --no-renames          disable rename detection
+    --[no-]rename-empty   use empty blobs as rename source
+    --[no-]follow         continue listing the history of a file beyond renames
+    -l <n>                prevent rename/copy detection if the number of rename/copy targets exceeds given limit
+
+Diff algorithm options
+    --minimal             produce the smallest possible diff
+    -w, --ignore-all-space
+                          ignore whitespace when comparing lines
+    -b, --ignore-space-change
+                          ignore changes in amount of whitespace
+    --ignore-space-at-eol ignore changes in whitespace at EOL
+    --ignore-cr-at-eol    ignore carrier-return at the end of line
+    --ignore-blank-lines  ignore changes whose lines are all blank
+    -I, --[no-]ignore-matching-lines <regex>
+                          ignore changes whose all lines match <regex>
+    --[no-]indent-heuristic
+                          heuristic to shift diff hunk boundaries for easy reading
+    --patience            generate diff using the "patience diff" algorithm
+    --histogram           generate diff using the "histogram diff" algorithm
+    --diff-algorithm <algorithm>
+                          choose a diff algorithm
+    --anchored <text>     generate diff using the "anchored diff" algorithm
+    --word-diff[=<mode>]  show word diff, using <mode> to delimit changed words
+    --word-diff-regex <regex>
+                          use <regex> to decide what a word is
+    --color-words[=<regex>]
+                          equivalent to --word-diff=color --word-diff-regex=<regex>
+    --[no-]color-moved[=<mode>]
+                          moved lines of code are colored differently
+    --[no-]color-moved-ws <mode>
+                          how white spaces are ignored in --color-moved
+
+Other diff options
+    --[no-]relative[=<prefix>]
+                          when run from subdir, exclude changes outside and show relative paths
+    -a, --[no-]text       treat all files as text
+    -R                    swap two inputs, reverse the diff
+    --[no-]exit-code      exit with 1 if there were differences, 0 otherwise
+    --[no-]quiet          disable all output of the program
+    --[no-]ext-diff       allow an external diff helper to be executed
+    --[no-]textconv       run external text conversion filters when comparing binary files
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules in the diff generation
+    --submodule[=<format>]
+                          specify how differences in submodules are shown
+    --ita-invisible-in-index
+                          hide 'git add -N' entries from the index
+    --ita-visible-in-index
+                          treat 'git add -N' entries as real in the index
+    -S <string>           look for differences that change the number of occurrences of the specified string
+    -G <regex>            look for differences that change the number of occurrences of the specified regex
+    --pickaxe-all         show all changes in the changeset with -S or -G
+    --pickaxe-regex       treat <string> in -S as extended POSIX regular expression
+    -O <file>             control the order in which files appear in the output
+    --rotate-to <path>    show the change in the specified path first
+    --skip-to <path>      skip the output to the specified path
+    --find-object <object-id>
+                          look for differences that change the number of occurrences of the specified object
+    --diff-filter [(A|C|D|M|R|T|U|X|B)...[*]]
+                          select files by diff type
+    --max-depth <depth>   maximum tree depth to recurse
+    --output <file>       output to a specific file
+
+fatal: not a git repository (or any of the parent directories): .git
+
+diff --git a/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md b/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..4ef89437070b4f1a3531e374b0897a931670d038
+--- /dev/null
++++ b/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md
+@@ -0,0 +1,396 @@
++# B├ái 009 ΓÇö Matrix v├á shape
++
++## ≡ƒÄ» Sau b├ái n├áy bß║ín l├ám ─æ╞░ß╗úc g├¼?
++
++- Ph├ón biß╗çt vector mß╗Öt chiß╗üu v├á matrix hai chiß╗üu bß║▒ng ├╜ ngh─⌐a dß╗» liß╗çu.
++- Tß║ío matrix bß║▒ng NumPy v├á ─æß╗ìc ─æ├║ng `shape` theo thß╗⌐ tß╗▒ h├áng, cß╗Öt.
++- Truy cß║¡p mß╗Öt phß║ºn tß╗¡, mß╗Öt h├áng hoß║╖c mß╗Öt cß╗Öt trong matrix.
++- Kiß╗âm tra shape tr╞░ß╗¢c khi thß╗▒c hiß╗çn ph├⌐p to├ín tr├¬n nhiß╗üu mß║úng.
++
++---
++
++## ≡ƒºá ├¥ t╞░ß╗ƒng lß╗¢n
++
++Mß╗Öt vector ph├╣ hß╗úp ─æß╗â m├┤ tß║ú mß╗Öt ─æß╗æi t╞░ß╗úng bß║▒ng mß╗Öt d├úy sß╗æ. Khi c├│ nhiß╗üu ─æß╗æi t╞░ß╗úng 
+d├╣ng c├╣ng mß╗Öt bß╗Ö ─æß║╖c tr╞░ng, ta th╞░ß╗¥ng xß║┐p c├íc vector th├ánh mß╗Öt bß║úng sß╗æ gß╗ìi l├á **matrix** (ma 
+trß║¡n).
++
++V├¡ dß╗Ñ, ba c─ân nh├á ─æ╞░ß╗úc m├┤ tß║ú bß║▒ng diß╗çn t├¡ch v├á sß╗æ ph├▓ng:
++
++```text
++[
++  [50, 2],
++  [75, 3],
++  [90, 4]
++]
++```
++
++Ta quy ╞░ß╗¢c:
++
++- mß╗ùi h├áng l├á mß╗Öt c─ân nh├á;
++- cß╗Öt thß╗⌐ nhß║Ñt l├á diß╗çn t├¡ch;
++- cß╗Öt thß╗⌐ hai l├á sß╗æ ph├▓ng.
++
++C├íc con sß╗æ ch╞░a ─æß╗º ─æß╗â hiß╗âu dß╗» liß╗çu. Ta c├▓n phß║úi biß║┐t **cß║Ñu tr├║c** cß╗ºa ch├║ng. NumPy cho 
+biß║┐t cß║Ñu tr├║c ─æ├│ qua thuß╗Öc t├¡nh `shape`:
++
++```text
++3 h├áng ├ù 2 cß╗Öt  ΓåÆ  shape (3, 2)
++```
++
++Trong ß╗⌐ng dß╗Ñng AI, sai shape l├á mß╗Öt nguy├¬n nh├ón rß║Ñt phß╗ò biß║┐n khiß║┐n ph├⌐p t├¡nh b├ío lß╗ùi hoß║╖c ΓÇö 
+nguy hiß╗âm h╞ín ΓÇö vß║½n chß║íy nh╞░ng mang sai ├╜ ngh─⌐a.
++
++---
++
++## ≡ƒîì V├¡ dß╗Ñ ─æß╗¥i th╞░ß╗¥ng
++
++H├úy h├¼nh dung bß║úng ─æiß╗âm cß╗ºa mß╗Öt lß╗¢p:
++
++| Hß╗ìc sinh | To├ín | V─ân | Anh |
++|---|---:|---:|---:|
++| An | 8 | 7 | 9 |
++| B├¼nh | 6 | 8 | 7 |
++
++Nß║┐u chß╗ë giß╗» phß║ºn sß╗æ, ta c├│ matrix:
++
++```text
++[
++  [8, 7, 9],
++  [6, 8, 7]
++]
++```
++
++Matrix n├áy c├│ shape `(2, 3)` v├¼ c├│ 2 h├áng v├á 3 cß╗Öt. ─Éß╗òi n├│ th├ánh shape `(3, 2)` kh├┤ng chß╗ë l├á ─æß╗òi 
+c├ích tr├¼nh b├áy: khi ─æ├│ ├╜ ngh─⌐a ΓÇ£mß╗ùi h├áng l├á mß╗Öt hß╗ìc sinhΓÇ¥ kh├┤ng c├▓n ─æ├║ng.
++
++Shape giß╗æng s╞í ─æß╗ô chß╗ù ngß╗ôi trong rß║íp. Biß║┐t c├│ s├íu ng╞░ß╗¥i l├á ch╞░a ─æß╗º; c├ích hß╗ì ─æ╞░ß╗úc xß║┐p 
+th├ánh hai h├áng, mß╗ùi h├áng ba ng╞░ß╗¥i c┼⌐ng quan trß╗ìng.
++
++---
++
++## ≡ƒÄ« V├¡ dß╗Ñ thß╗▒c tß║┐
++
++Mß╗Öt model ph├ón loß║íi tin nhß║»n c├│ thß╗â nhß║¡n nhiß╗üu tin nhß║»n trong mß╗Öt lß║ºn xß╗¡ l├╜. Giß║ú sß╗¡ mß╗ùi 
+tin nhß║»n ─æ├ú ─æ╞░ß╗úc biß╗âu diß╗àn bß║▒ng bß╗æn ─æß║╖c tr╞░ng sß╗æ:
++
++```text
++[
++  [0.2, 0.9, 0.1, 0.0],  ΓåÉ tin nhß║»n 1
++  [0.8, 0.1, 0.4, 0.3],  ΓåÉ tin nhß║»n 2
++  [0.5, 0.2, 0.7, 0.6]   ΓåÉ tin nhß║»n 3
++]
++```
++
++Shape l├á `(3, 4)`:
++
++- `3` l├á sß╗æ example;
++- `4` l├á sß╗æ feature cß╗ºa mß╗ùi example.
++
++Trong machine learning, kiß╗âu bß╗æ tr├¡ ΓÇ£mß╗ùi h├áng l├á mß╗Öt example, mß╗ùi cß╗Öt l├á mß╗Öt featureΓÇ¥ rß║Ñt 
+phß╗ò biß║┐n. Tuy nhi├¬n, ─æ├│ l├á quy ╞░ß╗¢c chß╗⌐ kh├┤ng phß║úi luß║¡t tß╗▒ nhi├¬n. Tr╞░ß╗¢c khi d├╣ng mß╗Öt dataset 
+hay model, ta vß║½n phß║úi kiß╗âm tra t├ái liß╗çu ─æß╗â biß║┐t tß╗½ng trß╗Ñc mang ├╜ ngh─⌐a g├¼.
++
++---
++
++## ≡ƒö¼ B├¬n trong n├│ hoß║ít ─æß╗Öng thß║┐ n├áo?
++
++### 1. Tß╗½ vector ─æß║┐n matrix
++
++ß╗₧ B├ái 8, mß╗Öt mß║úng mß╗Öt chiß╗üu biß╗âu diß╗àn vector:
++
++```python
++import numpy as np
++
++one_house = np.array([50, 2])
++print(one_house)
++print(one_house.shape)  # (2,)
++```
++
++Shape `(2,)` ngh─⌐a l├á mß║úng c├│ mß╗Öt trß╗Ñc gß╗ôm hai phß║ºn tß╗¡. Dß║Ñu phß║⌐y gi├║p Python biß╗âu diß╗àn ─æ├óy 
+l├á mß╗Öt tuple c├│ mß╗Öt phß║ºn tß╗¡; n├│ kh├┤ng c├│ ngh─⌐a l├á ΓÇ£thiß║┐u mß╗Öt sß╗æΓÇ¥.
++
++Khi ─æß║╖t nhiß╗üu vector c├╣ng ─æß╗Ö d├ái th├ánh c├íc h├áng, ta c├│ mß║úng hai chiß╗üu:
++
++```python
++houses = np.array([
++    [50, 2],
++    [75, 3],
++    [90, 4]
++])
++
++print(houses.shape)  # (3, 2)
++```
++
++Matrix c├│ hai trß╗Ñc:
++
++- trß╗Ñc 0 ─æi qua c├íc h├áng;
++- trß╗Ñc 1 ─æi qua c├íc cß╗Öt.
++
++Vß╗¢i matrix hai chiß╗üu, `shape` trß║ú vß╗ü tuple `(sß╗æ_h├áng, sß╗æ_cß╗Öt)`. V├¼ vß║¡y `(3, 2)` v├á `(2, 3)` l├á 
+hai shape kh├íc nhau.
++
++### 2. `ndim`, `shape` v├á `size` trß║ú lß╗¥i ba c├óu hß╗Åi kh├íc nhau
++
++```python
++print(houses.ndim)   # 2
++print(houses.shape)  # (3, 2)
++print(houses.size)   # 6
++```
++
++- `ndim`: mß║úng c├│ bao nhi├¬u trß╗Ñc?
++- `shape`: ─æß╗Ö d├ái cß╗ºa tß╗½ng trß╗Ñc l├á bao nhi├¬u?
++- `size`: tß╗òng cß╗Öng c├│ bao nhi├¬u phß║ºn tß╗¡?
++
++Mß╗Öt vector c├│ shape `(6,)` v├á matrix c├│ shape `(3, 2)` ─æß╗üu c├│ `size` bß║▒ng `6`, nh╞░ng cß║Ñu tr├║c v├á ├╜ 
+ngh─⌐a cß╗ºa ch├║ng kh├íc nhau.
++
++### 3. Truy cß║¡p phß║ºn tß╗¡ bß║▒ng h├áng v├á cß╗Öt
++
++NumPy ─æ├ính sß╗æ tß╗½ `0`, giß╗æng index cß╗ºa list:
++
++```python
++print(houses[0, 0])  # 50: h├áng ─æß║ºu, cß╗Öt ─æß║ºu
++print(houses[1, 1])  # 3: h├áng thß╗⌐ hai, cß╗Öt thß╗⌐ hai
++```
++
++Mß║½u chung l├á:
++
++```text
++matrix[chß╗ë_sß╗æ_h├áng, chß╗ë_sß╗æ_cß╗Öt]
++```
++
++─Éß╗â lß║Ñy cß║ú mß╗Öt h├áng hoß║╖c cß╗Öt, d├╣ng dß║Ñu `:` vß╗¢i ngh─⌐a ΓÇ£lß║Ñy tß║Ñt cß║ú ß╗ƒ trß╗Ñc n├áyΓÇ¥:
++
++```python
++print(houses[1, :])  # [75  3]: to├án bß╗Ö h├áng thß╗⌐ hai
++print(houses[:, 0])  # [50 75 90]: to├án bß╗Ö cß╗Öt ─æß║ºu
++```
++
++Hai kß║┐t quß║ú tr├¬n ─æß╗üu l├á mß║úng mß╗Öt chiß╗üu. H├úy lu├┤n ─æß╗ìc ph├⌐p truy cß║¡p bß║▒ng ├╜ ngh─⌐a dß╗» 
+liß╗çu: `houses[:, 0]` l├á diß╗çn t├¡ch cß╗ºa tß║Ñt cß║ú c─ân nh├á.
++
++### 4. Ph├⌐p to├ín c╞í bß║ún vß║½n c├│ thß╗â ├íp dß╗Ñng theo tß╗½ng phß║ºn tß╗¡
++
++Matrix nh├ón vß╗¢i scalar:
++
++```python
++matrix = np.array([
++    [1, 2],
++    [3, 4]
++])
++
++print(matrix * 10)
++```
++
++Kß║┐t quß║ú:
++
++```text
++[[10 20]
++ [30 40]]
++```
++
++Matrix cß╗Öng vß╗¢i matrix c├╣ng shape:
++
++```python
++a = np.array([[1, 2], [3, 4]])
++b = np.array([[10, 20], [30, 40]])
++
++print(a + b)
++```
++
++NumPy cß╗Öng c├íc phß║ºn tß╗¡ ß╗ƒ vß╗ï tr├¡ t╞░╞íng ß╗⌐ng, tß║ío kß║┐t quß║ú:
++
++```text
++[[11 22]
++ [33 44]]
++```
++
++K├╜ hiß╗çu `*` ß╗ƒ ─æ├óy c┼⌐ng l├á nh├ón theo tß╗½ng phß║ºn tß╗¡, ch╞░a phß║úi ph├⌐p nh├ón matrix trong to├ín hß╗ìc. 
+C├íc ph├⌐p kß║┐t hß╗úp vector v├á matrix c├│ mß╗Ñc ─æ├¡ch kh├íc sß║╜ ─æ╞░ß╗úc giß╗¢i thiß╗çu khi cß║ºn.
++
++### 5. Kiß╗âm tra shape tr╞░ß╗¢c khi t├¡nh
++
++H├úy xem hai mß║úng:
++
++```python
++actual = np.array([
++    [8, 7, 9],
++    [6, 8, 7]
++])
++
++bonus = np.array([
++    [1, 1],
++    [1, 1]
++])
++```
++
++`actual.shape` l├á `(2, 3)`, c├▓n `bonus.shape` l├á `(2, 2)`. Ta kh├┤ng thß╗â gh├⌐p tß╗½ng vß╗ï tr├¡ cß╗ºa bß║úng 2 
+h├áng, 3 cß╗Öt vß╗¢i bß║úng 2 h├áng, 2 cß╗Öt.
++
++Quy tr├¼nh chß║⌐n ─æo├ín ngß║»n:
++
++1. In `shape` cß╗ºa tß╗½ng mß║úng.
++2. N├│i r├╡ mß╗ùi trß╗Ñc ─æß║íi diß╗çn cho ─æiß╗üu g├¼.
++3. Kiß╗âm tra ph├⌐p to├ín c├│ ─æang gh├⌐p ─æ├║ng c├íc vß╗ï tr├¡ t╞░╞íng ß╗⌐ng kh├┤ng.
++4. Chß╗ë sß╗¡a dß╗» liß╗çu hoß║╖c ph├⌐p to├ín sau khi hiß╗âu nguy├¬n nh├ón.
++
++NumPy c├│ th├¬m quy tß║»c **broadcasting** cho mß╗Öt sß╗æ shape kh├íc nhau nh╞░ng t╞░╞íng th├¡ch. Ta ch╞░a cß║ºn 
+d├╣ng quy tß║»c ─æ├│ ß╗ƒ b├ái n├áy. ─Éß╗½ng ─æo├ín rß║▒ng mß╗ìi shape kh├íc nhau ─æß╗üu cß╗Öng ─æ╞░ß╗úc; h├úy d├╣ng 
+c├╣ng shape cho ph├⌐p to├ín giß╗»a hai matrix trong c├íc v├¡ dß╗Ñ hiß╗çn tß║íi.
++
++---
++
++## ≡ƒÆ╗ Thß╗▒c h├ánh
++
++Tß║ío file `bai_009.py`:
++
++```python
++import numpy as np
++
++sensor_data = np.array([
++    [24.0, 60.0],
++    [25.5, 58.0],
++    [23.5, 65.0]
++])
++
++print("Dß╗» liß╗çu:\n", sensor_data)
++print("Sß╗æ trß╗Ñc:", sensor_data.ndim)
++print("Shape:", sensor_data.shape)
++print("Tß╗òng phß║ºn tß╗¡:", sensor_data.size)
++
++print("Lß║ºn ─æo thß╗⌐ hai:", sensor_data[1, :])
++print("Mß╗ìi nhiß╗çt ─æß╗Ö:", sensor_data[:, 0])
++print("─Éß╗Ö ß║⌐m lß║ºn cuß╗æi:", sensor_data[2, 1])
++```
++
++Chß║íy:
++
++```powershell
++python bai_009.py
++```
++
++Kß║┐t quß║ú ch├¡nh:
++
++```text
++Sß╗æ trß╗Ñc: 2
++Shape: (3, 2)
++Tß╗òng phß║ºn tß╗¡: 6
++Lß║ºn ─æo thß╗⌐ hai: [25.5 58. ]
++Mß╗ìi nhiß╗çt ─æß╗Ö: [24.  25.5 23.5]
++─Éß╗Ö ß║⌐m lß║ºn cuß╗æi: 65.0
++```
++
++─Éß╗½ng chß╗ë nh├¼n output. H├úy tß╗▒ giß║úi th├¡ch:
++
++- V├¼ sao `3` ─æß╗⌐ng tr╞░ß╗¢c `2` trong shape?
++- V├¼ sao `sensor_data[1, :]` lß║Ñy lß║ºn ─æo thß╗⌐ hai?
++- Trong `sensor_data[:, 0]`, dß║Ñu `:` v├á sß╗æ `0` ─æang t├íc ─æß╗Öng l├¬n hai trß╗Ñc n├áo?
++
++Sau ─æ├│ th├¬m ─æoß║ín sau ─æß╗â chuyß╗ân mß╗ìi sß╗æ ─æo sang ─æ╞ín vß╗ï nhß╗Å h╞ín 10 lß║ºn:
++
++```python
++scaled_data = sensor_data / 10
++print("Sau khi chia 10:\n", scaled_data)
++print("Shape mß╗¢i:", scaled_data.shape)
++```
++
++Ph├⌐p chia l├ám thay ─æß╗òi gi├í trß╗ï nh╞░ng kh├┤ng thay ─æß╗òi c├ích c├íc phß║ºn tß╗¡ ─æ╞░ß╗úc sß║»p xß║┐p, n├¬n 
+shape vß║½n l├á `(3, 2)`.
++
++---
++
++## ≡ƒº¬ Th├¡ nghiß╗çm nhß╗Å
++
++### Th├¡ nghiß╗çm 1: dß╗▒ ─æo├ín c├ích truy cß║¡p
++
++Vß╗¢i matrix sau, ch╞░a chß║íy code vß╗Öi:
++
++```python
++import numpy as np
++
++scores = np.array([
++    [8, 7, 9],
++    [6, 8, 7],
++    [9, 9, 10]
++])
++```
++
++H├úy dß╗▒ ─æo├ín kß║┐t quß║ú v├á shape cß╗ºa tß╗½ng biß╗âu thß╗⌐c:
++
++```python
++scores[0, 2]
++scores[1, :]
++scores[:, 1]
++```
++
++Sau ─æ├│ d├╣ng `print(...)` ─æß╗â kiß╗âm tra. Nß║┐u dß╗▒ ─æo├ín sai, h├úy vß║╜ lß║íi bß║úng v├á ─æ├ính sß╗æ h├áng, 
+cß╗Öt bß║»t ─æß║ºu tß╗½ `0`.
++
++### Th├¡ nghiß╗çm 2: t├¼m v├á sß╗¡a bug vß╗ü shape
++
++```python
++import numpy as np
++
++morning = np.array([
++    [20, 21, 22],
++    [23, 24, 25]
++])
++
++adjustment = np.array([
++    [1, 1],
++    [1, 1]
++])
++
++print("Morning:", morning.shape)
++print("Adjustment:", adjustment.shape)
++print(morning + adjustment)
++```
++
++Chß║íy ─æß╗â quan s├ít lß╗ùi, rß╗ôi l├ám theo ba b╞░ß╗¢c:
++
++1. Viß║┐t ra giß║Ñy hai shape.
++2. X├íc ─æß╗ïnh h├áng hoß║╖c cß╗Öt n├áo ─æang thiß║┐u trong `adjustment`.
++3. Sß╗¡a `adjustment` th├ánh matrix c├╣ng shape vß╗¢i `morning`, chß║íy lß║íi v├á giß║úi th├¡ch v├¼ sao lß╗ùi biß║┐n 
+mß║Ñt.
++
++Mß╗Ñc ti├¬u kh├┤ng phß║úi hß╗ìc thuß╗Öc th├┤ng b├ío lß╗ùi, m├á l├á h├¼nh th├ánh phß║ún xß║í kiß╗âm tra `shape`.
++
++---
++
++## ≡ƒÄ» Challenge
++
++Mß╗Öt cß╗¡a h├áng l╞░u sß╗æ sß║ún phß║⌐m b├ín ─æ╞░ß╗úc trong ba ng├áy. Mß╗ùi h├áng l├á mß╗Öt ng├áy; ba cß╗Öt lß║ºn 
+l╞░ß╗út l├á sß╗æ l╞░ß╗úng t├ío, cam v├á chuß╗æi:
++
++```python
++sales = np.array([
++    [12, 8, 15],
++    [10, 11, 9],
++    [14, 7, 13]
++])
++```
++
++H├úy viß║┐t ch╞░╞íng tr├¼nh:
++
++- in `ndim`, `shape` v├á `size`;
++- lß║Ñy to├án bß╗Ö dß╗» liß╗çu cß╗ºa ng├áy thß╗⌐ hai;
++- lß║Ñy sß╗æ cam cß╗ºa cß║ú ba ng├áy;
++- lß║Ñy sß╗æ chuß╗æi cß╗ºa ng├áy thß╗⌐ ba;
++- tß║ío matrix `extra_sales` c├╣ng shape, tß╗▒ chß╗ìn c├íc gi├í trß╗ï, rß╗ôi cß╗Öng n├│ vß╗¢i `sales`;
++- giß║úi th├¡ch bß║▒ng lß╗¥i ├╜ ngh─⌐a cß╗ºa tß╗½ng trß╗Ñc v├á v├¼ sao hai matrix cß╗Öng ─æ╞░ß╗úc.
++
++Kh├┤ng k├¿m lß╗¥i giß║úi ngay. Tr╞░ß╗¢c mß╗ùi lß║ºn chß║íy, h├úy dß╗▒ ─æo├ín cß║ú gi├í trß╗ï lß║½n shape cß╗ºa kß║┐t 
+quß║ú.
++
++---
++
++## ≡ƒº⌐ Kiß╗âm tra hiß╗âu b├ái
++
++1. Vector shape `(6,)` kh├íc matrix shape `(3, 2)` ß╗ƒ ─æ├óu d├╣ cß║ú hai ─æß╗üu c├│ s├íu phß║ºn tß╗¡?
++2. Tß║íi sao phß║úi biß║┐t ├╜ ngh─⌐a cß╗ºa h├áng v├á cß╗Öt, thay v├¼ chß╗ë kiß╗âm tra tß╗òng sß╗æ phß║ºn tß╗¡?
++3. `matrix[1, :]` kh├íc `matrix[:, 1]` nh╞░ thß║┐ n├áo?
++4. ─Éiß╗üu g├¼ xß║úy ra khi cß╗Öng hai matrix c├│ shape `(2, 3)` v├á `(2, 2)` trong phß║ím vi quy tß║»c ─æ├ú hß╗ìc?
++5. Tß║íi sao `matrix * matrix` trong NumPy kh├┤ng n├¬n ─æ╞░ß╗úc gß╗ìi ngay l├á ΓÇ£ph├⌐p nh├ón ma trß║¡nΓÇ¥?
++
++---
++
++## ≡ƒöæ Ghi nhß╗¢
++
++- Matrix l├á bß║úng sß╗æ hai chiß╗üu; mß╗ùi h├áng v├á cß╗Öt phß║úi c├│ ├╜ ngh─⌐a r├╡ r├áng.
++- Vß╗¢i matrix, `shape` ─æ╞░ß╗úc ─æß╗ìc theo thß╗⌐ tß╗▒ `(sß╗æ_h├áng, sß╗æ_cß╗Öt)`.
++- `ndim`, `shape` v├á `size` lß║ºn l╞░ß╗út cho biß║┐t sß╗æ trß╗Ñc, ─æß╗Ö d├ái tß╗½ng trß╗Ñc v├á tß╗òng sß╗æ phß║ºn 
+tß╗¡.
++- D├╣ng `matrix[h├áng, cß╗Öt]`; dß║Ñu `:` ngh─⌐a l├á lß║Ñy tß║Ñt cß║ú phß║ºn tß╗¡ tr├¬n trß╗Ñc ─æ├│.
++- Tr╞░ß╗¢c khi t├¡nh giß╗»a nhiß╗üu mß║úng, h├úy in shape v├á kiß╗âm tra ├╜ ngh─⌐a cß╗ºa tß╗½ng trß╗Ñc.
++
++---
++
++## ≡ƒöù Li├¬n kß║┐t kiß║┐n thß╗⌐c
++
++### Kiß║┐n thß╗⌐c ─æ├ú d├╣ng
++
++- [[Bai_004_Bien_Va_Cac_Hop_Du_Lieu_Python|B├ái 4]]: list, index v├á dß╗» liß╗çu dß║íng bß║úng lß╗ông nhau.
++- [[Bai_008_Scalar_Vector_Va_NumPy|B├ái 8]]: scalar, vector, NumPy array v├á ph├⌐p to├ín theo tß╗½ng phß║ºn tß╗¡.
++- T├ái liß╗çu tham khß║úo: [NumPy ΓÇö Array 
+basics](https://numpy.org/doc/stable/user/absolute_beginners.html#array-fundamentals) v├á [NumPy ΓÇö Indexing on 
+ndarrays](https://numpy.org/doc/stable/user/basics.indexing.html).
++
++### B├ái tiß║┐p theo
++
++[[Bai_010_Dot_Product_Do_Muc_Cung_Huong|B├ái 10]] sß║╜ d├╣ng c├íc vector c├│ shape ph├╣ hß╗úp ─æß╗â t├¡nh dot product 
+v├á giß║úi th├¡ch v├¼ sao ph├⌐p t├¡nh n├áy ─æo ─æ╞░ß╗úc mß╗⌐c ─æß╗Ö ΓÇ£c├╣ng h╞░ß╗¢ngΓÇ¥.
+diff --git a/COURSE_MAP.md b/COURSE_MAP.md
+index 5b16dbbe4e405e487fe87fb4c8fc66935b553a79..87f542717bd4adc5112181f05b66472740e48553
+--- a/COURSE_MAP.md
++++ b/COURSE_MAP.md
+@@ -14,7 +14,7 @@
+ - [x] B├ái 006 ΓÇö Function, class, lß╗ùi v├á c├ích chia code | ╞»u ti├¬n function, exception; nhß║¡n biß║┐t class, 
+module v├á package ß╗ƒ mß╗⌐c cß║ºn thiß║┐t.
+ - [x] B├ái 007 ΓÇö ─Éß╗ìc file, JSON v├á HTTP API | ─É╞░a dß╗» liß╗çu v├áo/ra ch╞░╞íng tr├¼nh v├á hiß╗âu 
+request/response.
+ - [x] B├ái 008 ΓÇö Scalar, vector v├á NumPy | Biß╗âu diß╗àn sß╗æ v├á danh s├ích sß╗æ ─æß╗â m├íy t├¡nh xß╗¡ l├╜.
+-- [ ] B├ái 009 ΓÇö Matrix v├á shape | Hiß╗âu bß║úng sß╗æ, chiß╗üu dß╗» liß╗çu v├á ph├⌐p to├ín mß║úng c╞í bß║ún.
++- [x] B├ái 009 ΓÇö Matrix v├á shape | Hiß╗âu bß║úng sß╗æ, chiß╗üu dß╗» liß╗çu v├á ph├⌐p to├ín mß║úng c╞í bß║ún.
+ - [ ] B├ái 010 ΓÇö Dot product: ─æo mß╗⌐c ΓÇ£c├╣ng h╞░ß╗¢ngΓÇ¥ | T├¡nh dot product v├á thß║Ñy vai tr├▓ cß╗ºa n├│ 
+trong AI.
+ - [ ] B├ái 011 ΓÇö X├íc suß║Ñt, mean v├á variance bß║▒ng trß╗▒c gi├íc | M├┤ tß║ú sß╗▒ kh├┤ng chß║»c chß║»n v├á ph├ón 
+bß╗æ dß╗» liß╗çu.
+ - [ ] B├ái 012 ΓÇö Mini-project: m├íy chß║Ñm ─æiß╗âm dß╗» liß╗çu | Gh├⌐p Python, file, NumPy v├á ph├⌐p t├¡nh th├ánh 
+pipeline nhß╗Å.
+diff --git a/COURSE_STATE.md b/COURSE_STATE.md
+index 4a7ab4c579a4dd981d808147af8fadcbb34ca84b..3c323c29a6ac689d27e648af835eed93fd48f11d
+--- a/COURSE_STATE.md
++++ b/COURSE_STATE.md
+@@ -1,9 +1,9 @@
+ # COURSE STATE
+ 
+-Current Lesson: 8
++Current Lesson: 9
+ Current Module: 0
+-Last Completed: 8
+-Next Lesson: 9
++Last Completed: 9
++Next Lesson: 10
+ Next Checkpoint: 10
+ 
+ ## Concepts Already Taught
+@@ -16,6 +16,7 @@
+ - Function, parameter, argument, `return`, local variable; exception, `raise`, `try`/`except`; ph├ón biß╗çt class, 
+module v├á package ß╗ƒ mß╗⌐c c╞í bß║ún.
+ - File text, UTF-8, context manager; JSON serialize/deserialize; HTTP request/response, status, body v├á lß╗ùi 
+file/JSON/network c╞í bß║ún.
+ - Scalar, vector; NumPy `ndarray` mß╗Öt chiß╗üu, `dtype`, ph├⌐p to├ín theo tß╗½ng phß║ºn tß╗¡ v├á vectorization ß╗ƒ 
+mß╗⌐c nhß║¡p m├┤n.
++- Matrix NumPy hai chiß╗üu; ph├ón biß╗çt `ndim`, `shape`, `size`; truy cß║¡p phß║ºn tß╗¡, h├áng, cß╗Öt v├á kiß╗âm tra 
+shape tr╞░ß╗¢c ph├⌐p to├ín mß║úng c╞í bß║ún.
+ 
+ ## Important Decisions
+ - Course map gß╗ôm 84 b├ái; concept first, framework later.
+@@ -28,4 +29,4 @@
+ - Kh├┤ng nhß║ºm `=` vß╗¢i `==`; lu├┤n test ng╞░ß╗íng v├á bß║úo ─æß║úm `while` c├│ ─æ╞░ß╗¥ng dß╗½ng.
+ 
+ ## Current Learning Dependency
+-- B├ái 9 mß╗ƒ rß╗Öng vector mß╗Öt chiß╗üu sang matrix v├á d├╣ng `shape` ─æß╗â ─æß╗ìc, kiß╗âm tra chiß╗üu dß╗» liß╗çu.
++- B├ái 10 d├╣ng vector c├│ shape ph├╣ hß╗úp ─æß╗â x├óy trß╗▒c gi├íc dot product tr╞░ß╗¢c khi li├¬n hß╗ç vß╗¢i AI.
+
+codex
+B├ái ─æ├ú ─æ╞░ß╗úc l╞░u v├á state ─æ├ú chuyß╗ân sang B├ái 010. Kiß╗âm tra cß║Ñu tr├║c cho thß║Ñy ─æß╗º to├án bß╗Ö 
+mß╗Ñc bß║»t buß╗Öc; B├ái 009 kh├┤ng phß║úi mß╗æc checkpoint n├¬n kh├┤ng tß║ío checkpoint. M├┤i tr╞░ß╗¥ng hiß╗çn tß║íi 
+kh├┤ng c├│ lß╗çnh Python, v├¼ vß║¡y m├¼nh ─æang ho├án tß║Ñt kiß╗âm tra t─⌐nh c├íc ─æoß║ín code thay v├¼ b├ío sai 
+rß║▒ng ─æ├ú chß║íy ch├║ng.
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$OutputEncoding = [Console]::OutputEncoding 
+= [System.Text.UTF8Encoding]::new(); $lesson = Get-Content -LiteralPath 
+'"'00_AI_Python_Foundations\\Bai_009_Matrix_Va_Shape.md' -Encoding utf8 -Raw; "'$required = @('"'## ≡ƒÄ» Sau b├ái n├áy 
+bß║ín l├ám ─æ╞░ß╗úc g├¼?','## ≡ƒºá ├¥ t╞░ß╗ƒng lß╗¢n','## ≡ƒîì V├¡ dß╗Ñ ─æß╗¥i th╞░ß╗¥ng','## ≡ƒÄ« V├¡ dß╗Ñ thß╗▒c 
+tß║┐','## ≡ƒö¼ B├¬n trong n├│ hoß║ít ─æß╗Öng thß║┐ n├áo?','## ≡ƒÆ╗ Thß╗▒c h├ánh','## ≡ƒº¬ Th├¡ nghiß╗çm nhß╗Å','## 
+≡ƒÄ» Challenge','## ≡ƒº⌐ Kiß╗âm tra hiß╗âu b├ái','## ≡ƒöæ Ghi nhß╗¢','## ≡ƒöù Li├¬n kß║┐t kiß║┐n thß╗⌐c','### Kiß║┐n 
+thß╗⌐c ─æ├ú d├╣ng','### B├ái tiß║┐p theo'); "'$missing = @($required | Where-Object { -not $lesson.Contains($_) }); if 
+($missing.Count -eq 0) { '"'Required sections: OK' } else { 'Missing sections:'; "'$missing }; $fences = 
+([regex]::Matches($lesson, '"'"'```'"')).Count; \"Code fence markers: "'$fences"; if ($fences % 2 -eq 0) { '"'Code 
+fences balanced: OK' } else { 'Code fences balanced: FAIL' }; "'$objectives = ([regex]::Match($lesson, '"'(?s)## ≡ƒÄ» 
+Sau b├ái n├áy bß║ín l├ám ─æ╞░ß╗úc g├¼\\?\\s*(.*?)\\s*---')).Groups[1].Value; \"Objective count: 
+"'$(([regex]::Matches($objectives, '"'(?m)"'^- '"')).Count)\"; "'$questions = ([regex]::Match($lesson, '"'(?s)## ≡ƒº⌐ 
+Kiß╗âm tra hiß╗âu b├ái\\s*(.*?)\\s*---')).Groups[1].Value; \"Comprehension question count: 
+"'$(([regex]::Matches($questions, '"'(?m)"'^'"\\d+\\. ')).Count)\"; "'$memory = ([regex]::Match($lesson, '"'(?s)## 
+≡ƒöæ Ghi nhß╗¢\\s*(.*?)\\s*---')).Groups[1].Value; \"Memory bullet count: "'$(([regex]::Matches($memory, '"'(?m)"'^- 
+'"')).Count)\"; "'$state = Get-Content -LiteralPath '"'COURSE_STATE.md' -Encoding utf8 -Raw; if ("'$state -match 
+'"'Current Lesson: 9' -and "'$state -match '"'Last Completed: 9' -and "'$state -match '"'Next Lesson: 10') { 'Course 
+state transition: OK' } else { 'Course state transition: FAIL' }; Get-Command py, python -ErrorAction SilentlyContinue 
+| Select-Object Name, Source" in C:\Users\truon\OneDrive\Ta╠Çi li├¬╠úu\Obsidian Vault\AI Engineering Zero to 
+Agent\AI-Zero-to-Agent
+ exited 1 in 1025ms:
+Required sections: OK
+Code fence markers: 46
+Code fences balanced: OK
+Objective count: 4
+Comprehension question count: 5
+Memory bullet count: 5
+Course state transition: OK
+
+Name   Source           
+----   ------           
+py.exe C:\WINDOWS\py.exe
+
+
+
+diff --git a/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md b/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..4ef89437070b4f1a3531e374b0897a931670d038
+--- /dev/null
++++ b/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md
+@@ -0,0 +1,396 @@
++# B├ái 009 ΓÇö Matrix v├á shape
++
++## ≡ƒÄ» Sau b├ái n├áy bß║ín l├ám ─æ╞░ß╗úc g├¼?
++
++- Ph├ón biß╗çt vector mß╗Öt chiß╗üu v├á matrix hai chiß╗üu bß║▒ng ├╜ ngh─⌐a dß╗» liß╗çu.
++- Tß║ío matrix bß║▒ng NumPy v├á ─æß╗ìc ─æ├║ng `shape` theo thß╗⌐ tß╗▒ h├áng, cß╗Öt.
++- Truy cß║¡p mß╗Öt phß║ºn tß╗¡, mß╗Öt h├áng hoß║╖c mß╗Öt cß╗Öt trong matrix.
++- Kiß╗âm tra shape tr╞░ß╗¢c khi thß╗▒c hiß╗çn ph├⌐p to├ín tr├¬n nhiß╗üu mß║úng.
++
++---
++
++## ≡ƒºá ├¥ t╞░ß╗ƒng lß╗¢n
++
++Mß╗Öt vector ph├╣ hß╗úp ─æß╗â m├┤ tß║ú mß╗Öt ─æß╗æi t╞░ß╗úng bß║▒ng mß╗Öt d├úy sß╗æ. Khi c├│ nhiß╗üu ─æß╗æi t╞░ß╗úng 
+d├╣ng c├╣ng mß╗Öt bß╗Ö ─æß║╖c tr╞░ng, ta th╞░ß╗¥ng xß║┐p c├íc vector th├ánh mß╗Öt bß║úng sß╗æ gß╗ìi l├á **matrix** (ma 
+trß║¡n).
++
++V├¡ dß╗Ñ, ba c─ân nh├á ─æ╞░ß╗úc m├┤ tß║ú bß║▒ng diß╗çn t├¡ch v├á sß╗æ ph├▓ng:
++
++```text
++[
++  [50, 2],
++  [75, 3],
++  [90, 4]
++]
++```
++
++Ta quy ╞░ß╗¢c:
++
++- mß╗ùi h├áng l├á mß╗Öt c─ân nh├á;
++- cß╗Öt thß╗⌐ nhß║Ñt l├á diß╗çn t├¡ch;
++- cß╗Öt thß╗⌐ hai l├á sß╗æ ph├▓ng.
++
++C├íc con sß╗æ ch╞░a ─æß╗º ─æß╗â hiß╗âu dß╗» liß╗çu. Ta c├▓n phß║úi biß║┐t **cß║Ñu tr├║c** cß╗ºa ch├║ng. NumPy cho 
+biß║┐t cß║Ñu tr├║c ─æ├│ qua thuß╗Öc t├¡nh `shape`:
++
++```text
++3 h├áng ├ù 2 cß╗Öt  ΓåÆ  shape (3, 2)
++```
++
++Trong ß╗⌐ng dß╗Ñng AI, sai shape l├á mß╗Öt nguy├¬n nh├ón rß║Ñt phß╗ò biß║┐n khiß║┐n ph├⌐p t├¡nh b├ío lß╗ùi hoß║╖c ΓÇö 
+nguy hiß╗âm h╞ín ΓÇö vß║½n chß║íy nh╞░ng mang sai ├╜ ngh─⌐a.
++
++---
++
++## ≡ƒîì V├¡ dß╗Ñ ─æß╗¥i th╞░ß╗¥ng
++
++H├úy h├¼nh dung bß║úng ─æiß╗âm cß╗ºa mß╗Öt lß╗¢p:
++
++| Hß╗ìc sinh | To├ín | V─ân | Anh |
++|---|---:|---:|---:|
++| An | 8 | 7 | 9 |
++| B├¼nh | 6 | 8 | 7 |
++
++Nß║┐u chß╗ë giß╗» phß║ºn sß╗æ, ta c├│ matrix:
++
++```text
++[
++  [8, 7, 9],
++  [6, 8, 7]
++]
++```
++
++Matrix n├áy c├│ shape `(2, 3)` v├¼ c├│ 2 h├áng v├á 3 cß╗Öt. ─Éß╗òi n├│ th├ánh shape `(3, 2)` kh├┤ng chß╗ë l├á ─æß╗òi 
+c├ích tr├¼nh b├áy: khi ─æ├│ ├╜ ngh─⌐a ΓÇ£mß╗ùi h├áng l├á mß╗Öt hß╗ìc sinhΓÇ¥ kh├┤ng c├▓n ─æ├║ng.
++
++Shape giß╗æng s╞í ─æß╗ô chß╗ù ngß╗ôi trong rß║íp. Biß║┐t c├│ s├íu ng╞░ß╗¥i l├á ch╞░a ─æß╗º; c├ích hß╗ì ─æ╞░ß╗úc xß║┐p 
+th├ánh hai h├áng, mß╗ùi h├áng ba ng╞░ß╗¥i c┼⌐ng quan trß╗ìng.
++
++---
++
++## ≡ƒÄ« V├¡ dß╗Ñ thß╗▒c tß║┐
++
++Mß╗Öt model ph├ón loß║íi tin nhß║»n c├│ thß╗â nhß║¡n nhiß╗üu tin nhß║»n trong mß╗Öt lß║ºn xß╗¡ l├╜. Giß║ú sß╗¡ mß╗ùi 
+tin nhß║»n ─æ├ú ─æ╞░ß╗úc biß╗âu diß╗àn bß║▒ng bß╗æn ─æß║╖c tr╞░ng sß╗æ:
++
++```text
++[
++  [0.2, 0.9, 0.1, 0.0],  ΓåÉ tin nhß║»n 1
++  [0.8, 0.1, 0.4, 0.3],  ΓåÉ tin nhß║»n 2
++  [0.5, 0.2, 0.7, 0.6]   ΓåÉ tin nhß║»n 3
++]
++```
++
++Shape l├á `(3, 4)`:
++
++- `3` l├á sß╗æ example;
++- `4` l├á sß╗æ feature cß╗ºa mß╗ùi example.
++
++Trong machine learning, kiß╗âu bß╗æ tr├¡ ΓÇ£mß╗ùi h├áng l├á mß╗Öt example, mß╗ùi cß╗Öt l├á mß╗Öt featureΓÇ¥ rß║Ñt 
+phß╗ò biß║┐n. Tuy nhi├¬n, ─æ├│ l├á quy ╞░ß╗¢c chß╗⌐ kh├┤ng phß║úi luß║¡t tß╗▒ nhi├¬n. Tr╞░ß╗¢c khi d├╣ng mß╗Öt dataset 
+hay model, ta vß║½n phß║úi kiß╗âm tra t├ái liß╗çu ─æß╗â biß║┐t tß╗½ng trß╗Ñc mang ├╜ ngh─⌐a g├¼.
++
++---
++
++## ≡ƒö¼ B├¬n trong n├│ hoß║ít ─æß╗Öng thß║┐ n├áo?
++
++### 1. Tß╗½ vector ─æß║┐n matrix
++
++ß╗₧ B├ái 8, mß╗Öt mß║úng mß╗Öt chiß╗üu biß╗âu diß╗àn vector:
++
++```python
++import numpy as np
++
++one_house = np.array([50, 2])
++print(one_house)
++print(one_house.shape)  # (2,)
++```
++
++Shape `(2,)` ngh─⌐a l├á mß║úng c├│ mß╗Öt trß╗Ñc gß╗ôm hai phß║ºn tß╗¡. Dß║Ñu phß║⌐y gi├║p Python biß╗âu diß╗àn ─æ├óy 
+l├á mß╗Öt tuple c├│ mß╗Öt phß║ºn tß╗¡; n├│ kh├┤ng c├│ ngh─⌐a l├á ΓÇ£thiß║┐u mß╗Öt sß╗æΓÇ¥.
++
++Khi ─æß║╖t nhiß╗üu vector c├╣ng ─æß╗Ö d├ái th├ánh c├íc h├áng, ta c├│ mß║úng hai chiß╗üu:
++
++```python
++houses = np.array([
++    [50, 2],
++    [75, 3],
++    [90, 4]
++])
++
++print(houses.shape)  # (3, 2)
++```
++
++Matrix c├│ hai trß╗Ñc:
++
++- trß╗Ñc 0 ─æi qua c├íc h├áng;
++- trß╗Ñc 1 ─æi qua c├íc cß╗Öt.
++
++Vß╗¢i matrix hai chiß╗üu, `shape` trß║ú vß╗ü tuple `(sß╗æ_h├áng, sß╗æ_cß╗Öt)`. V├¼ vß║¡y `(3, 2)` v├á `(2, 3)` l├á 
+hai shape kh├íc nhau.
++
++### 2. `ndim`, `shape` v├á `size` trß║ú lß╗¥i ba c├óu hß╗Åi kh├íc nhau
++
++```python
++print(houses.ndim)   # 2
++print(houses.shape)  # (3, 2)
++print(houses.size)   # 6
++```
++
++- `ndim`: mß║úng c├│ bao nhi├¬u trß╗Ñc?
++- `shape`: ─æß╗Ö d├ái cß╗ºa tß╗½ng trß╗Ñc l├á bao nhi├¬u?
++- `size`: tß╗òng cß╗Öng c├│ bao nhi├¬u phß║ºn tß╗¡?
++
++Mß╗Öt vector c├│ shape `(6,)` v├á matrix c├│ shape `(3, 2)` ─æß╗üu c├│ `size` bß║▒ng `6`, nh╞░ng cß║Ñu tr├║c v├á ├╜ 
+ngh─⌐a cß╗ºa ch├║ng kh├íc nhau.
++
++### 3. Truy cß║¡p phß║ºn tß╗¡ bß║▒ng h├áng v├á cß╗Öt
++
++NumPy ─æ├ính sß╗æ tß╗½ `0`, giß╗æng index cß╗ºa list:
++
++```python
++print(houses[0, 0])  # 50: h├áng ─æß║ºu, cß╗Öt ─æß║ºu
++print(houses[1, 1])  # 3: h├áng thß╗⌐ hai, cß╗Öt thß╗⌐ hai
++```
++
++Mß║½u chung l├á:
++
++```text
++matrix[chß╗ë_sß╗æ_h├áng, chß╗ë_sß╗æ_cß╗Öt]
++```
++
++─Éß╗â lß║Ñy cß║ú mß╗Öt h├áng hoß║╖c cß╗Öt, d├╣ng dß║Ñu `:` vß╗¢i ngh─⌐a ΓÇ£lß║Ñy tß║Ñt cß║ú ß╗ƒ trß╗Ñc n├áyΓÇ¥:
++
++```python
++print(houses[1, :])  # [75  3]: to├án bß╗Ö h├áng thß╗⌐ hai
++print(houses[:, 0])  # [50 75 90]: to├án bß╗Ö cß╗Öt ─æß║ºu
++```
++
++Hai kß║┐t quß║ú tr├¬n ─æß╗üu l├á mß║úng mß╗Öt chiß╗üu. H├úy lu├┤n ─æß╗ìc ph├⌐p truy cß║¡p bß║▒ng ├╜ ngh─⌐a dß╗» 
+liß╗çu: `houses[:, 0]` l├á diß╗çn t├¡ch cß╗ºa tß║Ñt cß║ú c─ân nh├á.
++
++### 4. Ph├⌐p to├ín c╞í bß║ún vß║½n c├│ thß╗â ├íp dß╗Ñng theo tß╗½ng phß║ºn tß╗¡
++
++Matrix nh├ón vß╗¢i scalar:
++
++```python
++matrix = np.array([
++    [1, 2],
++    [3, 4]
++])
++
++print(matrix * 10)
++```
++
++Kß║┐t quß║ú:
++
++```text
++[[10 20]
++ [30 40]]
++```
++
++Matrix cß╗Öng vß╗¢i matrix c├╣ng shape:
++
++```python
++a = np.array([[1, 2], [3, 4]])
++b = np.array([[10, 20], [30, 40]])
++
++print(a + b)
++```
++
++NumPy cß╗Öng c├íc phß║ºn tß╗¡ ß╗ƒ vß╗ï tr├¡ t╞░╞íng ß╗⌐ng, tß║ío kß║┐t quß║ú:
++
++```text
++[[11 22]
++ [33 44]]
++```
++
++K├╜ hiß╗çu `*` ß╗ƒ ─æ├óy c┼⌐ng l├á nh├ón theo tß╗½ng phß║ºn tß╗¡, ch╞░a phß║úi ph├⌐p nh├ón matrix trong to├ín hß╗ìc. 
+C├íc ph├⌐p kß║┐t hß╗úp vector v├á matrix c├│ mß╗Ñc ─æ├¡ch kh├íc sß║╜ ─æ╞░ß╗úc giß╗¢i thiß╗çu khi cß║ºn.
++
++### 5. Kiß╗âm tra shape tr╞░ß╗¢c khi t├¡nh
++
++H├úy xem hai mß║úng:
++
++```python
++actual = np.array([
++    [8, 7, 9],
++    [6, 8, 7]
++])
++
++bonus = np.array([
++    [1, 1],
++    [1, 1]
++])
++```
++
++`actual.shape` l├á `(2, 3)`, c├▓n `bonus.shape` l├á `(2, 2)`. Ta kh├┤ng thß╗â gh├⌐p tß╗½ng vß╗ï tr├¡ cß╗ºa bß║úng 2 
+h├áng, 3 cß╗Öt vß╗¢i bß║úng 2 h├áng, 2 cß╗Öt.
++
++Quy tr├¼nh chß║⌐n ─æo├ín ngß║»n:
++
++1. In `shape` cß╗ºa tß╗½ng mß║úng.
++2. N├│i r├╡ mß╗ùi trß╗Ñc ─æß║íi diß╗çn cho ─æiß╗üu g├¼.
++3. Kiß╗âm tra ph├⌐p to├ín c├│ ─æang gh├⌐p ─æ├║ng c├íc vß╗ï tr├¡ t╞░╞íng ß╗⌐ng kh├┤ng.
++4. Chß╗ë sß╗¡a dß╗» liß╗çu hoß║╖c ph├⌐p to├ín sau khi hiß╗âu nguy├¬n nh├ón.
++
++NumPy c├│ th├¬m quy tß║»c **broadcasting** cho mß╗Öt sß╗æ shape kh├íc nhau nh╞░ng t╞░╞íng th├¡ch. Ta ch╞░a cß║ºn 
+d├╣ng quy tß║»c ─æ├│ ß╗ƒ b├ái n├áy. ─Éß╗½ng ─æo├ín rß║▒ng mß╗ìi shape kh├íc nhau ─æß╗üu cß╗Öng ─æ╞░ß╗úc; h├úy d├╣ng 
+c├╣ng shape cho ph├⌐p to├ín giß╗»a hai matrix trong c├íc v├¡ dß╗Ñ hiß╗çn tß║íi.
++
++---
++
++## ≡ƒÆ╗ Thß╗▒c h├ánh
++
++Tß║ío file `bai_009.py`:
++
++```python
++import numpy as np
++
++sensor_data = np.array([
++    [24.0, 60.0],
++    [25.5, 58.0],
++    [23.5, 65.0]
++])
++
++print("Dß╗» liß╗çu:\n", sensor_data)
++print("Sß╗æ trß╗Ñc:", sensor_data.ndim)
++print("Shape:", sensor_data.shape)
++print("Tß╗òng phß║ºn tß╗¡:", sensor_data.size)
++
++print("Lß║ºn ─æo thß╗⌐ hai:", sensor_data[1, :])
++print("Mß╗ìi nhiß╗çt ─æß╗Ö:", sensor_data[:, 0])
++print("─Éß╗Ö ß║⌐m lß║ºn cuß╗æi:", sensor_data[2, 1])
++```
++
++Chß║íy:
++
++```powershell
++python bai_009.py
++```
++
++Kß║┐t quß║ú ch├¡nh:
++
++```text
++Sß╗æ trß╗Ñc: 2
++Shape: (3, 2)
++Tß╗òng phß║ºn tß╗¡: 6
++Lß║ºn ─æo thß╗⌐ hai: [25.5 58. ]
++Mß╗ìi nhiß╗çt ─æß╗Ö: [24.  25.5 23.5]
++─Éß╗Ö ß║⌐m lß║ºn cuß╗æi: 65.0
++```
++
++─Éß╗½ng chß╗ë nh├¼n output. H├úy tß╗▒ giß║úi th├¡ch:
++
++- V├¼ sao `3` ─æß╗⌐ng tr╞░ß╗¢c `2` trong shape?
++- V├¼ sao `sensor_data[1, :]` lß║Ñy lß║ºn ─æo thß╗⌐ hai?
++- Trong `sensor_data[:, 0]`, dß║Ñu `:` v├á sß╗æ `0` ─æang t├íc ─æß╗Öng l├¬n hai trß╗Ñc n├áo?
++
++Sau ─æ├│ th├¬m ─æoß║ín sau ─æß╗â chuyß╗ân mß╗ìi sß╗æ ─æo sang ─æ╞ín vß╗ï nhß╗Å h╞ín 10 lß║ºn:
++
++```python
++scaled_data = sensor_data / 10
++print("Sau khi chia 10:\n", scaled_data)
++print("Shape mß╗¢i:", scaled_data.shape)
++```
++
++Ph├⌐p chia l├ám thay ─æß╗òi gi├í trß╗ï nh╞░ng kh├┤ng thay ─æß╗òi c├ích c├íc phß║ºn tß╗¡ ─æ╞░ß╗úc sß║»p xß║┐p, n├¬n 
+shape vß║½n l├á `(3, 2)`.
++
++---
++
++## ≡ƒº¬ Th├¡ nghiß╗çm nhß╗Å
++
++### Th├¡ nghiß╗çm 1: dß╗▒ ─æo├ín c├ích truy cß║¡p
++
++Vß╗¢i matrix sau, ch╞░a chß║íy code vß╗Öi:
++
++```python
++import numpy as np
++
++scores = np.array([
++    [8, 7, 9],
++    [6, 8, 7],
++    [9, 9, 10]
++])
++```
++
++H├úy dß╗▒ ─æo├ín kß║┐t quß║ú v├á shape cß╗ºa tß╗½ng biß╗âu thß╗⌐c:
++
++```python
++scores[0, 2]
++scores[1, :]
++scores[:, 1]
++```
++
++Sau ─æ├│ d├╣ng `print(...)` ─æß╗â kiß╗âm tra. Nß║┐u dß╗▒ ─æo├ín sai, h├úy vß║╜ lß║íi bß║úng v├á ─æ├ính sß╗æ h├áng, 
+cß╗Öt bß║»t ─æß║ºu tß╗½ `0`.
++
++### Th├¡ nghiß╗çm 2: t├¼m v├á sß╗¡a bug vß╗ü shape
++
++```python
++import numpy as np
++
++morning = np.array([
++    [20, 21, 22],
++    [23, 24, 25]
++])
++
++adjustment = np.array([
++    [1, 1],
++    [1, 1]
++])
++
++print("Morning:", morning.shape)
++print("Adjustment:", adjustment.shape)
++print(morning + adjustment)
++```
++
++Chß║íy ─æß╗â quan s├ít lß╗ùi, rß╗ôi l├ám theo ba b╞░ß╗¢c:
++
++1. Viß║┐t ra giß║Ñy hai shape.
++2. X├íc ─æß╗ïnh h├áng hoß║╖c cß╗Öt n├áo ─æang thiß║┐u trong `adjustment`.
++3. Sß╗¡a `adjustment` th├ánh matrix c├╣ng shape vß╗¢i `morning`, chß║íy lß║íi v├á giß║úi th├¡ch v├¼ sao lß╗ùi biß║┐n 
+mß║Ñt.
++
++Mß╗Ñc ti├¬u kh├┤ng phß║úi hß╗ìc thuß╗Öc th├┤ng b├ío lß╗ùi, m├á l├á h├¼nh th├ánh phß║ún xß║í kiß╗âm tra `shape`.
++
++---
++
++## ≡ƒÄ» Challenge
++
++Mß╗Öt cß╗¡a h├áng l╞░u sß╗æ sß║ún phß║⌐m b├ín ─æ╞░ß╗úc trong ba ng├áy. Mß╗ùi h├áng l├á mß╗Öt ng├áy; ba cß╗Öt lß║ºn 
+l╞░ß╗út l├á sß╗æ l╞░ß╗úng t├ío, cam v├á chuß╗æi:
++
++```python
++sales = np.array([
++    [12, 8, 15],
++    [10, 11, 9],
++    [14, 7, 13]
++])
++```
++
++H├úy viß║┐t ch╞░╞íng tr├¼nh:
++
++- in `ndim`, `shape` v├á `size`;
++- lß║Ñy to├án bß╗Ö dß╗» liß╗çu cß╗ºa ng├áy thß╗⌐ hai;
++- lß║Ñy sß╗æ cam cß╗ºa cß║ú ba ng├áy;
++- lß║Ñy sß╗æ chuß╗æi cß╗ºa ng├áy thß╗⌐ ba;
++- tß║ío matrix `extra_sales` c├╣ng shape, tß╗▒ chß╗ìn c├íc gi├í trß╗ï, rß╗ôi cß╗Öng n├│ vß╗¢i `sales`;
++- giß║úi th├¡ch bß║▒ng lß╗¥i ├╜ ngh─⌐a cß╗ºa tß╗½ng trß╗Ñc v├á v├¼ sao hai matrix cß╗Öng ─æ╞░ß╗úc.
++
++Kh├┤ng k├¿m lß╗¥i giß║úi ngay. Tr╞░ß╗¢c mß╗ùi lß║ºn chß║íy, h├úy dß╗▒ ─æo├ín cß║ú gi├í trß╗ï lß║½n shape cß╗ºa kß║┐t 
+quß║ú.
++
++---
++
++## ≡ƒº⌐ Kiß╗âm tra hiß╗âu b├ái
++
++1. Vector shape `(6,)` kh├íc matrix shape `(3, 2)` ß╗ƒ ─æ├óu d├╣ cß║ú hai ─æß╗üu c├│ s├íu phß║ºn tß╗¡?
++2. Tß║íi sao phß║úi biß║┐t ├╜ ngh─⌐a cß╗ºa h├áng v├á cß╗Öt, thay v├¼ chß╗ë kiß╗âm tra tß╗òng sß╗æ phß║ºn tß╗¡?
++3. `matrix[1, :]` kh├íc `matrix[:, 1]` nh╞░ thß║┐ n├áo?
++4. ─Éiß╗üu g├¼ xß║úy ra khi cß╗Öng hai matrix c├│ shape `(2, 3)` v├á `(2, 2)` trong phß║ím vi quy tß║»c ─æ├ú hß╗ìc?
++5. Tß║íi sao `matrix * matrix` trong NumPy kh├┤ng n├¬n ─æ╞░ß╗úc gß╗ìi ngay l├á ΓÇ£ph├⌐p nh├ón ma trß║¡nΓÇ¥?
++
++---
++
++## ≡ƒöæ Ghi nhß╗¢
++
++- Matrix l├á bß║úng sß╗æ hai chiß╗üu; mß╗ùi h├áng v├á cß╗Öt phß║úi c├│ ├╜ ngh─⌐a r├╡ r├áng.
++- Vß╗¢i matrix, `shape` ─æ╞░ß╗úc ─æß╗ìc theo thß╗⌐ tß╗▒ `(sß╗æ_h├áng, sß╗æ_cß╗Öt)`.
++- `ndim`, `shape` v├á `size` lß║ºn l╞░ß╗út cho biß║┐t sß╗æ trß╗Ñc, ─æß╗Ö d├ái tß╗½ng trß╗Ñc v├á tß╗òng sß╗æ phß║ºn 
+tß╗¡.
++- D├╣ng `matrix[h├áng, cß╗Öt]`; dß║Ñu `:` ngh─⌐a l├á lß║Ñy tß║Ñt cß║ú phß║ºn tß╗¡ tr├¬n trß╗Ñc ─æ├│.
++- Tr╞░ß╗¢c khi t├¡nh giß╗»a nhiß╗üu mß║úng, h├úy in shape v├á kiß╗âm tra ├╜ ngh─⌐a cß╗ºa tß╗½ng trß╗Ñc.
++
++---
++
++## ≡ƒöù Li├¬n kß║┐t kiß║┐n thß╗⌐c
++
++### Kiß║┐n thß╗⌐c ─æ├ú d├╣ng
++
++- [[Bai_004_Bien_Va_Cac_Hop_Du_Lieu_Python|B├ái 4]]: list, index v├á dß╗» liß╗çu dß║íng bß║úng lß╗ông nhau.
++- [[Bai_008_Scalar_Vector_Va_NumPy|B├ái 8]]: scalar, vector, NumPy array v├á ph├⌐p to├ín theo tß╗½ng phß║ºn tß╗¡.
++- T├ái liß╗çu tham khß║úo: [NumPy ΓÇö Array 
+basics](https://numpy.org/doc/stable/user/absolute_beginners.html#array-fundamentals) v├á [NumPy ΓÇö Indexing on 
+ndarrays](https://numpy.org/doc/stable/user/basics.indexing.html).
++
++### B├ái tiß║┐p theo
++
++[[Bai_010_Dot_Product_Do_Muc_Cung_Huong|B├ái 10]] sß║╜ d├╣ng c├íc vector c├│ shape ph├╣ hß╗úp ─æß╗â t├¡nh dot product 
+v├á giß║úi th├¡ch v├¼ sao ph├⌐p t├¡nh n├áy ─æo ─æ╞░ß╗úc mß╗⌐c ─æß╗Ö ΓÇ£c├╣ng h╞░ß╗¢ngΓÇ¥.
+diff --git a/COURSE_MAP.md b/COURSE_MAP.md
+index 5b16dbbe4e405e487fe87fb4c8fc66935b553a79..87f542717bd4adc5112181f05b66472740e48553
+--- a/COURSE_MAP.md
++++ b/COURSE_MAP.md
+@@ -14,7 +14,7 @@
+ - [x] B├ái 006 ΓÇö Function, class, lß╗ùi v├á c├ích chia code | ╞»u ti├¬n function, exception; nhß║¡n biß║┐t class, 
+module v├á package ß╗ƒ mß╗⌐c cß║ºn thiß║┐t.
+ - [x] B├ái 007 ΓÇö ─Éß╗ìc file, JSON v├á HTTP API | ─É╞░a dß╗» liß╗çu v├áo/ra ch╞░╞íng tr├¼nh v├á hiß╗âu 
+request/response.
+ - [x] B├ái 008 ΓÇö Scalar, vector v├á NumPy | Biß╗âu diß╗àn sß╗æ v├á danh s├ích sß╗æ ─æß╗â m├íy t├¡nh xß╗¡ l├╜.
+-- [ ] B├ái 009 ΓÇö Matrix v├á shape | Hiß╗âu bß║úng sß╗æ, chiß╗üu dß╗» liß╗çu v├á ph├⌐p to├ín mß║úng c╞í bß║ún.
++- [x] B├ái 009 ΓÇö Matrix v├á shape | Hiß╗âu bß║úng sß╗æ, chiß╗üu dß╗» liß╗çu v├á ph├⌐p to├ín mß║úng c╞í bß║ún.
+ - [ ] B├ái 010 ΓÇö Dot product: ─æo mß╗⌐c ΓÇ£c├╣ng h╞░ß╗¢ngΓÇ¥ | T├¡nh dot product v├á thß║Ñy vai tr├▓ cß╗ºa n├│ 
+trong AI.
+ - [ ] B├ái 011 ΓÇö X├íc suß║Ñt, mean v├á variance bß║▒ng trß╗▒c gi├íc | M├┤ tß║ú sß╗▒ kh├┤ng chß║»c chß║»n v├á ph├ón 
+bß╗æ dß╗» liß╗çu.
+ - [ ] B├ái 012 ΓÇö Mini-project: m├íy chß║Ñm ─æiß╗âm dß╗» liß╗çu | Gh├⌐p Python, file, NumPy v├á ph├⌐p t├¡nh th├ánh 
+pipeline nhß╗Å.
+diff --git a/COURSE_STATE.md b/COURSE_STATE.md
+index 4a7ab4c579a4dd981d808147af8fadcbb34ca84b..3c323c29a6ac689d27e648af835eed93fd48f11d
+--- a/COURSE_STATE.md
++++ b/COURSE_STATE.md
+@@ -1,9 +1,9 @@
+ # COURSE STATE
+ 
+-Current Lesson: 8
++Current Lesson: 9
+ Current Module: 0
+-Last Completed: 8
+-Next Lesson: 9
++Last Completed: 9
++Next Lesson: 10
+ Next Checkpoint: 10
+ 
+ ## Concepts Already Taught
+@@ -16,6 +16,7 @@
+ - Function, parameter, argument, `return`, local variable; exception, `raise`, `try`/`except`; ph├ón biß╗çt class, 
+module v├á package ß╗ƒ mß╗⌐c c╞í bß║ún.
+ - File text, UTF-8, context manager; JSON serialize/deserialize; HTTP request/response, status, body v├á lß╗ùi 
+file/JSON/network c╞í bß║ún.
+ - Scalar, vector; NumPy `ndarray` mß╗Öt chiß╗üu, `dtype`, ph├⌐p to├ín theo tß╗½ng phß║ºn tß╗¡ v├á vectorization ß╗ƒ 
+mß╗⌐c nhß║¡p m├┤n.
++- Matrix NumPy hai chiß╗üu; ph├ón biß╗çt `ndim`, `shape`, `size`; truy cß║¡p phß║ºn tß╗¡, h├áng, cß╗Öt v├á kiß╗âm tra 
+shape tr╞░ß╗¢c ph├⌐p to├ín mß║úng c╞í bß║ún.
+ 
+ ## Important Decisions
+ - Course map gß╗ôm 84 b├ái; concept first, framework later.
+@@ -28,4 +29,4 @@
+ - Kh├┤ng nhß║ºm `=` vß╗¢i `==`; lu├┤n test ng╞░ß╗íng v├á bß║úo ─æß║úm `while` c├│ ─æ╞░ß╗¥ng dß╗½ng.
+ 
+ ## Current Learning Dependency
+-- B├ái 9 mß╗ƒ rß╗Öng vector mß╗Öt chiß╗üu sang matrix v├á d├╣ng `shape` ─æß╗â ─æß╗ìc, kiß╗âm tra chiß╗üu dß╗» liß╗çu.
++- B├ái 10 d├╣ng vector c├│ shape ph├╣ hß╗úp ─æß╗â x├óy trß╗▒c gi├íc dot product tr╞░ß╗¢c khi li├¬n hß╗ç vß╗¢i AI.
+
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "py -3 -c \"import numpy as np; 
+sensor_data=np.array([[24.0,60.0],[25.5,58.0],[23.5,65.0]]); assert sensor_data.shape==(3,2); assert 
+sensor_data.ndim==2; assert sensor_data.size==6; assert sensor_data[2,1]==65.0; assert (sensor_data/10).shape==(3,2); 
+scores=np.array([[8,7,9],[6,8,7],[9,9,10]]); assert scores[0,2]==9; assert scores[1,:].shape==(3,); assert 
+scores[:,1].shape==(3,); print('NumPy lesson checks: OK')\"" in C:\Users\truon\OneDrive\Ta╠Çi li├¬╠úu\Obsidian 
+Vault\AI Engineering Zero to Agent\AI-Zero-to-Agent
+ exited 1 in 0ms:
+No installed Python found!
+
+diff --git a/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md b/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..4ef89437070b4f1a3531e374b0897a931670d038
+--- /dev/null
++++ b/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md
+@@ -0,0 +1,396 @@
++# B├ái 009 ΓÇö Matrix v├á shape
++
++## ≡ƒÄ» Sau b├ái n├áy bß║ín l├ám ─æ╞░ß╗úc g├¼?
++
++- Ph├ón biß╗çt vector mß╗Öt chiß╗üu v├á matrix hai chiß╗üu bß║▒ng ├╜ ngh─⌐a dß╗» liß╗çu.
++- Tß║ío matrix bß║▒ng NumPy v├á ─æß╗ìc ─æ├║ng `shape` theo thß╗⌐ tß╗▒ h├áng, cß╗Öt.
++- Truy cß║¡p mß╗Öt phß║ºn tß╗¡, mß╗Öt h├áng hoß║╖c mß╗Öt cß╗Öt trong matrix.
++- Kiß╗âm tra shape tr╞░ß╗¢c khi thß╗▒c hiß╗çn ph├⌐p to├ín tr├¬n nhiß╗üu mß║úng.
++
++---
++
++## ≡ƒºá ├¥ t╞░ß╗ƒng lß╗¢n
++
++Mß╗Öt vector ph├╣ hß╗úp ─æß╗â m├┤ tß║ú mß╗Öt ─æß╗æi t╞░ß╗úng bß║▒ng mß╗Öt d├úy sß╗æ. Khi c├│ nhiß╗üu ─æß╗æi t╞░ß╗úng 
+d├╣ng c├╣ng mß╗Öt bß╗Ö ─æß║╖c tr╞░ng, ta th╞░ß╗¥ng xß║┐p c├íc vector th├ánh mß╗Öt bß║úng sß╗æ gß╗ìi l├á **matrix** (ma 
+trß║¡n).
++
++V├¡ dß╗Ñ, ba c─ân nh├á ─æ╞░ß╗úc m├┤ tß║ú bß║▒ng diß╗çn t├¡ch v├á sß╗æ ph├▓ng:
++
++```text
++[
++  [50, 2],
++  [75, 3],
++  [90, 4]
++]
++```
++
++Ta quy ╞░ß╗¢c:
++
++- mß╗ùi h├áng l├á mß╗Öt c─ân nh├á;
++- cß╗Öt thß╗⌐ nhß║Ñt l├á diß╗çn t├¡ch;
++- cß╗Öt thß╗⌐ hai l├á sß╗æ ph├▓ng.
++
++C├íc con sß╗æ ch╞░a ─æß╗º ─æß╗â hiß╗âu dß╗» liß╗çu. Ta c├▓n phß║úi biß║┐t **cß║Ñu tr├║c** cß╗ºa ch├║ng. NumPy cho 
+biß║┐t cß║Ñu tr├║c ─æ├│ qua thuß╗Öc t├¡nh `shape`:
++
++```text
++3 h├áng ├ù 2 cß╗Öt  ΓåÆ  shape (3, 2)
++```
++
++Trong ß╗⌐ng dß╗Ñng AI, sai shape l├á mß╗Öt nguy├¬n nh├ón rß║Ñt phß╗ò biß║┐n khiß║┐n ph├⌐p t├¡nh b├ío lß╗ùi hoß║╖c ΓÇö 
+nguy hiß╗âm h╞ín ΓÇö vß║½n chß║íy nh╞░ng mang sai ├╜ ngh─⌐a.
++
++---
++
++## ≡ƒîì V├¡ dß╗Ñ ─æß╗¥i th╞░ß╗¥ng
++
++H├úy h├¼nh dung bß║úng ─æiß╗âm cß╗ºa mß╗Öt lß╗¢p:
++
++| Hß╗ìc sinh | To├ín | V─ân | Anh |
++|---|---:|---:|---:|
++| An | 8 | 7 | 9 |
++| B├¼nh | 6 | 8 | 7 |
++
++Nß║┐u chß╗ë giß╗» phß║ºn sß╗æ, ta c├│ matrix:
++
++```text
++[
++  [8, 7, 9],
++  [6, 8, 7]
++]
++```
++
++Matrix n├áy c├│ shape `(2, 3)` v├¼ c├│ 2 h├áng v├á 3 cß╗Öt. ─Éß╗òi n├│ th├ánh shape `(3, 2)` kh├┤ng chß╗ë l├á ─æß╗òi 
+c├ích tr├¼nh b├áy: khi ─æ├│ ├╜ ngh─⌐a ΓÇ£mß╗ùi h├áng l├á mß╗Öt hß╗ìc sinhΓÇ¥ kh├┤ng c├▓n ─æ├║ng.
++
++Shape giß╗æng s╞í ─æß╗ô chß╗ù ngß╗ôi trong rß║íp. Biß║┐t c├│ s├íu ng╞░ß╗¥i l├á ch╞░a ─æß╗º; c├ích hß╗ì ─æ╞░ß╗úc xß║┐p 
+th├ánh hai h├áng, mß╗ùi h├áng ba ng╞░ß╗¥i c┼⌐ng quan trß╗ìng.
++
++---
++
++## ≡ƒÄ« V├¡ dß╗Ñ thß╗▒c tß║┐
++
++Mß╗Öt model ph├ón loß║íi tin nhß║»n c├│ thß╗â nhß║¡n nhiß╗üu tin nhß║»n trong mß╗Öt lß║ºn xß╗¡ l├╜. Giß║ú sß╗¡ mß╗ùi 
+tin nhß║»n ─æ├ú ─æ╞░ß╗úc biß╗âu diß╗àn bß║▒ng bß╗æn ─æß║╖c tr╞░ng sß╗æ:
++
++```text
++[
++  [0.2, 0.9, 0.1, 0.0],  ΓåÉ tin nhß║»n 1
++  [0.8, 0.1, 0.4, 0.3],  ΓåÉ tin nhß║»n 2
++  [0.5, 0.2, 0.7, 0.6]   ΓåÉ tin nhß║»n 3
++]
++```
++
++Shape l├á `(3, 4)`:
++
++- `3` l├á sß╗æ example;
++- `4` l├á sß╗æ feature cß╗ºa mß╗ùi example.
++
++Trong machine learning, kiß╗âu bß╗æ tr├¡ ΓÇ£mß╗ùi h├áng l├á mß╗Öt example, mß╗ùi cß╗Öt l├á mß╗Öt featureΓÇ¥ rß║Ñt 
+phß╗ò biß║┐n. Tuy nhi├¬n, ─æ├│ l├á quy ╞░ß╗¢c chß╗⌐ kh├┤ng phß║úi luß║¡t tß╗▒ nhi├¬n. Tr╞░ß╗¢c khi d├╣ng mß╗Öt dataset 
+hay model, ta vß║½n phß║úi kiß╗âm tra t├ái liß╗çu ─æß╗â biß║┐t tß╗½ng trß╗Ñc mang ├╜ ngh─⌐a g├¼.
++
++---
++
++## ≡ƒö¼ B├¬n trong n├│ hoß║ít ─æß╗Öng thß║┐ n├áo?
++
++### 1. Tß╗½ vector ─æß║┐n matrix
++
++ß╗₧ B├ái 8, mß╗Öt mß║úng mß╗Öt chiß╗üu biß╗âu diß╗àn vector:
++
++```python
++import numpy as np
++
++one_house = np.array([50, 2])
++print(one_house)
++print(one_house.shape)  # (2,)
++```
++
++Shape `(2,)` ngh─⌐a l├á mß║úng c├│ mß╗Öt trß╗Ñc gß╗ôm hai phß║ºn tß╗¡. Dß║Ñu phß║⌐y gi├║p Python biß╗âu diß╗àn ─æ├óy 
+l├á mß╗Öt tuple c├│ mß╗Öt phß║ºn tß╗¡; n├│ kh├┤ng c├│ ngh─⌐a l├á ΓÇ£thiß║┐u mß╗Öt sß╗æΓÇ¥.
++
++Khi ─æß║╖t nhiß╗üu vector c├╣ng ─æß╗Ö d├ái th├ánh c├íc h├áng, ta c├│ mß║úng hai chiß╗üu:
++
++```python
++houses = np.array([
++    [50, 2],
++    [75, 3],
++    [90, 4]
++])
++
++print(houses.shape)  # (3, 2)
++```
++
++Matrix c├│ hai trß╗Ñc:
++
++- trß╗Ñc 0 ─æi qua c├íc h├áng;
++- trß╗Ñc 1 ─æi qua c├íc cß╗Öt.
++
++Vß╗¢i matrix hai chiß╗üu, `shape` trß║ú vß╗ü tuple `(sß╗æ_h├áng, sß╗æ_cß╗Öt)`. V├¼ vß║¡y `(3, 2)` v├á `(2, 3)` l├á 
+hai shape kh├íc nhau.
++
++### 2. `ndim`, `shape` v├á `size` trß║ú lß╗¥i ba c├óu hß╗Åi kh├íc nhau
++
++```python
++print(houses.ndim)   # 2
++print(houses.shape)  # (3, 2)
++print(houses.size)   # 6
++```
++
++- `ndim`: mß║úng c├│ bao nhi├¬u trß╗Ñc?
++- `shape`: ─æß╗Ö d├ái cß╗ºa tß╗½ng trß╗Ñc l├á bao nhi├¬u?
++- `size`: tß╗òng cß╗Öng c├│ bao nhi├¬u phß║ºn tß╗¡?
++
++Mß╗Öt vector c├│ shape `(6,)` v├á matrix c├│ shape `(3, 2)` ─æß╗üu c├│ `size` bß║▒ng `6`, nh╞░ng cß║Ñu tr├║c v├á ├╜ 
+ngh─⌐a cß╗ºa ch├║ng kh├íc nhau.
++
++### 3. Truy cß║¡p phß║ºn tß╗¡ bß║▒ng h├áng v├á cß╗Öt
++
++NumPy ─æ├ính sß╗æ tß╗½ `0`, giß╗æng index cß╗ºa list:
++
++```python
++print(houses[0, 0])  # 50: h├áng ─æß║ºu, cß╗Öt ─æß║ºu
++print(houses[1, 1])  # 3: h├áng thß╗⌐ hai, cß╗Öt thß╗⌐ hai
++```
++
++Mß║½u chung l├á:
++
++```text
++matrix[chß╗ë_sß╗æ_h├áng, chß╗ë_sß╗æ_cß╗Öt]
++```
++
++─Éß╗â lß║Ñy cß║ú mß╗Öt h├áng hoß║╖c cß╗Öt, d├╣ng dß║Ñu `:` vß╗¢i ngh─⌐a ΓÇ£lß║Ñy tß║Ñt cß║ú ß╗ƒ trß╗Ñc n├áyΓÇ¥:
++
++```python
++print(houses[1, :])  # [75  3]: to├án bß╗Ö h├áng thß╗⌐ hai
++print(houses[:, 0])  # [50 75 90]: to├án bß╗Ö cß╗Öt ─æß║ºu
++```
++
++Hai kß║┐t quß║ú tr├¬n ─æß╗üu l├á mß║úng mß╗Öt chiß╗üu. H├úy lu├┤n ─æß╗ìc ph├⌐p truy cß║¡p bß║▒ng ├╜ ngh─⌐a dß╗» 
+liß╗çu: `houses[:, 0]` l├á diß╗çn t├¡ch cß╗ºa tß║Ñt cß║ú c─ân nh├á.
++
++### 4. Ph├⌐p to├ín c╞í bß║ún vß║½n c├│ thß╗â ├íp dß╗Ñng theo tß╗½ng phß║ºn tß╗¡
++
++Matrix nh├ón vß╗¢i scalar:
++
++```python
++matrix = np.array([
++    [1, 2],
++    [3, 4]
++])
++
++print(matrix * 10)
++```
++
++Kß║┐t quß║ú:
++
++```text
++[[10 20]
++ [30 40]]
++```
++
++Matrix cß╗Öng vß╗¢i matrix c├╣ng shape:
++
++```python
++a = np.array([[1, 2], [3, 4]])
++b = np.array([[10, 20], [30, 40]])
++
++print(a + b)
++```
++
++NumPy cß╗Öng c├íc phß║ºn tß╗¡ ß╗ƒ vß╗ï tr├¡ t╞░╞íng ß╗⌐ng, tß║ío kß║┐t quß║ú:
++
++```text
++[[11 22]
++ [33 44]]
++```
++
++K├╜ hiß╗çu `*` ß╗ƒ ─æ├óy c┼⌐ng l├á nh├ón theo tß╗½ng phß║ºn tß╗¡, ch╞░a phß║úi ph├⌐p nh├ón matrix trong to├ín hß╗ìc. 
+C├íc ph├⌐p kß║┐t hß╗úp vector v├á matrix c├│ mß╗Ñc ─æ├¡ch kh├íc sß║╜ ─æ╞░ß╗úc giß╗¢i thiß╗çu khi cß║ºn.
++
++### 5. Kiß╗âm tra shape tr╞░ß╗¢c khi t├¡nh
++
++H├úy xem hai mß║úng:
++
++```python
++actual = np.array([
++    [8, 7, 9],
++    [6, 8, 7]
++])
++
++bonus = np.array([
++    [1, 1],
++    [1, 1]
++])
++```
++
++`actual.shape` l├á `(2, 3)`, c├▓n `bonus.shape` l├á `(2, 2)`. Ta kh├┤ng thß╗â gh├⌐p tß╗½ng vß╗ï tr├¡ cß╗ºa bß║úng 2 
+h├áng, 3 cß╗Öt vß╗¢i bß║úng 2 h├áng, 2 cß╗Öt.
++
++Quy tr├¼nh chß║⌐n ─æo├ín ngß║»n:
++
++1. In `shape` cß╗ºa tß╗½ng mß║úng.
++2. N├│i r├╡ mß╗ùi trß╗Ñc ─æß║íi diß╗çn cho ─æiß╗üu g├¼.
++3. Kiß╗âm tra ph├⌐p to├ín c├│ ─æang gh├⌐p ─æ├║ng c├íc vß╗ï tr├¡ t╞░╞íng ß╗⌐ng kh├┤ng.
++4. Chß╗ë sß╗¡a dß╗» liß╗çu hoß║╖c ph├⌐p to├ín sau khi hiß╗âu nguy├¬n nh├ón.
++
++NumPy c├│ th├¬m quy tß║»c **broadcasting** cho mß╗Öt sß╗æ shape kh├íc nhau nh╞░ng t╞░╞íng th├¡ch. Ta ch╞░a cß║ºn 
+d├╣ng quy tß║»c ─æ├│ ß╗ƒ b├ái n├áy. ─Éß╗½ng ─æo├ín rß║▒ng mß╗ìi shape kh├íc nhau ─æß╗üu cß╗Öng ─æ╞░ß╗úc; h├úy d├╣ng 
+c├╣ng shape cho ph├⌐p to├ín giß╗»a hai matrix trong c├íc v├¡ dß╗Ñ hiß╗çn tß║íi.
++
++---
++
++## ≡ƒÆ╗ Thß╗▒c h├ánh
++
++Tß║ío file `bai_009.py`:
++
++```python
++import numpy as np
++
++sensor_data = np.array([
++    [24.0, 60.0],
++    [25.5, 58.0],
++    [23.5, 65.0]
++])
++
++print("Dß╗» liß╗çu:\n", sensor_data)
++print("Sß╗æ trß╗Ñc:", sensor_data.ndim)
++print("Shape:", sensor_data.shape)
++print("Tß╗òng phß║ºn tß╗¡:", sensor_data.size)
++
++print("Lß║ºn ─æo thß╗⌐ hai:", sensor_data[1, :])
++print("Mß╗ìi nhiß╗çt ─æß╗Ö:", sensor_data[:, 0])
++print("─Éß╗Ö ß║⌐m lß║ºn cuß╗æi:", sensor_data[2, 1])
++```
++
++Chß║íy:
++
++```powershell
++python bai_009.py
++```
++
++Kß║┐t quß║ú ch├¡nh:
++
++```text
++Sß╗æ trß╗Ñc: 2
++Shape: (3, 2)
++Tß╗òng phß║ºn tß╗¡: 6
++Lß║ºn ─æo thß╗⌐ hai: [25.5 58. ]
++Mß╗ìi nhiß╗çt ─æß╗Ö: [24.  25.5 23.5]
++─Éß╗Ö ß║⌐m lß║ºn cuß╗æi: 65.0
++```
++
++─Éß╗½ng chß╗ë nh├¼n output. H├úy tß╗▒ giß║úi th├¡ch:
++
++- V├¼ sao `3` ─æß╗⌐ng tr╞░ß╗¢c `2` trong shape?
++- V├¼ sao `sensor_data[1, :]` lß║Ñy lß║ºn ─æo thß╗⌐ hai?
++- Trong `sensor_data[:, 0]`, dß║Ñu `:` v├á sß╗æ `0` ─æang t├íc ─æß╗Öng l├¬n hai trß╗Ñc n├áo?
++
++Sau ─æ├│ th├¬m ─æoß║ín sau ─æß╗â chuyß╗ân mß╗ìi sß╗æ ─æo sang ─æ╞ín vß╗ï nhß╗Å h╞ín 10 lß║ºn:
++
++```python
++scaled_data = sensor_data / 10
++print("Sau khi chia 10:\n", scaled_data)
++print("Shape mß╗¢i:", scaled_data.shape)
++```
++
++Ph├⌐p chia l├ám thay ─æß╗òi gi├í trß╗ï nh╞░ng kh├┤ng thay ─æß╗òi c├ích c├íc phß║ºn tß╗¡ ─æ╞░ß╗úc sß║»p xß║┐p, n├¬n 
+shape vß║½n l├á `(3, 2)`.
++
++---
++
++## ≡ƒº¬ Th├¡ nghiß╗çm nhß╗Å
++
++### Th├¡ nghiß╗çm 1: dß╗▒ ─æo├ín c├ích truy cß║¡p
++
++Vß╗¢i matrix sau, ch╞░a chß║íy code vß╗Öi:
++
++```python
++import numpy as np
++
++scores = np.array([
++    [8, 7, 9],
++    [6, 8, 7],
++    [9, 9, 10]
++])
++```
++
++H├úy dß╗▒ ─æo├ín kß║┐t quß║ú v├á shape cß╗ºa tß╗½ng biß╗âu thß╗⌐c:
++
++```python
++scores[0, 2]
++scores[1, :]
++scores[:, 1]
++```
++
++Sau ─æ├│ d├╣ng `print(...)` ─æß╗â kiß╗âm tra. Nß║┐u dß╗▒ ─æo├ín sai, h├úy vß║╜ lß║íi bß║úng v├á ─æ├ính sß╗æ h├áng, 
+cß╗Öt bß║»t ─æß║ºu tß╗½ `0`.
++
++### Th├¡ nghiß╗çm 2: t├¼m v├á sß╗¡a bug vß╗ü shape
++
++```python
++import numpy as np
++
++morning = np.array([
++    [20, 21, 22],
++    [23, 24, 25]
++])
++
++adjustment = np.array([
++    [1, 1],
++    [1, 1]
++])
++
++print("Morning:", morning.shape)
++print("Adjustment:", adjustment.shape)
++print(morning + adjustment)
++```
++
++Chß║íy ─æß╗â quan s├ít lß╗ùi, rß╗ôi l├ám theo ba b╞░ß╗¢c:
++
++1. Viß║┐t ra giß║Ñy hai shape.
++2. X├íc ─æß╗ïnh h├áng hoß║╖c cß╗Öt n├áo ─æang thiß║┐u trong `adjustment`.
++3. Sß╗¡a `adjustment` th├ánh matrix c├╣ng shape vß╗¢i `morning`, chß║íy lß║íi v├á giß║úi th├¡ch v├¼ sao lß╗ùi biß║┐n 
+mß║Ñt.
++
++Mß╗Ñc ti├¬u kh├┤ng phß║úi hß╗ìc thuß╗Öc th├┤ng b├ío lß╗ùi, m├á l├á h├¼nh th├ánh phß║ún xß║í kiß╗âm tra `shape`.
++
++---
++
++## ≡ƒÄ» Challenge
++
++Mß╗Öt cß╗¡a h├áng l╞░u sß╗æ sß║ún phß║⌐m b├ín ─æ╞░ß╗úc trong ba ng├áy. Mß╗ùi h├áng l├á mß╗Öt ng├áy; ba cß╗Öt lß║ºn 
+l╞░ß╗út l├á sß╗æ l╞░ß╗úng t├ío, cam v├á chuß╗æi:
++
++```python
++sales = np.array([
++    [12, 8, 15],
++    [10, 11, 9],
++    [14, 7, 13]
++])
++```
++
++H├úy viß║┐t ch╞░╞íng tr├¼nh:
++
++- in `ndim`, `shape` v├á `size`;
++- lß║Ñy to├án bß╗Ö dß╗» liß╗çu cß╗ºa ng├áy thß╗⌐ hai;
++- lß║Ñy sß╗æ cam cß╗ºa cß║ú ba ng├áy;
++- lß║Ñy sß╗æ chuß╗æi cß╗ºa ng├áy thß╗⌐ ba;
++- tß║ío matrix `extra_sales` c├╣ng shape, tß╗▒ chß╗ìn c├íc gi├í trß╗ï, rß╗ôi cß╗Öng n├│ vß╗¢i `sales`;
++- giß║úi th├¡ch bß║▒ng lß╗¥i ├╜ ngh─⌐a cß╗ºa tß╗½ng trß╗Ñc v├á v├¼ sao hai matrix cß╗Öng ─æ╞░ß╗úc.
++
++Kh├┤ng k├¿m lß╗¥i giß║úi ngay. Tr╞░ß╗¢c mß╗ùi lß║ºn chß║íy, h├úy dß╗▒ ─æo├ín cß║ú gi├í trß╗ï lß║½n shape cß╗ºa kß║┐t 
+quß║ú.
++
++---
++
++## ≡ƒº⌐ Kiß╗âm tra hiß╗âu b├ái
++
++1. Vector shape `(6,)` kh├íc matrix shape `(3, 2)` ß╗ƒ ─æ├óu d├╣ cß║ú hai ─æß╗üu c├│ s├íu phß║ºn tß╗¡?
++2. Tß║íi sao phß║úi biß║┐t ├╜ ngh─⌐a cß╗ºa h├áng v├á cß╗Öt, thay v├¼ chß╗ë kiß╗âm tra tß╗òng sß╗æ phß║ºn tß╗¡?
++3. `matrix[1, :]` kh├íc `matrix[:, 1]` nh╞░ thß║┐ n├áo?
++4. ─Éiß╗üu g├¼ xß║úy ra khi cß╗Öng hai matrix c├│ shape `(2, 3)` v├á `(2, 2)` trong phß║ím vi quy tß║»c ─æ├ú hß╗ìc?
++5. Tß║íi sao `matrix * matrix` trong NumPy kh├┤ng n├¬n ─æ╞░ß╗úc gß╗ìi ngay l├á ΓÇ£ph├⌐p nh├ón ma trß║¡nΓÇ¥?
++
++---
++
++## ≡ƒöæ Ghi nhß╗¢
++
++- Matrix l├á bß║úng sß╗æ hai chiß╗üu; mß╗ùi h├áng v├á cß╗Öt phß║úi c├│ ├╜ ngh─⌐a r├╡ r├áng.
++- Vß╗¢i matrix, `shape` ─æ╞░ß╗úc ─æß╗ìc theo thß╗⌐ tß╗▒ `(sß╗æ_h├áng, sß╗æ_cß╗Öt)`.
++- `ndim`, `shape` v├á `size` lß║ºn l╞░ß╗út cho biß║┐t sß╗æ trß╗Ñc, ─æß╗Ö d├ái tß╗½ng trß╗Ñc v├á tß╗òng sß╗æ phß║ºn 
+tß╗¡.
++- D├╣ng `matrix[h├áng, cß╗Öt]`; dß║Ñu `:` ngh─⌐a l├á lß║Ñy tß║Ñt cß║ú phß║ºn tß╗¡ tr├¬n trß╗Ñc ─æ├│.
++- Tr╞░ß╗¢c khi t├¡nh giß╗»a nhiß╗üu mß║úng, h├úy in shape v├á kiß╗âm tra ├╜ ngh─⌐a cß╗ºa tß╗½ng trß╗Ñc.
++
++---
++
++## ≡ƒöù Li├¬n kß║┐t kiß║┐n thß╗⌐c
++
++### Kiß║┐n thß╗⌐c ─æ├ú d├╣ng
++
++- [[Bai_004_Bien_Va_Cac_Hop_Du_Lieu_Python|B├ái 4]]: list, index v├á dß╗» liß╗çu dß║íng bß║úng lß╗ông nhau.
++- [[Bai_008_Scalar_Vector_Va_NumPy|B├ái 8]]: scalar, vector, NumPy array v├á ph├⌐p to├ín theo tß╗½ng phß║ºn tß╗¡.
++- T├ái liß╗çu tham khß║úo: [NumPy ΓÇö Array 
+basics](https://numpy.org/doc/stable/user/absolute_beginners.html#array-fundamentals) v├á [NumPy ΓÇö Indexing on 
+ndarrays](https://numpy.org/doc/stable/user/basics.indexing.html).
++
++### B├ái tiß║┐p theo
++
++[[Bai_010_Dot_Product_Do_Muc_Cung_Huong|B├ái 10]] sß║╜ d├╣ng c├íc vector c├│ shape ph├╣ hß╗úp ─æß╗â t├¡nh dot product 
+v├á giß║úi th├¡ch v├¼ sao ph├⌐p t├¡nh n├áy ─æo ─æ╞░ß╗úc mß╗⌐c ─æß╗Ö ΓÇ£c├╣ng h╞░ß╗¢ngΓÇ¥.
+diff --git a/COURSE_MAP.md b/COURSE_MAP.md
+index 5b16dbbe4e405e487fe87fb4c8fc66935b553a79..87f542717bd4adc5112181f05b66472740e48553
+--- a/COURSE_MAP.md
++++ b/COURSE_MAP.md
+@@ -14,7 +14,7 @@
+ - [x] B├ái 006 ΓÇö Function, class, lß╗ùi v├á c├ích chia code | ╞»u ti├¬n function, exception; nhß║¡n biß║┐t class, 
+module v├á package ß╗ƒ mß╗⌐c cß║ºn thiß║┐t.
+ - [x] B├ái 007 ΓÇö ─Éß╗ìc file, JSON v├á HTTP API | ─É╞░a dß╗» liß╗çu v├áo/ra ch╞░╞íng tr├¼nh v├á hiß╗âu 
+request/response.
+ - [x] B├ái 008 ΓÇö Scalar, vector v├á NumPy | Biß╗âu diß╗àn sß╗æ v├á danh s├ích sß╗æ ─æß╗â m├íy t├¡nh xß╗¡ l├╜.
+-- [ ] B├ái 009 ΓÇö Matrix v├á shape | Hiß╗âu bß║úng sß╗æ, chiß╗üu dß╗» liß╗çu v├á ph├⌐p to├ín mß║úng c╞í bß║ún.
++- [x] B├ái 009 ΓÇö Matrix v├á shape | Hiß╗âu bß║úng sß╗æ, chiß╗üu dß╗» liß╗çu v├á ph├⌐p to├ín mß║úng c╞í bß║ún.
+ - [ ] B├ái 010 ΓÇö Dot product: ─æo mß╗⌐c ΓÇ£c├╣ng h╞░ß╗¢ngΓÇ¥ | T├¡nh dot product v├á thß║Ñy vai tr├▓ cß╗ºa n├│ 
+trong AI.
+ - [ ] B├ái 011 ΓÇö X├íc suß║Ñt, mean v├á variance bß║▒ng trß╗▒c gi├íc | M├┤ tß║ú sß╗▒ kh├┤ng chß║»c chß║»n v├á ph├ón 
+bß╗æ dß╗» liß╗çu.
+ - [ ] B├ái 012 ΓÇö Mini-project: m├íy chß║Ñm ─æiß╗âm dß╗» liß╗çu | Gh├⌐p Python, file, NumPy v├á ph├⌐p t├¡nh th├ánh 
+pipeline nhß╗Å.
+diff --git a/COURSE_STATE.md b/COURSE_STATE.md
+index 4a7ab4c579a4dd981d808147af8fadcbb34ca84b..3c323c29a6ac689d27e648af835eed93fd48f11d
+--- a/COURSE_STATE.md
++++ b/COURSE_STATE.md
+@@ -1,9 +1,9 @@
+ # COURSE STATE
+ 
+-Current Lesson: 8
++Current Lesson: 9
+ Current Module: 0
+-Last Completed: 8
+-Next Lesson: 9
++Last Completed: 9
++Next Lesson: 10
+ Next Checkpoint: 10
+ 
+ ## Concepts Already Taught
+@@ -16,6 +16,7 @@
+ - Function, parameter, argument, `return`, local variable; exception, `raise`, `try`/`except`; ph├ón biß╗çt class, 
+module v├á package ß╗ƒ mß╗⌐c c╞í bß║ún.
+ - File text, UTF-8, context manager; JSON serialize/deserialize; HTTP request/response, status, body v├á lß╗ùi 
+file/JSON/network c╞í bß║ún.
+ - Scalar, vector; NumPy `ndarray` mß╗Öt chiß╗üu, `dtype`, ph├⌐p to├ín theo tß╗½ng phß║ºn tß╗¡ v├á vectorization ß╗ƒ 
+mß╗⌐c nhß║¡p m├┤n.
++- Matrix NumPy hai chiß╗üu; ph├ón biß╗çt `ndim`, `shape`, `size`; truy cß║¡p phß║ºn tß╗¡, h├áng, cß╗Öt v├á kiß╗âm tra 
+shape tr╞░ß╗¢c ph├⌐p to├ín mß║úng c╞í bß║ún.
+ 
+ ## Important Decisions
+ - Course map gß╗ôm 84 b├ái; concept first, framework later.
+@@ -28,4 +29,4 @@
+ - Kh├┤ng nhß║ºm `=` vß╗¢i `==`; lu├┤n test ng╞░ß╗íng v├á bß║úo ─æß║úm `while` c├│ ─æ╞░ß╗¥ng dß╗½ng.
+ 
+ ## Current Learning Dependency
+-- B├ái 9 mß╗ƒ rß╗Öng vector mß╗Öt chiß╗üu sang matrix v├á d├╣ng `shape` ─æß╗â ─æß╗ìc, kiß╗âm tra chiß╗üu dß╗» liß╗çu.
++- B├ái 10 d├╣ng vector c├│ shape ph├╣ hß╗úp ─æß╗â x├óy trß╗▒c gi├íc dot product tr╞░ß╗¢c khi li├¬n hß╗ç vß╗¢i AI.
+
+codex
+─É├ú ho├án th├ánh ─æ├║ng mß╗Öt learning cycle:
+
+- Tß║ío [B├ái 009 ΓÇö Matrix v├á shape](<C:\Users\truon\OneDrive\Ta╠Çi li├¬╠úu\Obsidian Vault\AI Engineering Zero to 
+Agent\AI-Zero-to-Agent\00_AI_Python_Foundations\Bai_009_Matrix_Va_Shape.md>).
+- Cß║¡p nhß║¡t `COURSE_MAP.md` v├á `COURSE_STATE.md`.
+- B├ái kß║┐ tiß║┐p: **B├ái 010 ΓÇö Dot product**.
+- Ch╞░a ─æß║┐n checkpoint.
+- Kiß╗âm tra cß║Ñu tr├║c v├á code t─⌐nh ─æß║ít; ch╞░a chß║íy code v├¼ m├íy ch╞░a c├ái Python runtime.
+diff --git a/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md b/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..4ef89437070b4f1a3531e374b0897a931670d038
+--- /dev/null
++++ b/00_AI_Python_Foundations/Bai_009_Matrix_Va_Shape.md
+@@ -0,0 +1,396 @@
++# B├ái 009 ΓÇö Matrix v├á shape
++
++## ≡ƒÄ» Sau b├ái n├áy bß║ín l├ám ─æ╞░ß╗úc g├¼?
++
++- Ph├ón biß╗çt vector mß╗Öt chiß╗üu v├á matrix hai chiß╗üu bß║▒ng ├╜ ngh─⌐a dß╗» liß╗çu.
++- Tß║ío matrix bß║▒ng NumPy v├á ─æß╗ìc ─æ├║ng `shape` theo thß╗⌐ tß╗▒ h├áng, cß╗Öt.
++- Truy cß║¡p mß╗Öt phß║ºn tß╗¡, mß╗Öt h├áng hoß║╖c mß╗Öt cß╗Öt trong matrix.
++- Kiß╗âm tra shape tr╞░ß╗¢c khi thß╗▒c hiß╗çn ph├⌐p to├ín tr├¬n nhiß╗üu mß║úng.
++
++---
++
++## ≡ƒºá ├¥ t╞░ß╗ƒng lß╗¢n
++
++Mß╗Öt vector ph├╣ hß╗úp ─æß╗â m├┤ tß║ú mß╗Öt ─æß╗æi t╞░ß╗úng bß║▒ng mß╗Öt d├úy sß╗æ. Khi c├│ nhiß╗üu ─æß╗æi t╞░ß╗úng 
+d├╣ng c├╣ng mß╗Öt bß╗Ö ─æß║╖c tr╞░ng, ta th╞░ß╗¥ng xß║┐p c├íc vector th├ánh mß╗Öt bß║úng sß╗æ gß╗ìi l├á **matrix** (ma 
+trß║¡n).
++
++V├¡ dß╗Ñ, ba c─ân nh├á ─æ╞░ß╗úc m├┤ tß║ú bß║▒ng diß╗çn t├¡ch v├á sß╗æ ph├▓ng:
++
++```text
++[
++  [50, 2],
++  [75, 3],
++  [90, 4]
++]
++```
++
++Ta quy ╞░ß╗¢c:
++
++- mß╗ùi h├áng l├á mß╗Öt c─ân nh├á;
++- cß╗Öt thß╗⌐ nhß║Ñt l├á diß╗çn t├¡ch;
++- cß╗Öt thß╗⌐ hai l├á sß╗æ ph├▓ng.
++
++C├íc con sß╗æ ch╞░a ─æß╗º ─æß╗â hiß╗âu dß╗» liß╗çu. Ta c├▓n phß║úi biß║┐t **cß║Ñu tr├║c** cß╗ºa ch├║ng. NumPy cho 
+biß║┐t cß║Ñu tr├║c ─æ├│ qua thuß╗Öc t├¡nh `shape`:
++
++```text
++3 h├áng ├ù 2 cß╗Öt  ΓåÆ  shape (3, 2)
++```
++
++Trong ß╗⌐ng dß╗Ñng AI, sai shape l├á mß╗Öt nguy├¬n nh├ón rß║Ñt phß╗ò biß║┐n khiß║┐n ph├⌐p t├¡nh b├ío lß╗ùi hoß║╖c ΓÇö 
+nguy hiß╗âm h╞ín ΓÇö vß║½n chß║íy nh╞░ng mang sai ├╜ ngh─⌐a.
++
++---
++
++## ≡ƒîì V├¡ dß╗Ñ ─æß╗¥i th╞░ß╗¥ng
++
++H├úy h├¼nh dung bß║úng ─æiß╗âm cß╗ºa mß╗Öt lß╗¢p:
++
++| Hß╗ìc sinh | To├ín | V─ân | Anh |
++|---|---:|---:|---:|
++| An | 8 | 7 | 9 |
++| B├¼nh | 6 | 8 | 7 |
++
++Nß║┐u chß╗ë giß╗» phß║ºn sß╗æ, ta c├│ matrix:
++
++```text
++[
++  [8, 7, 9],
++  [6, 8, 7]
++]
++```
++
++Matrix n├áy c├│ shape `(2, 3)` v├¼ c├│ 2 h├áng v├á 3 cß╗Öt. ─Éß╗òi n├│ th├ánh shape `(3, 2)` kh├┤ng chß╗ë l├á ─æß╗òi 
+c├ích tr├¼nh b├áy: khi ─æ├│ ├╜ ngh─⌐a ΓÇ£mß╗ùi h├áng l├á mß╗Öt hß╗ìc sinhΓÇ¥ kh├┤ng c├▓n ─æ├║ng.
++
++Shape giß╗æng s╞í ─æß╗ô chß╗ù ngß╗ôi trong rß║íp. Biß║┐t c├│ s├íu ng╞░ß╗¥i l├á ch╞░a ─æß╗º; c├ích hß╗ì ─æ╞░ß╗úc xß║┐p 
+th├ánh hai h├áng, mß╗ùi h├áng ba ng╞░ß╗¥i c┼⌐ng quan trß╗ìng.
++
++---
++
++## ≡ƒÄ« V├¡ dß╗Ñ thß╗▒c tß║┐
++
++Mß╗Öt model ph├ón loß║íi tin nhß║»n c├│ thß╗â nhß║¡n nhiß╗üu tin nhß║»n trong mß╗Öt lß║ºn xß╗¡ l├╜. Giß║ú sß╗¡ mß╗ùi 
+tin nhß║»n ─æ├ú ─æ╞░ß╗úc biß╗âu diß╗àn bß║▒ng bß╗æn ─æß║╖c tr╞░ng sß╗æ:
++
++```text
++[
++  [0.2, 0.9, 0.1, 0.0],  ΓåÉ tin nhß║»n 1
++  [0.8, 0.1, 0.4, 0.3],  ΓåÉ tin nhß║»n 2
++  [0.5, 0.2, 0.7, 0.6]   ΓåÉ tin nhß║»n 3
++]
++```
++
++Shape l├á `(3, 4)`:
++
++- `3` l├á sß╗æ example;
++- `4` l├á sß╗æ feature cß╗ºa mß╗ùi example.
++
++Trong machine learning, kiß╗âu bß╗æ tr├¡ ΓÇ£mß╗ùi h├áng l├á mß╗Öt example, mß╗ùi cß╗Öt l├á mß╗Öt featureΓÇ¥ rß║Ñt 
+phß╗ò biß║┐n. Tuy nhi├¬n, ─æ├│ l├á quy ╞░ß╗¢c chß╗⌐ kh├┤ng phß║úi luß║¡t tß╗▒ nhi├¬n. Tr╞░ß╗¢c khi d├╣ng mß╗Öt dataset 
+hay model, ta vß║½n phß║úi kiß╗âm tra t├ái liß╗çu ─æß╗â biß║┐t tß╗½ng trß╗Ñc mang ├╜ ngh─⌐a g├¼.
++
++---
++
++## ≡ƒö¼ B├¬n trong n├│ hoß║ít ─æß╗Öng thß║┐ n├áo?
++
++### 1. Tß╗½ vector ─æß║┐n matrix
++
++ß╗₧ B├ái 8, mß╗Öt mß║úng mß╗Öt chiß╗üu biß╗âu diß╗àn vector:
++
++```python
++import numpy as np
++
++one_house = np.array([50, 2])
++print(one_house)
++print(one_house.shape)  # (2,)
++```
++
++Shape `(2,)` ngh─⌐a l├á mß║úng c├│ mß╗Öt trß╗Ñc gß╗ôm hai phß║ºn tß╗¡. Dß║Ñu phß║⌐y gi├║p Python biß╗âu diß╗àn ─æ├óy 
+l├á mß╗Öt tuple c├│ mß╗Öt phß║ºn tß╗¡; n├│ kh├┤ng c├│ ngh─⌐a l├á ΓÇ£thiß║┐u mß╗Öt sß╗æΓÇ¥.
++
++Khi ─æß║╖t nhiß╗üu vector c├╣ng ─æß╗Ö d├ái th├ánh c├íc h├áng, ta c├│ mß║úng hai chiß╗üu:
++
++```python
++houses = np.array([
++    [50, 2],
++    [75, 3],
++    [90, 4]
++])
++
++print(houses.shape)  # (3, 2)
++```
++
++Matrix c├│ hai trß╗Ñc:
++
++- trß╗Ñc 0 ─æi qua c├íc h├áng;
++- trß╗Ñc 1 ─æi qua c├íc cß╗Öt.
++
++Vß╗¢i matrix hai chiß╗üu, `shape` trß║ú vß╗ü tuple `(sß╗æ_h├áng, sß╗æ_cß╗Öt)`. V├¼ vß║¡y `(3, 2)` v├á `(2, 3)` l├á 
+hai shape kh├íc nhau.
++
++### 2. `ndim`, `shape` v├á `size` trß║ú lß╗¥i ba c├óu hß╗Åi kh├íc nhau
++
++```python
++print(houses.ndim)   # 2
++print(houses.shape)  # (3, 2)
++print(houses.size)   # 6
++```
++
++- `ndim`: mß║úng c├│ bao nhi├¬u trß╗Ñc?
++- `shape`: ─æß╗Ö d├ái cß╗ºa tß╗½ng trß╗Ñc l├á bao nhi├¬u?
++- `size`: tß╗òng cß╗Öng c├│ bao nhi├¬u phß║ºn tß╗¡?
++
++Mß╗Öt vector c├│ shape `(6,)` v├á matrix c├│ shape `(3, 2)` ─æß╗üu c├│ `size` bß║▒ng `6`, nh╞░ng cß║Ñu tr├║c v├á ├╜ 
+ngh─⌐a cß╗ºa ch├║ng kh├íc nhau.
++
++### 3. Truy cß║¡p phß║ºn tß╗¡ bß║▒ng h├áng v├á cß╗Öt
++
++NumPy ─æ├ính sß╗æ tß╗½ `0`, giß╗æng index cß╗ºa list:
++
++```python
++print(houses[0, 0])  # 50: h├áng ─æß║ºu, cß╗Öt ─æß║ºu
++print(houses[1, 1])  # 3: h├áng thß╗⌐ hai, cß╗Öt thß╗⌐ hai
++```
++
++Mß║½u chung l├á:
++
++```text
++matrix[chß╗ë_sß╗æ_h├áng, chß╗ë_sß╗æ_cß╗Öt]
++```
++
++─Éß╗â lß║Ñy cß║ú mß╗Öt h├áng hoß║╖c cß╗Öt, d├╣ng dß║Ñu `:` vß╗¢i ngh─⌐a ΓÇ£lß║Ñy tß║Ñt cß║ú ß╗ƒ trß╗Ñc n├áyΓÇ¥:
++
++```python
++print(houses[1, :])  # [75  3]: to├án bß╗Ö h├áng thß╗⌐ hai
++print(houses[:, 0])  # [50 75 90]: to├án bß╗Ö cß╗Öt ─æß║ºu
++```
++
++Hai kß║┐t quß║ú tr├¬n ─æß╗üu l├á mß║úng mß╗Öt chiß╗üu. H├úy lu├┤n ─æß╗ìc ph├⌐p truy cß║¡p bß║▒ng ├╜ ngh─⌐a dß╗» 
+liß╗çu: `houses[:, 0]` l├á diß╗çn t├¡ch cß╗ºa tß║Ñt cß║ú c─ân nh├á.
++
++### 4. Ph├⌐p to├ín c╞í bß║ún vß║½n c├│ thß╗â ├íp dß╗Ñng theo tß╗½ng phß║ºn tß╗¡
++
++Matrix nh├ón vß╗¢i scalar:
++
++```python
++matrix = np.array([
++    [1, 2],
++    [3, 4]
++])
++
++print(matrix * 10)
++```
++
++Kß║┐t quß║ú:
++
++```text
++[[10 20]
++ [30 40]]
++```
++
++Matrix cß╗Öng vß╗¢i matrix c├╣ng shape:
++
++```python
++a = np.array([[1, 2], [3, 4]])
++b = np.array([[10, 20], [30, 40]])
++
++print(a + b)
++```
++
++NumPy cß╗Öng c├íc phß║ºn tß╗¡ ß╗ƒ vß╗ï tr├¡ t╞░╞íng ß╗⌐ng, tß║ío kß║┐t quß║ú:
++
++```text
++[[11 22]
++ [33 44]]
++```
++
++K├╜ hiß╗çu `*` ß╗ƒ ─æ├óy c┼⌐ng l├á nh├ón theo tß╗½ng phß║ºn tß╗¡, ch╞░a phß║úi ph├⌐p nh├ón matrix trong to├ín hß╗ìc. 
+C├íc ph├⌐p kß║┐t hß╗úp vector v├á matrix c├│ mß╗Ñc ─æ├¡ch kh├íc sß║╜ ─æ╞░ß╗úc giß╗¢i thiß╗çu khi cß║ºn.
++
++### 5. Kiß╗âm tra shape tr╞░ß╗¢c khi t├¡nh
++
++H├úy xem hai mß║úng:
++
++```python
++actual = np.array([
++    [8, 7, 9],
++    [6, 8, 7]
++])
++
++bonus = np.array([
++    [1, 1],
++    [1, 1]
++])
++```
++
++`actual.shape` l├á `(2, 3)`, c├▓n `bonus.shape` l├á `(2, 2)`. Ta kh├┤ng thß╗â gh├⌐p tß╗½ng vß╗ï tr├¡ cß╗ºa bß║úng 2 
+h├áng, 3 cß╗Öt vß╗¢i bß║úng 2 h├áng, 2 cß╗Öt.
++
++Quy tr├¼nh chß║⌐n ─æo├ín ngß║»n:
++
++1. In `shape` cß╗ºa tß╗½ng mß║úng.
++2. N├│i r├╡ mß╗ùi trß╗Ñc ─æß║íi diß╗çn cho ─æiß╗üu g├¼.
++3. Kiß╗âm tra ph├⌐p to├ín c├│ ─æang gh├⌐p ─æ├║ng c├íc vß╗ï tr├¡ t╞░╞íng ß╗⌐ng kh├┤ng.
++4. Chß╗ë sß╗¡a dß╗» liß╗çu hoß║╖c ph├⌐p to├ín sau khi hiß╗âu nguy├¬n nh├ón.
++
++NumPy c├│ th├¬m quy tß║»c **broadcasting** cho mß╗Öt sß╗æ shape kh├íc nhau nh╞░ng t╞░╞íng th├¡ch. Ta ch╞░a cß║ºn 
+d├╣ng quy tß║»c ─æ├│ ß╗ƒ b├ái n├áy. ─Éß╗½ng ─æo├ín rß║▒ng mß╗ìi shape kh├íc nhau ─æß╗üu cß╗Öng ─æ╞░ß╗úc; h├úy d├╣ng 
+c├╣ng shape cho ph├⌐p to├ín giß╗»a hai matrix trong c├íc v├¡ dß╗Ñ hiß╗çn tß║íi.
++
++---
++
++## ≡ƒÆ╗ Thß╗▒c h├ánh
++
++Tß║ío file `bai_009.py`:
++
++```python
++import numpy as np
++
++sensor_data = np.array([
++    [24.0, 60.0],
++    [25.5, 58.0],
++    [23.5, 65.0]
++])
++
++print("Dß╗» liß╗çu:\n", sensor_data)
++print("Sß╗æ trß╗Ñc:", sensor_data.ndim)
++print("Shape:", sensor_data.shape)
++print("Tß╗òng phß║ºn tß╗¡:", sensor_data.size)
++
++print("Lß║ºn ─æo thß╗⌐ hai:", sensor_data[1, :])
++print("Mß╗ìi nhiß╗çt ─æß╗Ö:", sensor_data[:, 0])
++print("─Éß╗Ö ß║⌐m lß║ºn cuß╗æi:", sensor_data[2, 1])
++```
++
++Chß║íy:
++
++```powershell
++python bai_009.py
++```
++
++Kß║┐t quß║ú ch├¡nh:
++
++```text
++Sß╗æ trß╗Ñc: 2
++Shape: (3, 2)
++Tß╗òng phß║ºn tß╗¡: 6
++Lß║ºn ─æo thß╗⌐ hai: [25.5 58. ]
++Mß╗ìi nhiß╗çt ─æß╗Ö: [24.  25.5 23.5]
++─Éß╗Ö ß║⌐m lß║ºn cuß╗æi: 65.0
++```
++
++─Éß╗½ng chß╗ë nh├¼n output. H├úy tß╗▒ giß║úi th├¡ch:
++
++- V├¼ sao `3` ─æß╗⌐ng tr╞░ß╗¢c `2` trong shape?
++- V├¼ sao `sensor_data[1, :]` lß║Ñy lß║ºn ─æo thß╗⌐ hai?
++- Trong `sensor_data[:, 0]`, dß║Ñu `:` v├á sß╗æ `0` ─æang t├íc ─æß╗Öng l├¬n hai trß╗Ñc n├áo?
++
++Sau ─æ├│ th├¬m ─æoß║ín sau ─æß╗â chuyß╗ân mß╗ìi sß╗æ ─æo sang ─æ╞ín vß╗ï nhß╗Å h╞ín 10 lß║ºn:
++
++```python
++scaled_data = sensor_data / 10
++print("Sau khi chia 10:\n", scaled_data)
++print("Shape mß╗¢i:", scaled_data.shape)
++```
++
++Ph├⌐p chia l├ám thay ─æß╗òi gi├í trß╗ï nh╞░ng kh├┤ng thay ─æß╗òi c├ích c├íc phß║ºn tß╗¡ ─æ╞░ß╗úc sß║»p xß║┐p, n├¬n 
+shape vß║½n l├á `(3, 2)`.
++
++---
++
++## ≡ƒº¬ Th├¡ nghiß╗çm nhß╗Å
++
++### Th├¡ nghiß╗çm 1: dß╗▒ ─æo├ín c├ích truy cß║¡p
++
++Vß╗¢i matrix sau, ch╞░a chß║íy code vß╗Öi:
++
++```python
++import numpy as np
++
++scores = np.array([
++    [8, 7, 9],
++    [6, 8, 7],
++    [9, 9, 10]
++])
++```
++
++H├úy dß╗▒ ─æo├ín kß║┐t quß║ú v├á shape cß╗ºa tß╗½ng biß╗âu thß╗⌐c:
++
++```python
++scores[0, 2]
++scores[1, :]
++scores[:, 1]
++```
++
++Sau ─æ├│ d├╣ng `print(...)` ─æß╗â kiß╗âm tra. Nß║┐u dß╗▒ ─æo├ín sai, h├úy vß║╜ lß║íi bß║úng v├á ─æ├ính sß╗æ h├áng, 
+cß╗Öt bß║»t ─æß║ºu tß╗½ `0`.
++
++### Th├¡ nghiß╗çm 2: t├¼m v├á sß╗¡a bug vß╗ü shape
++
++```python
++import numpy as np
++
++morning = np.array([
++    [20, 21, 22],
++    [23, 24, 25]
++])
++
++adjustment = np.array([
++    [1, 1],
++    [1, 1]
++])
++
++print("Morning:", morning.shape)
++print("Adjustment:", adjustment.shape)
++print(morning + adjustment)
++```
++
++Chß║íy ─æß╗â quan s├ít lß╗ùi, rß╗ôi l├ám theo ba b╞░ß╗¢c:
++
++1. Viß║┐t ra giß║Ñy hai shape.
++2. X├íc ─æß╗ïnh h├áng hoß║╖c cß╗Öt n├áo ─æang thiß║┐u trong `adjustment`.
++3. Sß╗¡a `adjustment` th├ánh matrix c├╣ng shape vß╗¢i `morning`, chß║íy lß║íi v├á giß║úi th├¡ch v├¼ sao lß╗ùi biß║┐n 
+mß║Ñt.
++
++Mß╗Ñc ti├¬u kh├┤ng phß║úi hß╗ìc thuß╗Öc th├┤ng b├ío lß╗ùi, m├á l├á h├¼nh th├ánh phß║ún xß║í kiß╗âm tra `shape`.
++
++---
++
++## ≡ƒÄ» Challenge
++
++Mß╗Öt cß╗¡a h├áng l╞░u sß╗æ sß║ún phß║⌐m b├ín ─æ╞░ß╗úc trong ba ng├áy. Mß╗ùi h├áng l├á mß╗Öt ng├áy; ba cß╗Öt lß║ºn 
+l╞░ß╗út l├á sß╗æ l╞░ß╗úng t├ío, cam v├á chuß╗æi:
++
++```python
++sales = np.array([
++    [12, 8, 15],
++    [10, 11, 9],
++    [14, 7, 13]
++])
++```
++
++H├úy viß║┐t ch╞░╞íng tr├¼nh:
++
++- in `ndim`, `shape` v├á `size`;
++- lß║Ñy to├án bß╗Ö dß╗» liß╗çu cß╗ºa ng├áy thß╗⌐ hai;
++- lß║Ñy sß╗æ cam cß╗ºa cß║ú ba ng├áy;
++- lß║Ñy sß╗æ chuß╗æi cß╗ºa ng├áy thß╗⌐ ba;
++- tß║ío matrix `extra_sales` c├╣ng shape, tß╗▒ chß╗ìn c├íc gi├í trß╗ï, rß╗ôi cß╗Öng n├│ vß╗¢i `sales`;
++- giß║úi th├¡ch bß║▒ng lß╗¥i ├╜ ngh─⌐a cß╗ºa tß╗½ng trß╗Ñc v├á v├¼ sao hai matrix cß╗Öng ─æ╞░ß╗úc.
++
++Kh├┤ng k├¿m lß╗¥i giß║úi ngay. Tr╞░ß╗¢c mß╗ùi lß║ºn chß║íy, h├úy dß╗▒ ─æo├ín cß║ú gi├í trß╗ï lß║½n shape cß╗ºa kß║┐t 
+quß║ú.
++
++---
++
++## ≡ƒº⌐ Kiß╗âm tra hiß╗âu b├ái
++
++1. Vector shape `(6,)` kh├íc matrix shape `(3, 2)` ß╗ƒ ─æ├óu d├╣ cß║ú hai ─æß╗üu c├│ s├íu phß║ºn tß╗¡?
++2. Tß║íi sao phß║úi biß║┐t ├╜ ngh─⌐a cß╗ºa h├áng v├á cß╗Öt, thay v├¼ chß╗ë kiß╗âm tra tß╗òng sß╗æ phß║ºn tß╗¡?
++3. `matrix[1, :]` kh├íc `matrix[:, 1]` nh╞░ thß║┐ n├áo?
++4. ─Éiß╗üu g├¼ xß║úy ra khi cß╗Öng hai matrix c├│ shape `(2, 3)` v├á `(2, 2)` trong phß║ím vi quy tß║»c ─æ├ú hß╗ìc?
++5. Tß║íi sao `matrix * matrix` trong NumPy kh├┤ng n├¬n ─æ╞░ß╗úc gß╗ìi ngay l├á ΓÇ£ph├⌐p nh├ón ma trß║¡nΓÇ¥?
++
++---
++
++## ≡ƒöæ Ghi nhß╗¢
++
++- Matrix l├á bß║úng sß╗æ hai chiß╗üu; mß╗ùi h├áng v├á cß╗Öt phß║úi c├│ ├╜ ngh─⌐a r├╡ r├áng.
++- Vß╗¢i matrix, `shape` ─æ╞░ß╗úc ─æß╗ìc theo thß╗⌐ tß╗▒ `(sß╗æ_h├áng, sß╗æ_cß╗Öt)`.
++- `ndim`, `shape` v├á `size` lß║ºn l╞░ß╗út cho biß║┐t sß╗æ trß╗Ñc, ─æß╗Ö d├ái tß╗½ng trß╗Ñc v├á tß╗òng sß╗æ phß║ºn 
+tß╗¡.
++- D├╣ng `matrix[h├áng, cß╗Öt]`; dß║Ñu `:` ngh─⌐a l├á lß║Ñy tß║Ñt cß║ú phß║ºn tß╗¡ tr├¬n trß╗Ñc ─æ├│.
++- Tr╞░ß╗¢c khi t├¡nh giß╗»a nhiß╗üu mß║úng, h├úy in shape v├á kiß╗âm tra ├╜ ngh─⌐a cß╗ºa tß╗½ng trß╗Ñc.
++
++---
++
++## ≡ƒöù Li├¬n kß║┐t kiß║┐n thß╗⌐c
++
++### Kiß║┐n thß╗⌐c ─æ├ú d├╣ng
++
++- [[Bai_004_Bien_Va_Cac_Hop_Du_Lieu_Python|B├ái 4]]: list, index v├á dß╗» liß╗çu dß║íng bß║úng lß╗ông nhau.
++- [[Bai_008_Scalar_Vector_Va_NumPy|B├ái 8]]: scalar, vector, NumPy array v├á ph├⌐p to├ín theo tß╗½ng phß║ºn tß╗¡.
++- T├ái liß╗çu tham khß║úo: [NumPy ΓÇö Array 
+basics](https://numpy.org/doc/stable/user/absolute_beginners.html#array-fundamentals) v├á [NumPy ΓÇö Indexing on 
+ndarrays](https://numpy.org/doc/stable/user/basics.indexing.html).
++
++### B├ái tiß║┐p theo
++
++[[Bai_010_Dot_Product_Do_Muc_Cung_Huong|B├ái 10]] sß║╜ d├╣ng c├íc vector c├│ shape ph├╣ hß╗úp ─æß╗â t├¡nh dot product 
+v├á giß║úi th├¡ch v├¼ sao ph├⌐p t├¡nh n├áy ─æo ─æ╞░ß╗úc mß╗⌐c ─æß╗Ö ΓÇ£c├╣ng h╞░ß╗¢ngΓÇ¥.
+diff --git a/COURSE_MAP.md b/COURSE_MAP.md
+index 5b16dbbe4e405e487fe87fb4c8fc66935b553a79..87f542717bd4adc5112181f05b66472740e48553
+--- a/COURSE_MAP.md
++++ b/COURSE_MAP.md
+@@ -14,7 +14,7 @@
+ - [x] B├ái 006 ΓÇö Function, class, lß╗ùi v├á c├ích chia code | ╞»u ti├¬n function, exception; nhß║¡n biß║┐t class, 
+module v├á package ß╗ƒ mß╗⌐c cß║ºn thiß║┐t.
+ - [x] B├ái 007 ΓÇö ─Éß╗ìc file, JSON v├á HTTP API | ─É╞░a dß╗» liß╗çu v├áo/ra ch╞░╞íng tr├¼nh v├á hiß╗âu 
+request/response.
+ - [x] B├ái 008 ΓÇö Scalar, vector v├á NumPy | Biß╗âu diß╗àn sß╗æ v├á danh s├ích sß╗æ ─æß╗â m├íy t├¡nh xß╗¡ l├╜.
+-- [ ] B├ái 009 ΓÇö Matrix v├á shape | Hiß╗âu bß║úng sß╗æ, chiß╗üu dß╗» liß╗çu v├á ph├⌐p to├ín mß║úng c╞í bß║ún.
++- [x] B├ái 009 ΓÇö Matrix v├á shape | Hiß╗âu bß║úng sß╗æ, chiß╗üu dß╗» liß╗çu v├á ph├⌐p to├ín mß║úng c╞í bß║ún.
+ - [ ] B├ái 010 ΓÇö Dot product: ─æo mß╗⌐c ΓÇ£c├╣ng h╞░ß╗¢ngΓÇ¥ | T├¡nh dot product v├á thß║Ñy vai tr├▓ cß╗ºa n├│ 
+trong AI.
+ - [ ] B├ái 011 ΓÇö X├íc suß║Ñt, mean v├á variance bß║▒ng trß╗▒c gi├íc | M├┤ tß║ú sß╗▒ kh├┤ng chß║»c chß║»n v├á ph├ón 
+bß╗æ dß╗» liß╗çu.
+ - [ ] B├ái 012 ΓÇö Mini-project: m├íy chß║Ñm ─æiß╗âm dß╗» liß╗çu | Gh├⌐p Python, file, NumPy v├á ph├⌐p t├¡nh th├ánh 
+pipeline nhß╗Å.
+diff --git a/COURSE_STATE.md b/COURSE_STATE.md
+index 4a7ab4c579a4dd981d808147af8fadcbb34ca84b..3c323c29a6ac689d27e648af835eed93fd48f11d
+--- a/COURSE_STATE.md
++++ b/COURSE_STATE.md
+@@ -1,9 +1,9 @@
+ # COURSE STATE
+ 
+-Current Lesson: 8
++Current Lesson: 9
+ Current Module: 0
+-Last Completed: 8
+-Next Lesson: 9
++Last Completed: 9
++Next Lesson: 10
+ Next Checkpoint: 10
+ 
+ ## Concepts Already Taught
+@@ -16,6 +16,7 @@
+ - Function, parameter, argument, `return`, local variable; exception, `raise`, `try`/`except`; ph├ón biß╗çt class, 
+module v├á package ß╗ƒ mß╗⌐c c╞í bß║ún.
+ - File text, UTF-8, context manager; JSON serialize/deserialize; HTTP request/response, status, body v├á lß╗ùi 
+file/JSON/network c╞í bß║ún.
+ - Scalar, vector; NumPy `ndarray` mß╗Öt chiß╗üu, `dtype`, ph├⌐p to├ín theo tß╗½ng phß║ºn tß╗¡ v├á vectorization ß╗ƒ 
+mß╗⌐c nhß║¡p m├┤n.
++- Matrix NumPy hai chiß╗üu; ph├ón biß╗çt `ndim`, `shape`, `size`; truy cß║¡p phß║ºn tß╗¡, h├áng, cß╗Öt v├á kiß╗âm tra 
+shape tr╞░ß╗¢c ph├⌐p to├ín mß║úng c╞í bß║ún.
+ 
+ ## Important Decisions
+ - Course map gß╗ôm 84 b├ái; concept first, framework later.
+@@ -28,4 +29,4 @@
+ - Kh├┤ng nhß║ºm `=` vß╗¢i `==`; lu├┤n test ng╞░ß╗íng v├á bß║úo ─æß║úm `while` c├│ ─æ╞░ß╗¥ng dß╗½ng.
+ 
+ ## Current Learning Dependency
+-- B├ái 9 mß╗ƒ rß╗Öng vector mß╗Öt chiß╗üu sang matrix v├á d├╣ng `shape` ─æß╗â ─æß╗ìc, kiß╗âm tra chiß╗üu dß╗» liß╗çu.
++- B├ái 10 d├╣ng vector c├│ shape ph├╣ hß╗úp ─æß╗â x├óy trß╗▒c gi├íc dot product tr╞░ß╗¢c khi li├¬n hß╗ç vß╗¢i AI.
+
+tokens used
+49,428
+─É├ú ho├án th├ánh ─æ├║ng mß╗Öt learning cycle:
+
+- Tß║ío [B├ái 009 ΓÇö Matrix v├á shape](<C:\Users\truon\OneDrive\Ta╠Çi li├¬╠úu\Obsidian Vault\AI Engineering Zero to Agent\AI-Zero-to-Agent\00_AI_Python_Foundations\Bai_009_Matrix_Va_Shape.md>).
+- Cß║¡p nhß║¡t `COURSE_MAP.md` v├á `COURSE_STATE.md`.
+- B├ái kß║┐ tiß║┐p: **B├ái 010 ΓÇö Dot product**.
+- Ch╞░a ─æß║┐n checkpoint.
+- Kiß╗âm tra cß║Ñu tr├║c v├á code t─⌐nh ─æß║ít; ch╞░a chß║íy code v├¼ m├íy ch╞░a c├ái Python runtime.
+

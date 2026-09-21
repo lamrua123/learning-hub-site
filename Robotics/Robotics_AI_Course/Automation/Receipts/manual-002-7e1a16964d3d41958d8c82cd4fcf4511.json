@@ -1,0 +1,73 @@
+{
+  "id": "manual-002-7e1a16964d3d41958d8c82cd4fcf4511",
+  "kind": "lesson",
+  "target": 2,
+  "path": "Lessons/Part_01/Bai 002 - Dien ap va cuc tinh.md",
+  "sha256": "ba25368cc1aeb6aa1842975f42c1a789117ea824f17f1cc814e4401d2d1d5367",
+  "completed_at": "2026-09-13T07:02:45+00:00",
+  "review": {
+    "repair_attempts": 0,
+    "test_level": "DOCUMENT_REVIEW_ONLY; hardware NOT_TESTED; electrical measurements NOT_PERFORMED; code NOT_APPLICABLE",
+    "checks": {
+      "prerequisites": {
+        "passed": true,
+        "evidence": "Đọc Bài 001 và Part 01 roadmap. Bài 002 dùng lại nguồn/tải/mạch hở, mở rộng voltage và polarity; V, mV, nominal/rated/range, input/output được giải thích trước thực hành. Chưa dùng Ohm, cộng điện áp bộ pin hoặc phép đo multimeter của bài sau."
+      },
+      "why": {
+        "passed": true,
+        "evidence": "Bốn nhóm kiến thức chính có là gì, lý do cần, hậu quả thiếu, vị trí trong robot, ví dụ và tự kiểm chứng. INPUT/OUTPUT có sáu ý tương ứng; lý do lắp pin theo khoang được giải thích riêng."
+      },
+      "terminology": {
+        "passed": true,
+        "evidence": "Bảng Việt/English và glossary cập nhật điện áp, điện thế, V/mV, nominal/rated/range/measured, polarity/reverse polarity và input/output. Phân biệt phần mới hiểu khái niệm với thao tác đo chưa được học."
+      },
+      "wiring": {
+        "passed": true,
+        "evidence": "Không gán GPIO hoặc tạo mạch mới. Bảng lắp chỉ dùng khoang đèn nguyên vẹn đúng loại, đúng dấu từng vị trí; A/B và thẻ S1/S2/S3/T được ghi rõ mô hình trên giấy."
+      },
+      "voltage": {
+        "passed": true,
+        "evidence": "Nguồn thật giới hạn pin alkaline AA 1.5 V theo nhãn đèn đã giới thiệu. Không lấy nominal làm measured, không suy tổng điện áp từ số pin. Dải 2.7–3.3 V chỉ là dữ kiện giả lập; phù hợp giá trị V chưa cho phép nối nguồn thật. Đổi đơn vị và đổi dấu đã tính kiểm tra."
+      },
+      "code": {
+        "passed": true,
+        "evidence": "Hai mục Code và giải thích Code ghi không áp dụng vì bài đọc nhãn và suy luận trên giấy. Không có firmware, không tuyên bố compile hoặc chạy phần cứng."
+      },
+      "safety": {
+        "passed": true,
+        "evidence": "Safety Box cấm short, đảo cực chủ động, thêm pin, hàn pin và thay 14500 cho AA theo hình dạng. Không mở/cắm/đo adapter; không thực hành điện lưới. Debug tăng áp và sai cực đều chỉ nhận diện, không gây lỗi thật."
+      },
+      "debug": {
+        "passed": true,
+        "evidence": "Năm lỗi có đủ Triệu chứng, Nguyên nhân có thể, Cách đo và Cách sửa: nhãn thành số đo, cắm vừa là phù hợp, bỏ đơn vị, hiểu sai dấu âm, tăng điện áp để sửa lỗi. Các cách kiểm tra phân biệt đọc/đối chiếu/phép tính với phép đo điện."
+      },
+      "exercises": {
+        "passed": true,
+        "evidence": "Sáu STEP, phiếu thông tin thật chưa điền số liệu, ba thẻ nguồn, năm bài tập, năm câu hiểu bài, đáp án thu gọn, mini challenge và tám dòng ghi nhớ. Expected results kiểm tra suy luận, không giả kết quả người học."
+      },
+      "sources": {
+        "passed": true,
+        "evidence": "Đã mở datasheet chính thức https://data.energizer.com/pdfs/e91.pdf, trang 1 xác nhận AA alkaline nominal 1.5 V. Trích dẫn tại đoạn dùng thông tin và ghi vào SOURCES. Không suy thông số model đèn/board chưa xác định; các thẻ điện áp khác đều được đánh dấu giả lập."
+      }
+    },
+    "hardware_already_introduced": [],
+    "concepts_already_taught": [
+      "Bài 002: điện áp/hiệu điện thế giữa hai điểm; điện thế và mốc so sánh ở mức định tính",
+      "Bài 002: volt và millivolt, đổi 1 V = 1000 mV, giữ đơn vị khi so sánh",
+      "Bài 002: điện áp danh định, định mức, dải hoạt động và số đo thực tế khác nhau",
+      "Bài 002: chiều so sánh và dấu điện áp; nhận diện đảo cực mà không thử đảo nguồn thật",
+      "Bài 002: OUTPUT nguồn đối chiếu INPUT tải; phiếu đọc nhãn và kết luận thiếu dữ liệu",
+      "Bài 002: mạch ngoài hở vẫn có thể có điện áp giữa hai cực nguồn; chưa kiểm chứng bằng đồng hồ"
+    ],
+    "concepts_not_yet_taught": [
+      "Dòng điện định lượng và A (003); điện trở và Ohm (004); công suất W Wh (005)",
+      "GND (006); nối tiếp/song song; DC/AC; 3.3V/5V; linh kiện điện tử",
+      "Dụng cụ, multimeter và đo điện áp thật, breadboard, hàn, schematic, pinout và datasheet đầy đủ",
+      "ESP32 C/C++ GPIO ADC PWM timer interrupt memory và protocols",
+      "Cảm biến, nguồn lithium và bảo vệ, cơ khí CAD, actuator và robot hai bánh",
+      "Display HRI, mạng, audio, Pi Linux Python, computer vision",
+      "Voice/speaker recognition, AI tools MCP realtime, control PID sensor fusion",
+      "ROS 2 TF, localization SLAM navigation, PCB reliability và capstone"
+    ]
+  }
+}

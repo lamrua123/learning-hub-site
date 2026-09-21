@@ -1,0 +1,1937 @@
+/* =========================================================
+   LEARNING HUB V4.3
+   ========================================================= */
+
+
+/* =========================================================
+   DESIGN TOKENS
+   ========================================================= */
+
+:root {
+  --lh-primary: #754ffe;
+  --lh-primary-hover: #6343db;
+  --lh-primary-soft: rgba(117, 79, 254, 0.1);
+
+  --lh-text: #18113c;
+  --lh-muted: #6f6b7d;
+
+  --lh-bg: #ffffff;
+  --lh-surface: #ffffff;
+  --lh-surface-soft: #f7f7fb;
+
+  --lh-border: #e8e7ec;
+  --lh-border-strong: #d9d7df;
+
+  --lh-success: #19a974;
+  --lh-danger: #dc4c64;
+
+  --lh-shadow:
+    0 1px 2px rgba(20, 20, 30, 0.03),
+    0 8px 24px rgba(20, 20, 30, 0.06);
+
+  --lh-shadow-hover:
+    0 12px 32px rgba(20, 20, 30, 0.1);
+
+  --lh-radius: 12px;
+  --lh-radius-small: 8px;
+
+  --lh-ide-bg: #111318;
+  --lh-ide-panel: #17191f;
+  --lh-ide-panel-soft: #1d2027;
+  --lh-ide-border: #2a2d35;
+  --lh-ide-text: #e6e8ed;
+  --lh-ide-muted: #9297a3;
+}
+
+
+/* =========================================================
+   DARK MODE
+   ========================================================= */
+
+[data-md-color-scheme="slate"] {
+  --lh-text: #f1eff8;
+  --lh-muted: #aaa7b4;
+
+  --lh-bg: #111217;
+  --lh-surface: #17181e;
+  --lh-surface-soft: #1d1e25;
+
+  --lh-border: #292a32;
+  --lh-border-strong: #363740;
+
+  --lh-primary-soft: rgba(117, 79, 254, 0.18);
+
+  --lh-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.15),
+    0 10px 30px rgba(0, 0, 0, 0.22);
+
+  --lh-shadow-hover:
+    0 14px 38px rgba(0, 0, 0, 0.32);
+}
+
+
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--lh-bg);
+}
+
+.md-grid {
+  max-width: 1500px;
+}
+
+.md-main {
+  background: var(--lh-bg);
+}
+
+.md-content__inner {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3rem;
+}
+
+.md-content__inner::before {
+  display: none;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.md-header {
+  box-shadow: none;
+  border-bottom: 1px solid var(--lh-border);
+}
+
+.md-header__inner {
+  width: min(1500px, calc(100% - 32px));
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.md-header__title {
+  font-weight: 750;
+}
+
+
+/*
+  Không hiển thị 10 khóa học thành tab ngang.
+  V4.3 dùng nút Danh mục.
+*/
+
+.md-tabs {
+  display: none;
+}
+
+
+/* =========================================================
+   HOMEPAGE LAYOUT
+   ========================================================= */
+
+body.lh-home-page .md-sidebar {
+  display: none;
+}
+
+body.lh-home-page .md-main {
+  width: 100%;
+}
+
+body.lh-home-page .md-main__inner {
+  display: block !important;
+  width: 100%;
+  max-width: none !important;
+  margin: 0 !important;
+}
+
+body.lh-home-page .md-content {
+  width: 100%;
+  max-width: none;
+  margin: 0 !important;
+}
+
+body.lh-home-page .md-content__inner {
+  box-sizing: border-box;
+  width: min(1280px, calc(100% - 48px));
+  max-width: 1280px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0 0 4rem;
+}
+
+.lh-home {
+  width: 100%;
+}
+
+
+/* =========================================================
+   TYPOGRAPHY
+   ========================================================= */
+
+.lh-home h1,
+.lh-home h2,
+.lh-home h3 {
+  color: var(--lh-text);
+  letter-spacing: -0.025em;
+}
+
+.lh-home p {
+  color: var(--lh-muted);
+}
+
+.lh-section-kicker,
+.lh-kicker {
+  display: inline-block;
+  margin-bottom: 0.55rem;
+
+  color: var(--lh-primary);
+
+  font-size: 0.56rem;
+  line-height: 1;
+  font-weight: 800;
+
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.lh-button {
+  box-sizing: border-box;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 42px;
+
+  padding: 0.55rem 0.9rem;
+
+  border: 1px solid transparent;
+  border-radius: 7px;
+
+  font-size: 0.58rem;
+  line-height: 1;
+  font-weight: 700;
+
+  text-decoration: none !important;
+
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    background 160ms ease,
+    border-color 160ms ease;
+}
+
+.lh-button:hover {
+  transform: translateY(-1px);
+}
+
+.lh-button-primary {
+  background: var(--lh-primary);
+  color: #ffffff !important;
+
+  box-shadow:
+    0 5px 14px rgba(117, 79, 254, 0.18);
+}
+
+.lh-button-primary:hover {
+  background: var(--lh-primary-hover);
+}
+
+.lh-button-secondary {
+  border-color: var(--lh-border);
+  background: var(--lh-surface);
+  color: var(--lh-text) !important;
+}
+
+.lh-button-secondary:hover {
+  border-color: var(--lh-primary);
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.lh-hero {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1.05fr)
+    minmax(420px, 0.95fr);
+
+  align-items: center;
+
+  gap: clamp(2rem, 6vw, 5rem);
+
+  min-height: 570px;
+
+  padding: 4.3rem 0 3.5rem;
+}
+
+.lh-hero-content {
+  max-width: 680px;
+}
+
+.lh-hero h1 {
+  margin: 0;
+
+  font-size: clamp(2.3rem, 5vw, 4.15rem);
+  line-height: 0.99;
+  font-weight: 800;
+}
+
+.lh-hero-description {
+  max-width: 620px;
+
+  margin: 1.4rem 0 0;
+
+  font-size: 0.78rem;
+  line-height: 1.75;
+}
+
+.lh-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+
+  margin-top: 1.5rem;
+}
+
+.lh-hero-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  margin-top: 1.3rem;
+
+  color: var(--lh-muted);
+
+  font-size: 0.52rem;
+  font-weight: 650;
+}
+
+
+/* =========================================================
+   HERO DASHBOARD
+   ========================================================= */
+
+.lh-hero-visual {
+  display: flex;
+  justify-content: center;
+}
+
+.lh-dashboard-preview {
+  box-sizing: border-box;
+
+  width: min(100%, 510px);
+
+  padding: 1rem;
+
+  border: 1px solid var(--lh-border);
+  border-radius: 14px;
+
+  background: var(--lh-surface);
+
+  box-shadow:
+    0 25px 70px rgba(40, 31, 90, 0.13);
+
+  transform: rotate(1.2deg);
+}
+
+[data-md-color-scheme="slate"] .lh-dashboard-preview {
+  box-shadow:
+    0 25px 70px rgba(0, 0, 0, 0.32);
+}
+
+.lh-preview-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 1rem;
+
+  padding: 0.25rem 0.2rem 0.8rem;
+
+  color: var(--lh-muted);
+
+  font-size: 0.48rem;
+}
+
+.lh-preview-top strong {
+  color: var(--lh-primary);
+}
+
+.lh-preview-course {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 1rem;
+
+  padding: 1rem;
+
+  border: 1px solid var(--lh-border);
+  border-radius: 10px;
+
+  background: var(--lh-surface-soft);
+}
+
+.lh-preview-course small,
+.lh-preview-course strong {
+  display: block;
+}
+
+.lh-preview-course small {
+  margin-bottom: 0.2rem;
+
+  color: var(--lh-muted);
+
+  font-size: 0.46rem;
+}
+
+.lh-preview-course strong {
+  color: var(--lh-text);
+
+  font-size: 0.65rem;
+}
+
+.lh-preview-course > span {
+  color: var(--lh-primary);
+
+  font-size: 1rem;
+}
+
+.lh-preview-progress {
+  height: 6px;
+
+  margin: 0.85rem 0 1rem;
+
+  overflow: hidden;
+
+  border-radius: 100px;
+
+  background: var(--lh-border);
+}
+
+.lh-preview-progress-bar {
+  width: 68%;
+  height: 100%;
+
+  border-radius: inherit;
+
+  background: var(--lh-primary);
+}
+
+.lh-preview-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 0.5rem;
+}
+
+.lh-preview-stats > div {
+  padding: 0.85rem 0.5rem;
+
+  border: 1px solid var(--lh-border);
+  border-radius: 9px;
+
+  text-align: center;
+}
+
+.lh-preview-stats strong,
+.lh-preview-stats span {
+  display: block;
+}
+
+.lh-preview-stats strong {
+  color: var(--lh-text);
+
+  font-size: 0.9rem;
+}
+
+.lh-preview-stats span {
+  margin-top: 0.15rem;
+
+  color: var(--lh-muted);
+
+  font-size: 0.44rem;
+}
+
+
+/* =========================================================
+   CONTINUE LEARNING
+   ========================================================= */
+
+.lh-continue {
+  display: none;
+
+  align-items: center;
+
+  gap: 0.8rem;
+
+  margin: 0 0 3rem;
+  padding: 0.85rem;
+
+  border: 1px solid rgba(117, 79, 254, 0.22);
+  border-radius: var(--lh-radius);
+
+  background:
+    linear-gradient(
+      90deg,
+      var(--lh-primary-soft),
+      var(--lh-surface)
+    );
+}
+
+.lh-continue.is-visible {
+  display: flex;
+}
+
+.lh-continue-icon {
+  display: grid;
+  place-items: center;
+
+  flex: 0 0 auto;
+
+  width: 42px;
+  height: 42px;
+
+  border-radius: 50%;
+
+  background: var(--lh-primary);
+  color: #fff;
+
+  font-size: 0.6rem;
+}
+
+.lh-continue-info {
+  min-width: 0;
+  flex: 1;
+}
+
+.lh-continue-info small,
+.lh-continue-info strong,
+.lh-continue-info span {
+  display: block;
+}
+
+.lh-continue-info small {
+  color: var(--lh-primary);
+
+  font-size: 0.44rem;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+}
+
+.lh-continue-info strong {
+  margin-top: 0.12rem;
+
+  overflow: hidden;
+
+  color: var(--lh-text);
+
+  font-size: 0.62rem;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lh-continue-info span {
+  margin-top: 0.12rem;
+
+  color: var(--lh-muted);
+
+  font-size: 0.47rem;
+}
+
+
+/* =========================================================
+   SECTIONS
+   ========================================================= */
+
+.lh-section {
+  margin-top: 3.7rem;
+}
+
+.lh-section-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 1rem;
+
+  margin-bottom: 1.25rem;
+}
+
+.lh-section-heading h2 {
+  margin: 0;
+
+  font-size: clamp(1.35rem, 2.7vw, 2rem);
+  line-height: 1.15;
+}
+
+.lh-section-heading p {
+  max-width: 650px;
+
+  margin: 0.45rem 0 0;
+
+  font-size: 0.6rem;
+  line-height: 1.65;
+}
+
+
+/* =========================================================
+   TOPIC CARDS
+   ========================================================= */
+
+.lh-topic-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 0.7rem;
+}
+
+.lh-topic-card {
+  display: flex;
+  align-items: center;
+
+  gap: 0.75rem;
+
+  padding: 0.9rem;
+
+  border: 1px solid var(--lh-border);
+  border-radius: 10px;
+
+  background: var(--lh-surface);
+
+  transition:
+    border-color 160ms ease,
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.lh-topic-card:hover {
+  transform: translateY(-2px);
+
+  border-color: rgba(117, 79, 254, 0.38);
+
+  box-shadow: var(--lh-shadow);
+}
+
+.lh-topic-icon {
+  display: grid;
+  place-items: center;
+
+  flex: 0 0 auto;
+
+  width: 44px;
+  height: 44px;
+
+  border-radius: 9px;
+
+  background: var(--lh-primary-soft);
+
+  font-size: 0.9rem;
+}
+
+.lh-topic-card strong,
+.lh-topic-card span {
+  display: block;
+}
+
+.lh-topic-card strong {
+  color: var(--lh-text);
+
+  font-size: 0.6rem;
+}
+
+.lh-topic-card span {
+  margin-top: 0.15rem;
+
+  color: var(--lh-muted);
+
+  font-size: 0.46rem;
+}
+
+
+/* =========================================================
+   COURSE GRID
+   ========================================================= */
+
+.lh-course-total {
+  padding: 0.35rem 0.55rem;
+
+  border: 1px solid var(--lh-border);
+  border-radius: 100px;
+
+  background: var(--lh-surface-soft);
+  color: var(--lh-muted);
+
+  font-size: 0.48rem;
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
+.lh-course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 0.85rem;
+}
+
+.lh-course-card {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 0;
+
+  overflow: hidden;
+
+  border: 1px solid var(--lh-border);
+  border-radius: var(--lh-radius);
+
+  background: var(--lh-surface);
+  color: inherit !important;
+
+  box-shadow: 0 1px 2px rgba(20, 20, 30, 0.02);
+
+  text-decoration: none !important;
+
+  transition:
+    transform 170ms ease,
+    border-color 170ms ease,
+    box-shadow 170ms ease;
+}
+
+.lh-course-card:hover {
+  transform: translateY(-4px);
+
+  border-color: rgba(117, 79, 254, 0.3);
+
+  box-shadow: var(--lh-shadow-hover);
+}
+
+.lh-course-cover {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-height: 135px;
+
+  padding: 1rem;
+
+  overflow: hidden;
+}
+
+.lh-course-cover::after {
+  position: absolute;
+  right: -30px;
+  bottom: -50px;
+
+  width: 130px;
+  height: 130px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.12);
+
+  content: "";
+}
+
+.lh-course-symbol {
+  position: relative;
+  z-index: 1;
+
+  display: grid;
+  place-items: center;
+
+  width: 48px;
+  height: 48px;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+
+  font-size: 0.68rem;
+  font-weight: 850;
+
+  backdrop-filter: blur(8px);
+}
+
+.lh-course-cover > span {
+  position: relative;
+  z-index: 1;
+
+  color: rgba(255, 255, 255, 0.88);
+
+  font-size: 0.43rem;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+}
+
+.lh-cover-purple {
+  background:
+    linear-gradient(135deg, #754ffe, #5634c9);
+}
+
+.lh-cover-orange {
+  background:
+    linear-gradient(135deg, #ff8a34, #ef5d31);
+}
+
+.lh-cover-red {
+  background:
+    linear-gradient(135deg, #ee5353, #c9345a);
+}
+
+.lh-cover-blue {
+  background:
+    linear-gradient(135deg, #377dff, #3154ce);
+}
+
+.lh-cover-cyan {
+  background:
+    linear-gradient(135deg, #159ec1, #2362bf);
+}
+
+.lh-cover-indigo {
+  background:
+    linear-gradient(135deg, #5257db, #333795);
+}
+
+.lh-cover-green {
+  background:
+    linear-gradient(135deg, #20a779, #177459);
+}
+
+.lh-cover-yellow {
+  background:
+    linear-gradient(135deg, #dca329, #c77a22);
+}
+
+.lh-cover-pink {
+  background:
+    linear-gradient(135deg, #df5795, #aa3d84);
+}
+
+.lh-cover-teal {
+  background:
+    linear-gradient(135deg, #178e90, #14666d);
+}
+
+.lh-course-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  padding: 0.9rem;
+}
+
+.lh-course-tags {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 0.3rem;
+}
+
+.lh-course-tags span {
+  padding: 0.18rem 0.35rem;
+
+  border-radius: 5px;
+
+  background: var(--lh-primary-soft);
+  color: var(--lh-primary);
+
+  font-size: 0.4rem;
+  font-weight: 750;
+}
+
+.lh-course-content h3 {
+  margin: 0.6rem 0 0;
+
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+
+.lh-course-content > p {
+  flex: 1;
+
+  margin: 0.4rem 0 0;
+
+  font-size: 0.5rem;
+  line-height: 1.65;
+}
+
+.lh-course-progress {
+  margin-top: 0.8rem;
+}
+
+.lh-progress-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 0.5rem;
+
+  margin-bottom: 0.3rem;
+
+  color: var(--lh-muted);
+
+  font-size: 0.42rem;
+}
+
+.lh-progress-label strong {
+  color: var(--lh-text);
+}
+
+.lh-progress-track {
+  height: 5px;
+
+  overflow: hidden;
+
+  border-radius: 100px;
+
+  background: var(--lh-border);
+}
+
+.lh-progress-bar {
+  width: 0;
+  height: 100%;
+
+  border-radius: inherit;
+
+  background: var(--lh-primary);
+
+  transition: width 400ms ease;
+}
+
+.lh-course-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 0.6rem;
+
+  margin-top: 0.75rem;
+  padding-top: 0.65rem;
+
+  border-top: 1px solid var(--lh-border);
+
+  font-size: 0.45rem;
+}
+
+.lh-course-footer span {
+  color: var(--lh-muted);
+}
+
+.lh-course-footer strong {
+  color: var(--lh-primary);
+}
+
+
+/* =========================================================
+   V4.3 LEARNING IDE
+   ========================================================= */
+
+.lh-code-lab {
+  scroll-margin-top: 4rem;
+}
+
+.lh-ide-shell {
+  overflow: hidden;
+
+  border: 1px solid var(--lh-border-strong);
+  border-radius: 12px;
+
+  background: var(--lh-ide-bg);
+
+  box-shadow:
+    0 20px 60px rgba(20, 20, 35, 0.14);
+}
+
+
+/* =========================================================
+   IDE TOOLBAR
+   ========================================================= */
+
+.lh-ide-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 58px;
+
+  gap: 1rem;
+
+  padding: 0.55rem 0.7rem;
+
+  border-bottom: 1px solid var(--lh-ide-border);
+
+  background: var(--lh-ide-panel);
+}
+
+.lh-ide-brand {
+  display: flex;
+  align-items: center;
+
+  min-width: 0;
+
+  gap: 0.55rem;
+}
+
+.lh-ide-brand-icon {
+  display: grid;
+  place-items: center;
+
+  flex: 0 0 auto;
+
+  width: 34px;
+  height: 34px;
+
+  border-radius: 7px;
+
+  background: var(--lh-primary);
+  color: #fff;
+
+  font-size: 0.53rem;
+  font-weight: 850;
+}
+
+.lh-ide-brand strong,
+.lh-ide-brand span {
+  display: block;
+}
+
+.lh-ide-brand strong {
+  color: var(--lh-ide-text);
+
+  font-size: 0.58rem;
+}
+
+.lh-ide-brand span {
+  margin-top: 0.08rem;
+
+  color: var(--lh-ide-muted);
+
+  font-size: 0.43rem;
+}
+
+.lh-ide-actions {
+  display: flex;
+  align-items: center;
+
+  gap: 0.35rem;
+}
+
+.lh-lab-select,
+.lh-lab-action {
+  min-height: 32px;
+
+  padding: 0.35rem 0.55rem;
+
+  border: 1px solid var(--lh-ide-border);
+  border-radius: 6px;
+
+  background: var(--lh-ide-panel-soft);
+  color: var(--lh-ide-text);
+
+  font-family: inherit;
+  font-size: 0.48rem;
+  font-weight: 650;
+
+  outline: none;
+}
+
+.lh-lab-select {
+  cursor: pointer;
+}
+
+.lh-lab-action {
+  cursor: pointer;
+
+  transition:
+    background 140ms ease,
+    border-color 140ms ease,
+    opacity 140ms ease;
+}
+
+.lh-lab-action:hover {
+  border-color: #4b4f5b;
+  background: #252831;
+}
+
+.lh-lab-action:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+
+.lh-lab-run {
+  border-color: var(--lh-primary);
+  background: var(--lh-primary);
+  color: #fff;
+}
+
+.lh-lab-run:hover {
+  border-color: var(--lh-primary-hover);
+  background: var(--lh-primary-hover);
+}
+
+
+/* =========================================================
+   IDE MAIN
+   ========================================================= */
+
+.lh-ide-main {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1.55fr)
+    minmax(300px, 0.65fr);
+
+  min-height: 470px;
+
+  background: var(--lh-ide-bg);
+}
+
+.lh-ide-editor-panel,
+.lh-ide-console-panel {
+  min-width: 0;
+}
+
+.lh-ide-editor-panel {
+  position: relative;
+
+  border-right: 1px solid var(--lh-ide-border);
+}
+
+
+/* =========================================================
+   IDE TAB BAR
+   ========================================================= */
+
+.lh-ide-tabbar {
+  display: flex;
+  align-items: stretch;
+
+  height: 38px;
+
+  border-bottom: 1px solid var(--lh-ide-border);
+
+  background: var(--lh-ide-panel);
+}
+
+.lh-ide-tab {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  gap: 0.35rem;
+
+  padding: 0 0.65rem;
+
+  border-right: 1px solid var(--lh-ide-border);
+
+  color: var(--lh-ide-muted);
+
+  font-family:
+    "Cascadia Code",
+    "JetBrains Mono",
+    Consolas,
+    monospace;
+
+  font-size: 0.45rem;
+}
+
+.lh-ide-tab.is-active {
+  background: var(--lh-ide-bg);
+  color: var(--lh-ide-text);
+}
+
+.lh-ide-tab.is-active::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 2px;
+
+  background: var(--lh-primary);
+
+  content: "";
+}
+
+.lh-file-language-icon {
+  color: #62b7ff;
+
+  font-weight: 800;
+}
+
+.lh-unsaved-indicator {
+  color: var(--lh-primary);
+
+  font-size: 0.5rem;
+}
+
+.lh-ide-tab-spacer {
+  flex: 1;
+}
+
+.lh-editor-state {
+  display: flex;
+  align-items: center;
+
+  padding: 0 0.55rem;
+
+  color: var(--lh-ide-muted);
+
+  font-size: 0.4rem;
+}
+
+
+/* =========================================================
+   MONACO
+   ========================================================= */
+
+.lh-monaco-editor {
+  width: 100%;
+  height: 432px;
+
+  background: var(--lh-ide-bg);
+}
+
+
+/*
+  Monaco chưa được load ở bước này.
+  JS V4.3 sẽ điều khiển display.
+*/
+
+.lh-code-editor-fallback {
+  box-sizing: border-box;
+
+  display: none;
+
+  width: 100%;
+  height: 432px;
+
+  resize: none;
+
+  padding: 0.9rem;
+
+  border: 0;
+  outline: 0;
+
+  background: var(--lh-ide-bg);
+  color: var(--lh-ide-text);
+
+  font-family:
+    "Cascadia Code",
+    "JetBrains Mono",
+    Consolas,
+    monospace;
+
+  font-size: 13px;
+  line-height: 1.65;
+
+  tab-size: 4;
+}
+
+
+/* =========================================================
+   CONSOLE
+   ========================================================= */
+
+.lh-ide-console-panel {
+  background: #0c0e12;
+}
+
+.lh-ide-console-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 38px;
+
+  gap: 0.5rem;
+
+  padding: 0 0.55rem;
+
+  border-bottom: 1px solid var(--lh-ide-border);
+
+  background: var(--lh-ide-panel);
+}
+
+.lh-console-tabs {
+  display: flex;
+  align-items: stretch;
+
+  height: 100%;
+}
+
+.lh-console-tab {
+  position: relative;
+
+  border: 0;
+
+  background: transparent;
+  color: var(--lh-ide-muted);
+
+  font-family: inherit;
+  font-size: 0.42rem;
+  font-weight: 750;
+
+  cursor: default;
+}
+
+.lh-console-tab.is-active {
+  color: var(--lh-ide-text);
+}
+
+.lh-console-tab.is-active::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  height: 2px;
+
+  background: var(--lh-primary);
+
+  content: "";
+}
+
+.lh-console-actions {
+  display: flex;
+  align-items: center;
+
+  gap: 0.45rem;
+}
+
+.lh-runtime-state {
+  color: #58c892;
+
+  font-size: 0.4rem;
+}
+
+.lh-console-clear {
+  padding: 0.2rem 0.35rem;
+
+  border: 0;
+  border-radius: 4px;
+
+  background: transparent;
+  color: var(--lh-ide-muted);
+
+  font-family: inherit;
+  font-size: 0.4rem;
+
+  cursor: pointer;
+}
+
+.lh-console-clear:hover {
+  background: var(--lh-ide-panel-soft);
+  color: var(--lh-ide-text);
+}
+
+#lh-code-output {
+  box-sizing: border-box;
+
+  height: 432px;
+
+  margin: 0;
+  padding: 0.85rem;
+
+  overflow: auto;
+
+  border: 0;
+
+  background: #0c0e12;
+  color: #d8dbe3;
+
+  font-family:
+    "Cascadia Code",
+    "JetBrains Mono",
+    Consolas,
+    monospace;
+
+  font-size: 12px;
+  line-height: 1.65;
+
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+
+/* =========================================================
+   IDE STATUS BAR
+   ========================================================= */
+
+.lh-ide-statusbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 27px;
+
+  gap: 1rem;
+
+  padding: 0.25rem 0.55rem;
+
+  border-top: 1px solid var(--lh-ide-border);
+
+  background: #754ffe;
+  color: rgba(255, 255, 255, 0.9);
+
+  font-size: 0.38rem;
+}
+
+.lh-ide-status-left,
+.lh-ide-status-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 0.65rem;
+}
+
+
+/* =========================================================
+   C# RUNNER
+   ========================================================= */
+
+.lh-csharp-runner {
+  border-top: 1px solid var(--lh-ide-border);
+
+  background: var(--lh-ide-panel);
+}
+
+.lh-csharp-runner[hidden] {
+  display: none;
+}
+
+.lh-csharp-runner-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 1rem;
+
+  padding: 0.65rem 0.75rem;
+
+  border-bottom: 1px solid var(--lh-ide-border);
+}
+
+.lh-csharp-runner-head strong,
+.lh-csharp-runner-head span {
+  display: block;
+}
+
+.lh-csharp-runner-head strong {
+  color: var(--lh-ide-text);
+
+  font-size: 0.54rem;
+}
+
+.lh-csharp-runner-head span {
+  margin-top: 0.12rem;
+
+  color: var(--lh-ide-muted);
+
+  font-size: 0.42rem;
+}
+
+#lh-csharp-frame {
+  display: block;
+
+  width: 100%;
+  height: 540px;
+
+  border: 0;
+
+  background: #fff;
+}
+
+
+/* =========================================================
+   IDE INFO CARDS
+   ========================================================= */
+
+.lh-ide-info-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+
+  gap: 0.6rem;
+
+  margin-top: 0.7rem;
+}
+
+.lh-ide-info-card {
+  padding: 0.7rem;
+
+  border: 1px solid var(--lh-border);
+  border-radius: 8px;
+
+  background: var(--lh-surface);
+}
+
+.lh-ide-info-card strong,
+.lh-ide-info-card span {
+  display: block;
+}
+
+.lh-ide-info-card strong {
+  color: var(--lh-text);
+
+  font-size: 0.5rem;
+}
+
+.lh-ide-info-card span {
+  margin-top: 0.15rem;
+
+  color: var(--lh-muted);
+
+  font-size: 0.42rem;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   CATALOG BUTTON
+   ========================================================= */
+
+.lh-catalog {
+  position: relative;
+
+  flex: 0 0 auto;
+
+  margin-left: auto;
+  margin-right: 0.4rem;
+}
+
+.lh-catalog-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 34px;
+
+  padding: 0.35rem 0.6rem;
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+
+  font-family: inherit;
+  font-size: 0.48rem;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.lh-catalog-button:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.lh-catalog-menu {
+  position: absolute;
+  z-index: 1000;
+
+  top: calc(100% + 9px);
+  right: 0;
+
+  width: 290px;
+  max-height: min(520px, 75vh);
+
+  overflow-y: auto;
+
+  border: 1px solid var(--lh-border);
+  border-radius: 10px;
+
+  background: var(--lh-surface);
+
+  box-shadow:
+    0 18px 50px rgba(20, 20, 35, 0.18);
+}
+
+.lh-catalog-menu[hidden] {
+  display: none;
+}
+
+.lh-catalog-menu-title {
+  padding: 0.7rem 0.75rem;
+
+  border-bottom: 1px solid var(--lh-border);
+
+  color: var(--lh-muted);
+
+  font-size: 0.42rem;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lh-catalog-links {
+  padding: 0.35rem;
+}
+
+.lh-catalog-links a {
+  display: block;
+
+  padding: 0.52rem 0.55rem;
+
+  border-radius: 6px;
+
+  color: var(--lh-text) !important;
+
+  font-size: 0.49rem;
+  font-weight: 600;
+
+  text-decoration: none !important;
+}
+
+.lh-catalog-links a:hover {
+  background: var(--lh-primary-soft);
+  color: var(--lh-primary) !important;
+}
+
+
+/* =========================================================
+   LESSON PAGE
+   ========================================================= */
+
+.learning-lesson {
+  padding-top: 1rem;
+}
+
+.learning-breadcrumb {
+  margin-bottom: 0.6rem;
+
+  color: var(--lh-muted);
+
+  font-size: 0.46rem;
+  line-height: 1.5;
+}
+
+.learning-lesson-title {
+  margin-bottom: 0.55rem !important;
+}
+
+.learning-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 0.4rem;
+
+  margin: 0 0 1.4rem;
+}
+
+.learning-meta-item {
+  padding: 0.25rem 0.4rem;
+
+  border: 1px solid var(--lh-border);
+  border-radius: 5px;
+
+  background: var(--lh-surface-soft);
+  color: var(--lh-muted);
+
+  font-size: 0.42rem;
+}
+
+
+/* =========================================================
+   LESSON CONTENT
+   ========================================================= */
+
+.learning-lesson p,
+.learning-lesson li {
+  line-height: 1.75;
+}
+
+.learning-lesson h2 {
+  margin-top: 2rem;
+}
+
+.learning-lesson h3 {
+  margin-top: 1.5rem;
+}
+
+.learning-lesson pre {
+  border-radius: 8px;
+}
+
+.learning-lesson blockquote {
+  border-left-color: var(--lh-primary);
+}
+
+
+/* =========================================================
+   BOTTOM CTA
+   ========================================================= */
+
+.lh-bottom-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 2rem;
+
+  margin-top: 4rem;
+  padding: 1.5rem;
+
+  border: 1px solid rgba(117, 79, 254, 0.2);
+  border-radius: 14px;
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--lh-primary-soft),
+      var(--lh-surface)
+    );
+}
+
+.lh-bottom-banner h2 {
+  margin: 0;
+
+  font-size: 1.15rem;
+}
+
+.lh-bottom-banner p {
+  max-width: 720px;
+
+  margin: 0.45rem 0 0;
+
+  font-size: 0.55rem;
+  line-height: 1.65;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1050px) {
+
+  .lh-hero {
+    grid-template-columns: 1fr 0.85fr;
+
+    gap: 2rem;
+  }
+
+  .lh-course-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .lh-topic-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .lh-ide-main {
+    grid-template-columns:
+      minmax(0, 1.35fr)
+      minmax(260px, 0.65fr);
+  }
+
+  .lh-ide-info-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+/* =========================================================
+   MOBILE / SMALL TABLET
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+  body.lh-home-page .md-content__inner {
+    width: min(
+      calc(100% - 24px),
+      1280px
+    );
+  }
+
+  .lh-hero {
+    grid-template-columns: 1fr;
+
+    min-height: auto;
+
+    padding-top: 2.5rem;
+  }
+
+  .lh-hero-content {
+    max-width: none;
+  }
+
+  .lh-hero-visual {
+    justify-content: stretch;
+  }
+
+  .lh-dashboard-preview {
+    width: 100%;
+
+    transform: none;
+  }
+
+  .lh-course-grid,
+  .lh-topic-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lh-continue {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .lh-continue .lh-button {
+    width: 100%;
+  }
+
+  .lh-section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  /*
+    IDE chuyển thành:
+    editor trên
+    console dưới.
+  */
+
+  .lh-ide-main {
+    grid-template-columns: 1fr;
+  }
+
+  .lh-ide-editor-panel {
+    border-right: 0;
+    border-bottom: 1px solid var(--lh-ide-border);
+  }
+
+  .lh-monaco-editor,
+  .lh-code-editor-fallback {
+    height: 400px;
+  }
+
+  #lh-code-output {
+    height: 260px;
+  }
+
+  .lh-ide-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .lh-ide-actions {
+    width: 100%;
+
+    flex-wrap: wrap;
+  }
+
+  .lh-lab-select {
+    flex: 1;
+    min-width: 120px;
+  }
+
+  .lh-ide-statusbar {
+    align-items: flex-start;
+    flex-direction: column;
+
+    gap: 0.25rem;
+  }
+
+  .lh-bottom-banner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .lh-bottom-banner .lh-button {
+    width: 100%;
+  }
+}
+
+
+/* =========================================================
+   PHONE
+   ========================================================= */
+
+@media (max-width: 520px) {
+
+  .lh-hero h1 {
+    font-size: 2rem;
+  }
+
+  .lh-hero-actions {
+    flex-direction: column;
+  }
+
+  .lh-hero-actions .lh-button {
+    width: 100%;
+  }
+
+  .lh-preview-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .lh-ide-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lh-editor-state {
+    display: none;
+  }
+
+  .lh-ide-status-right {
+    display: none;
+  }
+
+  .lh-catalog-menu {
+    position: fixed;
+
+    top: 60px;
+    right: 12px;
+    left: 12px;
+
+    width: auto;
+  }
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

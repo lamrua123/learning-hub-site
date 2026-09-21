@@ -1,0 +1,33 @@
+{
+  "id": "manual-cp001-b68accef868747719318f658cf20a83b",
+  "checked_at": "2026-09-13T14:36:08+00:00",
+  "status": "PASS_STRUCTURAL_AND_AUTHOR_REVIEW",
+  "final_revision": 21,
+  "completed_lessons": 5,
+  "last_checkpoint_number": 1,
+  "last_checkpoint_lesson": 5,
+  "checkpoint_pending": false,
+  "next_unit": {
+    "kind": "lesson",
+    "target": 6,
+    "path": "Lessons/Part_01/Bai 006 - GND va moc dien ap chung.md"
+  },
+  "automation_state": "PAUSED",
+  "pause_reason": "USAGE_DATA_UNAVAILABLE_SAFE_PAUSE",
+  "usage_mode": "AVAILABLE",
+  "historical_usage_unavailable_flag_closed": true,
+  "receipt": "Automation/Receipts/manual-cp001-b68accef868747719318f658cf20a83b.json",
+  "checkpoint_sha256": "572af4e43d7e3bcbac57513e1cc29f5a7b0359d4c673abd07429b8dffcda021a",
+  "one_checkpoint_only": true,
+  "lesson_hashes_unchanged": true,
+  "learner_progress_unchanged": true,
+  "known_problems_preserved": true,
+  "active_unit_cleared": true,
+  "glossary_source_rows_linked": 47,
+  "glossary_links_added": 48,
+  "glossary_sha256": "fd8ffefaacfbce6385bd97b23662eab0b57f1ea8b8358fe15b6841921de4c724",
+  "roadmap_sha256": "e06003198ea1dbd59d9220f7386a3fccf4b639603eaa7fe5d135e58767aec707",
+  "hardware_tested": false,
+  "learner_assessed": false,
+  "audit_evidence": "Automation/Logs/manual-cp001-b68accef868747719318f658cf20a83b-audit-evidence.json"
+}

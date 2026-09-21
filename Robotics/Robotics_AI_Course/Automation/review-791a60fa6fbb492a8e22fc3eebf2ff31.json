@@ -1,0 +1,68 @@
+{
+  "repair_attempts": 0,
+  "test_level": "DOCUMENT_REVIEW_ONLY; numeric and paper-token model checks executed; hardware NOT_TESTED; electrical current NOT_MEASURED; code NOT_APPLICABLE",
+  "recovery_mode": "DIRECT_APP_SAME_UNIT_RECOVERY",
+  "checks": {
+    "prerequisites": {
+      "passed": true,
+      "evidence": "Đã đọc state, AGENTS, protocol, Part 01 roadmap và phần nền của Bài 002. Bài 003 nâng dòng nhận diện ở Bài 001 thành Q/t, A/mA và đường dòng quy ước; định nghĩa C, s, electron và các thuật ngữ trước thực hành. Không dùng Ohm, phép chia nhánh hoặc thao tác multimeter chưa học."
+    },
+    "why": {
+      "passed": true,
+      "evidence": "Năm nhóm kiến thức đều trả lời là gì, vì sao cần, hậu quả không hiểu, vị trí trong robot, ví dụ và tự kiểm chứng. Giải thích riêng vì sao giữ đèn nguyên trạng và chưa đưa dụng cụ đo dòng vào mạch."
+    },
+    "terminology": {
+      "passed": true,
+      "evidence": "Bảng Việt/English và glossary cập nhật current, charge quantity, coulomb, ampere, milliampere, average current, conventional direction, electron, conservation of charge, load current, current capability và overcurrent. Điện áp giữa hai điểm được tách khỏi dòng qua một vị trí."
+    },
+    "wiring": {
+      "passed": true,
+      "evidence": "Không gán GPIO, không tạo dây rời hoặc đường đo A. Bảng lắp chỉ giữ cấu hình đèn nguyên vẹn theo nhãn; X/Y là mốc trên giấy. Sơ đồ dòng quy ước được giới hạn mạch ngoài pin đang cấp tải thụ động."
+    },
+    "voltage": {
+      "passed": true,
+      "evidence": "Dùng lại pin alkaline AA theo cấu hình Bài 001; không thêm nguồn mới. Các nguồn 5 V tối đa 0.10 A/1.00 A và tải 200 mA là dữ kiện giả lập. Kết luận dòng chỉ xét trạng thái đã cho, không phê duyệt nguồn thật hoặc bỏ qua cực tính/dòng đỉnh."
+    },
+    "code": {
+      "passed": true,
+      "evidence": "Code không áp dụng và được giải thích rõ. Python chỉ kiểm phép tính/đếm của mô hình trong quy trình soạn bài; không xuất code thành firmware và không coi kết quả đó là dòng đo thật."
+    },
+    "safety": {
+      "passed": true,
+      "evidence": "Safety Box và Debug Lab cấm mắc đường A/mA trực tiếp qua hai cực nguồn, short, quá tải chủ động, đổi nguồn hoặc đảo pin để thử. Dùng thẻ giấy thay kim loại cạnh pin. Không thực hành điện lưới, hàn hoặc mở mạch đèn."
+    },
+    "debug": {
+      "passed": true,
+      "evidence": "Năm lỗi thực tế đủ triệu chứng/nguyên nhân/cách đo/cách sửa: đảo nhầm chiều quy ước, coi tải ăn mất điện tích, sai mA/thời gian, nhãn nguồn thành dòng tải, và dự định đo A ngang nguồn. Các phép kiểm tra tại giai đoạn này là rà sơ đồ, mô hình hoặc phép tính, được ghi rõ chưa đo điện thật."
+    },
+    "exercises": {
+      "passed": true,
+      "evidence": "Có 6 STEP, bảng đếm chưa giả kết quả, 5 bài tập, 5 câu hỏi với đáp án thu gọn, mini challenge và 9 dòng ghi nhớ. Kiểm số: 3 C/6 s=0.5 A, 75 mA=0.075 A, 0.015 A=15 mA; vòng 8 thẻ dịch 1 hoặc 2 ô cho 1 hoặc 2 lượt qua từng mốc mỗi nhịp."
+    },
+    "sources": {
+      "passed": true,
+      "evidence": "Đã mở nguồn chính thức BIPM https://www.bipm.org/en/si-base-units/ampere xác nhận A và C=A·s; dẫn nguồn tại đoạn dùng và SOURCES. Không bịa thông số đèn. Điều kiện ổn định/không rẽ, mạch ngoài/tải thụ động và mô hình nguồn điện áp đều được nêu để tránh khái quát sai."
+    }
+  },
+  "hardware_already_introduced": [
+    "Bài 003: tám thẻ giấy/bìa để mô hình hóa lượng qua mốc; không phải dụng cụ đo điện"
+  ],
+  "concepts_already_taught": [
+    "Bài 003: lượng điện tích qua một vị trí trên đơn vị thời gian; dòng trung bình I=Q/t với cùng khoảng xét",
+    "Bài 003: coulomb C, ampere A, milliampere mA; 1 A=1 C/s và 1 A=1000 mA",
+    "Bài 003: chiều dòng quy ước trong mạch ngoài pin cấp tải thụ động và chiều electron trong dây kim loại ngược nhau",
+    "Bài 003: bảo toàn điện tích; dòng vào/ra bằng nhau trên đường không rẽ ở trạng thái ổn định; tải chuyển đổi năng lượng",
+    "Bài 003: dòng tải thực tế khác khả năng cấp dòng của nguồn điện áp; quá dòng so với giới hạn từng bộ phận",
+    "Bài 003: mô hình thẻ/nhịp khác phép đo A; dòng trung bình không chứng minh dòng đỉnh; cấm đo A/mA ngang nguồn"
+  ],
+  "concepts_not_yet_taught": [
+    "Điện trở, ohm Ω và định luật Ohm (004); công suất W Wh (005)",
+    "GND (006); nối tiếp/song song và chia dòng; DC/AC; 3.3V/5V; linh kiện điện tử",
+    "Dụng cụ, multimeter, thao tác đo điện áp/dòng thật, breadboard, hàn, schematic, pinout và datasheet đầy đủ",
+    "ESP32 C/C++ GPIO ADC PWM timer interrupt memory và protocols",
+    "Cảm biến, đánh giá dòng đỉnh và power budget thật, nguồn lithium và bảo vệ, cơ khí CAD, actuator và robot hai bánh",
+    "Display HRI, mạng, audio, Pi Linux Python, computer vision",
+    "Voice/speaker recognition, AI tools MCP realtime, control PID sensor fusion",
+    "ROS 2 TF, localization SLAM navigation, PCB reliability và capstone"
+  ]
+}
